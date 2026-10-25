@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>El precio de esperar</title>
+  <meta name="claude:viewport-fit-sides" content="cover">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=JetBrains+Mono:wght@500;600&family=Source+Sans+3:wght@400;600&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .hero { display: grid; gap: 0.75rem; padding-block: 1rem 0.5rem; }
+    .counter {
+      font-family: var(--font-mono);
+      font-variant-numeric: tabular-nums;
+      font-size: var(--step-4);
+      font-weight: 600;
+      color: var(--loss);
+      line-height: 1;
+      overflow-wrap: anywhere;
+    }
+    .breakdown { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: 1rem; }
+    .breakdown .stat strong { font-size: var(--step-1); color: var(--loss); }
+    .breakdown .stat p { font-size: var(--step--1); color: var(--muted); }
+    .form-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); gap: 1rem; }
+    td.loss { color: var(--loss); }
+    .steps { display: grid; gap: 1rem; counter-reset: step; padding: 0; margin: 0; list-style: none; }
+    .steps li { display: grid; grid-template-columns: 2.4rem 1fr; gap: 0.75rem; align-items: start; }
+    .steps li::before {
+      counter-increment: step;
+      content: counter(step);
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: var(--step-1);
+      width: 2.4rem; height: 2.4rem;
+      display: grid; place-items: center;
+      border-radius: 50%;
+      background: var(--accent-soft);
+      color: var(--accent);
+    }
+    .steps li > div { display: grid; gap: 0.3rem; min-width: 0; }
+    .rules { display: grid; gap: 0.5rem; padding-left: 1.2rem; margin: 0; }
+    .warning { border-left: 4px solid var(--loss); background: var(--loss-soft); padding: 1rem 1.25rem; border-radius: 0 var(--radius) var(--radius) 0; display: grid; gap: 0.5rem; }
+    .formula { font-family: var(--font-mono); font-size: var(--step--1); overflow-x: auto; white-space: pre; padding: 0.75rem; background: var(--bg); border-radius: 6px; }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap">
+      <a class="brand" href="./">TCG<span>Tracker</span></a>
+      <nav class="nav" aria-label="Secciones">
+        <a href="./">Colección</a>
+        <a href="coste.html" aria-current="page">Coste de esperar</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero" aria-labelledby="hero-title">
+      <p class="eyebrow">Desde el <span id="since">25 de octubre de 2026, 2:10</span> · <span id="elapsed">0 h 0 min</span></p>
+      <h1 id="hero-title">Lo que te está costando no empezar</h1>
+      <div class="counter tick" id="counter" aria-live="off">0,0000 €</div>
+      <p class="muted">Esperar te cuesta <b id="per-day">—</b> al día y <b id="per-year">—</b> al año con tus cifras. Las cifras de ejemplo están abajo: cámbialas por las tuyas.</p>
+    </section>
+
+    <section class="panel breakdown" aria-label="Desglose">
+      <div class="stat">
+        <span class="muted">Rentabilidad que no has cobrado</span>
+        <strong id="c-invest" class="mono">—</strong>
+        <p>Tu dinero parado frente a un fondo indexado global.</p>
+      </div>
+      <div class="stat">
+        <span class="muted">Poder adquisitivo perdido</span>
+        <strong id="c-inflation" class="mono">—</strong>
+        <p>La inflación se come el dinero de la cuenta corriente.</p>
+      </div>
+      <div class="stat">
+        <span class="muted">Retraso del proyecto</span>
+        <strong id="c-project" class="mono">—</strong>
+        <p>Cada hora de retraso es una hora menos de ingresos cuando el proyecto esté maduro.</p>
+      </div>
+    </section>
+
+    <section aria-labelledby="params-title">
+      <h2 id="params-title">Tus cifras</h2>
+      <form id="params" class="panel form-grid" onsubmit="return false">
+        <label for="capital">Dinero parado (€)<input id="capital" type="number" min="0" step="100" inputmode="decimal"></label>
+        <label for="monthly">Puedes aportar al mes (€)<input id="monthly" type="number" min="0" step="10" inputmode="decimal"></label>
+        <label for="annualReturn">Rentabilidad anual esperada (%)<input id="annualReturn" type="number" step="0.1" inputmode="decimal"></label>
+        <label for="cashYield">Lo que te da tu cuenta hoy (%)<input id="cashYield" type="number" step="0.1" inputmode="decimal"></label>
+        <label for="inflation">Inflación anual (%)<input id="inflation" type="number" step="0.1" inputmode="decimal"></label>
+        <label for="projectMonthly">Ingresos del proyecto maduro (€/mes)<input id="projectMonthly" type="number" min="0" step="10" inputmode="decimal"></label>
+        <label for="start">Contar desde<input id="start" type="datetime-local"></label>
+        <div class="row"><button class="btn" id="reset" type="button">Volver a los ejemplos</button></div>
+      </form>
+      <p class="muted">Se guarda solo en este navegador. El 7 % es la media histórica aproximada de la bolsa mundial a largo plazo; no está garantizado y hay años con pérdidas del 20 % o más.</p>
+    </section>
+
+    <section aria-labelledby="wait-title">
+      <h2 id="wait-title">Si lo dejas para dentro de un año</h2>
+      <p class="muted">Mismo dinero y misma aportación mensual. La única diferencia es empezar hoy o dentro de 12 meses.</p>
+      <div class="table-wrap panel">
+        <table>
+          <thead><tr><th>Horizonte</th><th class="num">Empiezas hoy</th><th class="num">Empiezas en 1 año</th><th class="num">Diferencia</th></tr></thead>
+          <tbody id="waiting-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section aria-labelledby="plan-title">
+      <div>
+        <p class="eyebrow">Metodología</p>
+        <h2 id="plan-title">El plan, en el orden en que se hace</h2>
+      </div>
+      <ol class="steps">
+        <li><div>
+          <h3>Hoy, 30 minutos: pon a trabajar el dinero parado</h3>
+          <p>Deja 3 a 6 meses de gastos en una cuenta remunerada o un fondo monetario. El resto, a un fondo indexado global (MSCI World o ACWI) con una aportación automática cada mes. Es el único ingreso pasivo de verdad que no depende de ti. En España, los traspasos entre fondos no tributan hasta que vendes.</p>
+        </div></li>
+        <li><div>
+          <h3>Esta semana: publica el TCG Tracker</h3>
+          <p>Ya está construido en este repositorio. Actívalo en GitHub Pages (gratis), date de alta en Amazon Afiliados y pon tu etiqueta en <code>js/config.js</code>. Cada compra que salga de los botones de la web te deja comisión.</p>
+        </div></li>
+        <li><div>
+          <h3>Cada semana, 2 horas: lleva gente a la web</h3>
+          <p>Comparte la herramienta en comunidades de Pokémon y Magic (Reddit, Discord, grupos de tiendas), publica vídeos cortos con «cuánto vale mi carpeta» y escribe una entrada por cada carta o colección que esté de moda. Sin visitas no hay comisiones.</p>
+        </div></li>
+        <li><div>
+          <h3>Cada mes: mide y reinvierte</h3>
+          <p>Apunta visitas, clics a tiendas e ingresos. Lo que genere la web, a la aportación automática del paso 1. Así el proyecto alimenta al ingreso pasivo de verdad.</p>
+        </div></li>
+      </ol>
+    </section>
+
+    <section aria-labelledby="crypto-title">
+      <h2 id="crypto-title">Sobre las criptomonedas</h2>
+      <div class="warning">
+        <p><b>No existe una metodología infalible para ganar en cripto.</b> Si alguien te la vende, es una estafa: o gana con tu dinero o con tu suscripción. Lo que sí existe es una forma de reducir mucho el riesgo de perderlo todo.</p>
+      </div>
+      <ul class="rules">
+        <li>Como máximo un 5 a 10 % de lo que inviertes, y solo dinero que puedas perder entero.</li>
+        <li>Compra periódica de una cantidad fija (por ejemplo 50 € al mes) en Bitcoin y, si quieres, Ethereum. Sin intentar adivinar el momento.</li>
+        <li>Nunca apalancamiento, futuros ni «copy trading». Es donde se pierde casi todo el dinero.</li>
+        <li>Nada de monedas que recomiende un influencer, un grupo de Telegram o alguien que te escribe por privado.</li>
+        <li>Usa un exchange registrado en el Banco de España o con licencia MiCA, y pasa lo que acumules a una cartera propia.</li>
+        <li>Declara las ganancias en la renta: tributan en la base del ahorro, y Hacienda recibe información de los exchanges.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="how-title">
+      <h2 id="how-title">Cómo se calcula el contador</h2>
+      <div class="formula">años = horas / 8766
+rentabilidad no cobrada = dinero × ((1 + r)^años − (1 + cuenta)^años)
+inflación              = dinero × (1 − ((1 + cuenta) / (1 + inflación))^años)
+retraso del proyecto   = ingresos_mes × horas / 730,5</div>
+      <p class="muted">Es una estimación del valor esperado, no dinero que hayas perdido de forma segura. El componente del proyecto parte de una hipótesis (los ingresos que tendrá cuando esté maduro). Un proyecto nuevo no gana nada la primera noche; lo que se pierde al retrasarlo es el final de la curva.</p>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <p>Esto no es asesoramiento financiero personalizado. Rentabilidades pasadas no garantizan rentabilidades futuras.</p>
+  </footer>
+
+  <script type="module" src="js/coste.js"></script>
+</body>
+</html>
