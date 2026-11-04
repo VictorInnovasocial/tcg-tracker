@@ -13,6 +13,8 @@ Es también un proyecto de ingresos pasivos: cada botón de compra lleva un enla
 
 Precios: [Scryfall](https://scryfall.com/docs/api) (Magic) y [Pokémon TCG API](https://pokemontcg.io) (Pokémon). Ambas son gratuitas y no necesitan clave.
 
+> **También en este repositorio:** [`campus/`](campus/README.md) — Campus PREMÁSTER, plataforma personal de preparación del Máster en Investigación en Ciencias Sociales (UEx). Es independiente de TCG Tracker.
+
 ## Ponerla en marcha (10 minutos)
 
 1. Fusiona esta rama en `main`.
