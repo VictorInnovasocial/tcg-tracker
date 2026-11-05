@@ -1,5 +1,5 @@
 // Panel de inicio: próxima sesión recomendada, semana en curso, calendario y registro de sesiones.
-import { esc, bar, fmtDay, fmtMinutes } from './dom.js';
+import { esc, bar, fmtDay, fmtMinutes, ask } from './dom.js';
 import { UNITS, PROGRAM } from '../content/index.js';
 import { recommend, minutesThisWeek, calendarGrid, nextStudyDay, localDay, DAY_NAMES } from '../core/planner.js';
 import { unitProgress, weakConcepts } from '../core/learning.js';
@@ -73,8 +73,8 @@ export function render(ctx) {
   <section class="card stat">
     <p class="eyebrow">Memoria</p>
     <p class="stat-num">${due} <span class="muted small">tarjetas para hoy</span></p>
-    <p class="muted small"><a href="#/errores">${weak} concepto${weak === 1 ? '' : 's'} con errores abiertos</a></p>
-    <p><a href="#/repaso">Ir al repaso</a></p>
+    <p class="muted small"><a href="#errores">${weak} concepto${weak === 1 ? '' : 's'} con errores abiertos</a></p>
+    <p><a href="#repaso">Ir al repaso</a></p>
   </section>
 </div>
 
@@ -96,7 +96,7 @@ export function render(ctx) {
     <div class="heat-days" aria-hidden="true"><span>L</span><span></span><span>X</span><span></span><span>V</span><span></span><span>D</span></div>
     ${grid.map((week) => `<div class="heat-col">${week.map((d) => `<span class="heat h${heat(d.minutes)}${d.today ? ' today' : ''}${d.future ? ' future' : ''}${state.settings.studyDays.includes(d.weekday) ? ' planned' : ''}" title="${fmtDay(d.day)}: ${d.minutes} min"></span>`).join('')}</div>`).join('')}
   </div>
-  <p class="muted small">Cada columna es una semana (de lunes a domingo). Borde punteado: día de estudio planificado. Cambia los días y la meta semanal en <a href="#/datos">Datos y ajustes</a>.</p>
+  <p class="muted small">Cada columna es una semana (de lunes a domingo). Borde punteado: día de estudio planificado. Cambia los días y la meta semanal en <a href="#datos">Datos y ajustes</a>.</p>
 
   ${recent.length ? `<ul class="session-list">${recent.map((s) => `<li><span>${fmtDay(s.date)} · <strong>${fmtMinutes(s.minutes)}</strong>${s.note ? ` · ${esc(s.note)}` : ''}</span><button class="link-btn" data-action="del-session" data-i="${s.i}" aria-label="Borrar sesión del ${fmtDay(s.date)}">Borrar</button></li>`).join('')}</ul>` : '<p class="muted">Todavía no has registrado ninguna sesión.</p>'}
 </section>`;
@@ -111,13 +111,13 @@ export function bind(root, ctx) {
     ctx.ui.timerMinutes = undefined;
     ctx.commit(touch({ ...ctx.state, sessions: [...ctx.state.sessions, { date: String(f.get('date')), minutes, note: String(f.get('note') || '').trim() }] }));
   });
-  root.addEventListener('click', (e) => {
+  root.addEventListener('click', async (e) => {
     const btn = e.target.closest('[data-action]');
     if (!btn) return;
     const a = btn.dataset.action;
     if (a === 'del-session') {
-      if (!confirm('¿Borrar esta sesión del registro?')) return;
       const i = Number(btn.dataset.i);
+      if (!(await ask('¿Borrar esta sesión del registro?', { confirmLabel: 'Borrar', danger: true }))) return;
       ctx.commit(touch({ ...ctx.state, sessions: ctx.state.sessions.filter((_, j) => j !== i) }));
     }
     if (a === 'timer-start') {

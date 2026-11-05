@@ -72,16 +72,16 @@ export function recommend(state, unit, now = Date.now()) {
   const u = unitState(state, unit.id);
   const ids = new Set(unit.concepts.map((k) => k.id));
   const due = dueCards(state.cards, now).filter((c) => ids.has(c.id));
-  if (due.length) return { kind: 'review', label: `Repasar ${due.length} tarjeta${due.length > 1 ? 's' : ''} pendiente${due.length > 1 ? 's' : ''}`, minutes: Math.min(20, 2 * due.length + 5), href: '#/repaso' };
+  if (due.length) return { kind: 'review', label: `Repasar ${due.length} tarjeta${due.length > 1 ? 's' : ''} pendiente${due.length > 1 ? 's' : ''}`, minutes: Math.min(20, 2 * due.length + 5), href: '#repaso' };
   const sec = unit.sections.find((s) => !u.sections[s.id]);
-  if (sec) return { kind: 'section', label: `Estudiar «${sec.title}»`, minutes: sec.minutes, href: `#/unidad/${unit.id}/${sec.id}` };
+  if (sec) return { kind: 'section', label: `Estudiar «${sec.title}»`, minutes: sec.minutes, href: `#${unit.id}-${sec.id}` };
   const ex = unit.exercises.find((e) => !u.exercises[e.id]?.done);
-  if (ex) return { kind: 'exercise', label: `Ejercicio: ${ex.title}`, minutes: ex.minutes, href: `#/unidad/${unit.id}/ejercicios` };
+  if (ex) return { kind: 'exercise', label: `Ejercicio: ${ex.title}`, minutes: ex.minutes, href: `#${unit.id}-ejercicios` };
   const p = unitProgress(unit, u);
-  if (p.quiz < PASS_MARK) return { kind: 'quiz', label: u.quizAttempts.length ? 'Repetir el test de la unidad' : 'Hacer el test de la unidad', minutes: 20, href: `#/unidad/${unit.id}/test` };
-  if (weakConcepts(state, unit.id).length) return { kind: 'review', label: 'Recuperar conceptos con errores', minutes: 15, href: '#/errores' };
-  if (!p.reflectionDone) return { kind: 'reflection', label: 'Escribir la reflexión de la unidad', minutes: 25, href: `#/unidad/${unit.id}/reflexion` };
+  if (p.quiz < PASS_MARK) return { kind: 'quiz', label: u.quizAttempts.length ? 'Repetir el test de la unidad' : 'Hacer el test de la unidad', minutes: 20, href: `#${unit.id}-test` };
+  if (weakConcepts(state, unit.id).length) return { kind: 'review', label: 'Recuperar conceptos con errores', minutes: 15, href: '#errores' };
+  if (!p.reflectionDone) return { kind: 'reflection', label: 'Escribir la reflexión de la unidad', minutes: 25, href: `#${unit.id}-reflexion` };
   const done = state.portfolio.some((x) => x.unitId === unit.id && x.kind === 'actividad' && x.rubric && Object.values(x.rubric).every(Boolean));
-  if (!done) return { kind: 'activity', label: 'Actividad aplicada: matriz de consistencia', minutes: 60, href: `#/unidad/${unit.id}/actividad` };
-  return { kind: 'done', label: 'Unidad completada. Mantén el repaso espaciado.', minutes: 10, href: '#/repaso' };
+  if (!done) return { kind: 'activity', label: 'Actividad aplicada: matriz de consistencia', minutes: 60, href: `#${unit.id}-actividad` };
+  return { kind: 'done', label: 'Unidad completada. Mantén el repaso espaciado.', minutes: 10, href: '#repaso' };
 }

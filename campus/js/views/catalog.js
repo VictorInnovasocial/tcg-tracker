@@ -1,5 +1,5 @@
 // Catálogo de asignaturas vinculado al plan oficial, con registro de verificación de guías docentes.
-import { esc, fmtDate, bar } from './dom.js';
+import { esc, fmtDate, bar, ask } from './dom.js';
 import { PROGRAM, SUBJECTS, UNITS } from '../content/index.js';
 import { touch, unitState } from '../core/store.js';
 import { unitProgress } from '../core/learning.js';
@@ -49,7 +49,7 @@ ${SUBJECTS.map((s) => {
   </div>
   ${units.length ? `<ul class="unit-list">${units.map((u) => {
     const p = unitProgress(u, unitState(state, u.id));
-    return `<li><a href="#/unidad/${u.id}"><span>Unidad ${u.number}. ${esc(u.title)}</span>${bar(p.pct, `Progreso unidad ${u.number}`)}<span class="muted small">${p.pct} %</span></a></li>`;
+    return `<li><a href="#${u.id}"><span>Unidad ${u.number}. ${esc(u.title)}</span>${bar(p.pct, `Progreso unidad ${u.number}`)}<span class="muted small">${p.pct} %</span></a></li>`;
   }).join('')}</ul>` : '<p class="muted">Sin unidades todavía. Se prepararán después de validar la unidad 1 y, si es posible, con la guía docente delante.</p>'}
   <details ${g.url ? '' : ''}>
     <summary>Anotar la guía docente</summary>
@@ -74,9 +74,9 @@ export function bind(root, ctx) {
       ctx.commit(touch({ ...ctx.state, guides: { ...ctx.state.guides, [id]: guide } }));
     });
   }
-  root.addEventListener('click', (e) => {
+  root.addEventListener('click', async (e) => {
     const b = e.target.closest('[data-clear-guide]');
-    if (!b || !confirm('¿Quitar los datos de esta guía docente?')) return;
+    if (!b || !(await ask('¿Quitar los datos de esta guía docente?', { confirmLabel: 'Quitar', danger: true }))) return;
     const guides = { ...ctx.state.guides };
     delete guides[b.dataset.clearGuide];
     ctx.commit(touch({ ...ctx.state, guides }));

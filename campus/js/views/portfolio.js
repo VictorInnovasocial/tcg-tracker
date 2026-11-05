@@ -1,5 +1,5 @@
 // Portafolio: entregables guardados desde las unidades, descargables como texto.
-import { esc, fmtDate, download } from './dom.js';
+import { esc, fmtDate, download, ask, inFrame, copyText } from './dom.js';
 import { UNITS } from '../content/index.js';
 import { touch } from '../core/store.js';
 
@@ -32,23 +32,29 @@ ${items.length ? items.map((it) => {
     <dl>${Object.entries(it.fields ?? {}).map(([k, v]) => `<dt>${esc(k)}</dt><dd class="answer">${esc(v) || '<span class="muted">(vacío)</span>'}</dd>`).join('')}</dl>
   </details>
   <div class="row">
-    <button class="btn" data-dl="${esc(it.id)}">Descargar (.md)</button>
-    ${it.kind === 'actividad' ? `<a href="#/unidad/${it.unitId}/actividad">Editar</a>` : it.kind === 'reflexion' ? `<a href="#/unidad/${it.unitId}/reflexion">Editar</a>` : ''}
+    <button class="btn" data-copy="${esc(it.id)}">Copiar texto</button>
+    ${inFrame ? '' : `<button class="btn" data-dl="${esc(it.id)}">Descargar (.md)</button>`}
+    ${it.kind === 'actividad' ? `<a href="#${it.unitId}-actividad">Editar</a>` : it.kind === 'reflexion' ? `<a href="#${it.unitId}-reflexion">Editar</a>` : ''}
     <button class="link-btn" data-del="${esc(it.id)}">Eliminar</button>
   </div>
 </section>`;
-}).join('') : '<section class="card"><p>Todavía no hay entregables. El primero es la <a href="#/unidad/iics-u1/actividad">matriz de consistencia</a> de la unidad 1.</p></section>'}`;
+}).join('') : '<section class="card"><p>Todavía no hay entregables. El primero es la <a href="#iics-u1-actividad">matriz de consistencia</a> de la unidad 1.</p></section>'}`;
 }
 
 export function bind(root, ctx) {
-  root.addEventListener('click', (e) => {
+  root.addEventListener('click', async (e) => {
+    const cp = e.target.closest('[data-copy]');
+    if (cp) {
+      const it = ctx.state.portfolio.find((p) => p.id === cp.dataset.copy);
+      if (it) cp.textContent = (await copyText(toMarkdown(it))) ? 'Copiado' : 'No se pudo copiar';
+    }
     const dl = e.target.closest('[data-dl]');
     if (dl) {
       const it = ctx.state.portfolio.find((p) => p.id === dl.dataset.dl);
       if (it) download(`${it.id}.md`, toMarkdown(it), 'text/markdown');
     }
     const del = e.target.closest('[data-del]');
-    if (del && confirm('¿Eliminar este entregable del portafolio? No se puede deshacer (salvo que tengas una copia exportada).')) {
+    if (del && (await ask('¿Eliminar este entregable del portafolio? No se puede deshacer, salvo que tengas una copia exportada.', { confirmLabel: 'Eliminar', danger: true }))) {
       ctx.commit(touch({ ...ctx.state, portfolio: ctx.state.portfolio.filter((p) => p.id !== del.dataset.del) }));
     }
   });

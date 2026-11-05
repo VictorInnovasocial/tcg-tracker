@@ -35,11 +35,11 @@ export function render(ctx) {
 <section class="card">
   <h2>${r.done ? `Hecho: ${r.done} tarjeta${r.done > 1 ? 's' : ''} repasada${r.done > 1 ? 's' : ''}` : 'No hay tarjetas pendientes'}</h2>
   <p>${upcoming.length ? `La próxima tarjeta vence el <strong>${fmtDate(upcoming[0].due)}</strong>.` : 'Las tarjetas se crean cuando completas la recuperación de memoria de cada sección, o cuando fallas un concepto.'}</p>
-  ${all.length ? '' : '<p><a class="btn btn-primary" href="#/unidad/iics-u1/s1">Ir a la sección 1</a></p>'}
+  ${all.length ? '' : '<p><a class="btn btn-primary" href="#iics-u1-s1">Ir a la sección 1</a></p>'}
 </section>
 ${all.length ? `<section class="card"><h2>Estado de tus conceptos</h2>
 <table class="table"><thead><tr><th>Concepto</th><th>Dominio</th><th>Próximo repaso</th></tr></thead><tbody>
-${all.map((c) => `<tr><td><a href="#/unidad/${CONCEPTS[c.id].unitId}/${CONCEPTS[c.id].sectionId}">${esc(CONCEPTS[c.id].term)}</a></td><td>${bar(mastery(c) * 100, 'Dominio')}</td><td>${fmtDate(c.due)}</td></tr>`).join('')}
+${all.map((c) => `<tr><td><a href="#${CONCEPTS[c.id].unitId}-${CONCEPTS[c.id].sectionId}">${esc(CONCEPTS[c.id].term)}</a></td><td>${bar(mastery(c) * 100, 'Dominio')}</td><td>${fmtDate(c.due)}</td></tr>`).join('')}
 </tbody></table><p class="muted small">El dominio se alcanza al llegar a intervalos de unas tres semanas sin olvidar.</p></section>` : ''}`;
   }
 
@@ -66,7 +66,7 @@ ${all.map((c) => `<tr><td><a href="#/unidad/${CONCEPTS[c.id].unitId}/${CONCEPTS[
     <button class="btn btn-primary" data-action="reveal" ${r.text.trim().length < MIN_CHARS ? 'disabled' : ''}>Ver la respuesta</button>
     <button class="btn" data-action="blank">No recuerdo nada</button>
   </div>`}
-  <p class="muted small"><a href="#/unidad/${c.unitId}/${c.sectionId}">Estudiar de nuevo esta sección</a> (después de intentarlo).</p>
+  <p class="muted small"><a href="#${c.unitId}-${c.sectionId}">Estudiar de nuevo esta sección</a> (después de intentarlo).</p>
 </section>`;
 }
 

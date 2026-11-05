@@ -1,5 +1,5 @@
 // Biblioteca: fuentes académicas (separadas del material IA) con registro de lectura y notas.
-import { esc, fmtDate, sourceBadge, aiBadge, uid } from './dom.js';
+import { esc, fmtDate, sourceBadge, aiBadge, uid, ask } from './dom.js';
 import { REFERENCES, READING_STATUS, UNITS } from '../content/index.js';
 import { touch } from '../core/store.js';
 
@@ -74,9 +74,9 @@ export function bind(root, ctx) {
     const v = e.target.value;
     timers[id] = setTimeout(() => setEntry(id, { notes: v }, { render: false }), 500);
   });
-  root.addEventListener('click', (e) => {
+  root.addEventListener('click', async (e) => {
     const b = e.target.closest('[data-del-ref]');
-    if (!b || !confirm('¿Eliminar esta referencia y sus notas?')) return;
+    if (!b || !(await ask('¿Eliminar esta referencia y sus notas?', { confirmLabel: 'Eliminar', danger: true }))) return;
     const id = b.dataset.delRef;
     const library = { ...ctx.state.library };
     delete library[id];

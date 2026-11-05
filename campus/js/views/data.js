@@ -1,5 +1,5 @@
 // Datos y ajustes: exportar, importar, restablecer; meta semanal y días de estudio.
-import { esc, fmtDate, download } from './dom.js';
+import { esc, fmtDate, download, ask, inFrame, copyText } from './dom.js';
 import { exportJSON, parseImport, emptyState, touch } from '../core/store.js';
 import { DAY_NAMES, localDay } from '../core/planner.js';
 
@@ -18,10 +18,19 @@ export function render(ctx) {
   <p class="muted small">${counts}. Datos creados el ${fmtDate(state.createdAt)}.</p>
   ${ctx.saveOk ? '' : '<p class="ko"><strong>Atención:</strong> este navegador no está guardando los datos (modo privado o almacenamiento bloqueado). Exporta antes de cerrar.</p>'}
   <div class="row">
-    <button class="btn btn-primary" data-action="export">Exportar (JSON)</button>
-    <label class="btn file-btn">Importar copia… <input type="file" accept="application/json,.json" data-import hidden></label>
+    ${inFrame ? '' : '<button class="btn btn-primary" data-action="export">Descargar copia (JSON)</button>'}
+    <button class="btn ${inFrame ? 'btn-primary' : ''}" data-action="copy">Copiar copia al portapapeles</button>
+    <label class="btn file-btn">Importar archivo… <input type="file" accept="application/json,.json" data-import hidden></label>
   </div>
-  <p class="muted small">Importar <strong>sustituye</strong> todo el progreso actual por el de la copia. Para usar la plataforma en otro dispositivo, exporta aquí e importa allí.</p>
+  <details>
+    <summary>Pegar una copia como texto</summary>
+    <label for="paste-json">Pega aquí el texto JSON exportado
+      <textarea id="paste-json" rows="5" data-paste spellcheck="false"></textarea>
+    </label>
+    <button class="btn" data-action="paste">Importar el texto pegado</button>
+  </details>
+  <textarea class="export-box" rows="5" readonly data-export-box hidden aria-label="Copia de tus datos en JSON"></textarea>
+  <p class="muted small">Importar <strong>sustituye</strong> todo el progreso actual por el de la copia. Para usar la plataforma en otro dispositivo o navegador, copia o descarga aquí e importa allí. Guarda el texto copiado en un archivo o una nota.</p>
   <p data-msg role="status"></p>
 </section>
 
@@ -46,33 +55,51 @@ export function render(ctx) {
 
 export function bind(root, ctx) {
   const msg = root.querySelector('[data-msg]');
-  root.addEventListener('click', (e) => {
+  const say = (text, ok = true) => {
+    msg.textContent = text;
+    msg.className = ok ? 'ok' : 'ko';
+  };
+  async function importText(text) {
+    try {
+      const next = parseImport(text);
+      const summary = `${next.sessions.length} sesiones, ${Object.keys(next.cards).length} tarjetas y ${next.portfolio.length} entregables (última modificación: ${fmtDate(next.updatedAt)})`;
+      if (!(await ask(`La copia contiene ${summary}. ¿Sustituir tu progreso actual?`, { confirmLabel: 'Sustituir', danger: true }))) return;
+      ctx.ui.flash = 'Copia importada correctamente.';
+      ctx.commit(next);
+    } catch (err) {
+      say(err.message, false);
+    }
+  }
+  root.addEventListener('click', async (e) => {
     const a = e.target.closest('[data-action]')?.dataset.action;
     if (a === 'export') {
       download(`campus-premaster-${localDay()}.json`, exportJSON(ctx.state));
-      msg.textContent = 'Copia descargada.';
+      say('Copia descargada.');
+    }
+    if (a === 'copy') {
+      const box = root.querySelector('[data-export-box]');
+      box.value = exportJSON(ctx.state);
+      box.hidden = false;
+      const ok = await copyText(box.value, box);
+      say(ok ? 'Copia copiada al portapapeles. Pégala en un archivo o una nota para guardarla.' : 'No se pudo copiar automáticamente: el texto está seleccionado abajo, cópialo a mano.', ok);
+    }
+    if (a === 'paste') {
+      const text = root.querySelector('[data-paste]').value.trim();
+      if (!text) return say('Pega primero el texto de una copia.', false);
+      importText(text);
     }
     if (a === 'reset') {
-      if (!confirm('¿Borrar TODO el progreso de este navegador?')) return;
-      if (prompt('Escribe BORRAR para confirmar') !== 'BORRAR') return;
+      if (!(await ask('Se borrará todo el progreso de este navegador.', { confirmLabel: 'Borrar todo', danger: true, requireText: 'BORRAR' }))) return;
+      ctx.ui.flash = 'Datos borrados.';
       ctx.commit(emptyState());
     }
   });
   root.querySelector('[data-import]').addEventListener('change', async (e) => {
     const file = e.target.files?.[0];
     if (!file) return;
-    try {
-      const next = parseImport(await file.text());
-      const summary = `${next.sessions.length} sesiones, ${Object.keys(next.cards).length} tarjetas y ${next.portfolio.length} entregables (última modificación: ${fmtDate(next.updatedAt)})`;
-      if (!confirm(`La copia contiene ${summary}. ¿Sustituir tu progreso actual?`)) return;
-      ctx.ui.flash = 'Copia importada correctamente.';
-      ctx.commit(next);
-    } catch (err) {
-      msg.textContent = err.message;
-      msg.className = 'ko';
-    } finally {
-      e.target.value = '';
-    }
+    const text = await file.text();
+    e.target.value = '';
+    importText(text);
   });
   root.querySelector('[data-form="settings"]').addEventListener('submit', (e) => {
     e.preventDefault();
@@ -82,7 +109,7 @@ export function bind(root, ctx) {
     ctx.commit(touch({ ...ctx.state, settings: { weeklyGoalMinutes: goal > 0 ? goal : 210, studyDays: days.sort() } }));
   });
   if (ctx.ui.flash) {
-    msg.textContent = ctx.ui.flash;
+    say(ctx.ui.flash);
     ctx.ui.flash = null;
   }
 }

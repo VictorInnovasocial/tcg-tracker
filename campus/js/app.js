@@ -10,6 +10,7 @@ import * as portfolio from './views/portfolio.js';
 import * as data from './views/data.js';
 import { dueCards } from './core/srs.js';
 import { weakConcepts } from './core/learning.js';
+import { UNITS } from './content/index.js';
 
 const ROUTES = {
   inicio: home,
@@ -37,10 +38,20 @@ let state = storage ? load(storage) : load({ getItem: () => null });
 let saveOk = Boolean(storage);
 const ui = {}; // estado transitorio de las vistas (no se guarda)
 
+// Rutas: #inicio, #repaso… y, para las unidades, #<unidad>[-<parte>] (p. ej. #iics-u1-s2).
+// Se aceptan también los enlaces antiguos con barras (#/unidad/iics-u1/s2).
 function parseHash() {
-  const parts = location.hash.replace(/^#\/?/, '').split('/').filter(Boolean).map(decodeURIComponent);
-  const name = ROUTES[parts[0]] ? parts[0] : 'inicio';
-  return { name, params: parts.slice(1) };
+  const raw = decodeURIComponent(location.hash.replace(/^#\/?/, ''));
+  if (raw.includes('/')) {
+    const parts = raw.split('/').filter(Boolean);
+    return ROUTES[parts[0]] ? { name: parts[0], params: parts.slice(1) } : { name: 'inicio', params: [] };
+  }
+  if (ROUTES[raw]) return { name: raw, params: [] };
+  for (const id of Object.keys(UNITS)) {
+    if (raw === id) return { name: 'unidad', params: [id] };
+    if (raw.startsWith(`${id}-`)) return { name: 'unidad', params: [id, raw.slice(id.length + 1)] };
+  }
+  return { name: 'inicio', params: [] };
 }
 
 const ctx = {
@@ -106,7 +117,7 @@ function render({ keepScroll = false } = {}) {
     root.innerHTML = view.render(local);
   } catch (err) {
     console.error(err);
-    root.innerHTML = `<section class="card"><h1>Algo ha fallado</h1><p>${String(err.message)}</p><p><a href="#/inicio">Volver al inicio</a></p></section>`;
+    root.innerHTML = `<section class="card"><h1>Algo ha fallado</h1><p>${String(err.message)}</p><p><a href="#inicio">Volver al inicio</a></p></section>`;
   }
   const main = document.getElementById('main');
   main.replaceChildren(root);
@@ -126,6 +137,10 @@ function render({ keepScroll = false } = {}) {
 }
 
 window.addEventListener('hashchange', () => render());
+document.querySelector('[data-skip]')?.addEventListener('click', () => {
+  const h = document.querySelector('#main h1');
+  h?.focus();
+});
 window.addEventListener('storage', (e) => {
   if (e.key && e.key.startsWith('campus-premaster') && storage) {
     state = load(storage);

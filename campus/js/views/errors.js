@@ -20,8 +20,8 @@ export function render(ctx) {
   <h2>Conceptos que debes recuperar</h2>
   ${weak.length ? `<ul class="weak">${weak.map((w) => {
     const c = CONCEPTS[w.conceptId];
-    return `<li><span><strong>${esc(c?.term ?? w.conceptId)}</strong> · ${w.count} fallo${w.count > 1 ? 's' : ''} sin resolver</span>${c ? `<a href="#/unidad/${c.unitId}/${c.sectionId}">Volver a la sección</a>` : ''}</li>`;
-  }).join('')}</ul><p><a class="btn btn-primary" href="#/repaso">Recuperarlos en el repaso</a></p>` : '<p>No tienes errores abiertos.</p>'}
+    return `<li><span><strong>${esc(c?.term ?? w.conceptId)}</strong> · ${w.count} fallo${w.count > 1 ? 's' : ''} sin resolver</span>${c ? `<a href="#${c.unitId}-${c.sectionId}">Volver a la sección</a>` : ''}</li>`;
+  }).join('')}</ul><p><a class="btn btn-primary" href="#repaso">Recuperarlos en el repaso</a></p>` : '<p>No tienes errores abiertos.</p>'}
 </section>
 
 <section class="card">

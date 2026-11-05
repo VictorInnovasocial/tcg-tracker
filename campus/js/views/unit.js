@@ -40,13 +40,13 @@ function stepNav(unit, current) {
   const prev = all[i - 1];
   const next = all[i + 1];
   return `<nav class="step-nav" aria-label="Navegación de la unidad">
-    ${prev ? `<a href="#/unidad/${unit.id}/${prev.id}">← ${esc(prev.label)}</a>` : `<a href="#/unidad/${unit.id}">← Índice de la unidad</a>`}
-    ${next ? `<a href="#/unidad/${unit.id}/${next.id}">${esc(next.label)} →</a>` : `<a href="#/unidad/${unit.id}">Índice de la unidad →</a>`}
+    ${prev ? `<a href="#${unit.id}-${prev.id}">← ${esc(prev.label)}</a>` : `<a href="#${unit.id}">← Índice de la unidad</a>`}
+    ${next ? `<a href="#${unit.id}-${next.id}">${esc(next.label)} →</a>` : `<a href="#${unit.id}">Índice de la unidad →</a>`}
   </nav>`;
 }
 
 function crumbs(unit, label) {
-  return `<p class="crumbs"><a href="#/asignaturas">${esc(subjectOf(unit).name)}</a> › <a href="#/unidad/${unit.id}">Unidad ${unit.number}</a>${label ? ` › ${esc(label)}` : ''}</p>`;
+  return `<p class="crumbs"><a href="#asignaturas">${esc(subjectOf(unit).name)}</a> › <a href="#${unit.id}">Unidad ${unit.number}</a>${label ? ` › ${esc(label)}` : ''}</p>`;
 }
 
 // ───────────────────────── Índice ─────────────────────────
@@ -60,12 +60,12 @@ ${crumbs(unit)}
   <h1>${esc(unit.title)}</h1>
   <p class="lead">${esc(unit.summary)}</p>
 </header>
-<div class="note">Este material lo ha redactado una IA a partir de manuales de metodología (ver <a href="#/biblioteca">Biblioteca</a>). Sirve para preparar la asignatura, pero <strong>no es su programa oficial</strong>: contrástalo con la guía docente y con las fuentes.</div>
+<div class="note">Este material lo ha redactado una IA a partir de manuales de metodología (ver <a href="#biblioteca">Biblioteca</a>). Sirve para preparar la asignatura, pero <strong>no es su programa oficial</strong>: contrástalo con la guía docente y con las fuentes.</div>
 <section class="card">
   <div class="row-between"><h2>Tu progreso</h2><strong>${p.pct} %</strong></div>
   ${bar(p.pct, 'Progreso de la unidad')}
   <ol class="steps">
-    ${steps(unit).map((s) => `<li class="${stepDone(unit, u, ctx.state, s.id) ? 'done' : ''}"><a href="#/unidad/${unit.id}/${s.id}">${esc(s.label)}</a></li>`).join('')}
+    ${steps(unit).map((s) => `<li class="${stepDone(unit, u, ctx.state, s.id) ? 'done' : ''}"><a href="#${unit.id}-${s.id}">${esc(s.label)}</a></li>`).join('')}
   </ol>
   <p class="muted small">Una sección cuenta como estudiada cuando haces su recuperación de memoria. El test se supera con un ${Math.round(PASS_MARK * 100)} %. La reflexión necesita al menos ${unit.reflection.minChars} caracteres.</p>
 </section>
@@ -330,7 +330,7 @@ ${stepNav(unit, 'test')}`;
 <section class="card">
   <h2>${r.passed ? 'Test superado' : 'Todavía no superado'}: ${r.points.toLocaleString('es-ES')} / ${r.max}</h2>
   ${bar(r.pct * 100, 'Resultado')}
-  ${r.failedConcepts.length ? `<p>Conceptos que fallaste al primer intento (ya están en tu repaso de hoy):</p><ul>${r.failedConcepts.map((c) => `<li>${esc(term(c))}</li>`).join('')}</ul><p><a class="btn btn-primary" href="#/repaso">Recuperarlos ahora</a></p>` : '<p>Sin fallos al primer intento.</p>'}
+  ${r.failedConcepts.length ? `<p>Conceptos que fallaste al primer intento (ya están en tu repaso de hoy):</p><ul>${r.failedConcepts.map((c) => `<li>${esc(term(c))}</li>`).join('')}</ul><p><a class="btn btn-primary" href="#repaso">Recuperarlos ahora</a></p>` : '<p>Sin fallos al primer intento.</p>'}
   <button class="btn" data-action="quiz-reset">Volver</button>
 </section>
 <section class="card"><h2>Revisión razonada</h2>
@@ -460,7 +460,7 @@ ${crumbs(unit, 'Actividad aplicada')}
   <fieldset><legend>Rúbrica de autoevaluación (marca lo que cumple tu borrador)</legend>
     ${act.rubric.map((r) => `<label class="check"><input type="checkbox" name="rubric-${r.id}" ${rubric[r.id] ? 'checked' : ''}> ${esc(r.text)}</label>`).join('')}
   </fieldset>
-  <div class="row"><button class="btn btn-primary" type="submit">Guardar en el portafolio</button>${item ? `<span class="muted small">Guardado el ${fmtDate(item.updatedAt)}</span>` : ''}</div>
+  <div class="row"><button class="btn btn-primary" type="submit">Guardar en el portafolio</button><span class="ko small" data-msg role="status"></span>${item ? `<span class="muted small">Guardado el ${fmtDate(item.updatedAt)}</span>` : ''}</div>
 </form>
 ${stepNav(unit, 'actividad')}`;
 }
@@ -471,7 +471,10 @@ function bindActivity(root, ctx, unit) {
     e.preventDefault();
     const f = new FormData(e.currentTarget);
     const fields = Object.fromEntries(act.fields.map((x) => [x.label, String(f.get(x.id) ?? '').trim()]));
-    if (!Object.values(fields).some(Boolean)) return alert('El borrador está vacío.');
+    if (!Object.values(fields).some(Boolean)) {
+      e.currentTarget.querySelector('[data-msg]').textContent = 'El borrador está vacío: rellena al menos un campo.';
+      return;
+    }
     const rubric = Object.fromEntries(act.rubric.map((r) => [r.id, f.get(`rubric-${r.id}`) === 'on']));
     ctx.commit(upsertPortfolio(ctx.state, { id: `${unit.id}-${act.id}`, unitId: unit.id, kind: 'actividad', title: act.title, fields, rubric, rubricLabels: Object.fromEntries(act.rubric.map((r) => [r.id, r.text])) }));
   });
