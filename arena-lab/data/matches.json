@@ -1,0 +1,152 @@
+[
+  {
+    "id": "ray1",
+    "deck": "ray-jap",
+    "date": "2026-11-06",
+    "rival": "R01",
+    "matchup": "Rayquaza",
+    "result": "win",
+    "prizes": [
+      4,
+      4
+    ],
+    "finish": "concesión",
+    "evidence": "log completo",
+    "notes": "Segundo Rayquaza y Zapdos reconstruyen. Boss sobre Rayquaza rival daba tres Premios."
+  },
+  {
+    "id": "ray2",
+    "deck": "ray-jap",
+    "date": "2026-11-06",
+    "rival": "R02",
+    "matchup": "Pokémon de Paul",
+    "result": "loss",
+    "prizes": [
+      5,
+      6
+    ],
+    "finish": "premios",
+    "evidence": "log completo",
+    "notes": "Dejar vivo a Trevenant permitió 190 a Rayquaza, ya tocado en Banca."
+  },
+  {
+    "id": "ray3",
+    "deck": "ray-jap",
+    "date": "2026-11-06",
+    "rival": "R03",
+    "matchup": "Metagross",
+    "result": "win",
+    "prizes": [
+      6,
+      5
+    ],
+    "finish": "premios",
+    "evidence": "log completo",
+    "notes": "Moltres elimina Genesect; Zapdos cierra sobre Metagross previamente dañado."
+  },
+  {
+    "id": "ray4",
+    "deck": "ray-jap",
+    "date": "2026-11-06",
+    "rival": "R04",
+    "matchup": "Rayquaza",
+    "result": "win",
+    "prizes": [
+      4,
+      1
+    ],
+    "finish": "concesión",
+    "evidence": "log completo",
+    "notes": "Carrito temprano; Rayquaza ataca 300 y 350 en turnos consecutivos."
+  },
+  {
+    "id": "ray5",
+    "deck": "ray-jap",
+    "date": "2026-11-06",
+    "rival": "R05",
+    "matchup": "Dragapult",
+    "result": "win",
+    "prizes": [
+      5,
+      1
+    ],
+    "finish": "concesión",
+    "evidence": "log completo",
+    "notes": "Boss sobre Blaziken ex en lugar de Budew. Once Energías en mesa."
+  },
+  {
+    "id": "ray6",
+    "deck": "ray-jap",
+    "date": "2026-11-07",
+    "rival": "R06",
+    "matchup": "Crustle",
+    "result": "win",
+    "prizes": [
+      null,
+      null
+    ],
+    "finish": "sin detalle",
+    "evidence": "resultado sin log",
+    "notes": "Victoria comunicada; no se conoce marcador ni atacante."
+  },
+  {
+    "id": "cru1",
+    "deck": "cru-niigata",
+    "date": "2026-11-08",
+    "rival": "C01",
+    "matchup": "Dragapult",
+    "result": "win",
+    "prizes": [
+      6,
+      0
+    ],
+    "finish": "premios",
+    "evidence": "log completo",
+    "notes": "Kangaskhan cura 340 PS; Energía Neblina protege Crustle en Banca; no atacó Crustle."
+  },
+  {
+    "id": "basic1",
+    "deck": "basic-talon",
+    "date": "2026-11-05",
+    "rival": "B01",
+    "matchup": "Otros",
+    "result": "win",
+    "prizes": [
+      4,
+      0
+    ],
+    "finish": "concesión",
+    "evidence": "log completo",
+    "notes": "Talonflame logra dos KO y busca cuatro cartas."
+  },
+  {
+    "id": "basic2",
+    "deck": "basic-talon",
+    "date": "2026-11-06",
+    "rival": "B02",
+    "matchup": "Rayquaza",
+    "result": "loss",
+    "prizes": [
+      3,
+      6
+    ],
+    "finish": "premios",
+    "evidence": "log completo",
+    "notes": "Dos Talonflame entregaron cuatro Premios. Evaluar Enamorus."
+  },
+  {
+    "id": "lava1",
+    "deck": "ray-lava",
+    "date": "2026-11-05",
+    "rival": "L01",
+    "matchup": "Slowking",
+    "result": "loss",
+    "prizes": [
+      null,
+      null
+    ],
+    "finish": "sin detalle",
+    "evidence": "resultado sin log",
+    "notes": "Derrota comunicada sin log."
+  }
+]
