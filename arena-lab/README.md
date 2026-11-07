@@ -2,6 +2,14 @@
 
 Aplicación de seguimiento competitivo en `arena-lab/`, aislada del prototipo de valoración de colecciones que ya existe en el repositorio. **No modificar ni sustituir el `index.html` raíz.**
 
+## Acceso permanente
+
+- **Dashboard:** https://nexo-arena-lab.vercel.app/
+- **Entrenador competitivo:** https://nexo-arena-lab.vercel.app/coach.html
+- **Estado:** desplegado en Vercel producción (READY verificado el 08/11/2026).
+- **Privacidad:** aplicación pública, datos abreviados con alias; no publicar logs íntegros con identificadores.
+- **Actualización:** GitHub y Vercel **NO tienen conexión de despliegue automático**. Cada edición de los JSON del repositorio requiere volver a publicar los archivos en Vercel para que el sitio web refleje los cambios. El módulo de pegado de logs del navegador almacena en localStorage sin crear un commit. El análisis de errores se actualiza mediante revisión de logs en ChatGPT y edición de `coaching.json`, no con IA dentro del navegador.
+
 ## Qué hace
 
 - Registra partidas reales por mazo y **versión exacta**, resultado, marcador, arquetipo, evidencia y aprendizaje.
@@ -34,7 +42,7 @@ No hay instalación de dependencias ni servidor con credenciales. Los `fetch` de
 
 **Este repositorio es público.** Por eso solo se han incluido resúmenes anonimizados y enlaces a fichas NEXO; no se han publicado logs íntegros, identificadores de rivales ni notas personales sensibles.
 
-El prototipo de esta rama **todavía no está desplegado en una URL de GitHub Pages**. El historial público de código GitHub funciona como almacenamiento versionado; una aplicación con datos privados exige repositorio/base de datos privados y autenticación. El conector GitHub puede escribir archivos cuando se solicita en el chat, pero **no existe una sincronización automática universal** entre cualquier chat y el repositorio. Los registros del navegador se mantienen en `localStorage` hasta su exportación/publicación explícita.
+El prototipo **está desplegado en Vercel** como sitio estático. No existe integración automática GitHub–Vercel. El historial público de código GitHub funciona como almacenamiento versionado; una aplicación con datos privados exige repositorio/base de datos privados y autenticación. El conector GitHub puede escribir archivos cuando se solicita en el chat, pero **no existe una sincronización automática universal** entre cualquier chat y el repositorio. Los registros del navegador se mantienen en `localStorage` hasta su exportación/publicación explícita.
 
 No fusionar esta rama en la predeterminada ni publicar los logs completos sin decidir primero el modelo de privacidad y despliegue.
 
