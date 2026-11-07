@@ -1,4 +1,8 @@
-# TCG Tracker
+# Laboratorio de Prototipos
+
+Este repositorio es un **espacio de pruebas técnicas** y no define las preferencias, prioridades ni el ámbito de futuros trabajos de su propietario. Cada proyecto nuevo debe interpretarse por sus propios requisitos, sin reutilizar por defecto el contexto de este repositorio.
+
+### Prototipo actual: valorador de colecciones de cartas
 
 Web gratuita para saber cuánto vale tu colección de cartas **Pokémon** y **Magic: The Gathering**, con precios de Cardmarket en euros. Sin registro: la colección se guarda en el navegador.
 
@@ -17,7 +21,7 @@ Precios: [Scryfall](https://scryfall.com/docs/api) (Magic) y [Pokémon TCG API](
 
 1. Fusiona esta rama en `main`.
 2. En GitHub: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
-3. El workflow `.github/workflows/pages.yml` pasa los tests y publica la web en `https://<tu-usuario>.github.io/tcg-tracker/`.
+3. El workflow `.github/workflows/pages.yml` pasa los tests y publica la web en la URL de GitHub Pages configurada para el repositorio (si se cambia su nombre, revisar la URL).
 4. Date de alta en [Amazon Afiliados](https://afiliados.amazon.es) y escribe tu etiqueta en `js/config.js` (`amazonTag`). Opcional: enlace de donación en `donateUrl`.
 
 ## Desarrollo
