@@ -1,0 +1,44 @@
+[
+  {
+    "id": "ray-jap",
+    "name": "Mega-Rayquaza · Tres aves",
+    "version": "Japonesa V1.0",
+    "notion": "https://app.notion.com/p/4105f543d14e8168b066c1a60a6045af"
+  },
+  {
+    "id": "ray-hybrid",
+    "name": "Mega-Rayquaza · Aves + Ho-Oh",
+    "version": "Híbrida V1.1",
+    "notion": "https://app.notion.com/p/4105f543d14e8105a848ee07e2de3953"
+  },
+  {
+    "id": "ray-zeraora",
+    "name": "Mega-Rayquaza · Zeraora",
+    "version": "Propuesta V1.1",
+    "notion": "https://app.notion.com/p/4115f543d14e8155af7ed5d85b39c040"
+  },
+  {
+    "id": "cru-niigata",
+    "name": "Crustle · Kangaskhan Endurance",
+    "version": "Niigata V1.0",
+    "notion": "https://app.notion.com/p/4115f543d14e8148b0db-e5869dba2329"
+  },
+  {
+    "id": "basic-talon",
+    "name": "Basic Box + Talonflame",
+    "version": "V1.1",
+    "notion": "https://app.notion.com/p/40f5f543d14e8169be1bd62f529bfffa"
+  },
+  {
+    "id": "basic-v10",
+    "name": "Basic Box Mundial",
+    "version": "V1.0 (7–1 agregado, sin partidas importadas)",
+    "notion": "https://app.notion.com/p/40d5f543d14e81158ca3ca9222b256d4"
+  },
+  {
+    "id": "ray-lava",
+    "name": "Mega-Rayquaza · Lava Engine",
+    "version": "V0.1",
+    "notion": "https://app.notion.com/p/40f5f543d14e81cda121f7a761056737"
+  }
+]
