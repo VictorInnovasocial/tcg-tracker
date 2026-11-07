@@ -10,6 +10,14 @@ Aplicación de seguimiento competitivo en `arena-lab/`, aislada del prototipo de
 - **Privacidad:** aplicación pública, datos abreviados con alias; no publicar logs íntegros con identificadores.
 - **Actualización:** GitHub y Vercel **NO tienen conexión de despliegue automático**. Cada edición de los JSON del repositorio requiere volver a publicar los archivos en Vercel para que el sitio web refleje los cambios. El módulo de pegado de logs del navegador almacena en localStorage sin crear un commit. El análisis de errores se actualiza mediante revisión de logs en ChatGPT y edición de `coaching.json`, no con IA dentro del navegador.
 
+## Recomendación competitiva semanal
+
+- [¿Qué jugar?](https://nexo-arena-lab.vercel.app/que-jugar.html): modo rendimiento propio (W/L), modo torneo y modo meta; corte semanal con fuentes y segmentos separados Japón / online.
+- [Lista recomendada](https://nexo-arena-lab.vercel.app/lista-recomendada.html): referencia completa de 60 cartas verificadas (actualmente Crustle Kangaskhan Ryūichi, Niigata 07/11/2026), riesgos, gameplan, evidencia y exportación para TCG Live.
+- Datos versionados en `data/meta-weekly.json` y `data/recommendation.json`, fechas `reviewedAt`, fuentes y restricciones de legalidad.
+- Hay una automatización semanal los lunes por la mañana, que debe verificar si pudo actualizar GitHub y redesplegar Vercel; **los datos no se refrescan solos** por estar alojados como JSON estáticos.
+- No sumar proporciones de Top16 con presencia online; tampoco presentar Top16 como winrate del torneo.
+
 ## Qué hace
 
 - Registra partidas reales por mazo y **versión exacta**, resultado, marcador, arquetipo, evidencia y aprendizaje.
