@@ -1,0 +1,183 @@
+[
+  {
+    "id": "ray1",
+    "grade": 7.5,
+    "headline": "Victoria con opción de cobrar un Premio adicional",
+    "confidence": "log completo",
+    "good": [
+      "Reconstituiste Rayquaza tras perder el primero.",
+      "Zapdos atacó de un Premio y consiguió KO por Debilidad."
+    ],
+    "errors": [
+      {
+        "severity": "alta",
+        "decision": "Usar Petrel → Tarjeta Roja Especial y atacar a Talonflame.",
+        "why": "Órdenes de Jefes estaba en la mano y el Mega-Rayquaza rival en Banca era débil a Rayo.",
+        "alternative": "Boss sobre Mega-Rayquaza y Zapdos por 420: KO de 3 Premios en vez de 2 (5–4 frente a 4–4).",
+        "drill": "Antes de atacar, comprobar Pokémon ex de 3 Premios vulnerables a Boss y Debilidad."
+      }
+    ],
+    "gameplan": "Contra Rayquaza, reservar a Zapdos preparado para amenazar al Mega rival por Debilidad Rayo."
+  },
+  {
+    "id": "ray2",
+    "grade": 5.5,
+    "headline": "La carrera de Premios se perdió al dejar actuar a Trevenant",
+    "confidence": "log completo",
+    "good": [
+      "Moltres aprovechó Debilidad Fuego de Zacian ex y obtuvo dos Premios.",
+      "Recuperaste el trío de aves después de perder Articuno."
+    ],
+    "errors": [
+      {
+        "severity": "media",
+        "decision": "T1: unir Rayo a Articuno que cayó por Debilidad Metal.",
+        "why": "La Energía no era necesaria para las habilidades de Articuno y se perdió al debilitarse.",
+        "alternative": "Unirla al Moltres de Banca para contribuir al coste Incoloro de Giro Fuego.",
+        "drill": "En aperturas adversas, identificar cuál Energía sobrevivirá al KO más probable."
+      },
+      {
+        "severity": "alta",
+        "decision": "Boss al Fezandipiti ex dejando Trevenant Activo.",
+        "why": "Rayquaza ya tenía 60 de daño y Trevenant infligió 190 adicionales; Phantump remató el Mega.",
+        "alternative": "Considerar KO directo a Trevenant (140 PS) con Rayquaza 250 y reservar Boss; el rival tenía otro Phantump, por lo que no es victoria segura.",
+        "drill": "Valorar eliminar una amenaza activa frente a cobrar dos Premios en Banca; calcular daño acumulado sobre Mega."
+      }
+    ],
+    "gameplan": "Frente a Pokémon de Paul, reducir daño acumulado de Banca y eliminar fuentes de venganza antes de exponer el Mega."
+  },
+  {
+    "id": "ray3",
+    "grade": 8,
+    "headline": "Gran remontada, pero faltó un KO óptimo sobre Metagross",
+    "confidence": "log completo",
+    "good": [
+      "Moltres consiguió KO sobre Genesect ex por Debilidad Fuego.",
+      "Reconstruiste Rayquaza y cerraste con Zapdos de un Premio."
+    ],
+    "errors": [
+      {
+        "severity": "alta",
+        "decision": "Rayquaza atacó por 250 al Deoxys Activo.",
+        "why": "En Banca había un Metagross ex con 200 de daño previo (solo 140 PS restantes), y tenías Boss en mano.",
+        "alternative": "Boss al Metagross dañado para conseguir dos Premios y eliminar su motor de aceleración.",
+        "drill": "Mantener un registro de PS restantes de ex en Banca y revisar opciones de Boss antes del ataque."
+      }
+    ],
+    "gameplan": "Contra Metagross, Moltres presiona Genesect; eliminar Metagross dañado impide la aceleración repetida."
+  },
+  {
+    "id": "ray4",
+    "grade": 9,
+    "headline": "Ataques de 300 y 350 en turnos consecutivos",
+    "confidence": "log completo",
+    "good": [
+      "Trío de aves establecido en primer turno con Carrito.",
+      "Reemplazaste a Zapdos tras Boss rival y mantuviste Energías globales."
+    ],
+    "errors": [],
+    "watch": [
+      "Carrito ocupó cinco puestos de Banca; reservar un plan para bajar otro Rayquaza desde mano."
+    ],
+    "gameplan": "Contra Rayquaza, mantener varias baterías Fuego/Rayo fuera del Mega y explotar el intercambio de Premios de Zapdos."
+  },
+  {
+    "id": "ray5",
+    "grade": 9,
+    "headline": "Boss correcto sobre Blaziken: mejor que eliminar Budew",
+    "confidence": "log completo",
+    "good": [
+      "Rayquaza KO a Dragapult por 400 con ocho Energías.",
+      "Boss a Blaziken ex ganó dos Premios y eliminó aceleración rival.",
+      "Resististe la disrupción de Sello Injusto con el campo montado."
+    ],
+    "errors": [],
+    "watch": [
+      "Carrito llenó la Banca. El KO a Tatsugiri liberó la plaza que permitió el segundo Rayquaza."
+    ],
+    "gameplan": "Contra Dragapult/Blaziken, eliminar acelerador con Boss y mantener Energía fuera del Mega para mitigar KO de 3 Premios."
+  },
+  {
+    "id": "ray6",
+    "grade": null,
+    "headline": "Victoria reportada contra Crustle: evidencia parcial",
+    "confidence": "solo resultado",
+    "good": [
+      "Victoria declarada por el usuario."
+    ],
+    "errors": [],
+    "watch": [
+      "No existe log ni marcador; no atribuir el KO a Moltres."
+    ],
+    "gameplan": "Moltres no ex puede atacar a Crustle; comprobar si Capa de Héroes + Energía Planta Creciente supera los 260 de Giro Fuego."
+  },
+  {
+    "id": "cru1",
+    "grade": 9,
+    "headline": "Control total de Dragapult gracias a Kangaskhan y curación",
+    "confidence": "log completo",
+    "good": [
+      "Kangaskhan resistió varios ataques y se curó 340 PS efectivos.",
+      "Energía Neblina impidió contadores en Crustle y Dwebble.",
+      "Doble Energía Espinosa eliminó a Budew sin atacar."
+    ],
+    "errors": [],
+    "watch": [
+      "Petrel se utilizó para conseguir Ventilador de Mano, pero no intervino en esta partida. No significa que sobre: es una pieza de disrupción de Energía.",
+      "Dos mulligans con siete Básicos: medir la frecuencia y evitar sobreinterpretar una partida."
+    ],
+    "gameplan": "Contra Dragapult, priorizar Energía Neblina en Dwebble/Crustle, mantener Kangaskhan con curación y usar Boss para interrumpir cadenas de evolución."
+  },
+  {
+    "id": "basic1",
+    "grade": 7,
+    "headline": "Talonflame buscó recursos, pero rival se rindió pronto",
+    "confidence": "log completo",
+    "good": [
+      "Talonflame consiguió dos KO y cuatro cartas de búsqueda.",
+      "Enamorus y Ferroverdor permitieron cambios de atacante."
+    ],
+    "errors": [
+      {
+        "severity": "baja",
+        "decision": "Boss muy temprano al Rotom sin convertirlo en KO.",
+        "why": "El rival lo retiró sin perder recursos decisivos.",
+        "alternative": "Guardar Boss para un objetivo con KO o para interrumpir motor rival.",
+        "drill": "Antes de jugar Boss, exigir objetivo de premio, daño relevante o bloqueo de desarrollo."
+      }
+    ],
+    "gameplan": "Contra mazos de un Premio, alternar Talonflame y atacantes de un Premio sin sobreexponer ex."
+  },
+  {
+    "id": "basic2",
+    "grade": 5,
+    "headline": "Dos Talonflame cedieron cuatro Premios a Rayquaza",
+    "confidence": "log completo",
+    "good": [
+      "Boss + Talonflame remató Kangaskhan de tres Premios.",
+      "Enamorus llegó a pegar 200 a Rayquaza."
+    ],
+    "errors": [
+      {
+        "severity": "alta",
+        "decision": "Exponer el segundo Talonflame al Rayquaza capaz de KO inmediato.",
+        "why": "Ambos Talonflame concedieron cuatro Premios y apenas remataron a Kangaskhan de tres.",
+        "alternative": "Preparar Enamorus desde T2 con Meowth→Crispin y Energía Psíquica manual, de forma que consiga KO a Kangaskhan ya dañado sin ceder otros dos Premios (línea contrafactual condicionada).",
+        "drill": "Simular carreras de Premios de 6 y evaluar KO de un Premio frente a ex de dos."
+      }
+    ],
+    "gameplan": "Contra Rayquaza, preparar atacantes de un Premio y no convertir Talonflame en atacante principal por defecto."
+  },
+  {
+    "id": "lava1",
+    "grade": null,
+    "headline": "Derrota comunicada; falta evidencia para diagnóstico",
+    "confidence": "solo resultado",
+    "good": [],
+    "errors": [],
+    "watch": [
+      "Sin log no se puede establecer una jugada errónea ni recomendar cambios concretos."
+    ],
+    "gameplan": "Registrar primero el turno del primer Rayquaza que ataca, cantidades de Energía y causa del primer KO."
+  }
+]
