@@ -1,0 +1,183 @@
+[
+  {
+    "deck": "ray-jap",
+    "matchup": "Dragapult",
+    "title": "Rayquaza Aves vs Dragapult",
+    "objective": "Alcanzar KO sobre Dragapult antes de perder el motor de aves.",
+    "opening": [
+      "Petrel → Carrito Valioso para reunir Moltres, Articuno y Zapdos cuanto antes.",
+      "Conservar Energías en múltiples Básicos; si hay amenaza de contadores, evitar regalar un Articuno sin repuesto."
+    ],
+    "win": [
+      "Con ocho Energías globales Rayquaza alcanza 400, suficiente para Dragapult ex.",
+      "Boss a Blaziken ex o al acelerador que mantenga la cadena rival, aunque Budew esté Activo."
+    ],
+    "avoid": [
+      "Llenar Banca sin plan para jugar el segundo Rayquaza de la mano.",
+      "Gastar Boss en un Pokémon sin valor de Premios cuando hay motor ex accesible."
+    ],
+    "test": "Registrar turno primer ataque ≥350, KOs a aves y si sobrevivimos Sello Injusto.",
+    "confidence": "Observado en una victoria con log y otras pruebas de aves."
+  },
+  {
+    "deck": "ray-jap",
+    "matchup": "Crustle",
+    "title": "Rayquaza Aves vs Crustle",
+    "objective": "Superar la protección anti-ex sin entregar un Mega de 3 Premios.",
+    "opening": [
+      "Priorizar Moltres con Fuego Fuego + una Incolora en lugar de exponer Rayquaza contra la habilidad de Crustle.",
+      "Comprobar Capa de Héroes y Energía Planta Creciente del Crustle antes de declarar KO."
+    ],
+    "win": [
+      "Moltres no ex hace 130 × Debilidad Fuego = 260 contra Crustle.",
+      "Si Crustle tiene 270 o más PS por Capa + Energía Planta Creciente, 260 ya no es suficiente."
+    ],
+    "avoid": [
+      "Atacar con Rayquaza ex a Crustle protegido sin confirmar que el efecto puede dañarlo.",
+      "Asumir que una victoria comunicada sin log demuestra matchup favorable."
+    ],
+    "test": "Registrar PS efectivos de Crustle, si Moltres obtuvo el KO y Premios consumidos.",
+    "confidence": "Plan teórico; una victoria declarada sin log."
+  },
+  {
+    "deck": "ray-jap",
+    "matchup": "Rayquaza",
+    "title": "Rayquaza Aves vs Mirror",
+    "objective": "Desgastar el Mega rival y conseguir el mejor intercambio de Premios con Zapdos.",
+    "opening": [
+      "Montar el trío y acumular Energías Rayo en Zapdos, incluso si el primer Mega cae.",
+      "No olvidar que Rayquaza rival es débil a Rayo."
+    ],
+    "win": [
+      "Zapdos 210 × Debilidad Rayo = 420 y puede eliminar a Mega-Rayquaza ex por tres Premios.",
+      "Rayquaza con siete Energías hace 350 para KO de un Mega no equipado."
+    ],
+    "avoid": [
+      "Petrel + disrupción en lugar de Boss cuando hay KO de tres Premios disponible.",
+      "Conceder espacios de Banca innecesarios que impidan bajar un segundo Ray desde mano."
+    ],
+    "test": "Medir cuántos KO de tres Premios se crean usando Zapdos y Boss.",
+    "confidence": "Dos enfrentamientos propios registrados."
+  },
+  {
+    "deck": "ray-jap",
+    "matchup": "Metagross",
+    "title": "Rayquaza Aves vs Metagross / Genesect",
+    "objective": "Quitar el motor de aceleración de Metagross antes de que recicle Energías.",
+    "opening": [
+      "Moltres no ex amenaza KO por Debilidad Fuego a Genesect ex.",
+      "Preparar Energía en varias aves para escalar Rayquaza y conservar Zapdos como rematador."
+    ],
+    "win": [
+      "Priorizar Boss sobre Metagross ex de 340 PS dañado previamente.",
+      "Reutilizar Zapdos para rematar un ex y no arriesgar otro Mega de tres Premios."
+    ],
+    "avoid": [
+      "Atacar a un Pokémon de un Premio mientras Metagross ex está a rango de Boss.",
+      "Desatender daño acumulado de un ex retirado a Banca."
+    ],
+    "test": "Registrar KO a Genesect/Metagross y tiempo hasta acabar con las habilidades de aceleración.",
+    "confidence": "Validado en una victoria completa."
+  },
+  {
+    "deck": "ray-jap",
+    "matchup": "Pokémon de Paul",
+    "title": "Rayquaza Aves vs Pokémon de Paul",
+    "objective": "Evitar el remate por daño acumulado y turnos de Venganza.",
+    "opening": [
+      "Proteger Energías de la apertura: mejor batería de Banca que un Articuno expuesto a Debilidad Metálica.",
+      "Preparar Moltres como respuesta a Zacian ex."
+    ],
+    "win": [
+      "KO a Zacian ex con Moltres no ex por Debilidad Fuego.",
+      "Eliminar Trevenant antes de exponer un Rayquaza ya dañado."
+    ],
+    "avoid": [
+      "Boss hacia dos Premios si deja vivo Trevenant que puede hacer 190 al Mega.",
+      "Exponer Latias ex a un KO de dos Premios evitable."
+    ],
+    "test": "Registrar turnos y daño de Banca en Mega-Rayquaza antes de entrar Activo.",
+    "confidence": "Derivado de una derrota con log."
+  },
+  {
+    "deck": "cru-niigata",
+    "matchup": "Dragapult",
+    "title": "Crustle Endurance vs Dragapult",
+    "objective": "Hacer que los ataques de 200 de Dragapult pierdan valor mediante curación y protección de Banca.",
+    "opening": [
+      "Preparar Dwebble y evolucionar a Crustle en Banca.",
+      "Unir Energía Neblina a Dwebble o Crustle para proteger de los contadores secundarios del ataque de Dragapult.",
+      "Kangaskhan con Energías Espinosas y curación sostiene el Activo si el rival no puede hacer KO de un golpe."
+    ],
+    "win": [
+      "Conservar Helado Colosal y Bolita de Arroz para turnos de daño real.",
+      "Boss para sacar Dreepy o Drakloak, cortando la cadena de evolución.",
+      "Energías Espinosas castigan ataques repetidos de Budew."
+    ],
+    "avoid": [
+      "Dar por hecho que Crustle nunca necesitará atacar porque Kang ganó una vez.",
+      "Gastar una curación cuando no evita una futura pérdida de Premios."
+    ],
+    "test": "Medir PS curados realmente y cuándo Kangaskhan cae, especialmente tras quitar Capa.",
+    "confidence": "Probado: victoria 6–0, una partida."
+  },
+  {
+    "deck": "cru-niigata",
+    "matchup": "Rayquaza",
+    "title": "Crustle Endurance vs Rayquaza Aves",
+    "objective": "Forzar a Rayquaza a atacar sin ex sobre Crustle o a desperdiciar turnos.",
+    "opening": [
+      "Acelerar evolución a Crustle y reunir Energía Planta Creciente + Capa de Héroes cuando sea viable.",
+      "Ventilador de Mano ayuda a desplazar Energías del atacante rival si Crustle recibe daño."
+    ],
+    "win": [
+      "Crustle bloquea ataques de Pokémon ex, pero no Giro Fuego de Moltres no ex.",
+      "Capa + una Energía Planta Creciente elevan Crustle de 150 a 270 PS, más de los 260 de Moltres."
+    ],
+    "avoid": [
+      "Confiar en bloqueo anti-ex frente a Moltres o Zapdos no ex.",
+      "Asumir que Ventilador puede hacer algo si no se produce daño que active su efecto."
+    ],
+    "test": "Probar vs Moltres con 260 y registrar uso real de Ventilador y curación.",
+    "confidence": "Hipótesis; falta enfrentamiento directo de esta versión."
+  },
+  {
+    "deck": "cru-niigata",
+    "matchup": "Otros",
+    "title": "Crustle Endurance · Plan general",
+    "objective": "Transformar cada ataque rival en un intercambio desfavorable.",
+    "opening": [
+      "Buscar Kangaskhan y al menos un Dwebble; solo siete Básicos producen mulligans.",
+      "Construir tres Energías en Crustle mientras Kang roba; conservar las Energías Especiales."
+    ],
+    "win": [
+      "Plan A: Kang + Capa + dos Energías Espinosas + curaciones.",
+      "Plan B: Crustle no ex + Energía Neblina para controlar el cierre cuando rival depende de ex."
+    ],
+    "avoid": [
+      "Consumir Hero's Cape sin decidir quién será la condición de victoria.",
+      "Tratar la ausencia de ataque de Crustle en una partida como prueba de que sobra."
+    ],
+    "test": "Registrar mulligans, turnos de Kang Activo, curación efectiva y cuándo ataca Crustle.",
+    "confidence": "Protocolo del proyecto, muestra propia n=1."
+  },
+  {
+    "deck": "basic-talon",
+    "matchup": "Rayquaza",
+    "title": "Basic Box Talonflame vs Rayquaza",
+    "objective": "No regalar cuatro Premios con dos Talonflame consecutivos.",
+    "opening": [
+      "Si Rayquaza amenaza 300, preparar un segundo atacante de un Premio.",
+      "Meowth → Crispin puede desarrollar energía fuera de Talonflame."
+    ],
+    "win": [
+      "Enamorus por 200 sobre Kangaskhan previamente tocado puede finalizar un KO de tres Premios sin exponer otro Talonflame.",
+      "Raging Bolt necesita recursos considerables para Rayquaza con Capa."
+    ],
+    "avoid": [
+      "Encadenar dos Talonflame de dos Premios contra OHKO continuos de Rayquaza."
+    ],
+    "test": "Registrar Premios entregados por Talonflame y cuáles fueron evitables.",
+    "confidence": "Derivado de derrota 3–6 con log."
+  }
+]
