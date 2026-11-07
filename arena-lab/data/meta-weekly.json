@@ -1,0 +1,153 @@
+{
+  "version": "2026-11-08",
+  "reviewedAt": "2026-11-08",
+  "nextReviewPlanned": "2026-11-09",
+  "status": "corte parcial (City League JP hasta 07/11)",
+  "format": "Pokémon TCG Estándar · No Pocket",
+  "deltaReign": {
+    "releaseDate": "2026-11-06",
+    "warning": "Disponible en TCG Live desde su lanzamiento; comprobar fecha de habilitación presencial por país y formato. No aplicar automáticamente un resultado JP a torneo occidental.",
+    "note": "Los eventos de principios de noviembre pueden estar bajo distintos calendarios de legalidad."
+  },
+  "japan": {
+    "period": "02–08 noviembre 2026",
+    "asOf": "07/11/2026",
+    "events": 76,
+    "top16Records": 1052,
+    "definition": "Distribución entre listas Top 16 publicadas, no porcentaje de participación total ni win rate.",
+    "archetypes": [
+      {
+        "name": "Dragapult «Poipoi»",
+        "top16": 173,
+        "share": 16.5,
+        "wins": 19
+      },
+      {
+        "name": "Dragapult ex / Blaziken ex",
+        "top16": 68,
+        "share": 6.5
+      },
+      {
+        "name": "Mega Lucario ex",
+        "top16": 56,
+        "share": 5.3
+      },
+      {
+        "name": "Slowking",
+        "top16": 54,
+        "share": 5.2
+      },
+      {
+        "name": "Dragapult ex / Dusknoir",
+        "top16": 54,
+        "share": 5.2
+      },
+      {
+        "name": "Alakazam",
+        "top16": 37,
+        "share": 3.5
+      }
+    ],
+    "source": {
+      "title": "City League JP, resumen semanal (Top16)",
+      "url": "https://www.pokemoncard151.com/chronicle.php?p=city-weekly-2026-11-02"
+    }
+  },
+  "online": {
+    "event": "Elite Four Fridays (Delta Reign)",
+    "date": "2026-11-07",
+    "players": 69,
+    "decklistsClassified": 64,
+    "definition": "Uso en un torneo online de 69 jugadores; 64 listas etiquetadas, no extrapolar al meta total.",
+    "archetypes": [
+      {
+        "name": "Alakazam / Dudunsparce",
+        "lists": 7,
+        "best": "Top 16"
+      },
+      {
+        "name": "Ogerpon / Meganium / Hydrapple",
+        "lists": 5,
+        "best": "Top 4"
+      },
+      {
+        "name": "Mega Greninja",
+        "lists": 5,
+        "best": "25.º"
+      },
+      {
+        "name": "Dragapult",
+        "lists": 4,
+        "best": "Top 3"
+      },
+      {
+        "name": "Crustle",
+        "lists": 3,
+        "best": "17.º"
+      }
+    ],
+    "source": {
+      "title": "Elite Four Fridays 07/11 — 69 participantes",
+      "url": "https://cardboardalpha.com/pokemon/tournaments/elite-four-fridays-delta-reign-6ae7fe3a0d00101b48bf460a"
+    }
+  },
+  "inPerson": {
+    "recent": {
+      "event": "Regional Gdańsk",
+      "date": "2026-10-31",
+      "players": 1739,
+      "note": "Último gran Regional de referencia pre-Delta; no mezclar con resultados post-DLR.",
+      "source": {
+        "title": "Limitless — torneos y regionales",
+        "url": "https://limitlesstcg.com/"
+      }
+    },
+    "cityWinner": {
+      "event": "City League Niigata S1",
+      "date": "2026-11-07",
+      "deck": "Crustle / Mega Kangaskhan ex",
+      "player": "Ryūichi",
+      "placement": "1.º",
+      "deckCode": "MEppUp-eK8Lcm-Rp2Myy",
+      "source": {
+        "title": "Lista campeona Niigata (60 cartas)",
+        "url": "https://pokeka-win-decks.jp/season/30th-celebration/event/1115236/deck/MEppUp-eK8Lcm-Rp2Myy"
+      }
+    }
+  },
+  "summary": [
+    {
+      "title": "Dragapult marca la referencia del formato japonés",
+      "evidence": "173 de 1.052 entradas Top16 en la categoría «Poipoi», 19 títulos en 76 City Leagues; otras variantes de Dragapult también aparecen.",
+      "confidence": "Media para tendencia en Top16 JP; no equiparar a win rate global."
+    },
+    {
+      "title": "Slowking y Alakazam ganan visibilidad",
+      "evidence": "Slowking 54 entradas Top16 (5,2 %) y Alakazam 37 (3,5 %) en el corte; incremento frente a semana anterior según fuente.",
+      "confidence": "Media-baja por cambios de volumen de torneos."
+    },
+    {
+      "title": "Crustle es una opción de torneo acreditada, no un Tier 1 confirmado",
+      "evidence": "Ganó la City League de Niigata; nuestra copia de esa lista lleva un único resultado propio 1–0 frente a Dragapult.",
+      "confidence": "Baja-moderada para generalizar, alta para existencia de resultado."
+    }
+  ],
+  "sources": [
+    {
+      "title": "City Leagues Japón, 02–08/11 (parcial)",
+      "url": "https://www.pokemoncard151.com/chronicle.php?p=city-weekly-2026-11-02"
+    },
+    {
+      "title": "Resultados online del 07/11",
+      "url": "https://cardboardalpha.com/pokemon/tournaments/elite-four-fridays-delta-reign-6ae7fe3a0d00101b48bf460a"
+    },
+    {
+      "title": "Limitless — Regionales",
+      "url": "https://limitlesstcg.com/"
+    },
+    {
+      "title": "Crustle ganador Niigata",
+      "url": "https://pokeka-win-decks.jp/season/30th-celebration/event/1115236/deck/MEppUp-eK8Lcm-Rp2Myy"
+    }
+  ]
+}
