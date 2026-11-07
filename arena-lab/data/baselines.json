@@ -1,0 +1,9 @@
+[
+  {
+    "deck": "basic-v10",
+    "wins": 7,
+    "losses": 1,
+    "origin": "captura agregada",
+    "note": "Sin ocho logs individuales; no sumarlo a partidas del dashboard."
+  }
+]
