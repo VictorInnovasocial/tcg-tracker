@@ -302,7 +302,8 @@
     "opening": [
       "Kangaskhan y Meowth generan mano grande; Ho-Oh ex de Eco y Energy Switch permiten un Talonflame de 150 antes de que nuestro Ray esté listo.",
       "Tras Carrito Valioso con Articuno/Moltres/Zapdos/Latias/Mega-Ray, no subir de forma automática a un Mega de 3 Premios si solo tiene 1 Fuego y no hay ataque legal.",
-      "Comparar dejar Zapdos Activo (posible sacrificio de 1 Premio) con Latias ex (2 Premios), manteniendo a Mega-Rayquaza preparado en Banca. El mejor pivot depende de Boss rival y recursos disponibles."
+      "Comparar dejar Zapdos Activo (posible sacrificio de 1 Premio) con Latias ex (2 Premios), manteniendo a Mega-Rayquaza preparado en Banca. El mejor pivot depende de Boss rival y recursos disponibles.",
+      "En partida 007 (vs Mega-Kangaskhan/Talonflame), T1 Zapdos→Latias ex conservó Mega-Rayquaza sin daño en Banca; rival usó Meowth ex→Boss para traer Zapdos, pero concedió sin atacar. Es una apertura observada, no evidencia de protección definitiva ni matchup favorable."
     ],
     "win": [
       "Zapdos 30C55 necesita 3 Energías Rayo y 1 Incolora; cuando ve Talonflame ex o Mega-Rayquaza ex débiles a Rayo, 210 ×2 puede convertir un Pokémon de 1 Premio en KO de 2/3 Premios, comprobando herramientas/HP.",
@@ -314,9 +315,10 @@
       "Subir Mega-Rayquaza al Activo sin poder atacar y esperar que el rival no encuentre Boss después de dejarlo con 150 de daño.",
       "Considerar el 4–4 y posterior rendición rival como victoria por completar 6 Premios o partida matemáticamente cerrada.",
       "Confiar en que Tarjeta Roja Especial impide robar más al rival: Kangaskhan, Talonflame y otros motores pueden reconstruir mano.",
-      "Eliminar Budew por Flamariete de manera definitiva sin confirmar las 60: es un cambio propuesto y no probado en esta partida."
+      "Eliminar Budew por Flamariete de manera definitiva sin confirmar las 60: es un cambio propuesto y no probado en esta partida.",
+      "No extrapolar el 0–0 por rendición de la partida 007 como resultado de un gameplan ganador; no hubo un ataque ni un Premio."
     ],
-    "test": "5 manos vs Kangaskhan/Ho-Oh/Talonflame con posibilidad de Boss en T3: medir Premios perdidos antes del primer ataque Ray, turnos hasta Zapdos LLL+C, y si Tarjeta Roja mejora la probabilidad de remonte. Registrar líneas sin Boss para comparación.",
-    "confidence": "Un log completo, victoria por rendición 4–4; recomendaciones de pilotaje hipotéticas sin test contrafactual."
+    "test": "Contrastar las partidas 006 (T1 Zapdos→Mega-Ray, 3 Premios cedidos por Talonflame+Boss) y 007 (T1 Zapdos→Latias, rival Boss a Zapdos y concede 0–0) en sesiones simuladas de 5–10 aperturas, continuando al menos hasta primer KO y midiendo pérdida del motor, Premios y energía; ninguna de las dos líneas está matemáticamente resuelta.",
+    "confidence": "Dos logs del núcleo rival, uno jugado con 4–4 y rendición, otro interrumpido a 0–0; la segunda partida solo observa la apertura, no la probabilidad de victoria."
   }
 ]
