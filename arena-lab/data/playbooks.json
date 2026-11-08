@@ -224,5 +224,28 @@
     ],
     "test": "En próximas partidas contra Mew, anotar mano inicial, acceso del rival a Objetos y si el turno de bloqueo de Budew compensa el Premio perdido. Registrar turnos para el primer KO de dos Premios y seguimiento tras él.",
     "confidence": "Una victoria por concesión 2–1, log completo, lista exacta provisional."
+  },
+  {
+    "deck": "ray-crispin-pending",
+    "matchup": "Zoroark de N",
+    "title": "Rayquaza Aves + Denis vs Zoroark ex de N",
+    "objective": "Eliminar Zoroark de N antes de que copie ataques de Zekrom y no regalar un Mega de tres Premios por el daño de Casco Punki.",
+    "opening": [
+      "Si sales segundo, Rugido Regio + Denis/Crispin + Energía manual permiten cargar tres Energías y atacar 150 al Zorua vulnerable.",
+      "Calcular el tiempo hasta 6 Energías globales: con 5 Rayquaza hace 250, insuficiente para Zoroark ex de N (280 PS).",
+      "Si aparece Torre de Defensa del Team Rocket, Rugido Regio de Rayquaza (Pokémon Incoloro) queda anulado; preparar fuentes alternativas de Energía."
+    ],
+    "win": [
+      "Priorizar 300 de daño (6 Energías globales) si Zoroark ex con Casco Punki está Activo y existe acceso legal a sexta Energía.",
+      "Preparar segundo Mega-Rayquaza y mover Energías antes de perder el primero, sobre todo ante Sello Injusto y Tarjeta Roja Especial.",
+      "Una vez Zoroark está dañado, un segundo Rayquaza de 200 puede cerrarlo y dar dos Premios."
+    ],
+    "avoid": [
+      "No considerar seguro un golpe de 250 sobre Zoroark de 280: Casco Punki devuelve 40, dejando a Rayquaza de 280 a rango de Furia Trueno 250 copiada.",
+      "No considerar error la no activación de Rugido Regio del Rayquaza bajado después de que Torre de Defensa anulase habilidades Incoloras.",
+      "No priorizar Boss sin calcular si el objetivo sobrevive y cuánto motor rival activa durante el turno posterior."
+    ],
+    "test": "Registrar T1 de carga, primer turno 6 Energías, ocurrencias de Casco Punki y Torre de Defensa, carreras de Premios cuando Rayquaza entrega 3 y si se activa segunda condición de victoria.",
+    "confidence": "Una partida completa 6–5 contra Zoroark de N; versión con Denis sin 60 confirmadas."
   }
 ]
