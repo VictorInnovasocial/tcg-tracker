@@ -198,5 +198,25 @@
       "Los dos Energy Switch sí eran necesarios: Relámpago Atronador cuesta LLLC, no LLC."
     ],
     "gameplan": "En el mirror Rayquaza, conservar un segundo Zapdos y suficientes Energy Switch para castigar la Debilidad Rayo del Mega enemigo. Vigilar que tu Mega ex tocado no quede expuesto al KO por tres Premios."
+  },
+  {
+    "id": "ray8",
+    "grade": 8,
+    "headline": "Carrito T1, KO 250 a Ferrotesta ex; rendición 2–1",
+    "confidence": "log completo; concesión temprana y lista de 60 incompleta",
+    "good": [
+      "Petrel → Carrito Valioso montó las tres aves junto a Latias y Budew en el primer turno propio.",
+      "Bloqueo con Budew compró un turno de desarrollo; el Mew rival lo eliminó al atacar por 30, cediendo un Premio.",
+      "Tatsugiri y Determinación de Lylia aseguraron Partidarios; Moltres aceleró Fuego y Zapdos Rayo.",
+      "Cinco Energías globales permitieron Tormenta Esmeralda por 250 y KO a Ferrotesta ex (2 Premios)."
+    ],
+    "errors": [],
+    "watch": [
+      "¿Fue óptimo colocar a Budew frente a Mew ex con dos Energías? El bloqueo de Objetos cedió un Premio, pero no se conoce la mano rival; revisar ex ante ambas opciones sin atribuir un error demostrado.",
+      "La partida terminó 2–1 por rendición justo después de que Fezandipiti ex robara tres cartas: la superioridad en un enfrentamiento completo no está demostrada.",
+      "Denis estuvo en mano tras Lylia y se devolvió a baraja; NO fue jugado. Los dos Interruptores de Energía robados tampoco se usaron. No atribuirles la aceleración.",
+      "La lista de 60 de la variante sigue sin confirmar; no sumar a Rayquaza Japonesa V1.0."
+    ],
+    "gameplan": "Frente a Mew ex con Ferrotesta ex, montar el motor de aves T1. Evaluar si bloquear Objetos con Budew compensa ceder su Premio. Mantener acceso a Partidarios con Tatsugiri; con cinco Energías en mesa Rayquaza hace 250 y consigue dos Premios sobre Ferrotesta ex."
   }
 ]
