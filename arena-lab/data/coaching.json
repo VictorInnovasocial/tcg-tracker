@@ -286,5 +286,35 @@
       "Primero validar el corte real a las 60 cartas, pues la versión con Denis solo está parcialmente identificada."
     ],
     "gameplan": "Contra Garchomp de Cintia con Ogerpon Máscara Cimiento, localizar el muro mientras está en Banca, no llenar todos los espacios con dobles Megas si se incluye Flamariete, preparar 2 Fuego+1 Incolora mediante uniones manuales y Energy Switch desde Moltres y forzar KO 260 al Ogerpon; alternativamente planificar cadena de Boss para Premios en Banca antes de rendirse."
+  },
+  {
+    "id": "ray12",
+    "grade": 7.5,
+    "headline": "Remontada con Zapdos 420 + segundo Rayquaza 350 tras conceder 3 Premios",
+    "confidence": "log completo; victoria por concesión rival con 4–4 Premios; la fecha de juego y las 60 cartas de la versión siguen sin confirmar",
+    "good": [
+      "T1 Walkie-talkie→Petrel→Carrito reunió Articuno, Latias, Mega-Rayquaza y Moltres; activó Aleteo Chisporroteante y Aleteo Abrasador.",
+      "Después de perder al Mega inicial, bajó un segundo Rayquaza, aprovechó Rugido Regio, Lylia y Giro de Guion de Fezandipiti ex para reconstruir mano y motor.",
+      "Tarjeta Roja Especial castigó el momento exacto en que el oponente había cobrado 3 Premios y tenía 9 cartas: lo dejó en 3. No sabemos si esa reducción causó la rendición.",
+      "Zapdos completó el requisito de 3 Rayo + 1 Incolora (Fuego sirve de Incolora), hizo 420 por debilidad Rayo a Talonflame ex y obtuvo dos Premios por un atacante de un Premio.",
+      "Tras perder Moltres y 3 Fuego, Denis + Energía Rayo manual alimentaron al segundo Mega-Rayquaza; Tormenta Esmeralda 350 con 7 Fuego/Rayo globales venció al segundo Talonflame ex."
+    ],
+    "errors": [
+      {
+        "severity": "media-alta",
+        "decision": "En el primer turno propio, retirar Zapdos para colocar Mega-Rayquaza ex Activo con solo 1 Energía Fuego, sin ataque listo.",
+        "why": "Se expuso un Pokémon de tres Premios a Garra Cazadora 150; después de ponerlo en Banca a 150 daños, un Boss rival + segundo ataque 150 completó el KO y dio 3 Premios. La decisión de T2 mitigó daño directo pero no el riesgo de Boss.",
+        "alternative": "Evaluar quedarse con Zapdos en Activo (arriesga 1 Premio y motor de aceleración) o poner Latias ex como amortiguador (arriesga 2 Premios y pivot). Dejar al Mega en Banca hasta estar listo para atacar o con una ruta de retirada segura. No afirmar que ninguna línea garantiza salvarlo sin test.",
+        "drill": "Recrear apertura exacta Zapdos/Latias/Ray vs Kangaskhan+Ho-Oh+Talonflame; comparar T2 y T3 con Boss rival, Premios concedidos, energía acelerada y tiempo hasta primer Storm Emerald."
+      }
+    ],
+    "watch": [
+      "La victoria llega al marcador 4–4 por rendición. Tras Sello Injusto nuestro jugador recibió solo 2 cartas; el rival seguía cargando Mega-Rayquaza y Ho-Oh. No deducir que estuviera forzado a perder.",
+      "En T2 se buscó Lylia con Petrel y se retiró el Mega, pero la mano rival estaba alimentada por Kangaskhan/Meowth/Mirtilo/Talonflame: Boss era un riesgo relevante.",
+      "Zapdos de Celebración 30C55 tiene coste LLL+C y se hace 60 a sí mismo. La habilidad del Zapdos se activa con Moltres y Articuno en juego, no proporciona Energía a otro Pokémon.",
+      "El counter Flamariete ex por una copia de Budew es un experimento distinto; no aparece usado en este log. La carta Roja ahora registra dos activaciones muy potentes observadas en esta versión (9→3 aquí y 12→3 vs Arboliva), sin causalidad demostrada.",
+      "La fecha de juego no aparece explícita en el log; 09/11 es fecha de recepción/registro."
+    ],
+    "gameplan": "Frente a Rayquaza+Talonflame+Kangaskhan, montar el motor Articuno/Moltres/Zapdos sin regalar un Mega-Rayquaza con 1 Energía en Activo; prever Talonflame 150 y Boss. Preparar Zapdos (3 Rayo+1 Incolora) para KO por debilidad a Talonflame y Rayquaza, usando su intercambio favorable de Premios. Tras perder un Mega de tres Premios, aprovechar Tarjeta Roja Especial si rival tiene mano grande. Conservar segunda Mega-Rayquaza y ruta de carga con Denis si cae Moltres. Registrar que en esta partida se consiguieron cuatro Premios y el rival concedió."
   }
 ]
