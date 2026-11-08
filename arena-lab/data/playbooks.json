@@ -270,5 +270,28 @@
     ],
     "test": "Registrar la energía mantenida tras el KO de Moltres/Zapdos, turnos del primer KO ex, si el rival controla la Banca con Froslass y rutas de Boss para terminar con dos Premios.",
     "confidence": "Una victoria 6–3 documentada, rival mulligan ×4; no generalizar."
+  },
+  {
+    "deck": "ray-crispin-pending",
+    "matchup": "Garchomp Cintia / Ogerpon Cimiento",
+    "title": "Rayquaza Aves + Denis vs Garchomp Cintia / Ogerpon Cimiento",
+    "objective": "Evitar bloqueo de daño absoluto: Ogerpon Cimiento (TWM112) evita ataques de Rayquaza, Moltres y Zapdos con Habilidades; preparar atacante sin habilidad o una secuencia sostenible de Boss.",
+    "opening": [
+      "Si Ogerpon ya aparece en Banca, elige el contenido de Carrito Valioso teniendo presente el muro: llenar cinco espacios con tres aves + dos Rayquaza impide bajar un tech Básico.",
+      "Conservar acceso a Energías Fuego mediante Moltres y Energy Switch para preparar Flamariete ex (hipótesis +1 aún NO aprobada, 260 por FF+C).",
+      "Si no hay tech en la lista o está en Premios, valorar Boss sobre Pokémon vulnerables de Banca y no usar el último Boss sin plan para el muro."
+    ],
+    "win": [
+      "Flamariete ex TEF38 sin habilidad hace 260 a Ogerpon 210 con 2 Fuego + una Incolora; coste de ataque compatible con Fuego/Rayo y Energy Switch del núcleo.",
+      "Sin Flamariete, un plan basado en Boss debe sumar 6 Premios antes de quedar bloqueado; hay que calcular objetivos realmente alcanzables.",
+      "Reshiram ex WHT20 solo consigue KO a Ogerpon con Explosión Abrasadora cuando el rival ha cobrado al menos 2 Premios: no confiar en él como tech de apertura."
+    ],
+    "avoid": [
+      "Atacar a Gabite con Boss si el KO dejará a Ogerpon como único Activo disponible y no existe respuesta posterior: considerar también guardar Boss, sin declarar otra línea mejor sin mano completa.",
+      "No usar Carrito para llenar toda la Banca si necesitas preparar un atacante sin habilidad.",
+      "No rendirse con Ogerpon activo y 1–0 de Premios sin comprobar recursos de Boss, rutas a otros ex y posibles formas de vaciar su protección."
+    ],
+    "test": "Comparar 10 partidas contra variantes con Ogerpon: frecuencia de Ogerpon visto antes de primer KO, tiempo de Flamariete FF+C, número de huecos libres de Banca, ruta Boss alternativa, Premios cedidos por el tech y casos donde se queda en Premios.",
+    "confidence": "Una derrota por rendición cuando íbamos 1–0 en Premios; plan de counter fundamentado en textos de cartas, no validado en partidas."
   }
 ]
