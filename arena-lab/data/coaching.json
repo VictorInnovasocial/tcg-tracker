@@ -179,5 +179,24 @@
       "Sin log no se puede establecer una jugada errónea ni recomendar cambios concretos."
     ],
     "gameplan": "Registrar primero el turno del primer Rayquaza que ataca, cantidades de Energía y causa del primer KO."
+  },
+  {
+    "id": "ray7",
+    "grade": 9,
+    "headline": "Doble Zapdos y dos Energy Switch cierran 6–1 ante Rayquaza con Capa",
+    "confidence": "log completo; lista de 60 sin confirmar",
+    "good": [
+      "Petrel→Carrito Valioso montó el trío de aves en el primer turno propio y aceleró dos Energías.",
+      "Denis/Crispin y Zapdos permitieron Rayquaza 300 sobre Mega-Kangaskhan (3 Premios); al siguiente turno 400 sobre Talonflame (2).",
+      "Tras el KO al primer Zapdos, la segunda copia bajó de la mano y llegó a Rayo-Rayo-Rayo-Incolora mediante habilidad, unión manual y dos Interruptores de Energía.",
+      "Zapdos de un Premio realizó 420 por Debilidad Rayo y eliminó Mega-Rayquaza con Capa de Héroes."
+    ],
+    "errors": [],
+    "watch": [
+      "No hay fallo propio decisivo acreditado. El Mega-Rayquaza propio estaba tocado con 150 daños y podía caer ante 300 del Rayquaza contrario por tres Premios; el rival eligió Boss→Zapdos y obtuvo solo uno. Esta decisión rival favoreció la victoria.",
+      "No fusionar esta partida con japonesa V1.0 (5–1): aquí aparece Denis, que la lista original no incluía. La versión se marca provisional hasta confirmar las 60 cartas.",
+      "Los dos Energy Switch sí eran necesarios: Relámpago Atronador cuesta LLLC, no LLC."
+    ],
+    "gameplan": "En el mirror Rayquaza, conservar un segundo Zapdos y suficientes Energy Switch para castigar la Debilidad Rayo del Mega enemigo. Vigilar que tu Mega ex tocado no quede expuesto al KO por tres Premios."
   }
 ]
