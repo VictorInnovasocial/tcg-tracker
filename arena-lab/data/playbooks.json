@@ -202,5 +202,27 @@
     ],
     "test": "Registrar turnos para KO del primer Mega, número de Energy Switch en el cierre con Zapdos, Premios perdidos por Mega y calidad de respuesta rival.",
     "confidence": "Una partida completa 6–1, versión exacta sin confirmar."
+  },
+  {
+    "deck": "ray-crispin-pending",
+    "matchup": "Mew / Ferrotesta",
+    "title": "Rayquaza Aves + Denis vs Mew ex / Ferrotesta ex",
+    "objective": "Montar las tres aves temprano y conseguir KO de dos Premios sobre Ferrotesta ex sin regalar demasiados Pokémon de apoyo.",
+    "opening": [
+      "Petrel del Team Rocket → Carrito Valioso para completar Articuno, Moltres y Zapdos y preparar Rayquaza.",
+      "Valorar sacrificar Budew para limitar Objetos: Mew ex con dos Psíquicas puede eliminarlo por 30 y entregarás un Premio.",
+      "Usar Tatsugiri y Lylia para encontrar Energías y Partidarios; comprobar la mano antes de activar cada aceleración."
+    ],
+    "win": [
+      "Con cinco Energías Fuego+Rayo globales, Tormenta Esmeralda inflige 250, suficiente para Ferrotesta ex de la partida.",
+      "Si el rival queda con Mew ex y Fezandipiti ex, preparar rutas de dos Premios con Boss en lugar de perder tiempo buscando KO de un Premio."
+    ],
+    "avoid": [
+      "No interpretar la rendición tras el primer KO como victoria matemática 6–1 ni prueba de buen matchup contra todos los Mew.",
+      "No atribuir impacto a Denis si se robó y devolvió a la baraja sin jugarlo; verificar las cartas realmente usadas.",
+      "No ceder Budew por reflejo si el rival tiene atacante preparado y no hay Objetos determinantes que bloquear."
+    ],
+    "test": "En próximas partidas contra Mew, anotar mano inicial, acceso del rival a Objetos y si el turno de bloqueo de Budew compensa el Premio perdido. Registrar turnos para el primer KO de dos Premios y seguimiento tras él.",
+    "confidence": "Una victoria por concesión 2–1, log completo, lista exacta provisional."
   }
 ]
