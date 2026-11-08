@@ -316,5 +316,27 @@
       "La fecha de juego no aparece explícita en el log; 09/11 es fecha de recepción/registro."
     ],
     "gameplan": "Frente a Rayquaza+Talonflame+Kangaskhan, montar el motor Articuno/Moltres/Zapdos sin regalar un Mega-Rayquaza con 1 Energía en Activo; prever Talonflame 150 y Boss. Preparar Zapdos (3 Rayo+1 Incolora) para KO por debilidad a Talonflame y Rayquaza, usando su intercambio favorable de Premios. Tras perder un Mega de tres Premios, aprovechar Tarjeta Roja Especial si rival tiene mano grande. Conservar segunda Mega-Rayquaza y ruta de carga con Denis si cae Moltres. Registrar que en esta partida se consiguieron cuatro Premios y el rival concedió."
+  },
+  {
+    "id": "ray13",
+    "grade": 8,
+    "headline": "Apertura protegida con Latias frente a Kangaskhan/Talonflame; rival concede 0–0",
+    "confidence": "Valoración solo del primer turno propio. Log completo pero rendición rival T2 sin ataques, Premios 0–0; no permite evaluar matchup ni reconstruir juego medio. Lista exacta desconocida y Denis no visto.",
+    "good": [
+      "Tras unión manual Rayo al Zapdos Activo, Lylia convierte una mano sin Carrito en Carrito Valioso y herramientas de motor, manteniendo la flexibilidad.",
+      "Carrito coloca Articuno/Mega-Rayquaza ex/Latias ex/Moltres en Banca, y habilidades cargan 1 Rayo al propio Zapdos y 1 Fuego al propio Moltres.",
+      "A diferencia de la partida anterior, retira a Zapdos hacia Latias ex y deja al Mega-Rayquaza de tres Premios protegido en Banca, sin daño.",
+      "No utiliza Tarjeta Roja Especial al inicio: no se cumple requisito de Premios; se devuelve al mazo con Determinación de Lylia.",
+      "Mantiene un espacio de Banca libre y no baja de forma innecesaria Fezandipiti ex, cuyo Giro de Guion no estaba habilitado al no haber KO."
+    ],
+    "errors": [],
+    "watch": [
+      "El rival tenía acceso a Boss vía habilidad de Meowth ex y forzó a Zapdos Activo. Sin ataque posterior, no consta que pudiera eliminarlo ni que la situación fuera perdida.",
+      "Zapdos tiene 2 Rayo, mientras Relámpago Atronador precisa 3 Rayo + 1 Incolora: no estaba listo para atacar.",
+      "Walkie-talkie buscó un tercer Petrel pese a dos Petrel en mano. No señalar como fallo sin revisar alternativas y densidad de recursos.",
+      "Rendición 0–0: contabilizar como victoria por concesión, pero no usar para inferir matchup favorable o recompensa de la selección.",
+      "Tarjeta Roja Especial, Budew y Flamariete ex no se jugaron. No confirma actualización de 60 cartas ni corte Budew."
+    ],
+    "gameplan": "Ante Mega-Kangaskhan/Talonflame, cuando el Ray aún no puede atacar, mantenerlo en Banca y usar Latias ex o Zapdos como pivote según el riesgo de Boss. Carrito Valioso puede montar Articuno/Moltres/Zapdos/Ray/Latias en primer turno; conservar un espacio de Banca para futuros recursos. Meowth ex proporciona acceso dirigido a Boss, por lo que proteger al Mega no significa proteger a Zapdos. Evaluar la línea completa solo en partidas que continúen tras el primer turno, midiendo Premios concedidos, número de Energías y tiempo al primer KO."
   }
 ]
