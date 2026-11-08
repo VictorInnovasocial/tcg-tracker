@@ -239,5 +239,25 @@
       "Cuatro KO propios: Zorua, dos Zoroark ex y Tatsugiri. El marcador 6–5 no fue una rendición."
     ],
     "gameplan": "Contra Zoroark de N, objetivo de daño sobre 280 PS exige 6 Energías globales (300); con Casco Punki, 250 sin KO recibe 40 y coloca al Mega de 280 a rango de Furia Trueno copiada de 250. Evitar depender de Rugido Regio bajo Torre de Defensa, conservar el segundo Mega y recursos de Energy Switch."
+  },
+  {
+    "id": "ray10",
+    "grade": 9,
+    "headline": "Ganó 6–3 pese a perder las tres aves: objetivos de Premios perfectos",
+    "confidence": "log completo; 4 mulligans rivales; versión de 60 sin confirmar",
+    "good": [
+      "Petrel→Carrito T1 reunió Articuno, Moltres, Zapdos, Latias, Rayquaza y Tatsugiri; se inició la carga con las aves.",
+      "Tras perder Moltres y Zapdos por daño de Banca de Arboliva, Denis y Energías manuales permitieron mantener Rayquaza con ataques de 200 y eliminar Arboliva ex en dos golpes.",
+      "Tarjeta Roja Especial redujo la mano rival de 12 a 3 antes de Órdenes de Jefes sobre Fezandipiti ex; Tormenta 250 consiguió un KO de dos Premios y cortó Giro de Guion.",
+      "Con 4 Premios cobrados, el Mega-Rayquaza sobrevivió a 220 de Mega-Golisopod ex. Boss final a Dudunsparce ex de 270 PS con Rayquaza de seis Energías (300) cobró los últimos 2, evitando golpear al Mega-Golisopod ex de 340 PS."
+    ],
+    "errors": [],
+    "watch": [
+      "Arboliva ex Salva Aceitosa puede asignar seis impactos de 20 a objetivos elegidos, incluso en Banca; eliminó Moltres y Zapdos y cortó la fuente principal de Energías. Practicar línea de recuperación sin aceleradores.",
+      "Froslass con Manto Helador coloca contadores sobre Pokémon con habilidad. Algunas líneas del log atribuyen el daño a un supuesto Mega-Rayquaza rival, aunque el rival no mostró tal carta; no deducir composición de listas de estos textos invertidos.",
+      "Mega-Golisopod ex Golpe de Gracia hace 60 + 160 cuando el objetivo tiene al menos un contador de daño: no aumenta 80 por cada contador.",
+      "El oponente declaró cuatro mulligans y el usuario robó cuatro cartas adicionales: ventaja inicial significativa, resultado no demuestra matchup favorable por sí solo."
+    ],
+    "gameplan": "Contra Arboliva ex, evitar depender de que Moltres y Zapdos sobrevivan a daño selectivo en Banca. Reponer carga con Denis y uniones manuales, atacar al motor ex en dos golpes si es necesario. Usar Tarjeta Roja Especial antes de Boss a Fezandipiti ex para cortar robo. Si quedan dos Premios y Rayquaza tiene 300, cazar Dudunsparce ex (270) en vez de golpear Mega-Golisopod ex (340)."
   }
 ]
