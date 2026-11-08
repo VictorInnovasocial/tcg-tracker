@@ -218,5 +218,26 @@
       "La lista de 60 de la variante sigue sin confirmar; no sumar a Rayquaza Japonesa V1.0."
     ],
     "gameplan": "Frente a Mew ex con Ferrotesta ex, montar el motor de aves T1. Evaluar si bloquear Objetos con Budew compensa ceder su Premio. Mantener acceso a Partidarios con Tatsugiri; con cinco Energías en mesa Rayquaza hace 250 y consigue dos Premios sobre Ferrotesta ex."
+  },
+  {
+    "id": "ray9",
+    "grade": 8,
+    "headline": "Victoria 6–5: el Casco Punki casi decide el intercambio de 3 Premios",
+    "confidence": "log completo; lista 60 provisional",
+    "good": [
+      "Denis + Rugido Regio + Energía manual permitieron 150 y KO a Zorua de N en el primer turno propio.",
+      "Boss a Zoroark ex de N y dos ataques consecutivos de 200+250 eliminaron un motor de dos Premios.",
+      "Se preparó segundo Mega-Rayquaza en Banca antes de caer el primero y se transfirió Energía con Energy Switch.",
+      "El segundo Rayquaza remató por 200 al Zoroark ex de N ya dañado por 250 y recuperó los últimos dos Premios."
+    ],
+    "errors": [],
+    "watch": [
+      "Contra Zoroark ex de N de 280 PS, 5 Energías en mesa = 250, 30 insuficientes; 6 Energías = 300 para KO si es alcanzable. No consta acceso a la sexta en el momento clave.",
+      "Casco Punki colocó 4 contadores (40) en el Mega al golpear a Zoroark sin debilitarlo. Al turno siguiente, Zoroark copió Furia Trueno de Zekrom de N para 250 y obtuvo KO del Mega de 280 PS por 3 Premios.",
+      "Torre de Defensa del Team Rocket anula las habilidades de Pokémon Incoloros, por lo que el segundo Mega-Rayquaza no podía activar Rugido Regio al bajarse de la mano. NO atribuirlo a trigger olvidado.",
+      "Boss temprano con 200 sobre Zoroark fue una línea a dos golpes; no hay evidencia de alternativa superior garantizada.",
+      "Cuatro KO propios: Zorua, dos Zoroark ex y Tatsugiri. El marcador 6–5 no fue una rendición."
+    ],
+    "gameplan": "Contra Zoroark de N, objetivo de daño sobre 280 PS exige 6 Energías globales (300); con Casco Punki, 250 sin KO recibe 40 y coloca al Mega de 280 a rango de Furia Trueno copiada de 250. Evitar depender de Rugido Regio bajo Torre de Defensa, conservar el segundo Mega y recursos de Energy Switch."
   }
 ]
