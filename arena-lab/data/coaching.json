@@ -259,5 +259,32 @@
       "El oponente declaró cuatro mulligans y el usuario robó cuatro cartas adicionales: ventaja inicial significativa, resultado no demuestra matchup favorable por sí solo."
     ],
     "gameplan": "Contra Arboliva ex, evitar depender de que Moltres y Zapdos sobrevivan a daño selectivo en Banca. Reponer carga con Denis y uniones manuales, atacar al motor ex en dos golpes si es necesario. Usar Tarjeta Roja Especial antes de Boss a Fezandipiti ex para cortar robo. Si quedan dos Premios y Rayquaza tiene 300, cazar Dudunsparce ex (270) en vez de golpear Mega-Golisopod ex (340)."
+  },
+  {
+    "id": "ray11",
+    "grade": 5.5,
+    "headline": "Muro de Ogerpon Cimiento tras KO a Gabite: counter de construcción pendiente",
+    "confidence": "log completo, sin ataque rival tras Ogerpon; rendición temprana y lista de 60 sin confirmar",
+    "good": [
+      "T1 Carrito reunió las tres aves y dos Mega-Rayquaza, y se cargaron Energías Fuego y Rayo.",
+      "T2 Denis no estuvo presente en el log, pero con habilidades de las aves y un Interruptor de Energía se alcanzaron seis Energías globales para 300.",
+      "Órdenes de Jefes sacó Gabite de Cintia y permitió cobrar el primer Premio."
+    ],
+    "errors": [
+      {
+        "severity": "alta",
+        "decision": "Seleccionar cinco Básicos con Carrito y ocupar toda la Banca con las tres aves y dos Mega-Rayquaza.",
+        "why": "Ogerpon Máscara Cimiento ex ya se vio bajar a Banca antes de la primera Tormenta; la habilidad impide todo daño de atacantes que tengan Habilidad. No quedaba espacio para bajar un atacante alternativo y el mazo actual no ha mostrado ninguno sin habilidad capaz de 210.",
+        "alternative": "Si se prueba Flamariete ex, reservar un espacio de Banca o usar Carrito para él en lugar del segundo Mega-Rayquaza durante el desarrollo de este matchup, sin retirar el segundo Mega de las 60.",
+        "drill": "Simular cinco manos iniciales con Carrito ante Ogerpon y conseguir 2 Fuego + una Energía cualquiera en Flamariete antes de que el rival lo active."
+      }
+    ],
+    "watch": [
+      "La rendición llegó con 1–0 Premios a favor y sin ataque alguno del Ogerpon rival. No se puede demostrar que la derrota fuera forzosa: buscar Órdenes de Jefes sobre otros Básicos podría crear premios; no atribuir certeza a esa línea sin las 60 y la mano.",
+      "Reshiram ex WHT20 no es un KO inmediato: Explosión Abrasadora hace 130 + 50 por Premio tomado por el rival; cuando rival tiene 0 Premios, solo hace 130 y necesita dos Premios rivales para alcanzar 230.",
+      "Flamariete ex TEF38 no tiene habilidad y hace 260 con 2 Fuego+Incolora; debilita Ogerpon de 210 PS inmediatamente, pero entrega 2 Premios y no puede repetir ese ataque hasta dejar el Activo.",
+      "Primero validar el corte real a las 60 cartas, pues la versión con Denis solo está parcialmente identificada."
+    ],
+    "gameplan": "Contra Garchomp de Cintia con Ogerpon Máscara Cimiento, localizar el muro mientras está en Banca, no llenar todos los espacios con dobles Megas si se incluye Flamariete, preparar 2 Fuego+1 Incolora mediante uniones manuales y Energy Switch desde Moltres y forzar KO 260 al Ogerpon; alternativamente planificar cadena de Boss para Premios en Banca antes de rendirse."
   }
 ]
