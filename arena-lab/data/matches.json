@@ -164,5 +164,21 @@
     "evidence": "log completo",
     "notes": "T1 Petrel→Carrito, trío completo. T2 Denis acelera: Rayquaza 300 a Mega Kang (3 Premios). T3 400 a Talonflame (2). Rival Boss→Zapdos (1 Premio) en lugar de KO al Rayquaza propio con 150 daño. Se rehace Zapdos con habilidad + manual + dos Energy Switch para coste LLLC, 420 por Debilidad a Mega-Ray con Capa y último Premio. Versión con Denis no es japonesa original; resto de 60 sin confirmar.",
     "notion": "https://app.notion.com/p/4125f543d14e8120a182e9ffdf9a5dee"
+  },
+  {
+    "id": "ray8",
+    "deck": "ray-crispin-pending",
+    "date": "2026-11-08",
+    "rival": "R08",
+    "matchup": "Mew / Ferrotesta",
+    "result": "win",
+    "prizes": [
+      2,
+      1
+    ],
+    "finish": "concesión",
+    "evidence": "log completo",
+    "notes": "Mulligan 1. T1 Petrel→Carrito llena trío de aves/Latias/Budew; Budew bloquea Objetos pero Mew ex 30 lo KO (1 Premio rival). T2 Tatsugiri y Lylia encuentran Fuego, Moltres acelera. T3 Lylia encuentra Rayo, Zapdos acelera; Rayquaza tiene potencia de 5 Energías globales (250) y KO Ferrotesta ex por 2 Premios. Rival usa Fezandipiti ex, roba 3 y concede 2–1. Denis se vio en mano, NO se jugó; dos Energy Switch robados no usados. Variante de 60 sin confirmar, distinta a japonesa original.",
+    "notion": "https://app.notion.com/p/4125f543d14e8140abe6f5da4924806b"
   }
 ]
