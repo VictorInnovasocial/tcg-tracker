@@ -244,5 +244,21 @@
     "evidence": "log completo",
     "notes": "Fecha: recepción del log 09/11, no fecha de juego acreditada. Rival inició con Kangaskhan; Talonflame ex 150 al Mega propio expuesto con solo 1 Fuego y siguiente Boss+150 lo debilitó por 3 Premios. Lylia + Tarjeta Roja Especial redujo mano rival 9→3; Zapdos 30C55 con 3 Rayo+1 Fuego venció al primer Talonflame por debilidad (210×2=420, 60 autodaño), 2 Premios. Rival Boss+Talonflame eliminó Moltres (1 Premio) y sus 3 Fuego. Denis+Rayo manual activó segundo Mega-Rayquaza: 7 Energías globales, 350, KO segundo Talonflame (2 Premios). Rival jugó Sello Injusto 14→2 y se rindió antes de atacar. Marcador 4–4, NO victoria por seis Premios ni posición necesariamente ganadora. Versión con Denis 5–1, lista exacta 60 desconocida; no aparece Flamariete ni se confirma corte Budew.",
     "notion": "https://app.notion.com/p/4125f543d14e81638ea4fdc71a09f6a4"
+  },
+  {
+    "id": "ray13",
+    "deck": "ray-crispin-pending",
+    "date": "2026-11-09",
+    "rival": "R13",
+    "matchup": "Mega-Kangaskhan / Talonflame",
+    "result": "win",
+    "prizes": [
+      0,
+      0
+    ],
+    "finish": "concesión rival",
+    "evidence": "log completo, no hubo ataque ni KOs",
+    "notes": "Fecha = recepción del log, no fecha de partida verificada. Rival inicia Kangaskhan ex, baja Talonflame ex con Energía Psíquica. Nuestro T1: Zapdos Activo; Lylia devuelve Fezandipiti ex, Tarjeta Roja Especial, Rayo y 2 Lámparas; roba 8 e incluye Carrito; Carrito baja Articuno/Mega-Rayquaza/Latias/Moltres. Unión manual Rayo y Aleteo Chisporroteante dejan Zapdos con 2 Rayo; Moltres 1 Fuego; retiro Zapdos→Latias, Mega-Rayquaza queda protegido en Banca. Rival T2 baja Clefairy ex de Lylia, Meowth ex, Fezandipiti; Meowth busca Boss para volver Zapdos Activo; rival se rinde antes de atacar, 0–0. Apertura correcta, pero no hay evidencia de KO de Zapdos ni de ventaja determinante. Misma V1.x con Denis atribuida provisionalmente por continuidad; 60 cartas y cambio Flamariete/−Budew no confirmados.",
+    "notion": "https://app.notion.com/p/4125f543d14e816fbeebfc146441f3ed"
   }
 ]
