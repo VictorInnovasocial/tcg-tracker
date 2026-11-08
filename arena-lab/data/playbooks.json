@@ -247,5 +247,28 @@
     ],
     "test": "Registrar T1 de carga, primer turno 6 Energías, ocurrencias de Casco Punki y Torre de Defensa, carreras de Premios cuando Rayquaza entrega 3 y si se activa segunda condición de victoria.",
     "confidence": "Una partida completa 6–5 contra Zoroark de N; versión con Denis sin 60 confirmadas."
+  },
+  {
+    "deck": "ray-crispin-pending",
+    "matchup": "Arboliva / Golisopod",
+    "title": "Rayquaza Aves + Denis vs Arboliva / Mega-Golisopod",
+    "objective": "Sobrevivir al sniping de Arboliva sobre las aves y evitar el intercambio de tres Premios del Mega-Rayquaza contra Golisopod.",
+    "opening": [
+      "Montar trío de aves con Petrel→Carrito para llegar a Energías, pero anticipar que Salva Aceitosa de Arboliva ex puede elegir seis veces entre Pokémon propios e infligir hasta 120 a uno en Banca.",
+      "No conceder gratuitamente una segunda ave si ambas están a rango de la misma Salva Aceitosa. Preparar Denis y otras Energías en mano para continuar si los aceleradores caen.",
+      "El rival puede evolucionar Arboliva con Bosque Vitalidad y presionar Banca de inmediato: valorar sus rutas antes de la retirada inicial."
+    ],
+    "win": [
+      "Arboliva ex tiene 310 PS; Rayquaza 200+200 consigue KO en dos golpes sin necesidad de subir a siete Energías si no hay curación.",
+      "Tarjeta Roja Especial 12→3 más Boss para eliminar Fezandipiti ex reduce el motor rival y suma dos Premios.",
+      "Mega-Golisopod ex tiene 340 PS; Rayquaza con seis Energías hace solo 300. Cuando queden 2 Premios, Boss a Dudunsparce ex (270 PS) ofrece KO directo."
+    ],
+    "avoid": [
+      "Dejar que el plan dependa exclusivamente de las habilidades de Moltres/Zapdos: Arboliva puede eliminar ambas en Banca sin atacar al Activo.",
+      "Atacar con Rayquaza ya dañado a Mega-Golisopod ex sin KO: Golpe de Gracia hace 220 con un contador previo, poniendo en riesgo tres Premios.",
+      "Interpretar una victoria con 4 mulligans rivales como ventaja estadística de matchup."
+    ],
+    "test": "Registrar la energía mantenida tras el KO de Moltres/Zapdos, turnos del primer KO ex, si el rival controla la Banca con Froslass y rutas de Boss para terminar con dos Premios.",
+    "confidence": "Una victoria 6–3 documentada, rival mulligan ×4; no generalizar."
   }
 ]
