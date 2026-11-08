@@ -179,5 +179,28 @@
     ],
     "test": "Registrar Premios entregados por Talonflame y cuáles fueron evitables.",
     "confidence": "Derivado de derrota 3–6 con log."
+  },
+  {
+    "deck": "ray-crispin-pending",
+    "matchup": "Rayquaza",
+    "title": "Rayquaza Aves + Denis vs Rayquaza/Ho-Oh",
+    "objective": "Construir un Mega atacante temprano sin perder la opción de Zapdos de un Premio para cerrar contra Mega-Rayquaza.",
+    "opening": [
+      "Primer turno Petrel→Carrito para reunir las tres aves, Mega Rayquaza y Latias; activar Moltres y Zapdos para cargar Energías.",
+      "Denis puede unir una Energía Rayo al Mega y buscar otra de tipo distinto para la mano, habilitando los 300 de turno 2.",
+      "Revisar cuántos Energías puede cargar el rival por Ho-Oh ex y Rugido Regio antes de exponer el Mega propio."
+    ],
+    "win": [
+      "Rayquaza con 6 Energías globales inflige 300 a Mega-Kangaskhan y con 8 inflige 400 a Talonflame.",
+      "Reservar Zapdos duplicado: 210 × 2 por Debilidad a Mega-Rayquaza = 420, superando Capa de Héroes (380 PS).",
+      "Relámpago Atronador cuesta 3 Rayo + 1 Incolora; si Zapdos nuevo tiene dos Rayo por habilidad y unión manual, necesita dos Energy Switch: uno Rayo y otro de cualquier tipo."
+    ],
+    "avoid": [
+      "No dejar un Mega-Rayquaza tocado expuesto al KO por tres Premios: Talonflame 150 deja 130 de vida y el Ray rival puede infligir 300.",
+      "No regalar Boss sobre un Pokémon de un Premio si puede amenazarse el Mega rival por tres.",
+      "No usar los resultados de esta variante con Denis para inflar la japonesa original V1.0; exactas 60 pendientes."
+    ],
+    "test": "Registrar turnos para KO del primer Mega, número de Energy Switch en el cierre con Zapdos, Premios perdidos por Mega y calidad de respuesta rival.",
+    "confidence": "Una partida completa 6–1, versión exacta sin confirmar."
   }
 ]
