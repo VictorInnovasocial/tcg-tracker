@@ -196,5 +196,21 @@
     "evidence": "log completo",
     "notes": "Rayquaza+Denis T1: 3 Energías, 150 KO Zorua (1 Premio). Boss a Zoroark 200 y siguiente 250 KO (2). Rival Boss → Latias ex, 500 por Debilidad Oscura (2 Premios). 250 al segundo Zoroark ex (280 PS) con Casco Punki devuelve 40 a Ray. Torre de Defensa del Team Rocket anula habilidades Incoloras e impide Rugido Regio del segundo Ray; rival KO primer Mega con Zoroark/Furia Trueno 250 al estar dañado por Casco (3 Premios). KO Tatsugiri rival por 300 (1). Segundo Mega Ray con 4 Energías globales remata por 200 al Zoroark previamente dañado, 2 Premios: victoria 6-5, cuatro KO. Lista con Denis, 60 sin confirmar.",
     "notion": "https://app.notion.com/p/4125f543d14e810bb424d3eb2e42844f"
+  },
+  {
+    "id": "ray10",
+    "deck": "ray-crispin-pending",
+    "date": "2026-11-08",
+    "rival": "R10",
+    "matchup": "Arboliva / Golisopod",
+    "result": "win",
+    "prizes": [
+      6,
+      3
+    ],
+    "finish": "premios",
+    "evidence": "log completo",
+    "notes": "Rival 4 mulligans (+4 cartas propias). Petrel→Carrito T1; Arboliva ex 120 en Banca eliminó Moltres y Zapdos, y Dudunsparce ex con Boss eliminó Articuno: tres aves caídas (3 Premios). Denis/energías manuales sostienen a Rayquaza: 200+200 KO Arboliva ex (2), Tarjeta Roja Especial reduce mano 12→3 + Boss Fezandipiti ex KO 250 (2). Mega-Golisopod ex Golpe de Gracia hace 220 a Ray previamente dañado; Ray sobrevive. Boss final Dudunsparce ex 270 PS, Tormenta 300 con seis Energías, KO de 2 Premios y 6–3. Evita intentar KO al Mega-Golisopod ex de 340 PS con solo 300. Sin error propio acreditado. Variante con Denis V1.x 4–0, lista 60 sin confirmar.",
+    "notion": "https://app.notion.com/p/4125f543d14e8176a2efc7a6677d6d67"
   }
 ]
