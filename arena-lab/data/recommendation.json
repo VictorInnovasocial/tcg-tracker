@@ -1,80 +1,119 @@
 {
-  "version": "2026-11-08",
-  "reviewedAt": "2026-11-08",
-  "status": "recomendación editorial fechada; no garantía de victoria",
+  "version": "2026-11-09",
+  "reviewedAt": "2026-11-09",
+  "status": "recomendación presencial 09–15/11; legalidad occidental pre-DLR, sin sustituciones inventadas",
   "featured": {
-    "id": "cru-niigata",
-    "name": "CRUSTLE / MEGA-KANGASKHAN — Niigata campeón",
-    "focus": "Torneo presencial donde DLR sea legal / online post-DLR",
-    "archetype": "Control de un Premio + Kangaskhan resistente",
-    "evidence": "Campeón City League Niigata 07/11/2026; propia prueba 1–0 vs Dragapult, una partida.",
-    "confidence": "Media como candidata de torneo; baja para pronosticar winrate por matchup.",
+    "id": "slowking-gdansk",
+    "name": "SLOWKING / MEGA-KANGASKHAN EX — Aarni Karjala, Gdańsk 1.º",
+    "focus": "Estándar presencial occidental 09–15/11/2026, sin DLR",
+    "archetype": "Slowking Seek Inspiration / manipulación del top deck + Mega-Kangaskhan ex",
+    "evidence": "1.º Gdańsk 31/10–01/11, 1739 jugadores, 14-1-2; 88 Slowking en field y 2 Top16.",
+    "confidence": "Media-alta selección, no winrate por matchup",
     "why": [
-      "Primer puesto documentado con las 60 cartas completas.",
-      "Plan de Premios atractivo frente a rivales que dependen de Pokémon ex.",
-      "Paquete amplio de curación, Energías Neblina y Espinosas para ganar turnos.",
-      "El usuario ya conoce sus decisiones: 6–0 propio contra Dragapult con 340 PS curados."
+      "Ganó el Regional más reciente documentado de 1739 jugadores y 4 Dragapult entraron al Top8.",
+      "Lista 60 íntegra y verificable, construida antes de Delta Reign; no incluye DLR.",
+      "Academy at Night + Ciphermaniac's Codebreaking permiten preparar ataques copiados por Slowking, con Kyurem/Metagross como objetivos.",
+      "Mega-Kangaskhan ex y Latias ex aportan consistencia y movilidad."
     ],
     "risks": [
-      "Moltres no ex de Fuego, ataques que ignoran el muro de Crustle y herramientas que cambian sus PS.",
-      "Dependencia total de 12 Energías Especiales y amenazas de descarte.",
-      "Aperturas con mulligans por solo 7 Pokémon Básicos.",
-      "La carta DLR Bolita de Arroz Sabrosa podría no estar habilitada en eventos presenciales occidentales aún."
+      "Dependencia de manipular el tope y preparar Slowking; disrupción y presión sobre Slowpoke.",
+      "Deck de dos Premios de apoyo (Mega Kangaskhan ex concede tres), plan de Premios adversario.",
+      "No extrapolar un campeonato a winrate general; solo 88 jugadores Slowking en Gdańsk.",
+      "Delta Reign aún no elegible en presencial occidental antes del 20/11."
     ],
     "gameplan": [
-      "Abrir Mega-Kangaskhan para mantener robo constante mientras evoluciona Dwebble.",
-      "Contra Dragapult, asegurar Energía Neblina en Crustle antes de los contadores.",
-      "Si el rival depende de ex, cerrar con Crustle de 1 Premio; contra atacantes no ex gestionar curación y Boss.",
-      "No cortar Ventilador de Mano sin analizar su valor de disrupción energética."
+      "Contra Dragapult, proteger Slowpoke/Slowking y secuenciar Ciphermaniac + Academy para presión de ataques copiados.",
+      "Contra Basic Box, mapear inmunidades y escoger objetivo de ataque copiado sin asumir texto de cartas.",
+      "Contra Zoroark de N, no regalar Mega Kangaskhan de tres Premios y presionar su motor de robo.",
+      "Contra Crustle, identificar atacantes no ex o rutas que superen inmunidades antes de seleccionar cuatro Pokémon.",
+      "Contra Slowking espejo, disputar Academy at Night y recursos de manipulación de top deck."
     ],
     "source": {
-      "title": "Ryūichi · Niigata City League, lista completa",
-      "url": "https://pokeka-win-decks.jp/season/30th-celebration/event/1115236/deck/MEppUp-eK8Lcm-Rp2Myy"
+      "title": "Aarni Karjala, 1.º Regional Gdańsk, lista exacta de 60",
+      "url": "https://www.limitlesstcg.com/tournaments/584/decklists"
     },
-    "notion": "https://app.notion.com/p/4115f543d14e8148b0dbe5869dba2329",
-    "deckCode": "MEppUp-eK8Lcm-Rp2Myy",
+    "alternateSource": {
+      "title": "Desglose 60 con identificadores",
+      "url": "https://thetoploader.com/meta/winning-decks/regional-gdansk-2026/1"
+    },
     "sections": [
       {
         "name": "Pokemon",
-        "count": 10,
+        "count": 22,
         "cards": [
+          {
+            "qty": 4,
+            "name": "Slowpoke SCR 057"
+          },
+          {
+            "qty": 3,
+            "name": "Slowking SCR 058"
+          },
           {
             "qty": 4,
             "name": "Mega Kangaskhan ex MEG 104"
           },
           {
-            "qty": 3,
-            "name": "Dwebble DRI 11"
+            "qty": 2,
+            "name": "Latias ex SSP 076"
           },
           {
-            "qty": 3,
-            "name": "Crustle DRI 12"
+            "qty": 2,
+            "name": "Metagross CRI 061"
+          },
+          {
+            "qty": 2,
+            "name": "Kyurem SFA 047"
+          },
+          {
+            "qty": 1,
+            "name": "Fezandipiti ex ASC 142"
+          },
+          {
+            "qty": 1,
+            "name": "Zeraora DRI 078"
+          },
+          {
+            "qty": 1,
+            "name": "Lillie's Clefairy ex ASC 076"
+          },
+          {
+            "qty": 1,
+            "name": "Meowth ex POR 062"
+          },
+          {
+            "qty": 1,
+            "name": "Mew ex 30C 066"
           }
         ]
       },
       {
         "name": "Trainer",
-        "count": 38,
+        "count": 28,
         "cards": [
           {
             "qty": 4,
-            "name": "Jumbo Ice Cream PFL 91"
+            "name": "Ciphermaniac's Codebreaking TEF 145"
           },
           {
             "qty": 4,
-            "name": "Tasty Rice Ball DLR 101"
+            "name": "Lillie's Determination MEG 119"
           },
           {
             "qty": 4,
-            "name": "Pokégear 3.0 SVI 186"
-          },
-          {
-            "qty": 1,
-            "name": "Buddy-Buddy Poffin TEF 144"
-          },
-          {
-            "qty": 1,
             "name": "Ultra Ball MEG 131"
+          },
+          {
+            "qty": 4,
+            "name": "Poké Pad POR 081"
+          },
+          {
+            "qty": 3,
+            "name": "Wondrous Patch PFL 094"
+          },
+          {
+            "qty": 2,
+            "name": "Night Stretcher ASC 196"
           },
           {
             "qty": 1,
@@ -82,66 +121,42 @@
           },
           {
             "qty": 1,
-            "name": "Handheld Fan TWM 150"
+            "name": "Secret Box TWM 163"
           },
           {
             "qty": 1,
-            "name": "Hero's Cape TEF 152"
+            "name": "Lucky Helmet TWM 158"
           },
           {
             "qty": 4,
-            "name": "Team Rocket's Petrel DRI 176"
-          },
-          {
-            "qty": 4,
-            "name": "Boss's Orders MEG 114"
-          },
-          {
-            "qty": 4,
-            "name": "Lillie's Determination MEG 119"
-          },
-          {
-            "qty": 3,
-            "name": "Hilda WHT 84"
-          },
-          {
-            "qty": 2,
-            "name": "Eri TEF 146"
-          },
-          {
-            "qty": 1,
-            "name": "Xerosic's Machinations SFA 64"
-          },
-          {
-            "qty": 1,
-            "name": "Pokémon Center Lady MEG 123"
-          },
-          {
-            "qty": 2,
-            "name": "Lumiose City POR 77"
+            "name": "Academy at Night SFA 054"
           }
         ]
       },
       {
         "name": "Energy",
-        "count": 12,
+        "count": 10,
         "cards": [
           {
             "qty": 4,
-            "name": "Growing Grass Energy POR 86"
+            "name": "Basic Psychic Energy MEE 005"
           },
           {
             "qty": 4,
-            "name": "Spiky Energy JTG 159"
+            "name": "Telepathic Psychic Energy POR 088"
           },
           {
-            "qty": 4,
-            "name": "Mist Energy TEF 161"
+            "qty": 2,
+            "name": "Boomerang Energy TWM 166"
           }
         ]
       }
     ],
-    "totalCards": 60
+    "legal": {
+      "status": "comprobación de corte de expansión superada; auditoría de promos y erratas individuales pendiente",
+      "format": "H/I/J, sin DLR",
+      "note": "La lista fue utilizada en Gdańsk pre-DLR. Mew ex 30C 066 corresponde a una impresión de colección 30C: cotejar equivalencia/reimpresión con Mew ex legal antes de registrar una lista para torneo. No confundir carta impresa con legalidad por código."
+    }
   },
   "alternatives": [
     {
@@ -157,6 +172,61 @@
       "use": "Prioridad del radar meta. Requiere escoger y verificar una lista de 60 cartas concreta antes de aconsejar copiarla.",
       "confidence": "Media sobre presencia JP Top16, no sobre winrate individual.",
       "source": "https://www.pokemoncard151.com/chronicle.php?p=city-weekly-2026-11-02"
+    }
+  ],
+  "deckToBeat": {
+    "name": "Dragapult ex (todas las variantes)",
+    "fieldShare": 29.1,
+    "fieldCount": 505,
+    "day2Count": 107,
+    "day2Share": 33.13,
+    "top8": 4,
+    "top16": 7,
+    "source": "https://www.limitlesstcg.com/tournaments/584/statistics",
+    "plan": "Evolucionar Dragapult ex, presionar Activo y Banca con Phantom Dive, convertir daño distribuido en KO múltiples.",
+    "weaknesses": [
+      "Slowpoke/Dreepy expuestos en desarrollo, presión sobre motores y recursos de evolución.",
+      "Distribución de contadores mitigable mediante protección de Banca y rutas de Premios.",
+      "Slowking con preparación de top deck demostró capacidad de vencerlo, pero sin porcentaje universal verificado."
+    ],
+    "winrate": "No verificado en muestra agregada",
+    "conversion": "Day2 107/505 ~21.2%; Top8 4/505 ~0.79% (no es winrate)"
+  },
+  "matchups": [
+    {
+      "vs": "Dragapult ex",
+      "priority": "máxima",
+      "confidence": "media"
+    },
+    {
+      "vs": "Basic Box",
+      "priority": "alta",
+      "confidence": "baja"
+    },
+    {
+      "vs": "Slowking espejo",
+      "priority": "alta",
+      "confidence": "baja"
+    },
+    {
+      "vs": "N's Zoroark ex",
+      "priority": "media",
+      "confidence": "baja"
+    },
+    {
+      "vs": "Crustle",
+      "priority": "media",
+      "confidence": "baja"
+    }
+  ],
+  "antimeta": [
+    {
+      "name": "Rocket's Honchkrow",
+      "evidence": "2.º Gdańsk 1739 jugadores; requiere auditoría exacta de 60 antes de recomendar presencial."
+    },
+    {
+      "name": "Crustle",
+      "evidence": "4.º Gdańsk; evitar lista Niigata con Tasty Rice Ball DLR 101 antes de 20/11."
     }
   ]
 }
