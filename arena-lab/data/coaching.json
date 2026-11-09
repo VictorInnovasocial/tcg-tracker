@@ -361,5 +361,29 @@
       "El rival aún tenía Genesect y dos Dunsparce; no deducir que la partida estuviera matemáticamente cerrada tras KO a Kadabra."
     ],
     "gameplan": "Versión nueva, no Niigata: salida con Kang + Capa + tres Especiales y Crustle evolucionado en Banca, mientras un Boss temprano elimina Kadabra/Drakloak u otro motor. Con Alakazam MEG56 no ex, Mist Energy es esencial porque Mano Poderosa coloca contadores por cada carta de la mano del atacante, no daño convencional: la habilidad anti-ex de Crustle no basta. Usar Aarune DLR89 para encontrar juntas ambas mitades 98/99 de Abismo Legendario; cuando se jueguen como un único Estadio, un Helado Colosal a Kang/Crustle con 3+ Energías cura hasta 160 en vez de 80 (efecto simétrico también beneficia al rival). Medir curación real y si hay diferencia frente a cuatro Bolitas de Arroz de Niigata."
+  },
+  {
+    "id": "cru-trench2",
+    "grade": 9,
+    "headline": "Ascensión T1 y Crustle solo: cinco ataques, 3 Premios y Meganium KO por triple Energía Espinosa",
+    "confidence": "Log completo, victoria 3–0 por rendición; KO de Meganium por contraataque reflejado demostrado. No se jugó Abismo Legendario. Curación efectiva deducida de daño registrado; no hay fecha de juego acreditada. Muestra V1.0 n=2.",
+    "good": [
+      "Dos mulligans no impidieron plan B: Dwebble Activo, Energía Espinosa y ataque Ascensión para evolucionar a Crustle en el primer turno propio, sin necesidad de Kangaskhan.",
+      "Petrel→Ventilador de Mano y Fábrica Rocket produjeron control posicional y robo +2; Ventilador desplazó Energía Planta del Ivysaur al Fezandipiti de Banca en dos ataques, y Fábrica robó cuatro cartas acumuladas en dos activaciones.",
+      "Crustle con Growing Grass y Energía Espinosa soportó ataques de Ivysaur (60) y remató dos Ivysaur con Tijeras Espléndidas 120, cosechando dos Premios.",
+      "Ante Fezandipiti ex, la habilidad Casapiedra Misteriosa evitó por completo Flecha Cruel (0), demostrando su papel anti-ex.",
+      "Boss a Meganium y 120 previamente colocados prepararon KO en turno rival: Rayo Solar por 140 activó triple Spiky (3×20 =60) para 180 acumulados sobre 160 PS, KO Meganium sin consumir nuevo ataque propio.",
+      "Tercer Helado curó 80 tras recibir 140, se preparó segundo Crustle con Capa de Héroes y el Activo siguió golpeando a Fezandipiti ex antes de rendición rival."
+    ],
+    "errors": [],
+    "watch": [
+      "Dos mulligans (oponente +2 cartas): con ocho Básicos la consistencia de la apertura sigue siendo una hipótesis, no un porcentaje observado generalizable.",
+      "El log registra tres Helados Colosales por '80 curados' (nominal 240); sin daño distinto de dos golpes de Ivysaur de 60 y golpe Meganium de 140, la curación efectiva máxima observada fue 60+60+80=200. No sumar 240 como HP real restaurado.",
+      "Abismo Legendario DLR98 y DLR99 NO se combinaron: primero se toma una mitad como Premio, después vuelve al mazo por Juez y luego se roba una mitad con Lylia. La duplicación de Helado 80→160 sigue sin comprobarse tras dos partidas.",
+      "El propio Crustle acumuló 3 Energías Espinosas y 3 Crecientes; el segundo Crustle preparado con Capa acabó sin Energías. Es concentración útil para el KO, pero abre una ruta de recuperación lenta ante KO o descarte de Energía Especial.",
+      "Meganium es de un Premio y tenía 160 PS, no es ex: su Rayo Solar de 140 dañó de verdad a Crustle. Tres Spiky reflejan 60 por tres energías sobre el atacante, aunque el log invierta el sujeto en algunas líneas. Frente a Fezandipiti ex la protección por habilidad sí previno daño.",
+      "Rival no atacó con Mega-Venusaur ex. El Mega recibió 120 de Crustle y luego se retiró; no afirmar que Mega-Venusaur fuera eliminado ni que la partida fuera matemáticamente obligada."
+    ],
+    "gameplan": "Contra Mega-Venusaur/Meganium, se puede salir Dwebble→Crustle mediante Ascensión T1 propio. Equipar una Growing Grass y Spiky para permitir ataques GCC (120); preparar Fans y curación. No gastar KO sobre ex blindado si hay Ivysaur/Meganium no ex que avanzan motor; Boss a Meganium y anticipar su ataque: 120 + triple Spiky (60) elimina Meganium de 160 PS y cobra un Premio en turno rival. La habilidad bloquea daño de Fezandipiti ex, no de Ivysaur/Meganium. Conservar segundo Crustle y diversificar Energías cuando sea posible. La línea de Abismo Legendario + Aarune aún debe probarse; el plan observado fue Fábrica + Petrel y Helado normal."
   }
 ]
