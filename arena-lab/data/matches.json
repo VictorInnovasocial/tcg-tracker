@@ -260,5 +260,21 @@
     "evidence": "log completo, no hubo ataque ni KOs",
     "notes": "Fecha = recepción del log, no fecha de partida verificada. Rival inicia Kangaskhan ex, baja Talonflame ex con Energía Psíquica. Nuestro T1: Zapdos Activo; Lylia devuelve Fezandipiti ex, Tarjeta Roja Especial, Rayo y 2 Lámparas; roba 8 e incluye Carrito; Carrito baja Articuno/Mega-Rayquaza/Latias/Moltres. Unión manual Rayo y Aleteo Chisporroteante dejan Zapdos con 2 Rayo; Moltres 1 Fuego; retiro Zapdos→Latias, Mega-Rayquaza queda protegido en Banca. Rival T2 baja Clefairy ex de Lylia, Meowth ex, Fezandipiti; Meowth busca Boss para volver Zapdos Activo; rival se rinde antes de atacar, 0–0. Apertura correcta, pero no hay evidencia de KO de Zapdos ni de ventaja determinante. Misma V1.x con Denis atribuida provisionalmente por continuidad; 60 cartas y cambio Flamariete/−Budew no confirmados.",
     "notion": "https://app.notion.com/p/4125f543d14e816fbeebfc146441f3ed"
+  },
+  {
+    "id": "cru-trench1",
+    "deck": "cru-trench-v1",
+    "date": "2026-11-10",
+    "rival": "C02",
+    "matchup": "Genesect / Kadabra / Dunsparce (Alakazam potencial)",
+    "result": "win",
+    "prizes": [
+      null,
+      null
+    ],
+    "finish": "concesión rival tras KO a Kadabra; premio no recogido en log",
+    "evidence": "log completo; sin cobro de Premios",
+    "notes": "Día 10/11 corresponde a recepción del log, fecha real no consignada. 1 mulligan sin Básico; rival recibe +1 carta. Mega-Kangaskhan ex Activo usa Recado (roba 2) en cada uno de tres turnos propios. T1 Capa de Héroes (+100 PS) + Energía Espinosa. T2 Dwebble a Banca, Hilda busca Crustle y Mist, Mist a Kang; rival Abra→Kadabra usa Robo Psíquico +2 y baja Dunsparce×2. T3 Dwebble→Crustle en Banca, segundo Mist a Kang: Spiky + 2 Mist = CCC, Boss a Kadabra y Combo Ráfaga 200 (0 caras) logra KO. Rival se rinde antes de que aparezca recogida de Premio; se consigna KO, no 1–0 Premios confirmado. No hubo ataque rival, curación, Abismo Legendario ni ataque de Crustle. La lista es NUEVA versión de 60 con pareja DLR98+99 (una sola activación posible), Azurill y Aarune; no sumar a Niigata V1.0 1–0. Contra Alakazam MEG56 hipotético, Mist sí evita contadores de Mano Poderosa, pero Alakazam no apareció.",
+    "notion": "https://app.notion.com/p/4135f543d14e8171bcb1f90bc0bbd52e"
   }
 ]
