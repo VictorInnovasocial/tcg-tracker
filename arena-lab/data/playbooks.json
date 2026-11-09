@@ -376,5 +376,33 @@
     ],
     "test": "Completar 10 manos y cinco partidas contra versión real de Alakazam MEG56, registrando primer turno con Kang listo, protección Mist Energy en Kang y Crustle, oportunidades de Boss a Kadabra, fecha y uso real de la pareja Abismo DLR98+DLR99, curación efectiva con 3+ Energías, marcador de Premios separado de KO y supervivencia hasta turno 6.",
     "confidence": "1 victoria por rendición tras KO a Kadabra, no Alakazam; el texto de carta respalda el plan, pero la oposición final y el efecto de Abismo no fueron observados."
+  },
+  {
+    "deck": "cru-trench-v1",
+    "matchup": "Mega-Venusaur ex / Meganium / Ogerpon Turquesa",
+    "title": "Crustle Abismo V1.0 vs Mega-Venusaur / Meganium / Ogerpon Turquesa",
+    "objective": "Atacar con Crustle de 1 Premio desde primer turno si sale Dwebble; bloquear daño ex y sacar ventaja por Espinosa + Ventilador contra los atacantes no ex.",
+    "opening": [
+      "Si sale Dwebble Activo al ir segundo, unir una Energía Especial y usar Ascensión para convertirlo en Crustle inmediatamente; la fuente real de victoria no exige Mega-Kangaskhan como Activo.",
+      "Buscar Energía Planta Creciente para habilitar Tijeras Espléndidas GCC e incrementar PS de Crustle (150+20 por Growing), manteniendo Espinosa para castigar atacantes que sí causan daño.",
+      "Usar Petrel para buscar Handheld Fan y Fábrica Team Rocket para robar 2 una vez tras jugar Petrel; desplazar Energía Planta desde Ivysaur al Fezandipiti ex si Crustle recibe daño real.",
+      "Preservar la segunda copia de Crustle y considerar reparto de Energías; concentrar 3 Espinosas solo si la matemática del KO o supervivencia justifica no diversificar."
+    ],
+    "win": [
+      "Tijeras Espléndidas 120 elimina a Ivysaur pequeños; en el log fueron dos KOs de un Premio y se frenó evolución hacia Mega-Venusaur.",
+      "Boss a Meganium de 160 PS y ataque 120 deja 40 de margen: con dos Energías Espinosas (20+20) activadas por su ataque sería KO; con tres Espinosas son 60 y se comprueba KO en el log.",
+      "Fezandipiti ex no logra dañar Crustle mediante Flecha Cruel por Casapiedra Misteriosa (0 confirmado); pero el Estadio Bosque Vitalidad puede permitir Mega-Venusaur temprano y no prueba que Mega-Venusaur no pueda responder con otras tácticas.",
+      "Tras Ivysaur 60 y Meganium 140, Jumbo Ice Cream cura hasta 80 al Activo con 3+ Energías; en partida fueron tres usos nominales 80, pero recuperación efectiva por daño observado 60+60+80=200.",
+      "Un segundo Crustle con Hero's Cape en Banca ofrece contingencia defensiva; debe recibir Energía para que sea condición ofensiva, no solo estar preparado."
+    ],
+    "avoid": [
+      "No asumir que Crustle es inmune a Meganium o Ivysaur: no son ex y sus ataques dañaron 60/140.",
+      "No usar como evidencia del combo Abismo×Helado una partida que solo usó Fábrica Rocket; Abismo nunca entró a mesa.",
+      "No confundir el Fezandipiti ex rival con propio ni interpretar líneas invertidas de Energía Espinosa como daño a nuestro Meganium: el rival es quien recibe los contadores y queda KO.",
+      "No afirmar que el KO por triple Espinosa prueba superioridad vs todo el arquetipo Planta, porque Mega-Venusaur ex rival no llegó a atacar.",
+      "No contar las dos primeras curaciones como 80 efectivos cuando solo se han observado 60 de daño previo en cada ocasión."
+    ],
+    "test": "Jugar al menos 5 BO1 completos y probar 2 BO3 si procede; registrar frecuencia de Ascensión desde Dwebble, Energías Espinosas necesarias para KO Meganium 160 tras ataque 120, cuántas veces Ventilador mueve Energía, daño/curación efectivos, utilización de Abismo Legendario DLR98+99 (pareja completa), turnos hasta primer ataque Mega-Venusaur ex y capacidad de respuesta del segundo Crustle.",
+    "confidence": "Una victoria propia 3–0 por rendición, log completo; ataque de Ivysaur/Meganium y daño 0 de Fezandipiti observados. Abismo no probado, Mega-Venusaur ex no atacó y no hay historial BO3."
   }
 ]
