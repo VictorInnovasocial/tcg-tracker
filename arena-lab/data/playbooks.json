@@ -349,5 +349,32 @@
     ],
     "test": "Control de 8-12 partidas BO1 y 3-5 BO3 con lista rival de 60 exacta del vídeo, reservando estados con Dusknoir desde T2. Registrar T2 primer Talonflame, Dusknoir por turno, premios entregados por auto-KOs, KOs 150+130 sobre Ray, KOs 130 sobre Zapdos, número de Energías Ignición restantes y si se activa Acerola + Tarjeta Roja. Comparar selecciones con Zapdos activo vs Latias ex activo. Fuente: https://youtu.be/qV107HMQoWM",
     "confidence": "KNOWLEDGE/hipótesis basada en texto de cartas + lista externa y transcripción del vídeo publicado 08/11/2026. 0 pruebas directas del usuario frente a la lista 60 exacta, sin winrate comprobado."
+  },
+  {
+    "deck": "cru-trench-v1",
+    "matchup": "Genesect / Kadabra / Alakazam potencial",
+    "title": "Crustle Abismo V1.0 vs Genesect / Kadabra / Alakazam (potencial)",
+    "objective": "Preservar motor Kangaskhan y evitar que evolucione Kadabra a Alakazam, que atacaría con contadores de daño e ignora el bloqueo anti-ex de Crustle.",
+    "opening": [
+      "Buscar Kangaskhan ex Activo con Capa de Héroes, Recado +2 y tres Energías especiales (Espinosa/Neblina) para llegar a Combo Ráfaga CCC: 200 base incluso sin caras.",
+      "Bajar Dwebble en Banca y preparar Crustle; tener Energía Neblina para evitar efectos de ataques como Mano Poderosa de Alakazam MEG56. Mist no evita daño, sí contadores causados como efectos.",
+      "Priorizar Boss a Kadabra si es único eslabón evolutivo y se garantiza KO con el ataque. En el único log, esa secuencia hizo 200 y rival concedió: no demuestra KO forzado de Alakazam.",
+      "Aarune DLR89 puede buscar dos mitades Abismo Legendario DLR98+99 en el mismo turno de Partidario; ambas en mano son necesarias para poner Estadio de curación ×2."
+    ],
+    "win": [
+      "Interrumpir línea Abra→Kadabra→Alakazam antes de que Alakazam no ex coloque contadores de daño sobre el Activo por tamaño de SU propia mano.",
+      "Mega-Kangaskhan con Hero's Cape tiene 400 PS y con Jumbo Ice Cream PFL91 y 3 Energías puede curar 80; si está Abismo Legendario 98+99, cura hasta 160 de daño real.",
+      "Crustle de 1 Premio bloquea el daño de ataques Pokémon ex rivales, pero no contadores de Mano Poderosa de Alakazam no ex. Combinar Neblina y Crustle para evitar ese efecto de ataque.",
+      "Si un Pokémon no ex como Kadabra queda a rango 200, Boss puede comprar tiempo de desarrollo rival y cobrar un Premio, aunque siempre verificar Premios realmente recogidos."
+    ],
+    "avoid": [
+      "No afirmar que el rival jugaba Alakazam: el log solo mostró Abra/Kadabra, Genesect y Dunsparce.",
+      "No asignar 1–0 en Premios confirmados a la partida: hubo KO Kadabra pero rendición antes de la recogida registrada.",
+      "No tratar DLR98 y 99 como dos estadios independientes: necesitan entrar juntos desde mano y constituyen una sola pareja; si una mitad va a Premios, el Estadio no se puede jugar.",
+      "No inferir que Crustle bloquea a Alakazam de MEG56: su Mano Poderosa coloca contadores (efecto del ataque), y el atacante no es ex.",
+      "No declarar probada la combinación doble curación de Abismo con Helado Colosal a partir de una partida en la que no se usó."
+    ],
+    "test": "Completar 10 manos y cinco partidas contra versión real de Alakazam MEG56, registrando primer turno con Kang listo, protección Mist Energy en Kang y Crustle, oportunidades de Boss a Kadabra, fecha y uso real de la pareja Abismo DLR98+DLR99, curación efectiva con 3+ Energías, marcador de Premios separado de KO y supervivencia hasta turno 6.",
+    "confidence": "1 victoria por rendición tras KO a Kadabra, no Alakazam; el texto de carta respalda el plan, pero la oposición final y el efecto de Abismo no fueron observados."
   }
 ]
