@@ -1,13 +1,14 @@
 {
-  "version": "2026-11-08",
-  "reviewedAt": "2026-11-08",
-  "nextReviewPlanned": "2026-11-09",
-  "status": "corte parcial (City League JP hasta 07/11)",
+  "version": "2026-11-09",
+  "reviewedAt": "2026-11-09",
+  "nextReviewPlanned": "2026-11-16",
+  "status": "Radar presencial 09/11 · último Regional Gdańsk 31/10–01/11; DLR aún no elegible en torneos occidentales",
   "format": "Pokémon TCG Estándar · No Pocket",
   "deltaReign": {
     "releaseDate": "2026-11-06",
-    "warning": "Disponible en TCG Live desde su lanzamiento; comprobar fecha de habilitación presencial por país y formato. No aplicar automáticamente un resultado JP a torneo occidental.",
-    "note": "Los eventos de principios de noviembre pueden estar bajo distintos calendarios de legalidad."
+    "earliestInPersonEligibility": "2026-11-20",
+    "status": "NO ELEGIBLE en presencial occidental del 09–15 noviembre, sujeto a excepciones de organizador y promo",
+    "source": "https://www.pokemon.com/us/news/2026-pokemon-tcg-standard-format-rotation-announcement"
   },
   "japan": {
     "period": "02–08 noviembre 2026",
@@ -94,12 +95,30 @@
   "inPerson": {
     "recent": {
       "event": "Regional Gdańsk",
-      "date": "2026-10-31",
+      "date": "2026-10-31/2026-11-01",
       "players": 1739,
-      "note": "Último gran Regional de referencia pre-Delta; no mezclar con resultados post-DLR.",
+      "day2": 323,
+      "format": "TEF–30C, pre-DLR",
+      "winner": "Slowking (Aarni Karjala, 14-1-2)",
+      "runnerUp": "Team Rocket's Honchkrow",
+      "dragapult": {
+        "field": 505,
+        "fieldShare": 29.1,
+        "day2": 107,
+        "day2Share": 33.13,
+        "top8": 4,
+        "top16": 7,
+        "top8Share": 50
+      },
+      "slowking": {
+        "field": 88,
+        "fieldShare": 5.06,
+        "top16": 2,
+        "winner": true
+      },
       "source": {
-        "title": "Limitless — torneos y regionales",
-        "url": "https://limitlesstcg.com/"
+        "title": "Limitless Gdańsk",
+        "url": "https://limitlesstcg.com/tournaments/584/decklists"
       }
     },
     "cityWinner": {
@@ -117,19 +136,24 @@
   },
   "summary": [
     {
-      "title": "Dragapult marca la referencia del formato japonés",
-      "evidence": "173 de 1.052 entradas Top16 en la categoría «Poipoi», 19 títulos en 76 City Leagues; otras variantes de Dragapult también aparecen.",
-      "confidence": "Media para tendencia en Top16 JP; no equiparar a win rate global."
+      "title": "MAZO A BATIR: Dragapult ex (familia)",
+      "evidence": "505/1739 (29.1%) del field Gdańsk, 107/323 (33.13%) de Day2, 4/8 Top8 y 7/16 Top16. Su conversión a Day2 ~21.2% vs media 18.6%; no es winrate.",
+      "confidence": "Alta para presencia, media para conversión; datos de un Regional."
     },
     {
-      "title": "Slowking y Alakazam ganan visibilidad",
-      "evidence": "Slowking 54 entradas Top16 (5,2 %) y Alakazam 37 (3,5 %) en el corte; incremento frente a semana anterior según fuente.",
-      "confidence": "Media-baja por cambios de volumen de torneos."
+      "title": "QUÉ JUGAR: Slowking / Mega Kangaskhan ex — lista Aarni Karjala",
+      "evidence": "Campeón Gdańsk 1739 jugadores (14-1-2), 2 Slowking Top16 entre 88 en field; lista 60 de pre-DLR y sin DLR.",
+      "confidence": "Media-alta para selección pre-DLR, baja para winrate predictivo."
     },
     {
-      "title": "Crustle es una opción de torneo acreditada, no un Tier 1 confirmado",
-      "evidence": "Ganó la City League de Niigata; nuestra copia de esa lista lleva un único resultado propio 1–0 frente a Dragapult.",
-      "confidence": "Baja-moderada para generalizar, alta para existencia de resultado."
+      "title": "City League JP: indicador, no legalidad occidental",
+      "evidence": "Corte previo 76 City Leagues, 1052 entradas Top16, Dragapult Poipoi 173 (16.5%), 19 títulos; Japón y oeste no comparten exactamente calendario.",
+      "confidence": "Media; resumen hasta 07/11, resultados 08/11 no agregados de forma exhaustiva."
+    },
+    {
+      "title": "Limitless Play online separado",
+      "evidence": "Elite Four Fridays 07/11: 69 jugadores, 64 listas clasificadas; Alakazam/Dudunsparce 7, Ogerpon/Meganium/Hydrapple 5, Mega Greninja 5, Dragapult 4. No es muestra presencial.",
+      "confidence": "Baja para extrapolación a Regional."
     }
   ],
   "sources": [
@@ -149,5 +173,16 @@
       "title": "Crustle ganador Niigata",
       "url": "https://pokeka-win-decks.jp/season/30th-celebration/event/1115236/deck/MEppUp-eK8Lcm-Rp2Myy"
     }
-  ]
+  ],
+  "validation": {
+    "standardRegulation": "H/I/J",
+    "rotationInPerson": "2026-04-10",
+    "dlrRelease": "2026-11-06",
+    "dlrInPersonNotBefore": "2026-11-20",
+    "source": "https://www.pokemon.com/us/news/2026-pokemon-tcg-standard-format-rotation-announcement",
+    "notionCatalog": "https://app.notion.com/p/40c5f543d14e81049a81f6e0168efd85",
+    "notionAtlas": "https://app.notion.com/p/40c5f543d14e81929dd9f7d121a1c0ff",
+    "notes": "60 cartas Slowking verificadas por lista Gdańsk pre-DLR; ninguna DLR. Revisar elegibilidad de promos específicas y reglas del organizador; no consta errata nueva validada."
+  },
+  "comparisonToPrevious": "08/11 recomendaba Crustle/Mega-Kangaskhan Niigata (lista con DLR 101, no elegible presencial occidental esta semana); 09/11 recomienda Slowking/Mega-Kangaskhan de Gdańsk pre-DLR, con lista 60. Dragapult sigue a batir."
 }
