@@ -276,5 +276,21 @@
     "evidence": "log completo; sin cobro de Premios",
     "notes": "Día 10/11 corresponde a recepción del log, fecha real no consignada. 1 mulligan sin Básico; rival recibe +1 carta. Mega-Kangaskhan ex Activo usa Recado (roba 2) en cada uno de tres turnos propios. T1 Capa de Héroes (+100 PS) + Energía Espinosa. T2 Dwebble a Banca, Hilda busca Crustle y Mist, Mist a Kang; rival Abra→Kadabra usa Robo Psíquico +2 y baja Dunsparce×2. T3 Dwebble→Crustle en Banca, segundo Mist a Kang: Spiky + 2 Mist = CCC, Boss a Kadabra y Combo Ráfaga 200 (0 caras) logra KO. Rival se rinde antes de que aparezca recogida de Premio; se consigna KO, no 1–0 Premios confirmado. No hubo ataque rival, curación, Abismo Legendario ni ataque de Crustle. La lista es NUEVA versión de 60 con pareja DLR98+99 (una sola activación posible), Azurill y Aarune; no sumar a Niigata V1.0 1–0. Contra Alakazam MEG56 hipotético, Mist sí evita contadores de Mano Poderosa, pero Alakazam no apareció.",
     "notion": "https://app.notion.com/p/4135f543d14e8171bcb1f90bc0bbd52e"
+  },
+  {
+    "id": "cru-trench2",
+    "deck": "cru-trench-v1",
+    "date": "2026-11-10",
+    "rival": "C03",
+    "matchup": "Mega-Venusaur ex / Meganium / Ogerpon Turquesa / Fezandipiti ex",
+    "result": "win",
+    "prizes": [
+      3,
+      0
+    ],
+    "finish": "concesión rival",
+    "evidence": "log completo",
+    "notes": "Fecha de recepción 10/11, juego real sin fecha acreditada. Dos mulligans propios (+2 cartas rivales); salida Dwebble Activo → Crustle usando Ascensión T1 propio. Sin Mega-Kangaskhan Activo ni utilizado. Crustle usa Tijeras Espléndidas 120 cinco veces: KO primer Ivysaur (1 Premio), segundo Ivysaur (1), 120 a Meganium, 120 a Mega-Venusaur ex, 120 a Fezandipiti ex; tres Espinosas en Crustle reflejan 60 al Meganium tras su Rayo Solar 140, acumulado 120+60=180 y KO Meganium 160 PS (tercer Premio). Habilidad Casapiedra evita 100% del daño de Flecha Cruel de Fezandipiti ex (0). Ventilador de Mano mueve Energía Planta del atacante a Fezandipiti ex dos veces; Fábrica Team Rocket+Petrel roba 2+2. Tres Helados reportados como 80×3 en log, pero la curación útil deducida por daño observado es 60+60+80=200, no 240. Una mitad Abismo Legendario desde Premios devuelta luego al mazo por Juez; no se jugó Abismo, no se duplicó curación. Al final segundo Crustle en Banca con Capa de Héroes sin Energías ni ataque. Victoria por concesión 3–0; muestra Abismo 2–0, Niigata 1–0 aparte.",
+    "notion": "https://app.notion.com/p/4135f543d14e81e99709fa66c05ce6a9"
   }
 ]
