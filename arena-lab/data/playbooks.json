@@ -320,5 +320,34 @@
     ],
     "test": "Contrastar las partidas 006 (T1 Zapdos→Mega-Ray, 3 Premios cedidos por Talonflame+Boss) y 007 (T1 Zapdos→Latias, rival Boss a Zapdos y concede 0–0) en sesiones simuladas de 5–10 aperturas, continuando al menos hasta primer KO y midiendo pérdida del motor, Premios y energía; ninguna de las dos líneas está matemáticamente resuelta.",
     "confidence": "Dos logs del núcleo rival, uno jugado con 4–4 y rendición, otro interrumpido a 0–0; la segunda partida solo observa la apertura, no la probabilidad de victoria."
+  },
+  {
+    "deck": "ray-crispin-pending",
+    "matchup": "Talonflame / Dusknoir / Mega-Kangaskhan (AzulGG)",
+    "title": "Rayquaza Tres Aves + Denis vs Talonflame / Dusknoir / Mega-Kangaskhan · AzulGG 08/11",
+    "objective": "Evitar que Talonflame 150 + Dusknoir 130 convierta a Mega-Rayquaza de 280 PS en un KO de 3 Premios; proteger a Zapdos de 120 PS de Blast Maldito en Banca y explotar la Debilidad Rayo de Talonflame. Lista EXTERNA de 60; NO es un matchup ensayado propio.",
+    "opening": [
+      "Identificar Mega-Kangaskhan ex MEG104 (300 PS, 3 Premios) como motor habilitador de Talonflame ex: Excited Dive lo baja desde la mano directamente a Banca sin evolucionar. Mega-Kangaskhan roba 2 si está Activo.",
+      "Talonflame ex DLR88, 280 PS, Debilidad Rayo x2, ataque Garra Cazadora 150 (CC), busca dos cartas y tiene coste de retirada 0. El rival usa hasta 4 Energías Ignición WHT86 para atacar y la Energía se descarta al final de turno: es un recurso finito en la lista facilitada.",
+      "Evitar dejar Mega-Rayquaza 280 con 0 protección vulnerable a Talonflame 150 + 13 contadores de Dusknoir SFA20. Cada activación de Dusknoir elimina a su propio Dusknoir y concede un Premio a nuestro lado.",
+      "Priorizar la evaluación de los cuatro Duskull SFA18 y sus cuatro Caramelo Raro: impedir un Dusknoir temprano puede ser más valioso que golpear al Mega-Kangaskhan por 150 sin KO. Medir si se puede usar Boss sobre Duskull o impedir su evolución.",
+      "Preservar Zapdos 30C55 de 120 PS frente a Dusknoir (13 contadores = KO incluso en Banca). No confundirlo con daño de ataque ni confiar solo en un Activo alternativo."
+    ],
+    "win": [
+      "Zapdos 30C55 con tres Energías Rayo y una Incolora hace 210; Debilidad Rayo x2 de Talonflame ex lo convierte en KO de 420. Zapdos da solo 1 Premio si cae, Talonflame da 2; pero Dusknoir podría eliminarlo por habilidad antes.",
+      "Si se logra un acceso a Mega-Kangaskhan ex de 300 PS, el Rayquaza con seis Energías globales hace 300 y otorga 3 Premios por KO. Exigir comprobación de herramientas, modificación PS y habilidades antes de asumirlo.",
+      "Valorar conservar suficientes Energías en mesa y segundo Mega-Rayquaza para el endgame, porque cada Boss/Prime Catcher puede forzar un atacante distinto.",
+      "Cada Dusknoir o Dusclops que el rival sacrifica entrega un Premio a nuestro jugador, acelerando el progreso hacia 6; pero al mismo tiempo habilita su propia Tarjeta Roja Especial (cuando a nosotros nos queden 3 o menos) y Acerola (cuando a nosotros nos queden 2 o menos).",
+      "Conocer el motor de recuperación rival: Ursaluna ex TWM141 puede hacer 240 con coste reducido en 1 Incolora por Premio cobrado por nosotros, hasta atacar gratis cuando hayamos cobrado 5. Black Belt suma 40 contra ex. No entregar un endgame sencillo por regalar demasiados Premios con Dusknoir."
+    ],
+    "avoid": [
+      "No asumir que tener a Zapdos cargado lo mantiene vivo en Banca: Dusknoir puede hacer KO con 13 contadores aunque Rayquaza sea Activo.",
+      "No atribuir nuestra victoria anterior contra Kangaskhan/Talonflame a este matchup exacto: aquellos logs no muestran una lista idéntica ni la línea 4-2-4 Dusknoir y pueden llevar Energías básicas.",
+      "No afirmar que un KO de Dusknoir por su propia habilidad es gratis para el rival: implica ceder 1 Premio y puede cambiar la matemática.",
+      "No subir Rayquaza expuesto con una sola Energía cuando el rival puede preparar Talonflame, buscar dos cartas y completar combo con Dusknoir.",
+      "No tratar este vídeo ni la afirmación de AzulGG «best deck» como evidencia de victoria BO3 ni tasa positiva; aún faltan partidas propias."
+    ],
+    "test": "Control de 8-12 partidas BO1 y 3-5 BO3 con lista rival de 60 exacta del vídeo, reservando estados con Dusknoir desde T2. Registrar T2 primer Talonflame, Dusknoir por turno, premios entregados por auto-KOs, KOs 150+130 sobre Ray, KOs 130 sobre Zapdos, número de Energías Ignición restantes y si se activa Acerola + Tarjeta Roja. Comparar selecciones con Zapdos activo vs Latias ex activo. Fuente: https://youtu.be/qV107HMQoWM",
+    "confidence": "KNOWLEDGE/hipótesis basada en texto de cartas + lista externa y transcripción del vídeo publicado 08/11/2026. 0 pruebas directas del usuario frente a la lista 60 exacta, sin winrate comprobado."
   }
 ]
