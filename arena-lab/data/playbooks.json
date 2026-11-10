@@ -488,5 +488,34 @@
     ],
     "test": "Jugar al menos 5 partidas desarrolladas frente a Dragapult ex, registrar daño de Picado Fantasma y de posible Dusknoir, turno de primer ataque, copias Ceruledge presentes y en descarte, disponibilidad de Camilla, ventana para Boss a Drakloak, mínimo de Energías para KO en cada objetivo y si Ultra Ball se conserva cuando 90 ya alcanza.",
     "confidence": "Una victoria por rendición 1–0 tras KO Drakloak de 90 PS; Dragapult ex revelado en mulligan pero nunca en mesa, rival sin ataques, muestra de matchup muy incompleta."
+  },
+  {
+    "deck": "ceru-koko-v1",
+    "matchup": "Mega-Kangaskhan ex / Ho-Oh ex de Eco",
+    "title": "Tapu Koko / Ceruledge V1.0 vs Mega-Kangaskhan + Ho-Oh ex de Eco — 14 Energías",
+    "objective": "Negar el motor Recado con Torre, sobrevivir a Combo Ráfaga y castigar Mega-Kang de 300 PS con Ceruledge 310 para intercambiar un Tapu de 1 Premio por un Mega de 3 Premios.",
+    "opening": [
+      "Priorizar Torre de Defensa ASC210 si el rival tiene Mega-Kangaskhan ex Incoloro en Activo: Recado queda anulado mientras el Estadio siga en mesa. No impide el ataque Combo Ráfaga.",
+      "Unir Rayo a Tapu Koko para usar Vuelo Veloz y construir descarte de Fuego/Rayo; mantener al menos uno o dos Charcadet listos para evolucionar a Ceruledge ex.",
+      "Si se usa Corin y Ultra Ball para descartar Energías rápido, vigilar Camilla Nocturna: en la partida se descartaron AMBAS T1; es potencialmente perjudicial en BO3 o encuentros largos.",
+      "Preparar segundo Ceruledge con Energía Fuego en Banca para que Boss rival al primer Ceruledge no deje sin respuesta la ofensiva."
+    ],
+    "win": [
+      "Umbral confirmado contra Mega-Kang MEG104 de 300 PS sin Capa: 14 Energías en descarte producen 310 de daño (30+14×20); con 13 solo 290 y Mega sobrevive con 10 HP.",
+      "Si Mega-Kang hace Combo Ráfaga 200 a Ceruledge ex de 270 HP, este queda a 70: equipar Globo Helio y retirarlo para preservar 2 Premios y utilizar Tapu como pivote.",
+      "Si Tapu Koko equipado con Rayo recibe KO, su Rayo va al descarte y aumenta en +20 el daño futuro de Ceruledge; en partida subió de 13→14 Energías, habilitando el KO inmediato.",
+      "Cuando rival cobra un Premio por el Tapu, se activa Giro de Guion de Fezandipiti ex en el siguiente turno para robar 3, incluso después de Juez.",
+      "Eliminar Mega-Kang concede 3 Premios, intercambio 3 propios por 1 rival sobre Tapu en el log; Ho-Oh ex de Eco sigue siendo amenaza desconocida tras la concesión."
+    ],
+    "avoid": [
+      "No asumir que Torre bloquea el ataque de Mega-Kang: solo sus Habilidades; Combo Ráfaga sigue haciendo 200+.",
+      "No descartar las dos Camillas Nocturnas en T1 como si fueran Energías: no escalan el daño de Llamas Abismales y comprometen recuperación de Ceruledge.",
+      "No atacar a Mega-Kang 300 por 290 cuando solo hay 13 Energías en descarte, salvo tener daño/modificador adicional verificado.",
+      "No concluir que se derrotó a Ho-Oh ex de Eco o que el rival no tenía ruta de cierre: rival concedió cuando Ho-Oh entró Activo, sin ataque.",
+      "No afirmar que el Ceruledge que realizó KO fue la copia sana o dañada, porque el log no identifica cuál tras el KO del Tapu.",
+      "No registrar la partida como victoria a 6 Premios; el marcador fue 3–1 por concesión."
+    ],
+    "test": "Series BO1 y BO3 contra Kang/Ho-Oh, con Torre presente y ausente: medir usos reales de Recado, turno de 14 Energías descartadas, supervivencia de un Ceruledge tras Combo Ráfaga, si Globo permite retener dos atacantes, preservación de Camillas, daño real de Ho-Oh preparado y capacidad de cerrar los Premios restantes cuando el rival NO concede.",
+    "confidence": "Una victoria real propia por concesión 3–1 después de recibir 200+200 y KO de Tapu; KO 310 y Torre en mesa confirmados, no se ha resuelto el endgame vs Ho-Oh ni probado BO3."
   }
 ]
