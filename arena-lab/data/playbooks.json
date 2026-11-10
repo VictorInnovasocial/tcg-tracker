@@ -663,5 +663,33 @@
     ],
     "test": "5 sesiones de partida desarrollada contra Basic Box, Dragapult y bloqueo: al primer turno desfavorable escribir dos líneas de victoria legales, recursos necesarios y el error/turno fallido que habilita cada una. Registrar si se conservaron tech no ex y carta de energía móvil, Premios cedidos por Mega y continuidad después del primer KO. No hacer cambios de lista sin 60 actual confirmada.",
     "confidence": "Marco transferido del vídeo de AzulGG 07/11/2026 (Zoroark vs Dipplin), una partida anecdótica, no resultados de Rayquaza. Lista propia Rayquaza Tres Aves + Denis 60 no confirmada, balance 6–1 provisional independiente. NEXO TCG LAB 09: https://app.notion.com/p/40c5f543d14e8117ab46fb89bad095a1 · https://youtu.be/AHFn7n7XaSA"
+  },
+  {
+    "deck": "ray-crispin-pending",
+    "matchup": "Mega-Rayquaza ex / Mega-Kangaskhan ex / Ho-Oh ex de Eco (blopaleyton)",
+    "title": "Rayquaza Tres Aves + Denis vs Rayquaza / Mega-Kangaskhan / Ho-Oh de Eco · 3+3 Premios",
+    "objective": "Construir seis Energías globales y mapear dos KOs de tres Premios con Boss a Rayquaza/Kangaskhan, pero preparar contra-plan real a Ho-Oh y Kang que no se observó por inactividad del rival.",
+    "opening": [
+      "Salir segundo permite Carrito Valioso por vía Transceptor→Petrel para colocar Articuno/Moltres/Zapdos/Latias, completar quinto hueco con Mega-Rayquaza vía Megaseñal y buscar Fuego con Rugido Regio.",
+      "Rugido Regio (Fuego) + Rayo manual + Zapdos Rayo + Energy Switch pueden dejar 3 Energías en Mega-Ray y Tormenta 150 T1; comprobar origen del Energy Switch y legalidad real.",
+      "Denis/Crispin T2 permite sumar Fuego a Zapdos y Rayo en mano; Zapdos habilidad +Rayo, cinco Energías globales =250. Sin sexta, Kang de 300 no cae con ese ataque.",
+      "Anticipar a Ho-Oh ex de Eco cargando Fuego en Banca y Mega-Kang en Activo: un rival que actúe puede disponer de presión de 200, Boss, Energy Switch y otros recursos no revelados."
+    ],
+    "win": [
+      "Con Moltres sumando sexta Fuego, Rayquaza llega a 6 Energías propias de tipo Fuego/Rayo en juego para Tormenta Esmeralda 300.",
+      "Boss a Mega-Rayquaza ex de 280 PS cuando hay 300 de daño permite KO de 3 Premios; si Kang rival tiene 250 daño previo, queda a 50 y es otro objetivo de 3 Premios por Boss en el turno siguiente.",
+      "El recorrido 3+3 Premios ganó el log por los seis Premios, no por concesión, pero el rival no actuó a tiempo en dos turnos antes de esos KOs.",
+      "Si el rival pretende atacar con Mega-Kang, evaluar protección del Mega propio y si las aves pueden conservar Energías para seguir pegando 300 incluso con KO a un apoyo.",
+      "Probar otras rutas con Zapdos no ex y debilidad Rayo para evitar ofrecer tres Premios en el mirror; la variante Tres Aves ya ha demostrado la línea 420 en otra partida, no en ésta."
+    ],
+    "avoid": [
+      "No presentar 6–0 como matchup favorable: blopaleyton perdió dos oportunidades consecutivas de actuar por tiempo y no llegó a atacar.",
+      "No confundir ataques 150 y 250 a Meowth/Kang con KOs: sólo hubo dos KOs a Mega-Rayquaza y Mega-Kangaskhan por 3 Premios cada uno.",
+      "No exponer Mega-Rayquaza de tres Premios sin considerar el plan rival de presión/gust en enfrentamientos futuros donde sí actúe.",
+      "No dar por incluida la tech de Flamariete ex ni retirar Budew en registros de versión: lista exacta 60 desconocida y ajuste no aprobado.",
+      "No adjudicar estas victorias a la lista japonesa original 5–1 ni inflar 7–1 con otra versión."
+    ],
+    "test": "Al menos 5 partidas contra Rayquaza/Kang/Ho-Oh cuyos pilotos ejecuten turnos y ataques: medir acceso real al sexto Fuego/Rayo, presión rival antes de turno T3, respuestas a Boss y Juez, si se puede mantener Ray sin perder 3 Premios, y frecuencia del mapa 3+3 al enfrentar Kang de 300 y Mega-Ray de 280.",
+    "confidence": "Un log completo confirma 6–0 por Premios y 3→5→6 Energías, pero dos turnos perdidos por tiempo de rival impiden inferir ventaja del matchup. Fecha real de juego no acreditada."
   }
 ]
