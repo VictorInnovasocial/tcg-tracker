@@ -308,5 +308,21 @@
     "evidence": "log completo sin KOs; solo T1 de ambos",
     "notes": "Fecha 10/11 = recepción del log, no fecha de juego acreditada. 4 mulligans propios (oponente roba +4 cartas), inicio propio primero con Tapu Koko Activo. T1 Lámpara de Aventuras busca dos Energías básicas (Fuego y Rayo), Pokétableta busca Charcadet y quedan dos Charcadet en Banca; unión manual Rayo a Tapu Koko; Vuelo Veloz se permite T1 aun yendo primero: descarta dos Ceruledge ex + 1 Energía Rayo + 2 Fuego y roba 5 (Globo Helio, Corin/Naveen, Rayo, Lámpara, Pokétableta). Total Energías en descarte = 3, Llamas Abismales de Ceruledge ex potencial 30+20×3=90 pero todavía NO está en mesa ni ha atacado. Rival Genesect Activo + Dunsparce y 2 Abra Banca, Energía Psíquica Telepática a Abra; concede sin atacar, sin daño ni Premios. Deck 13 Pokémon /27 Trainer /20 Energías, 10 básicos, nuevo 1–0 independiente de Crustle/Ray.",
     "notion": "https://app.notion.com/p/4145f543d14e81a39229dc110504695a"
+  },
+  {
+    "id": "ceru-koko2",
+    "deck": "ceru-koko-v1",
+    "date": "2026-11-10",
+    "rival": "C05",
+    "matchup": "Dhelmise / Banette (Shuppet) / Meowth ex",
+    "result": "win",
+    "prizes": [
+      2,
+      0
+    ],
+    "finish": "concesión rival tras 2 KOs",
+    "evidence": "log completo (5 turnos propios; rival no atacó)",
+    "notes": "La fecha 2026-11-10 es recepción del log, no juego real acreditado. Sale primero sin mulligans, Charcadet Activo, rival Shuppet Activo. T1 Ultra Ball descarta Acris y Night Stretcher por Tapu Koko, Globo Helio equipa a Charcadet para retirarlo gratis, Corin/Carmine descarta Fuego y Boss, baja segundo Charcadet, Rayo a Tapu y Vuelo Veloz descarta Tapu/Chi-Yu/segunda Night Stretcher; 1 Energía descartada. T2 dos Poké Pad completan cuatro Charcadet en Banca; Torre de Defensa, Koko Vuelo Veloz descarta Rayo (2 Energías en descarte). T3 tres Lámparas buscan 6 Energías, Ultra Ball descarta 2 Rayo (4), Vuelo Veloz descarta 5 Energías (9); primer Ceruledge ex evolucionado, rival reemplaza Torre por Torre Prisma y une Energía Legado a Meowth ex. T4 segundo Ceruledge ex, Tapu retira descartando Rayo (10), se usa Torre Prisma descartando Fuego (11), Llamas Abismales hace 30+20×11=250, KO Shuppet por un Premio. Rival Boss a Tapu. T5 tercer Ceruledge ex, Rayo a Tapu, retira a Ceruledge descartando Rayo (12), Llamas Abismales hace 30+20×12=270 a Meowth ex, KO, pero Energía Legado reduce 2 Premios a 1; total 2–0. Rival baja Dhelmise y busca Banette, concede. No hubo ataques rivales. Las dos Night Stretcher se descartaron T1, eventual riesgo de recuperación. No confundir con 3 Premios ni con 6 Premios ganados. Balance variante 2–0, separado de otros mazos.",
+    "notion": "https://app.notion.com/p/4145f543d14e81daa2a1efac59d7ad61"
   }
 ]
