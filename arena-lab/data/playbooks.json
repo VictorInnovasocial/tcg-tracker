@@ -603,5 +603,65 @@
     ],
     "test": "Ejercicio de 12 manos con escenarios: 4 con 2 Ceruledge y 1 Camilla T1, 4 con necesidad de un único Boss/Energía, 4 de KO exacto donde puede ahorrarse Ultra Ball. Registrar secuencias A/B, recursos que quedan, turno del primer Ceruledge, Energías descartadas reales, resultado a tres turnos y capacidad de recuperarse tras un KO.",
     "confidence": "Referencia SaumitTCG de pilotaje, 07/11/2026; ejemplos específicos de logs propios 003 y 004. Son decisiones y tests propuestos, no nuevas partidas. https://youtu.be/jVhBTr-2I6I · https://app.notion.com/p/40c5f543d14e81a9be51c6f011e5d528."
+  },
+  {
+    "deck": "ceru-koko-v1",
+    "matchup": "Pilotaje transversal · Bad matchup y preservación de outs",
+    "title": "Ceruledge ex / Tapu Koko · Jugar para los outs en matchups desfavorables (AzulGG 07/11)",
+    "objective": "Ante control de Energías, bloqueo de apoyo o carrera de Premios adversa, identificar una ventana de remontada y mantener intactas las cartas necesarias para convertirla en un ataque ganador, aunque el plan A falle.",
+    "opening": [
+      "Identificar por qué el matchup es malo: falta de Fuego unido, atacante ex de 2 Premios expuesto, control de Energías, imposibilidad de sostener varios Ceruledge o disrupción de robo.",
+      "Antes de Corin/Ultra Ball/Vuelo Veloz: nombrar qué out de recuperación desaparecería si se descarta Camilla Nocturna o una copia de Ceruledge ex.",
+      "Plan A: activar Tapu Koko, descartar Energías y preparar Ceruledge con Fuego; si el rival rompe esta línea, buscar Plan B con recuperación, otro Ceruledge y turno de tempo mediante Boss.",
+      "Preservar recursos alternativos que parecen malos en el momento (Camilla, Boss, Globo Helio, cartas de Banca) si son la única respuesta posible a un error rival o turno sin ataque.",
+      "Registrar tipo de mano y su costo irreparable: 2 Camillas descartadas T1 en la partida 004 no fue castigado por la concesión, pero habría comprometido una partida completa."
+    ],
+    "win": [
+      "El modelo AzulGG contra Dipplin consiste en mantener outs disponibles, presionar motor del rival y aprovechar Banca/Estadios agotados; traducirlo a Ceruledge como control del objetivo antes de buscar KO bruto.",
+      "Si hay 3 Energías en descarte, Llamas Abismales ya hace 90, suficiente para Drakloak de 90 PS. No consumir Ultra Ball para 130 si el tutor tiene mayor valor como out posterior, salvo escalado necesario.",
+      "Con 14 Energías descartadas Ceruledge hace 310 y supera Mega-Kang de 300; proteger el siguiente Ceruledge y Fuego para dos ataques consecutivos, no solo un KO aislado.",
+      "Usar Boss hacia un motor o atacante en preparación cuando retrase un turno rival y preserve recursos de final; identificar de antemano outs rivales a Switch/recuperación.",
+      "Tras un KO a nuestro Tapu con Rayo, esa Energía pasa al descarte y puede cruzar umbral de KO; no confundir oportunidad con que sea correcto ofrecer un premio sin respuesta preparada.",
+      "Si el rival llena Banca o consume Estadios, revisar si dejó de poder bajar defensa/protección o sostener el motor; observar antes de revelar tech y objetivos de Banca."
+    ],
+    "avoid": [
+      "No repetir dos Camillas descartadas T1 automáticamente porque una victoria rápida lo haya ocultado; son recursos de recuperación, no combustible de daño.",
+      "No interpretar los 4-0 anteriores (cuatro concesiones) como prueba de matchup bueno o endgame sólido; no comparar con resultados ajenos de Zoroark/Dipplin.",
+      "No forzar KO del Activo por inercia cuando el verdadero out es Boss a motor rival o esperar un turno para mantener doble atacante.",
+      "No bajar un Pokémon de apoyo a Banca si delata la línea de victoria y permite al rival prevenirla, salvo que necesitar su efecto ese mismo turno sea más importante.",
+      "No sacrificar Energía manual o Globo antes de calcular respuesta si el rival tiene Boss y puede cobrar 2 Premios sobre Ceruledge dañado."
+    ],
+    "test": "En 5 partidas desarrolladas donde Ceruledge esté por detrás, anotar: por qué falla plan A; dos outs legales de plan B; qué Camilla/Boss/Globo/Energía preservamos; cuál era la respuesta óptima rival; cuándo se abrió una ventana de remontada y si teníamos la carta para castigarla. Puntuar decisiones ex ante sin depender del resultado.",
+    "confidence": "Transferencia metodológica desde una sola partida narrada de AzulGG (Zoroark vs Festival Lead/Dipplin, 07/11/2026), no evidencia estadística ni resultado propio. Los ejemplos específicos de Ceruledge provienen de logs 003 y 004. NEXO TCG LAB 09: https://app.notion.com/p/40c5f543d14e8117ab46fb89bad095a1 · https://youtu.be/AHFn7n7XaSA"
+  },
+  {
+    "deck": "ray-crispin-pending",
+    "matchup": "Pilotaje transversal · Outs y mapa de premios ante rivales desfavorables",
+    "title": "Mega-Rayquaza Tres Aves · Plan B contra bad matchups (AzulGG 07/11)",
+    "objective": "Cuando el intercambio de Premios 3 vs 1–2 o el control de habilidades hacen desfavorable la partida, maximizar outs alternativos con Zapdos/Moltres, cambio de objetivos, Energy Switch, recursos de búsqueda, control de Banca/Estadio y timing de disrupción.",
+    "opening": [
+      "Identificar el mecanismo preciso de desventaja: Mega-Rayquaza de 3 Premios ante atacantes de 1 Premio, falta de Energías Fuego/Rayo en juego, bloqueo de Rugido o desfase de velocidad.",
+      "Antes de buscar con Transceptor/Petrel o sacar Lámpara/Denis: fijar mapa de Premios, tipos de Energías restantes y opciones de atacante no ex; la lista 60 actual de Tres Aves + Denis todavía no está confirmada.",
+      "Conservar Zapdos y Moltres no ex como plan alternativo de Premios cuando sean suficientes para debilitar objetivo; no exponer Mega-Ray si el intercambio es perdedor.",
+      "No gastar Boss, Energy Switch o recursos únicos para un KO irrelevante si el rival puede fallar un ataque y darnos una ventana para castigar un motor o atacante preparado.",
+      "Analizar ocupación de Banca y Estadios: solo cuando su efecto real sea verificable y haya espacio de respuesta, no atribuir bloqueos por norma a listas rivales desconocidas."
+    ],
+    "win": [
+      "Plan A: Rayquaza con 6 Energías Fuego/Rayo en tablero hace 300 y con 7 hace 350; siempre cuentan Energías de todos nuestros Pokémon en juego.",
+      "Plan B: Zapdos no ex puede castigar Megas débiles a Rayo y cobrar 3 Premios concediendo solo 1; evaluar coste completo de unión y tiempo antes de elegirlo.",
+      "Si rival quema su único Estadio, energía o hueco de Banca relevante, mantener cartas y preparación necesarias para convertir el siguiente turno sin ataque en una línea de KO.",
+      "Ante Dragapult, si Rayquaza no llega a 350 a tiempo, evaluar objetivos de un Premio, interrupción del motor o cambios de ritmo, sin afirmar que esas rutas siempre ganen.",
+      "Reevaluar la condición de victoria tras cada turno: qué recurso rival se consumió, cuántos outs propios quedan, qué probabilidad aproximada tiene la secuencia, qué respuesta óptima rival la refuta.",
+      "Valorar ocultar la preparación del atacante alternativo cuando mostrarlo facilite que el rival baje protección o lo busque con Boss antes de tiempo."
+    ],
+    "avoid": [
+      "No trasplantar a Rayquaza la secuencia concreta de AzulGG con Munkidori, Punk Helmet o Fezandipiti atacante si esas cartas no están en nuestras 60.",
+      "No comparar una victoria externa aislada Zoroark/Dipplin con nuestro balance 6–1 provisional ni deducir matchup favorable.",
+      "No perder el único Zapdos/Moltres, Boss o Energy Switch útil descartándolo cuando el plan A ya no tiene un camino ganador comprobable.",
+      "No hacer que el rival obtenga 3 Premios por Mega-Ray sin un intercambio que nos permita cerrar seis Premios antes.",
+      "No depender de error rival si existe una línea más robusta frente al juego óptimo; los outs de probabilidad baja son para situaciones realmente perdedoras."
+    ],
+    "test": "5 sesiones de partida desarrollada contra Basic Box, Dragapult y bloqueo: al primer turno desfavorable escribir dos líneas de victoria legales, recursos necesarios y el error/turno fallido que habilita cada una. Registrar si se conservaron tech no ex y carta de energía móvil, Premios cedidos por Mega y continuidad después del primer KO. No hacer cambios de lista sin 60 actual confirmada.",
+    "confidence": "Marco transferido del vídeo de AzulGG 07/11/2026 (Zoroark vs Dipplin), una partida anecdótica, no resultados de Rayquaza. Lista propia Rayquaza Tres Aves + Denis 60 no confirmada, balance 6–1 provisional independiente. NEXO TCG LAB 09: https://app.notion.com/p/40c5f543d14e8117ab46fb89bad095a1 · https://youtu.be/AHFn7n7XaSA"
   }
 ]
