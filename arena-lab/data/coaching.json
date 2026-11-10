@@ -459,5 +459,31 @@
       "Rival tenía Ruinas Peligrosas y produjo daño sobre sus propios Básicos de Banca; no se debe atribuir su concesión únicamente al KO de Drakloak."
     ],
     "gameplan": "Ceruledge vs Dragapult: elegir primero puede permitir ataque T1 con Tapu Koko, pero cuando Corin deja dos Ceruledge ex + Camilla en mano y una tercera copia ya está en descarte, conservarlas es mejor candidato que activar Vuelo Veloz sin motor de recuperación fiable. Evolucionar dos Charcadet a Ceruledge T2, cargar un Fuego y hacer Vuelo Veloz después. Con 3 Energías en descarte, ataque 90 alcanza el KO exacto en Drakloak TWM129 (90 PS). Un Ultra Ball que descarta 2 Energías escala 90→130, pero NO era necesario para ese KO; decidir si reservar Ultra Ball para evolución o potenciar daño futuro. Boss a Drakloak puede cortar robo, pero seguir contando copias restantes y Night Stretcher. No se probó contra ataques de Dragapult ex ni contra Dusknoir."
+  },
+  {
+    "id": "ceru-koko4",
+    "grade": 8.5,
+    "headline": "310 a Mega-Kangaskhan con 14 Energías tras KO de Tapu; Torre bloqueó Recado y Globo protegió Ceruledge dañado",
+    "confidence": "Log completo. 3–1 Premios reales, gana por concesión, no 6 Premios. Primer rival del historial Ceruledge que ataca y obtiene KO; no se observa endgame contra Ho-Oh. 2 mulligans. Fecha real de partida no confirmada.",
+    "good": [
+      "Torre de Defensa Team Rocket ASC210 jugada T1 suprime Recado de Mega-Kangaskhan ex Incoloro, que de otro modo robaría dos desde Activo. El rival no registra ningún uso de Recado, aunque no se cuantifican cartas negadas.",
+      "Salida Tapu Koko Activo con Rayo; Ultra Ball, Corin y Vuelo Veloz ponen 5 Energías en descarte durante T1, sin perder acceso a Charcadet.",
+      "Tras daño 200 de Combo Ráfaga a primer Ceruledge ex (270 PS), equipar Globo Helio y retirarlo a Banca evita sacrificar inmediatamente un atacante de 2 Premios.",
+      "Acris descarta 3 Fuego y Vuelo Veloz otras 3 Energías en T3. Se evoluciona un segundo Ceruledge con Energía Fuego para tener alternativa de ataque.",
+      "Se acepta el KO de un Tapu de 1 Premio con Rayo unido; ese Rayo descartado incrementa el motor de 13 a 14 Energías, llevando Ceruledge de 290 a 310, suficiente para los 300 PS de Mega-Kang.",
+      "Después del KO a Tapu, Giro de Guion de Fezandipiti ex roba 3, corrigiendo parcialmente el Juez del rival, y Ceruledge ataca 310 por KO de Mega-Kang y 3 Premios: intercambio favorable 3 por 1."
+    ],
+    "errors": [],
+    "watch": [
+      "Ambas Camillas Nocturnas/Night Stretcher fueron descartadas T1, una por Ultra Ball y otra por Corin. No quedó recuperación directa por estas dos copias ante KO futuro de Ceruledge; repetir este riesgo se considera mala economía de recursos a menos que acelere un umbral decisivo.",
+      "En T1 también se descarta una copia de Ceruledge ex por Vuelo Veloz; el primer Ceruledge activo recibió 200 y terminó con solo 70 PS: preservar o recuperar atacantes sigue siendo un cuello de botella.",
+      "El Pokémon Ceruledge ex que atacó en T4 no tiene identificador inequívoco en el log; una copia dañada había sido retirada y otra estaba en Banca con Fuego. No atribuir el KO a la copia sana sin evidencia.",
+      "Ho-Oh ex de Eco había unido cuatro Fuego a su posición mediante Llama Dorada en T1 y T3; tras el KO de Kang entra Activo, pero rival se rinde. No se comprueba si Ceruledge resistía su ataque o cómo cerraría el encuentro.",
+      "La Torre anula Recado mientras está en mesa, pero el log no muestra un intento explícito de usarlo ni qué cartas se habrían robado. No inferir victoria causada exclusivamente por Torre.",
+      "El resultado es 3–1 Premios y concesión, no victoria a 6 Premios. Muestra V1.0 4–0, todas por concesión; no hay BO3 ni validación de matchup completo.",
+      "El umbral de Mega-Kang de 300 PS es 14 Energías descartadas: 13 producen 290 y no KO sin otros modificadores. La Energía Rayo del Tapu KO fue decisiva en la matemática observada.",
+      "La fecha indicada es recepción del log (10/11/2026), no fecha de partida verificada."
+    ],
+    "gameplan": "Contra Mega-Kangaskhan ex MEG104, Torre de Defensa Team Rocket ASC210 desde T1 elimina temporalmente su habilidad Recado (roba 2 desde Activo) porque es Incoloro, pero no impide Combo Ráfaga. Mantener Tapu Koko para Vuelo Veloz y acumular 14 Energías en descarte: Ceruledge 30+14×20=310 supera 300 PS para 3 Premios. Cuando Boss atrae a Ceruledge ex y recibe 200, queda 70 HP: Globo Helio permite retirar a Banca; segundo Ceruledge con Fuego da continuidad. La caída de Tapu equipado con Rayo incrementa 13→14 Energías, habilitando el KO. Fezandipiti ex debe esperar a que el rival logre un KO para activar Giro de Guion. Importante: conservar al menos una Camilla Nocturna si es viable; en el log ambas se descartaron T1 y la partida acabó antes de que ello se castigase. Ho-Oh ex de Eco queda cargado y no se comprobó respuesta de endgame."
   }
 ]
