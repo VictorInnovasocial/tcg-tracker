@@ -324,5 +324,21 @@
     "evidence": "log completo (5 turnos propios; rival no atacó)",
     "notes": "La fecha 2026-11-10 es recepción del log, no juego real acreditado. Sale primero sin mulligans, Charcadet Activo, rival Shuppet Activo. T1 Ultra Ball descarta Acris y Night Stretcher por Tapu Koko, Globo Helio equipa a Charcadet para retirarlo gratis, Corin/Carmine descarta Fuego y Boss, baja segundo Charcadet, Rayo a Tapu y Vuelo Veloz descarta Tapu/Chi-Yu/segunda Night Stretcher; 1 Energía descartada. T2 dos Poké Pad completan cuatro Charcadet en Banca; Torre de Defensa, Koko Vuelo Veloz descarta Rayo (2 Energías en descarte). T3 tres Lámparas buscan 6 Energías, Ultra Ball descarta 2 Rayo (4), Vuelo Veloz descarta 5 Energías (9); primer Ceruledge ex evolucionado, rival reemplaza Torre por Torre Prisma y une Energía Legado a Meowth ex. T4 segundo Ceruledge ex, Tapu retira descartando Rayo (10), se usa Torre Prisma descartando Fuego (11), Llamas Abismales hace 30+20×11=250, KO Shuppet por un Premio. Rival Boss a Tapu. T5 tercer Ceruledge ex, Rayo a Tapu, retira a Ceruledge descartando Rayo (12), Llamas Abismales hace 30+20×12=270 a Meowth ex, KO, pero Energía Legado reduce 2 Premios a 1; total 2–0. Rival baja Dhelmise y busca Banette, concede. No hubo ataques rivales. Las dos Night Stretcher se descartaron T1, eventual riesgo de recuperación. No confundir con 3 Premios ni con 6 Premios ganados. Balance variante 2–0, separado de otros mazos.",
     "notion": "https://app.notion.com/p/4145f543d14e81daa2a1efac59d7ad61"
+  },
+  {
+    "id": "ceru-koko3",
+    "deck": "ceru-koko-v1",
+    "date": "2026-11-10",
+    "rival": "C06",
+    "matchup": "Dragapult ex / Drakloak / Duskull / Budew (Dragapult ex revelado en mulligan)",
+    "result": "win",
+    "prizes": [
+      1,
+      0
+    ],
+    "finish": "concesión rival después del KO a Drakloak",
+    "evidence": "log completo: 3 turnos propios, rival no ataca, KO Drakloak 1 Premio",
+    "notes": "Fecha 2026-11-10 = recepción del log, no fecha de partida confirmada. Rival J047 gana lanzamiento y elige segundo, así que usuario va primero. Rival mulligan muestra Dragapult ex x2, Drakloak, Caramelo Raro, Tarjeta Roja Especial y Denis: prueba de inclusión de Dragapult ex, NO de aparición en mesa. Nuestro T1 Charcadet Activo vs Duskull; Ultra Ball descarta Boss+Fez ex y busca Tapu, lo baja; une Rayo a Tapu, Globo Helio a Charcadet y lo retira a Tapu. Corin descarta Corin + un Ceruledge ex, roba Night Stretcher/Ceruledge ex×2/Rayo/Charcadet, baja otro Charcadet. NO usa Vuelo Veloz T1 para conservar 2 Ceruledge y Night Stretcher, aunque el ataque estaba disponible. No Energías descartadas T1. Rival busca Dreepy×2, une Fuego y Psíquica y pone Ruinas Peligrosas. Propio T2 evoluciona ambos Charcadet en Banca a Ceruledge ex, Lámpara busca Fuego/Rayo, Fuego al Ceruledge, Vuelo Veloz descarta Night Stretcher y 2 Rayo (2 Energías en descarte). Rival T2 evoluciona Drakloak, usa Orden de Búsqueda, baja Dreepy y Budew por Poffin, Ruinas Peligrosas les coloca 20 c/u; no ataca. Propio T3 Lámpara busca Fuego/Rayo; Tapu retira descartando Rayo (3 Energías); Ultra Ball descarta Rayo+Fuego (5 Energías) y busca Charcadet sin bajarlo; Fuego al segundo Ceruledge, Boss trae Drakloak Activo, Ceruledge ataca 30 +5×20=130, KO Drakloak 90 PS, Premio 1 (Rayo). Oportunidad: con solo 3 Energías en descarte el ataque ya habría hecho 90 y KO a Drakloak, por lo que el gasto de Ultra Ball para 130 no era necesario para ese KO, pero sí incrementa daño posterior. Rival recupera Drakloak, evoluciona otro Dreepy a Drakloak, Fez ex Giro de Guion +3, Poffin Duskull (20 Ruinas), Lylia +8 y concede. No hubo ataque rival, Dragapult ex ni Dusknoir en campo. Balance Ceruledge 3–0 (todas por concesión; Premios 0–0, 2–0, 1–0).",
+    "notion": "https://app.notion.com/p/4145f543d14e81a99f11ebfea61a6a5d"
   }
 ]
