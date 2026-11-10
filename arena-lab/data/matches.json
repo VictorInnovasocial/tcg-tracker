@@ -356,5 +356,21 @@
     "evidence": "log completo, primer enfrentamiento de Ceruledge con ataques rivales y pérdida propia de 1 Premio",
     "notes": "Fecha 10/11/26 = recepción del log, no juego verificado. Dos mulligans propios (+2 cartas al rival); usuario sale primero con Tapu Koko Activo ante Mega-Kangaskhan ex. T1 Ultra Ball descarta Rayo+Camilla, Corin descarta Rayo+otra Camilla, Vuelo Veloz descarta Fuego+2Rayo+Ceru y roba cinco: 5 Energías propias en descarte. Torre de Defensa ASC210 desde T1 suprime la habilidad Recado de Mega-Kang (Incoloro) durante toda la partida; no consta su utilización. Rival Ho-Oh ex de Eco en Banca usa Llama Dorada para añadir 2 Fuego T1 y T3; Denis y unión manual preparan Kang. Propio T2 Corin descarta un Rayo y Ultra Ball otro Rayo (7 acumuladas), evoluciona primer Ceruledge, une Fuego a un Charcadet en Banca, baja Fezandipiti ex; Vuelo Veloz roba 5 sin descarte listado. Rival T2 Boss trae Ceruledge ex a Activo y Combo Ráfaga 200 (cero caras), queda con 70 PS; no hay KO. T3 Globo Helio permite retirar Ceruledge dañado hacia Tapu, Acris descarta 3 Fuego y Vuelo Veloz descarta Fuego + 2Rayo + estadio (13 energías en descarte); evoluciona segundo Ceruledge ex, le une Fuego, y coloca segundo Globo. Rival Juez 4 cartas, Kang hace 200 (cero caras) a Tapu, KO de 1 Premio, su Rayo cae al descarte (+1=14). Propio T4 Fez Giro de Guion +3; Ceruledge ex Llamas Abismales 30+14*20=310, KO Mega-Kang 300PS, cobra 3 Premios. Marcador 3–1; rival tras subir Ho-Oh ex de Eco Activo se rinde en T4. Ambas Camillas fueron descartadas T1, problema de recursos en partida larga. En log no se identifica inequivocamente cuál Ceruledge de los dos ataca en T4; no inventar. Balance V1.0 4–0 todas por concesión, sin un solo cierre por seis Premios.",
     "notion": "https://app.notion.com/p/4145f543d14e81eab6a8cd080e0f018f"
+  },
+  {
+    "id": "ray14",
+    "deck": "ray-crispin-pending",
+    "date": "2026-11-10",
+    "rival": "R14",
+    "matchup": "Mega-Rayquaza ex / Mega-Kangaskhan ex / Ho-Oh ex de Eco / Meowth ex",
+    "result": "win",
+    "prizes": [
+      6,
+      0
+    ],
+    "finish": "premios",
+    "evidence": "log completo; rival 'no ha actuado a tiempo' en dos turnos",
+    "notes": "Fecha 2026-11-10 corresponde a recepción del log, no juego acreditado. Rival blopaleyton gana moneda y elige ir primero: Latias ex Activo, Meowth ex banca; usa Captura a la Desesperada y retira a Meowth Activo. Nosotros salimos segundo con Fezandipiti ex Activo, sin mulligans. T1 Transceptor del Team Rocket→Petrel→Carrito Valioso pone Moltres/Articuno/Zapdos/Latias ex en Banca; Megaseñal busca Mega-Rayquaza ex, Rugido Regio añade Fuego, manual Rayo a Ray, Zapdos acelera Rayo y Energy Switch añade Rayo a Ray (fuente exacta del traslado no explícita), Fez retira usando Latias; 3 Energías en campo, Tormenta Esmeralda hace 150 al Meowth ex. Rival desarrolla Ho-Oh ex de Eco con Fuego, Kang 300PS y Mega-Ray de 280PS con 2 Rayo. T2 propio Denis busca Rayo a mano y une Fuego a Zapdos, Zapdos habilita otro Rayo; 5 Energías propias totales, Ray hace 250 al Kang que queda con 50 PS. Rival T2 NO actúa a tiempo. T3 propio Moltres acelera Fuego, 6 Energías totales, Boss trae Mega-Rayquaza rival y Ray hace 300 KO de 3 Premios (3–0). Rival T3 NO actúa a tiempo de nuevo. T4 Boss lleva Kang de 50HP restantes al Activo y Tormenta 300 KO de 3 Premios, victoria por 6–0 Premios. No hubo KO ni ataque rival. El rival falló dos turnos por tiempo, factor decisivo: no probar matchup equilibrado ni resiliencia frente a Ho-Oh/Kang. Variante con Denis 7–1 provisional; japonesa V1.0 5–1 independiente y cambios Flamariete/Budew aún no aprobados. Los 60 reales de versión Denis siguen sin confirmar.",
+    "notion": "https://app.notion.com/p/4145f543d14e81ce8783c193a5cda008"
   }
 ]
