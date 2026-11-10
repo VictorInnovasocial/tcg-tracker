@@ -404,5 +404,33 @@
     ],
     "test": "Jugar al menos 5 BO1 completos y probar 2 BO3 si procede; registrar frecuencia de Ascensión desde Dwebble, Energías Espinosas necesarias para KO Meganium 160 tras ataque 120, cuántas veces Ventilador mueve Energía, daño/curación efectivos, utilización de Abismo Legendario DLR98+99 (pareja completa), turnos hasta primer ataque Mega-Venusaur ex y capacidad de respuesta del segundo Crustle.",
     "confidence": "Una victoria propia 3–0 por rendición, log completo; ataque de Ivysaur/Meganium y daño 0 de Fezandipiti observados. Abismo no probado, Mega-Venusaur ex no atacó y no hay historial BO3."
+  },
+  {
+    "deck": "ceru-koko-v1",
+    "matchup": "Genesect / Abra / Alakazam potencial",
+    "title": "Tapu Koko / Ceruledge V1.0 vs Genesect / Abra (Alakazam hipotético)",
+    "objective": "Construir daño de Llamas Abismales mediante Energías al descarte mientras se preservan al menos uno o dos Ceruledge para evolucionar a Charcadet, sin asumir que concesión 0–0 implica ventaja en matchup.",
+    "opening": [
+      "Jugar primero puede aprovechar Tapu Koko ASC67: Vuelo Veloz cuesta L y se permite el propio T1 yendo primero; descarta TODA la mano y roba cinco cartas.",
+      "Preparar al menos uno o dos Charcadet en Banca con Pokétableta/Poké Pad POR113 que busca Pokémon sin recuadro de regla; también puede buscar a Tapu Koko, pero no Ceruledge ex.",
+      "Anotar Energías Fuego/Rayo enviadas al descarte antes del ataque; Ceruledge PRE147 Llamas Abismales por R produce 30+20×n Energías, no por número total de cartas.",
+      "Si Vuelo Veloz descarta copias de Ceruledge (en log fueron dos de tres), vigilar disponibilidad del tercero, las dos Night Stretcher y Ultra Ball. No apurar recursos sin confirmar los Premios."
+    ],
+    "win": [
+      "Buscar acceso a Ceruledge ex en T2/T3 y cargar Fuego manual; con 9 Energías en descarte Llamas Abismales hace 210, con 12 hace 270 y con 13 hace 290, suficiente según PS/efectos rivales que se verifiquen.",
+      "Usar Brilliant Blender ACE SPEC para enviar hasta cinco cartas del mazo al descarte y acelerar daño si no se pierden piezas de evolución: ejemplo desde n=3 a n=8 Energías supondría 90→190.",
+      "Carmine, Naveen, Ultra Ball y Vuelo Veloz permiten descargar Energías al descarte; medir cuántas Energías quedaron realmente y cuándo atacó Ceruledge.",
+      "Chi-Yu MEG31 puede eliminar un Estadio en mesa rival y bloquear el siguiente Estadio de mano un turno si realiza su ataque Fuego; el efecto es condicional y no ocurrió aquí.",
+      "Watchtower ASC210 silencia Habilidades de Pokémon Incoloros, no todos los Pokémon, y tampoco se utilizó aquí."
+    ],
+    "avoid": [
+      "No asignar Premios por KO o victoria de matchup al 0–0 por rendición rival de la única partida disponible.",
+      "No ignorar que 4 mulligans dan al oponente 4 cartas extra; medir probabilidad de manos sin básicos con la lista fija, en vez de concluir causalidad por una muestra.",
+      "No descartar tres Ceruledge ex sin ruta de recuperación ni dejar todos los Charcadet sin evolución.",
+      "No usar Pokétableta para buscar Ceruledge ex ni Fezandipiti ex porque tienen recuadro de regla.",
+      "No calcular 30+20×5=130 desde el primer Vuelo Veloz: solo 3 de las 5 cartas descartadas eran Energía."
+    ],
+    "test": "15–20 aperturas y un mínimo de 5 partidas hasta primer ataque real Ceruledge: registrar mulligans, comienzo primero/segundo, dos Charcadet en T1, número de Energías en descarte T1 y T2, copias de Ceruledge disponibles, turno y daño del primer Llamas Abismales, efectos de Watchtower sobre el motor rival y resultado por Premios/concesión.",
+    "confidence": "Un log completo de un único turno por jugador; 1–0 en resultado por rendición, 0 victorias por Premios, sin validación de matchup."
   }
 ]
