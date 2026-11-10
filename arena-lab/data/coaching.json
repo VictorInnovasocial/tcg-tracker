@@ -408,5 +408,31 @@
       "El segundo ataque Amatista Iracunda de Ceruledge requiere Energías de tipo Fuego/Psíquico/Metal; la lista solo incluye Energías básicas Fuego/Rayo, por lo que no constituye un plan de ataque normalmente pagable."
     ],
     "gameplan": "V1.0 Tapu Koko/Ceruledge: buscar salida Tapu Koko y al menos un Charcadet; elegir empezar primero cuando conviene utilizar Vuelo Veloz de T1 para descartar Energías Fuego/Rayo y renovar mano. Medir copias reales de Ceruledge restantes tras descartar y preparar Night Stretcher/Ultra Ball; con 3 Energías en descarte Llamas Abismales amenazaría 90 al evolucionar, 10 Energías serían 230 y 13 serían 290. Brilliant Blender añade hasta cinco cartas seleccionadas de baraja al descarte; calcular Energías extra sin enviar piezas indispensables. Watchtower suprime habilidades de Pokémon Incoloros solamente: situacional contra motor Kangaskhan y similar. Ninguna de estas líneas de ataque se puso a prueba en este log por rendición 0–0."
+  },
+  {
+    "id": "ceru-koko2",
+    "grade": 9,
+    "headline": "Daño de Ceruledge validado: 250→270 por 11→12 Energías en descarte; Energía Legado limita cobro a 2 Premios",
+    "confidence": "Log completo para primeros 5 turnos, rival no atacó, 2 KOs y 2 Premios antes de rendición. 9/10 del desarrollo ofensivo, no del matchup ni de un endgame probado. Fecha de la partida desconocida.",
+    "good": [
+      "Sin mulligans, turno 1 en primera posición: Ultra Ball accede a Tapu Koko y Globo Helio permite retirarse de Charcadet para activar Vuelo Veloz sin gastar unión manual extra.",
+      "Carmine/Corin descarta Fuego y Boss mientras roba cinco cartas; Vuelo Veloz T1 también renueva mano, preparando motor de descarte.",
+      "Dos Poké Pad en segundo turno encuentran dos Charcadet, quedando cuatro Charcadet en Banca. En la partida evolucionan tres copias distintas de Ceruledge ex.",
+      "Tres Lámparas de Aventuras y Ultra Ball permiten trasladar 7 Energías adicionales al descarte durante T3 (dos Rayo por Ultra Ball y cinco por Tapu), sumando nueve al final del turno.",
+      "T4 Tapu se retira descartando Rayo y Torre Prisma rival permite descartar otra Energía Fuego: 11 en descarte → Llamas Abismales 250 y KO Shuppet por un Premio.",
+      "T5 Boss rival fuerza Tapu Koko al Activo; unión Rayo+retirada permiten volver a Ceruledge, añaden la 12.ª Energía al descarte y hacen 270, KO Meowth ex.",
+      "Se contabiliza correctamente Energía Legado del Meowth: solo un Premio por ese KO de ex, para 2–0 total."
+    ],
+    "errors": [],
+    "watch": [
+      "Ambas Night Stretcher (Camilla Nocturna) de la lista fueron descartadas T1 (la primera con Ultra Ball y la segunda con Vuelo Veloz); sin forma demostrada de recuperar Pokémon/Energías si Ceruledge ex cae más adelante. El resultado no castigó esta decisión.",
+      "Energías en el descarte, no unidas al Pokémon: el texto del resumen de daño usa '11 Energías unidas / 12', pero la fórmula real es 30+20×Energías descartadas; 250 y 270 coinciden con 11 y 12 descartadas.",
+      "El ataque a Meowth ex con Legacy Energy TWM167 otorga un Premio en vez de dos. Evitar sumar un premio inexistente y evaluar Boss hacia otros objetivos cuando el intercambio de Premios lo requiera.",
+      "Rival no atacó en toda la partida: ni Dhelmise ni Banette mostraron amenaza ejecutada. No inferir que Ceruledge pueda mantener su cadena frente a un rival desarrollado.",
+      "El primer estadio Watchtower fue retirado por Torre Prisma rival sin que se pruebe desactivación de alguna habilidad. No atribuir ventaja causal al estadio sin activación observable.",
+      "El cuarto Charcadet quedó sin evolucionar, con tres Ceruledge ex evolucionados. Cuatro Pokémon en Banca reducen huecos para Fezandipiti ex u otros Pokémon auxiliares; aquí no hubo necesidad.",
+      "La partida terminó por rendición tras segundo KO, no por cobro de todos los Premios: 2–0 en Premios y resultado de victoria, con fecha de partida no verificada."
+    ],
+    "gameplan": "Contra Shuppet/Banette/Dhelmise, preparar Tapu Koko desde Charcadet con Globo Helio y buscarlo con Ultra Ball; si empieza primero, Vuelo Veloz legal T1. Priorizar Charcadet en Banca y energías descartadas. Desde 9 Energías en descarte el Ceruledge ex con Fuego hace 210; con 11 hace 250 y con 12 hace 270. Las retiradas de Tapu Koko descartan Energías unidas y también aumentan el daño. Evaluar objetivos por valor real de Premios, especialmente Pokémon ex con Energía Legado. El rival no atacó: plan defensivo y matchups contra Dhelmise/Banette quedan sin probar. Medir cuándo merece reservar Camilla Nocturna antes de activar descarte masivo."
   }
 ]
