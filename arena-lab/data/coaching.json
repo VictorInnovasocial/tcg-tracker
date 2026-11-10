@@ -385,5 +385,28 @@
       "Rival no atacó con Mega-Venusaur ex. El Mega recibió 120 de Crustle y luego se retiró; no afirmar que Mega-Venusaur fuera eliminado ni que la partida fuera matemáticamente obligada."
     ],
     "gameplan": "Contra Mega-Venusaur/Meganium, se puede salir Dwebble→Crustle mediante Ascensión T1 propio. Equipar una Growing Grass y Spiky para permitir ataques GCC (120); preparar Fans y curación. No gastar KO sobre ex blindado si hay Ivysaur/Meganium no ex que avanzan motor; Boss a Meganium y anticipar su ataque: 120 + triple Spiky (60) elimina Meganium de 160 PS y cobra un Premio en turno rival. La habilidad bloquea daño de Fezandipiti ex, no de Ivysaur/Meganium. Conservar segundo Crustle y diversificar Energías cuando sea posible. La línea de Abismo Legendario + Aarune aún debe probarse; el plan observado fue Fábrica + Petrel y Helado normal."
+  },
+  {
+    "id": "ceru-koko1",
+    "grade": 7,
+    "headline": "Tapu Koko usa Vuelo Veloz en T1 y carga el descarte; rival concede 0–0",
+    "confidence": "Apertura propia verificada, 4 mulligans, ningún KO ni ataque rival. Puntuación solo del T1; el winrate de matchups, el desarrollo hasta Ceruledge y la fecha de juego quedan sin verificar.",
+    "good": [
+      "Elegir empezar primero es coherente con Vuelo Veloz de Tapu Koko ASC67, cuya excepción escrita permite atacar durante el primer turno si se va primero.",
+      "Tras los mulligans, Lámpara de Aventuras añade Fuego/Rayo; Pokétableta encuentra un segundo Charcadet para colocar dos en Banca.",
+      "Tapu Koko con Energía Rayo ejecuta Vuelo Veloz, descarta cinco cartas y roba cinco; quedan tres Energías en descarte para la condición ofensiva futura de Ceruledge ex.",
+      "La mano renovada contiene Globo Helio, Corin/Naveen, Rayo, Lámpara y Pokétableta, opciones para continuar preparando motor en el siguiente turno.",
+      "Se evitó declarar ataques de Ceruledge o KO inexistentes; resultado registrado con premios 0–0."
+    ],
+    "errors": [],
+    "watch": [
+      "Cuatro mulligans con 10 Pokémon Básicos, uno de los cuales es el motor Tapu Koko; registrar frecuencia en bloque de partidas antes de cambiar distribución por varianza.",
+      "Vuelo Veloz descartó 2 de 3 Ceruledge ex, lo que puede agotar evolucionadores si la tercera copia está premiada o se descarta. Las dos Night Stretcher facilitan recuperación, pero no consta uso.",
+      "El ataque de Ceruledge es 30 + 20 por ENERGÍA en descarte, no por todas las cartas: 3 Energías = 90 potencial inicial, no daño infligido. Las otras dos cartas descartadas son Ceruledge ex.",
+      "El rival no atacó ni evolucionó Abra, así que no hay evidencia de respuesta contra Genesect/Alakazam, impacto de Watchtower o probabilidad de ganar esa partida.",
+      "Poké Pad POR113 solo busca Pokémon sin recuadro de regla (por ejemplo Charcadet/Tapu Koko/Chi-Yu), no Ceruledge ex ni Fezandipiti ex. Con tres Ceruledge, Ultra Ball y Night Stretcher importan.",
+      "El segundo ataque Amatista Iracunda de Ceruledge requiere Energías de tipo Fuego/Psíquico/Metal; la lista solo incluye Energías básicas Fuego/Rayo, por lo que no constituye un plan de ataque normalmente pagable."
+    ],
+    "gameplan": "V1.0 Tapu Koko/Ceruledge: buscar salida Tapu Koko y al menos un Charcadet; elegir empezar primero cuando conviene utilizar Vuelo Veloz de T1 para descartar Energías Fuego/Rayo y renovar mano. Medir copias reales de Ceruledge restantes tras descartar y preparar Night Stretcher/Ultra Ball; con 3 Energías en descarte Llamas Abismales amenazaría 90 al evolucionar, 10 Energías serían 230 y 13 serían 290. Brilliant Blender añade hasta cinco cartas seleccionadas de baraja al descarte; calcular Energías extra sin enviar piezas indispensables. Watchtower suprime habilidades de Pokémon Incoloros solamente: situacional contra motor Kangaskhan y similar. Ninguna de estas líneas de ataque se puso a prueba en este log por rendición 0–0."
   }
 ]
