@@ -434,5 +434,30 @@
       "La partida terminó por rendición tras segundo KO, no por cobro de todos los Premios: 2–0 en Premios y resultado de victoria, con fecha de partida no verificada."
     ],
     "gameplan": "Contra Shuppet/Banette/Dhelmise, preparar Tapu Koko desde Charcadet con Globo Helio y buscarlo con Ultra Ball; si empieza primero, Vuelo Veloz legal T1. Priorizar Charcadet en Banca y energías descartadas. Desde 9 Energías en descarte el Ceruledge ex con Fuego hace 210; con 11 hace 250 y con 12 hace 270. Las retiradas de Tapu Koko descartan Energías unidas y también aumentan el daño. Evaluar objetivos por valor real de Premios, especialmente Pokémon ex con Energía Legado. El rival no atacó: plan defensivo y matchups contra Dhelmise/Banette quedan sin probar. Medir cuándo merece reservar Camilla Nocturna antes de activar descarte masivo."
+  },
+  {
+    "id": "ceru-koko3",
+    "grade": 8.5,
+    "headline": "Preservar 2 Ceruledge T1 fue una decisión sólida; Boss a Drakloak KO 130, pero 90 habría bastado sin gastar Ultra Ball",
+    "confidence": "Log completo y resultado confirmado, 1–0 Premios por concesión; no hubo ataques rivales. La valoración 8.5/10 corresponde a decisiones de apertura y primer KO, no prueba de matchup favorable. Fecha real de juego desconocida; Dragapult ex solo aparece en mulligan.",
+    "good": [
+      "Salida Charcadet + Tapu por Ultra Ball: Rayo a Tapu, Globo Helio a Charcadet y retirada a Tapu lo deja listo para Vuelo Veloz, sin gastar segundo attach.",
+      "Corin descarta un Ceruledge ex y roba dos Ceruledge ex más, Camilla Nocturna y Charcadet. Elegir NO usar Vuelo Veloz en T1 preserva esas dos evoluciones y Camilla: atacar habría descartado la mano completa, dejando las tres copias de Ceruledge fuera de la mano y/o descarte.",
+      "En T2 evoluciona los dos Charcadet de Banca a Ceruledge ex. Solo después activa Vuelo Veloz, cuando ya están aseguradas las evoluciones, descartando 2 Rayo.",
+      "Tapu se retira T3 gastando Rayo y habilita a Ceruledge ya unido con Fuego para atacar; se dispone de al menos tres Energías descartadas antes de Ultra Ball.",
+      "Boss dirigido a Drakloak con Orden de Búsqueda es un objetivo funcional que limita desarrollo y obliga al rival a recuperar motor; Ceruledge logra KO y cobra un Premio.",
+      "Rival recibe daños de su propia Ruinas Peligrosas sobre Dreepy, Budew y Duskull tras bajarlos en Banca, mientras los Charcadet propios se habían bajado antes del estadio."
+    ],
+    "errors": [],
+    "watch": [
+      "Oportunidad de eficiencia verificable: Drakloak TWM129 tiene 90 PS. Antes de Ultra Ball T3 había 3 Energías en el descarte (2 por Vuelo Veloz T2 + 1 retirada), dando Llamas Abismales 90 exactos para KO. Ultra Ball descartó 2 Energías y buscó Charcadet, que no se bajó: añadió +40 daño sin mejorar el KO concreto. Reservarla puede ser mejor para evolución/consistencia posterior, aunque adelantar daño también tiene valor y no se demuestra un error neto sin conocer próximo turno.",
+      "Al terminar Corin T1, Vuelo Veloz estaba legalmente disponible pero habría descartado dos Ceruledge y Camilla Nocturna. Pasar fue una decisión defendible; no marcar falta de ataque como fallo automático.",
+      "Una copia de Ceruledge ex ya fue descartada por Corin T1; después dos evolucionan en T2. Si cualquiera cae, la recuperación con Night Stretcher se vuelve importante; otra Camilla se descartó por Vuelo Veloz T2.",
+      "Ultra Ball T1 descarta Fezandipiti ex y Boss, reduciendo potencial de robo tras KO en turno rival y acceso a gust. No consta que fuera perjuicio antes de concesión.",
+      "Rival recuperó Drakloak con Camilla Nocturna y evolucionó otro Dreepy, usó Fez ex y Lylia antes de rendirse; no se había eliminado toda capacidad de reconstrucción de Dragapult.",
+      "El rival mostró Dragapult ex en mulligan pero no lo evolucionó; Dusknoir tampoco apareció. El juego no proporciona evidencia de supervivencia a Dragapult/Dusknoir: rival nunca atacó.",
+      "Rival tenía Ruinas Peligrosas y produjo daño sobre sus propios Básicos de Banca; no se debe atribuir su concesión únicamente al KO de Drakloak."
+    ],
+    "gameplan": "Ceruledge vs Dragapult: elegir primero puede permitir ataque T1 con Tapu Koko, pero cuando Corin deja dos Ceruledge ex + Camilla en mano y una tercera copia ya está en descarte, conservarlas es mejor candidato que activar Vuelo Veloz sin motor de recuperación fiable. Evolucionar dos Charcadet a Ceruledge T2, cargar un Fuego y hacer Vuelo Veloz después. Con 3 Energías en descarte, ataque 90 alcanza el KO exacto en Drakloak TWM129 (90 PS). Un Ultra Ball que descarta 2 Energías escala 90→130, pero NO era necesario para ese KO; decidir si reservar Ultra Ball para evolución o potenciar daño futuro. Boss a Drakloak puede cortar robo, pero seguir contando copias restantes y Night Stretcher. No se probó contra ataques de Dragapult ex ni contra Dusknoir."
   }
 ]
