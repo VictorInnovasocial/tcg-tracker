@@ -485,5 +485,29 @@
       "La fecha indicada es recepción del log (10/11/2026), no fecha de partida verificada."
     ],
     "gameplan": "Contra Mega-Kangaskhan ex MEG104, Torre de Defensa Team Rocket ASC210 desde T1 elimina temporalmente su habilidad Recado (roba 2 desde Activo) porque es Incoloro, pero no impide Combo Ráfaga. Mantener Tapu Koko para Vuelo Veloz y acumular 14 Energías en descarte: Ceruledge 30+14×20=310 supera 300 PS para 3 Premios. Cuando Boss atrae a Ceruledge ex y recibe 200, queda 70 HP: Globo Helio permite retirar a Banca; segundo Ceruledge con Fuego da continuidad. La caída de Tapu equipado con Rayo incrementa 13→14 Energías, habilitando el KO. Fezandipiti ex debe esperar a que el rival logre un KO para activar Giro de Guion. Importante: conservar al menos una Camilla Nocturna si es viable; en el log ambas se descartaron T1 y la partida acabó antes de que ello se castigase. Ho-Oh ex de Eco queda cargado y no se comprobó respuesta de endgame."
+  },
+  {
+    "id": "ray14",
+    "grade": 8,
+    "headline": "Secuencia óptima de 3+3 Premios: 3→5→6 Energías, Boss Mega-Rayquaza 300 y después Kang 300; rival pierde dos turnos por tiempo",
+    "confidence": "Alto para acciones y premios del log (6–0 por los 6 Premios). Bajo para valoración de matchup: rival dejó pasar dos turnos sin actuar y no atacó. No consta fecha real de juego. Lista 60 de Denis sin confirmar.",
+    "good": [
+      "Empezando segundo, Transceptor→Petrel→Carrito Valioso colocó Articuno, Moltres, Zapdos y Latias ex, y Megaseñal trajo Rayquaza al quinto hueco. Se reunió el motor completo sin mulligans.",
+      "Activar Rugido Regio del Rayquaza desde mano antes de buscar Energías adicionales con Lámpara/Denis conservó densidad de Fuego/Rayo en baraja; el efecto unió Fuego y permitió acelerar.",
+      "Unión manual Rayo, Zapdos y Energy Switch permitieron ataque T1 de 150 con solo tres Energías globales, después de mover Fezandipiti ex del Activo gracias a Latias.",
+      "Denis/Crispin T2 y Zapdos elevaron de 3 a 5 Energías en campo, Tormenta 250 al Mega-Kangaskhan ex de 300 PS, dejando 50 PS para KO posterior.",
+      "Moltres aportó sexto Fuego T3, permitiendo 300. Boss hacia Mega-Rayquaza rival de 280 PS supuso un KO nuevo de tres Premios, sin abandonar el Kang previamente dañado.",
+      "Segundo Boss contra Mega-Kangaskhan con daño previo alcanzó otros tres Premios, cierre 6–0 por los seis Premios con el mismo Mega-Rayquaza y sin pérdidas propias."
+    ],
+    "errors": [],
+    "watch": [
+      "El rival registró 'no ha actuado a tiempo' dos turnos seguidos tras 250 a Kang y tras primer KO a Mega-Ray: dato decisivo que invalida interpretar 6–0 como superioridad demostrada ante oponente activo.",
+      "La entrada T1 del Mega-Rayquaza de 3 Premios Activo para atacar 150 expone objetivo caro. No se recibió daño porque el rival no atacó; comparar con pivote a Pokémon de un Premio si rival tiene ruta de KO.",
+      "El ataque T2 hizo 250 sobre Kang 300 HP, no KO; no atribuir acceso hipotético a una sexta Energía en ese turno. El daño acumulado permitió KO de tres Premios posterior.",
+      "No confundir 6–0 por todos los Premios con victoria por rendición: registro final confirma seis Premios. Ningún Pokémon propio fue debilitado.",
+      "El objetivo de Boss T3 no fue el Kang ya tocado, sino Mega-Rayquaza rival en Banca; supuso el primer paquete de 3 Premios y Kang quedó listo para final, pero la ausencia de acciones rivales condicionó poder ejecutarlo.",
+      "La lista completa 60 de Tres Aves+Denis todavía está sin confirmar; no asumir presencia de Flamariete ni corte de Budew ni incrementar resultados de la versión japonesa independiente."
+    ],
+    "gameplan": "Contra Mega-Rayquaza/Mega-Kangaskhan/Ho-Oh de Eco, Carrito+Megaseñal monta las tres aves, Latias ex y Mega-Ray. Rugido Regio, manual, Zapdos y Energy Switch alcanzan 3 Energías globales para 150 inicial. Denis+Zapdos T2 permite 5 globales=250; Moltres T3 6=300. Mapa Premios 3+3: si Mega-Kang tiene 250 previo, Boss a Mega-Ray 280 para KO con 300 y 3 Premios y reservar Kang dañado como segundo KO de 3. Pero con rival activo debe comprobarse si Kang/Ho-Oh puede atacar, forzar Boss o disputar Ray antes de dos turnos; aquí perdió ambos turnos por tiempo. Mantener dos KOs como resultado confirmado, sin concluir matchup favorable."
   }
 ]
