@@ -517,5 +517,91 @@
     ],
     "test": "Series BO1 y BO3 contra Kang/Ho-Oh, con Torre presente y ausente: medir usos reales de Recado, turno de 14 Energías descartadas, supervivencia de un Ceruledge tras Combo Ráfaga, si Globo permite retener dos atacantes, preservación de Camillas, daño real de Ho-Oh preparado y capacidad de cerrar los Premios restantes cuando el rival NO concede.",
     "confidence": "Una victoria real propia por concesión 3–1 después de recibir 200+200 y KO de Tapu; KO 310 y Torre en mesa confirmados, no se ha resuelto el endgame vs Ho-Oh ni probado BO3."
+  },
+  {
+    "deck": "ray-crispin-pending",
+    "matchup": "Guía de arquetipo Mega-Rayquaza ex · OmniPoke 09/11/2026",
+    "title": "Rayquaza Tres Aves + Denis · lecciones del vídeo OmniPoke 09/11 (referencia externa)",
+    "objective": "Adaptar la guía externa de Mega-Rayquaza/Talonflame/Ho-Oh al motor propio de tres aves y Denis sin sustituir cartas o adjudicar winrate de sus 120 partidas.",
+    "opening": [
+      "Primer objetivo es reunir Fuego y Rayo en mesa con Articuno + Moltres/Zapdos y preparar Rayquaza DLR84; el vídeo recomienda Talonflame como alternativa externa, no como carta confirmada de nuestra versión.",
+      "Al bajar Rayquaza desde mano a Banca, intentar activar Rugido del Soberano antes de Denis/Crispin y Lámpara de Aventuras, porque retirar Energías de la baraja reduce sus posibles aciertos entre las cuatro superiores, salvo necesidad específica de barajar.",
+      "Comprobar por búsqueda de mazo los tipos Fuego/Rayo restantes, Denis, piezas de disrupción, Energías en Premios y alternativas no ex (Moltres/Zapdos). La lista actual 60 de Tres Aves + Denis sigue sin confirmar.",
+      "El vídeo señala éxito cualitativo del Talon Hunt temprano al ir segundo en su estructura con Talonflame: no extrapolar a nuestra lista ni empezar segundo automáticamente."
+    ],
+    "win": [
+      "6 Energías Fuego/Rayo en campo=300 de Tormenta Esmeralda; 7=350 para Dragapult ex; 8=400. Contar TODAS las Energías unidas a nuestros Pokémon, no descartes.",
+      "Contra Dragapult, priorizar recursos para lograr siete Energías antes de su primer Picado Fantasma; no gastar todas las búsquedas en Boss a Drakloak si el rival tiene evolución alternativa y la aceleración propia quedaría corta.",
+      "Contra Basic Box, explorar intercambio de Premio favorable vía Moltres/Zapdos no ex en vez de exponer sistemáticamente Mega-Rayquaza por 3 Premios; comparar mapa 3-2-1.",
+      "Mirror Rayquaza: conservar Zapdos 30C55 y acceso a Energy Switch cuando sea necesario para atacar Rayo por 210×2 Debilidad=420 y cobrar tres Premios, línea ya observada en nuestros propios logs.",
+      "OmniPoke identifica al paquete Talonflame+Ho-Oh como alternativa para maximizar ataque temprano 150+dos tutores; probar como OTRO mazo controlado, no fusionar con trío sin lista completa."
+    ],
+    "avoid": [
+      "No atribuir los ~120 juegos externos al balance propio 6–1 ni presentar porcentajes por matchup que el vídeo no facilita.",
+      "No vaciar las últimas Energías de un tipo con Lantern antes de usar Denis, o antes de activar Rugido del Soberano sin motivo estratégico.",
+      "No contar como dos estadios independientes las mitades de Legendary Pyroduct DLR94+95; se colocan juntas y anulan habilidades de evoluciones, distinto de Abismo Legendario DLR98+99 de Crustle.",
+      "No regalar 3 Premios con Rayquaza a un atacante de 1–2 Premios cuando existe línea viable con Zapdos/Moltres; confirmar daño y legalidad en tablero.",
+      "No modificar las 60 (aún desconocidas) de nuestra variante por sugerencias generales de OmniPoke, cuya estructura más habitual no coincide con Tres Aves."
+    ],
+    "test": "Probar sin cambios al menos 10 partidas y 3 BO3 cuando proceda: turno de 6/7 Energías, aciertos Rugido antes de Lámpara/Denis, Premios ganados por Zapdos/Moltres, daño contra Dragapult, daño rival en Banca, turnos necesarios para dos KOs, eficiencia de la secuencia. Comparar después una lista íntegra Talonflame/Ho-Oh separada.",
+    "confidence": "Guía externa OmniPoke (09/11/2026) basada en ~120 partidas afirmadas sin datos brutos; no constituye lista propia ni resultados propios. Referencia Notion https://app.notion.com/p/4145f543d14e811886d8f8c3e701c5f8 · https://youtu.be/nfChgmm7GYI."
+  },
+  {
+    "deck": "ray-crispin-pending",
+    "matchup": "Pilotaje transversal · Secuenciación Rugido / Denis / búsqueda",
+    "title": "Rayquaza Aves + Denis · Decision Trainer: secuenciación avanzada SaumitTCG",
+    "objective": "Elegir el orden de robo, Rugido, tutoría, Denis, attachment y Energy Switch según la información que falta y el objetivo de Premios; evitar pilotos automáticos.",
+    "opening": [
+      "Antes del primer efecto: declarar objetivo concreto (una Energía, Rayquaza, Zapdos atacante, Boss o varios componentes) y si el turno se gana con 300/350/420.",
+      "Si Rayquaza va a bajarse desde mano a Banca y activar Rugido, considerar hacerlo ANTES de retirar Fuego/Rayo del mazo con Denis o Lámpara para no disminuir la tasa de acierto entre cuatro superiores.",
+      "Si faltan varias piezas, preferir robo informativo y filtrado antes de búsquedas garantizadas, salvo que el buscador cambie positivamente concentración o orden de cartas en baraja.",
+      "Si falta una sola carta concreta (p.ej., Boss), evaluar thinning y efectos que rebarajan cartas indeseadas antes de buscar: no aplicar sin revisar si hay cartas clave ordenadas en fondo del mazo.",
+      "Dejar Energy Switch y Energía manual hasta identificar el objetivo de ataque y el pivote con más Premios; preparar Zapdos no ex si hay debilidad Rayo."
+    ],
+    "win": [
+      "Aplicar el modelo Saumit: objetivo → información → opciones → coste irreversible → línea elegida. Evaluar calidad de la jugada ex ante y no solo si se ganó.",
+      "Diferenciar dos objetivos: encontrar dos cartas diferentes (robo amplio luego selección) vs un solo Boss (selección específica y control de cartas indeseadas).",
+      "Conservar búsquedas flexibles si los robos pueden encontrar naturalmente una de las piezas; convertir la búsqueda tardía en la pieza restante.",
+      "Comprobar tipos de Energía disponibles antes de Denis; aceleración a toda la mesa cuenta para Tormenta Esmeralda y los Energy Switch reubican, no generan Energías nuevas.",
+      "Guardar mapa de Premios y costes de retirar o exponer Mega-Rayquaza de tres Premios antes de jugar Boss o Special Red Card."
+    ],
+    "avoid": [
+      "No tratar 'robar antes de buscar' como dogma: Rugido del Soberano depende del número de Energías dentro del mazo, y búsquedas/barajados pueden alterar probabilidades.",
+      "No gastar buscador universal buscando una carta que luego sale del siguiente robo si todavía faltan varios tipos distintos de recursos, salvo urgencia comprobable.",
+      "No usar Denis tras dejar un tipo de Energía sin ninguna copia en la baraja, si se pretende la unión adicional y había alternativas de orden.",
+      "No confundir el método analizado en vídeo con un test propio realizado: los ejercicios aún deben ejecutarse.",
+      "No atribuir a la versión propia el uso de Talonflame/Ho-Oh cuando no se ha confirmado la lista de 60."
+    ],
+    "test": "Diez manos/posiciones de Rayquaza Tres Aves + Denis: para cada una anotar objetivo, secuencia A/B, número de Energías del mazo antes de Rugido, cartas vistas, éxito de unión, recursos consumidos, turnos hasta 300/350 y mapa de Premios. Comparar la secuencia elegida ex ante y la óptima aproximada con cartas conocidas.",
+    "confidence": "Metodología externa de SaumitTCG, 07/11/2026, y OmniPoke 09/11. Validación directa pendiente. Referencia NEXO TCG LAB 06 https://app.notion.com/p/40c5f543d14e81a9be51c6f011e5d528 · https://youtu.be/jVhBTr-2I6I."
+  },
+  {
+    "deck": "ceru-koko-v1",
+    "matchup": "Pilotaje transversal · Secuenciación Corin / Vuelo Veloz / Ultra Ball",
+    "title": "Tapu Koko / Ceruledge ex V1.0 · Decision Trainer: conservar evolución frente a robo masivo",
+    "objective": "Distinguir cuándo Vuelo Veloz acelera el plan y cuándo descarta evoluciones y recuperación indispensables. Maximizar daño con Energías descartadas sin sacrificar outs irreemplazables.",
+    "opening": [
+      "Antes de Corin, Ultra Ball o Vuelo Veloz: declarar si falta un Charcadet, Ceruledge ex, Energía Fuego o varias piezas, y el umbral de KO necesario.",
+      "Si Corin deja 2 Ceruledge ex y 1 Camilla Nocturna en mano, comparar pasar sin Vuelo Veloz con descartar toda la mano y robar cinco. En la partida 003 pasar permitió doble evolución en T2.",
+      "Si faltan varias piezas distintas, robar/filtrar antes de gastar Ultra Ball suele preservar su búsqueda garantizada; evaluar primero si descartar Energías con Ultra Ball es también necesaria para KO.",
+      "Si el primer KO ya se alcanza con 3 Energías en descarte (30+3×20=90 contra Drakloak 90 PS), un Ultra Ball que descarta otras 2 y busca Charcadet sin bajar puede ser innecesario para ese KO, pero sí sirve para escalar daño futuro.",
+      "Vigilar Night Stretcher x2 en mano/descarte al final de T1; si ambas se pierden al descartar, la recuperación se limita al resto de recursos disponibles."
+    ],
+    "win": [
+      "El punto fuerte de la lista es generar Energías en descarte: 5→130, 11→250, 12→270, 13→290, 14→310. Contar Energías reales y no el número de cartas descartadas.",
+      "Ante objetivo ex 300 PS como Mega-Kangaskhan, llegar a 14 Energías (310) antes de exponer a Ceruledge y conservar un segundo atacante si posible.",
+      "En la partida 003 el Tapu estaba listo para Vuelo Veloz T1, pero no usarlo preservó evoluciones; decisión defendible pese a perder cinco robos potenciales.",
+      "En la partida 004 la Energía Rayo descartada por KO de Tapu elevó el daño de 290 a 310 para KO Mega-Kang (3 Premios), mostrando cómo los descartes por efectos rivales alteran cálculos.",
+      "La lógica de Saumit 'objetivo, información, coste' debe registrarse antes de saber si el rival se rinde: no confirmar optimalidad solo por resultado."
+    ],
+    "avoid": [
+      "No usar Vuelo Veloz T1 en piloto automático si descarta el único Ceruledge ex accesible o ambas Camillas sin ruta clara de recuperación.",
+      "No gastar Ultra Ball para añadir 40 daño si el KO objetivo ya está garantizado y la búsqueda tendría utilidad futura mayor, salvo razón concreta de tempo.",
+      "No contar las cartas Pokémon enviadas al descarte como Energías para Llamas Abismales.",
+      "No interpretar 4–0 de esta lista como dominio de matchups completos: las 4 partidas acabaron por rendición y solo la cuarta tuvo ataques rivales y premio cedido.",
+      "No confundir Energías en descarte de Ceruledge con Energías en juego de Rayquaza; aplicar secuencias y probabilidades por arquetipo."
+    ],
+    "test": "Ejercicio de 12 manos con escenarios: 4 con 2 Ceruledge y 1 Camilla T1, 4 con necesidad de un único Boss/Energía, 4 de KO exacto donde puede ahorrarse Ultra Ball. Registrar secuencias A/B, recursos que quedan, turno del primer Ceruledge, Energías descartadas reales, resultado a tres turnos y capacidad de recuperarse tras un KO.",
+    "confidence": "Referencia SaumitTCG de pilotaje, 07/11/2026; ejemplos específicos de logs propios 003 y 004. Son decisiones y tests propuestos, no nuevas partidas. https://youtu.be/jVhBTr-2I6I · https://app.notion.com/p/40c5f543d14e81a9be51c6f011e5d528."
   }
 ]
