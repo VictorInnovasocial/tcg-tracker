@@ -460,5 +460,33 @@
     ],
     "test": "10 partidas completas o BO3 con líneas Dhelmise/Banette y ataques reales: registrar turno de primer Ceruledge, 11/12/13/14 Energías en descarte, si se preservaron Camillas Nocturnas, efecto real de Watchtower, cantidad de Ceruledge disponibles, Premios tras Energía Legado y resultado antes de la rendición.",
     "confidence": "Una victoria propia 2–0 por concesión tras 2 KOs sin ataque del rival; las rutas de daño y Premios son confirmadas, no el matchup defensivo."
+  },
+  {
+    "deck": "ceru-koko-v1",
+    "matchup": "Dragapult ex / Duskull / Drakloak",
+    "title": "Tapu Koko / Ceruledge V1.0 vs Dragapult ex / Duskull / Drakloak — J047",
+    "objective": "Priorizar desarrollo garantizado de Ceruledge y el KO temprano de Drakloak sin sacrificar recursos de búsqueda que no alteran umbrales.",
+    "opening": [
+      "Cuando la mano inicial tras Corin contiene 2 Ceruledge ex y 1 Camilla Nocturna, elegir entre NO usar Vuelo Veloz T1 para mantener esas cartas o acelerarlo a costa de descartarlas. En el log, no atacar T1 permitió doble evolución a Ceruledge T2.",
+      "Usar Tapu Koko de Activo para renovar mano con Vuelo Veloz después de evolucionar los Charcadet; no confundir aceleración de daño y disponibilidad de atacante.",
+      "Ruinas Peligrosas provoca 20 puntos a Básicos no Siniestros bajados en Banca; en esta partida el rival daña a sus propios Dreepy, Budew y Duskull. Valorar momento de bajar Charcadet respecto al estadio.",
+      "Separar confirmados del rival: Dragapult ex aparece solo en mulligan, Drakloak y Duskull sí en mesa; no hubo Dusclops/Dusknoir."
+    ],
+    "win": [
+      "Para KO Drakloak TWM129 de 90 PS, bastan 3 Energías descartadas: Llamas Abismales 30+3×20=90. Se puede ahorrar un descarte de Ultra Ball si no es necesario escalar daño para otra amenaza.",
+      "El ataque de 130 del log surgió de dos Rayo descartadas por Vuelo Veloz T2, una Rayo por retirada T3 y Rayo+Fuego por Ultra Ball T3 (5 Energías total).",
+      "Boss sobre Drakloak impide provisionalmente el uso de Orden de Búsqueda y puede retrasar llegada de Dragapult; vigilar que el rival conserva otras líneas Dreepy y puede recuperar Drakloak con Camilla.",
+      "Dos Ceruledge en mesa T2 reducen dependencia de una sola copia, pero uno puede necesitar Camilla tras caer en una partida que siga avanzando.",
+      "Evaluar la posibilidad de responder a Picado Fantasma: Dragapult ex puede hacer 200 al Activo más seis contadores repartidos en Banca. En esta partida NUNCA atacó."
+    ],
+    "avoid": [
+      "No usar Vuelo Veloz automáticamente si sacrifica dos Ceruledge ex imprescindibles y la recuperación; contrastar mano al final de turno con la alternativa de pasar.",
+      "No gastar Ultra Ball para llegar a 130 contra Drakloak de 90 PS si la búsqueda de Charcadet no se necesita, salvo que el descarte adicional mejore de forma justificada el siguiente turno.",
+      "No considerar que vencer a un Drakloak impide todos los Dragapult: en este mismo log J047 reconstituyó Drakloak en el turno siguiente.",
+      "No confundir el KO de Drakloak 1 Premio con una victoria por Premios; hubo rendición rival con marcador 1–0.",
+      "No atribuir un matchup favorable a tres victorias por concesión del mazo frente a rivales diferentes y sin ataques rivales."
+    ],
+    "test": "Jugar al menos 5 partidas desarrolladas frente a Dragapult ex, registrar daño de Picado Fantasma y de posible Dusknoir, turno de primer ataque, copias Ceruledge presentes y en descarte, disponibilidad de Camilla, ventana para Boss a Drakloak, mínimo de Energías para KO en cada objetivo y si Ultra Ball se conserva cuando 90 ya alcanza.",
+    "confidence": "Una victoria por rendición 1–0 tras KO Drakloak de 90 PS; Dragapult ex revelado en mulligan pero nunca en mesa, rival sin ataques, muestra de matchup muy incompleta."
   }
 ]
