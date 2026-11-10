@@ -432,5 +432,33 @@
     ],
     "test": "15–20 aperturas y un mínimo de 5 partidas hasta primer ataque real Ceruledge: registrar mulligans, comienzo primero/segundo, dos Charcadet en T1, número de Energías en descarte T1 y T2, copias de Ceruledge disponibles, turno y daño del primer Llamas Abismales, efectos de Watchtower sobre el motor rival y resultado por Premios/concesión.",
     "confidence": "Un log completo de un único turno por jugador; 1–0 en resultado por rendición, 0 victorias por Premios, sin validación de matchup."
+  },
+  {
+    "deck": "ceru-koko-v1",
+    "matchup": "Dhelmise / Banette / Meowth ex",
+    "title": "Tapu Koko / Ceruledge V1.0 vs Dhelmise / Banette / Meowth ex — BoyTerumi",
+    "objective": "Mantener escalado rápido de Llamas Abismales sin regalar recursos de recuperación ni sobrestimar una victoria por concesión ante rival sin ataques.",
+    "opening": [
+      "Desde Charcadet Activo, Ultra Ball→Tapu Koko y Globo Helio permiten poner Tapu Activo y usar Vuelo Veloz en T1 incluso cuando se empieza primero.",
+      "Carmine descarta Energías de la mano y roba 5, mientras Lámpara de Aventuras busca 2 Energías básicas: encadenar ambos motores acelera el daño potencial del Ceruledge.",
+      "Buscar Charcadet temprano con Poké Pad (2 en T2 pusieron cuatro Charcadet en Banca); monitorizar espacio de Banca y número restante de Ceruledge ex.",
+      "Peligro de activar Vuelo Veloz con ambas Camillas Nocturnas ya descartadas: no descartar recursos de recuperación si se anticipa perder Ceruledge."
+    ],
+    "win": [
+      "Progresión acreditada: T1 una Energía descartada; T2 dos; T3 nueve; T4 once y 250 por ataque; T5 doce y 270 por ataque. Es la pila de descarte propia, no Energías unidas.",
+      "Cuando rival usa Boss a Tapu, unión manual Rayo y retirada de coste uno permite volver a Ceruledge y sube la cantidad de Energías descartadas en uno: 250→270 en log.",
+      "KO Shuppet por 250 da un Premio; KO Meowth ex por 270 equipado con Energía Legado da solo un Premio, a pesar de ser ex: marcador observado 2–0.",
+      "Torre Prisma rival ofrece descarte al propietario del turno si efecto simétrico; en la partida permitió descartar Fuego y aumentó el daño a 250 en el primer ataque.",
+      "Establecer segundo y tercer Ceruledge ex desde Charcadet para sostener ataques y tolerar posibles gusts, sin declarar probado un intercambio ante atacante rival."
+    ],
+    "avoid": [
+      "No registrar 3 Premios al debilitar Shuppet y Meowth ex: Energía Legado reduce la recompensa de Meowth ex de 2 a 1.",
+      "No calcular daño de Ceruledge por Energías unidas aunque la interfaz escriba 'Energías unidas'. La carta PRE147 utiliza Energías en la pila de descartes.",
+      "No asumir que Dhelmise o Banette fueron contrarrestados: rival nunca atacó, y Banette solo se buscó con Pokétableta antes de conceder.",
+      "No interpretar Torre de Defensa como control demostrado: Torre Prisma la sustituyó y no se constató Habilidad desactivada.",
+      "No quemar Camilla Nocturna sin valorar el efecto en el juego largo: ambas copias se descartaron T1 en esta partida."
+    ],
+    "test": "10 partidas completas o BO3 con líneas Dhelmise/Banette y ataques reales: registrar turno de primer Ceruledge, 11/12/13/14 Energías en descarte, si se preservaron Camillas Nocturnas, efecto real de Watchtower, cantidad de Ceruledge disponibles, Premios tras Energía Legado y resultado antes de la rendición.",
+    "confidence": "Una victoria propia 2–0 por concesión tras 2 KOs sin ataque del rival; las rutas de daño y Premios son confirmadas, no el matchup defensivo."
   }
 ]
