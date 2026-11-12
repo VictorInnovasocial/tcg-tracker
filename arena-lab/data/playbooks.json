@@ -691,5 +691,34 @@
     ],
     "test": "Al menos 5 partidas contra Rayquaza/Kang/Ho-Oh cuyos pilotos ejecuten turnos y ataques: medir acceso real al sexto Fuego/Rayo, presión rival antes de turno T3, respuestas a Boss y Juez, si se puede mantener Ray sin perder 3 Premios, y frecuencia del mapa 3+3 al enfrentar Kang de 300 y Mega-Ray de 280.",
     "confidence": "Un log completo confirma 6–0 por Premios y 3→5→6 Energías, pero dos turnos perdidos por tiempo de rival impiden inferir ventaja del matchup. Fecha real de juego no acreditada."
+  },
+  {
+    "deck": "ray-c-thorns-v11",
+    "matchup": "Ogerpon Máscara Turquesa ex / Mega-Venusaur ex / Dudunsparce (ssa1214)",
+    "title": "C-Ferropúas V1.1 vs Ogerpon / Mega-Venusaur: bloqueo, Reshiram y anti-Amarrar",
+    "objective": "Evitar que la tecnología Ferropúas bloquee más nuestro motor que el rival, y mantener capacidad de intercambio ante Bulbasaur que impide retirada; buscar KOs favorables a Ogerpon con Reshiram sin regalar 2 ex seguidos.",
+    "opening": [
+      "Si Ferropúas TWM77 sale Activo, definir desde T1 si su misión es bloquear 1–2 turnos y salir por Cambio, o atacar con Ciclón Voltio pagando Rayo+2 Incoloras. No unir dos Fuego esperando poder atacar.",
+      "Mientras Ferropúas está Activo, Initialization niega habilidades de ex, incluido Ogerpon; pero también Mega-Kang Recado, Latias Estela, Ho-Oh Golden Flame, Fez Giro de Guion y Mega-Ray Rugido. Secuenciar puesta de Bancas y salida antes de activar motor.",
+      "Buscar Talonflame por habilidad si Mega-Kang Incoloro está en mesa y dar 150 a motor Chikorita/Bulbasaur; medir si Ogerpon ya tiene Energías para devolver 210.",
+      "Si se juega Piroducto Legendario, poner simultáneamente las mitades DLR94+95, pero prever Bosque Vitalidad rival como respuesta al Estadio."
+    ],
+    "win": [
+      "Con 2 Premios rivales cobrados, Reshiram ex 130+100=230, y Ogerpon Turquesa ex es débil a Fuego ×2, total 460 KO por dos Premios. Con Capa de Héroes Reshiram soporta más daño, si recibe ese ataque.",
+      "Reshiram tras atacar descarta una Energía; si conserva 2 Fuego, solo le falta una Energía cualquiera para volver a poder usar Explosión Abrasadora, SI puede acceder al Activo.",
+      "Talonflame 150 contra Chikorita de 1 Premio elimina una pieza evolutiva, pero expone Pokémon ex de dos Premios a Ogerpon con varias Energías.",
+      "Ferropúas + Piroducto bloquean familias complementarias de Habilidades, pero el propio motor de este mazo también queda afectado; comparar la eficiencia del bloqueo al primer turno con la salida a Kang/Talonflame.",
+      "El rival puede preparar Ogerpon alternativo y Mega-Venusaur; asegurar líneas contra atacante de 2 Premios y un Mega de 3, no asumir que KO del primer Ogerpon resuelve el partido."
+    ],
+    "avoid": [
+      "No confundir coste de retirada cero de Latias con capacidad de retirar cuando Amarrar lo prohíbe. El Bulbasaur MEG1 repitió ataque 10+bloqueo y atrapó Fezandipiti; es respuesta al control de movilidad por Latias.",
+      "No gastar el único Switch si es evitable cuando el rival usa Amarrar; reservarlo o tener forma de buscarlo. En lista V1.1 hay solo uno, por lo que medir prioridad del escape.",
+      "No perder dos Energías Fuego en Ferropúas si el plan real es ganar con Rayquaza/Reshiram.",
+      "No descartar ambos Mega-Rayquaza ex por Ultra Ball si la condición de victoria principal todavía depende de su presencia, salvo recuperación garantizada o cierre seguro.",
+      "No registrar como victoria de seis Premios una concesión estando por detrás 3–4, ni presentar el matchup como favorable sin BO3.",
+      "No atribuir al log un sexto Pokémon en Banca sin revisar el supuesto efecto que permitiría esa colocación."
+    ],
+    "test": "Probar 5 partidas contra Ogerpon/Mega-Venusaur donde el rival use Danza Turquesa, Bosque Vitalidad y Amarrar. Registrar cuándo se pierde el bloqueo de Inicialización, coste de Energías en Ferropúas y posibilidad real de atacar LCC, momento de salir con el único Cambio, si Estela queda invalidada por Amarrar, turnos de Piroducto, supervivencia Reshiram tras 460 y si se llega a usar Rayquaza. Verificar discrepancia de Banca del log si existe replay.",
+    "confidence": "Una victoria por rendición propia 3–4 en Premios; bloqueo Amarrar verificado por carta Bulbasaur MEG1 y reglas avanzadas. Sin cierre de seis Premios y posible omisión/inconsistencia de Banca en log."
   }
 ]
