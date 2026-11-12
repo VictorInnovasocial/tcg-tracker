@@ -372,5 +372,21 @@
     "evidence": "log completo; rival 'no ha actuado a tiempo' en dos turnos",
     "notes": "Fecha 2026-11-10 corresponde a recepción del log, no juego acreditado. Rival blopaleyton gana moneda y elige ir primero: Latias ex Activo, Meowth ex banca; usa Captura a la Desesperada y retira a Meowth Activo. Nosotros salimos segundo con Fezandipiti ex Activo, sin mulligans. T1 Transceptor del Team Rocket→Petrel→Carrito Valioso pone Moltres/Articuno/Zapdos/Latias ex en Banca; Megaseñal busca Mega-Rayquaza ex, Rugido Regio añade Fuego, manual Rayo a Ray, Zapdos acelera Rayo y Energy Switch añade Rayo a Ray (fuente exacta del traslado no explícita), Fez retira usando Latias; 3 Energías en campo, Tormenta Esmeralda hace 150 al Meowth ex. Rival desarrolla Ho-Oh ex de Eco con Fuego, Kang 300PS y Mega-Ray de 280PS con 2 Rayo. T2 propio Denis busca Rayo a mano y une Fuego a Zapdos, Zapdos habilita otro Rayo; 5 Energías propias totales, Ray hace 250 al Kang que queda con 50 PS. Rival T2 NO actúa a tiempo. T3 propio Moltres acelera Fuego, 6 Energías totales, Boss trae Mega-Rayquaza rival y Ray hace 300 KO de 3 Premios (3–0). Rival T3 NO actúa a tiempo de nuevo. T4 Boss lleva Kang de 50HP restantes al Activo y Tormenta 300 KO de 3 Premios, victoria por 6–0 Premios. No hubo KO ni ataque rival. El rival falló dos turnos por tiempo, factor decisivo: no probar matchup equilibrado ni resiliencia frente a Ho-Oh/Kang. Variante con Denis 7–1 provisional; japonesa V1.0 5–1 independiente y cambios Flamariete/Budew aún no aprobados. Los 60 reales de versión Denis siguen sin confirmar.",
     "notion": "https://app.notion.com/p/4145f543d14e81ce8783c193a5cda008"
+  },
+  {
+    "id": "ray-c-thorns1",
+    "deck": "ray-c-thorns-v11",
+    "date": "2026-11-12",
+    "rival": "C08",
+    "matchup": "Ogerpon Máscara Turquesa ex / Mega-Venusaur ex / Dudunsparce",
+    "result": "win",
+    "prizes": [
+      3,
+      4
+    ],
+    "finish": "concesión rival con ventaja rival en Premios",
+    "evidence": "log completo de TCG Live, contiene posible discrepancia de límite de Banca: Fez bajado con cinco en Banca según acciones visibles",
+    "notes": "Fecha 12/11/2026 corresponde a recepción del log, no fecha real verificada. Primera partida propia de V1.1 C-Ferropúas (60 exactas, 1 Iron Thorns ex en vez de Zekrom). Propio comienza primero con Ferropúas ex Activo vs Ogerpon Máscara Turquesa ex. Dos Fuego a Ferropúas T1/T2, sin posibilidad de usar Volt Cyclone LCC (falta Rayo), tres primeros turnos propios sin ataque; Boss trae Chikorita. Ferropúas Inicialización bloquea Habilidades con recuadro, incluida Danza Turquesa, hasta que Switch cambia a Kang T4. Mega-Kang Recado, Talonflame ex aparece y golpea Chikorita 150 KO (+1 Premio). Ogerpon ataca dos veces por 210 y KO Talon (+2 Premios rival), previamente Talon 150 al Ogerpon. Propio juega Piroducto Legendario DLR94/95 para bloquear habilidades de Evolución; Reshiram ex con Capa de Héroes, Fuego Denis + Rayo manual + Fuego manual usa Explosión Abrasadora 130+50×2=230, Debilidad Ogerpon Fuego ×2=460 KO Ogerpon (+2 Premios propio, total 3). Reshiram descarta Rayo, conserva 2 Fuego. Rival Boss a Fezandipiti ex, Bulbasaur MEG1 usa Amarrar 10 repetidas veces: impide retirada del Defensor siguiente turno; Latias ex Estela reduce coste de retirada a 0 pero NO anula prohibición. Único Cambio ya gastado para sacar Ferropúas. Propio une Rayo y luego Fuego a Fez, sin atacar ni cambiar, varios turnos; rival reemplaza Piroducto con Bosque Vitalidad, activa Dudunsparce y Mega-Venusaur Traspaso Solar, Ogerpon alternativo ataca por 180 KO Fez (+2 Premios rival, total 4). Último propio Kang Activo, une Rayo a Reshiram, Kang Recado +2, Ultra Ball descarta dos copias Mega-Rayquaza ex para buscar Meowth ex; rival concede con premios propios 3, rivales 4. Ni Rayquaza ex ni Ciclón Voltio de Ferropúas atacaron. Posible discrepancia documental de Banca: al bajar Fez parecía haber ya cinco Pokémon en Banca, sin efecto de ampliación registrado. V1.1 pasa a 1–0 por rendición, mantener totalmente separado Rayquaza Tres Aves + Denis 7–1.",
+    "notion": "https://app.notion.com/p/4165f543d14e816190a0f59369eff693"
   }
 ]
