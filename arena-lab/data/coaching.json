@@ -509,5 +509,30 @@
       "La lista completa 60 de Tres Aves+Denis todavía está sin confirmar; no asumir presencia de Flamariete ni corte de Budew ni incrementar resultados de la versión japonesa independiente."
     ],
     "gameplan": "Contra Mega-Rayquaza/Mega-Kangaskhan/Ho-Oh de Eco, Carrito+Megaseñal monta las tres aves, Latias ex y Mega-Ray. Rugido Regio, manual, Zapdos y Energy Switch alcanzan 3 Energías globales para 150 inicial. Denis+Zapdos T2 permite 5 globales=250; Moltres T3 6=300. Mapa Premios 3+3: si Mega-Kang tiene 250 previo, Boss a Mega-Ray 280 para KO con 300 y 3 Premios y reservar Kang dañado como segundo KO de 3. Pero con rival activo debe comprobarse si Kang/Ho-Oh puede atacar, forzar Boss o disputar Ray antes de dos turnos; aquí perdió ambos turnos por tiempo. Mantener dos KOs como resultado confirmado, sin concluir matchup favorable."
+  },
+  {
+    "id": "ray-c-thorns1",
+    "grade": 6,
+    "headline": "Ferropúas bloquea pero recibe Fuego×2; Reshiram logra KO por 460, luego Bulbasaur atrapa Fez mediante Amarrar. Victoria por concesión 3–4.",
+    "confidence": "Alto para secuencia y premios 3–4, con victoria por concesión. Verificada la imposibilidad de retirada por Amarrar de Bulbasaur MEG1 aunque Latias ex reduzca coste a cero. Posible inconsistencia de Banca sin resolución visible; fecha real de juego no confirmada. Un único test del mazo V1.1, sin BO3.",
+    "good": [
+      "Ferropúas ex Inicialización Activo impide Danza Turquesa del Ogerpon ex mientras está en frente; se controla apertura rival y Boss lleva Chikorita Activo antes del primer KO.",
+      "Switch hacia Mega-Kang reactiva Recado y permite poner Talonflame directamente en Banca, preparar Energías con Energy Switch y conseguir Garra Cazadora 150 KO Chikorita, robando dos cartas de la baraja.",
+      "Piroducto Legendario DLR94+DLR95 se montó desde la mano y bloqueó habilidades de Evolución hasta que el rival lo sustituyó por Bosque Vitalidad.",
+      "Reshiram ex equipado con Capa de Héroes acertó el momento de atacar a Ogerpon con Debilidad Fuego: después de 2 Premios tomados por rival, Blazing Burst 130+50×2=230 ×2=460 y dos Premios, llevando al jugador a 3 Premios.",
+      "Ho-Oh ex de Eco cargó dos Energías Fuego en Banca, útiles para un eventual Mega-Rayquaza; esto demuestra acceso al motor de Energías aunque Rayquaza nunca atacó.",
+      "Se registra el resultado real: victoria por rendición cuando rival iba ganando en Premios 4–3, no cierre por seis Premios."
+    ],
+    "errors": [],
+    "watch": [
+      "Dos Energías Fuego consecutivas en Ferropúas no permiten pagar su ataque Ciclón Voltio LCC; se perdieron uniones manuales y tres turnos de ataque sin presionar antes de Switch.",
+      "El Bulbasaur rival MEG1 utiliza Amarrar: hace 10 y durante nuestro próximo turno Fezandipiti no puede retirarse normalmente. La habilidad Estela de Latias ex quita coste, pero NO elimina este impedimento. No penalizar al jugador por no retirarse; fue un bloqueo legal del rival.",
+      "Con el único Cambio gastado al abandonar Ferropúas, no había un segundo efecto de cambio confirmado. Unir Energía Rayo y luego Fuego al Fez atrapado no abrió una ruta ofensiva observable; Reshiram conservaba 2 Fuego pero no podía entrar Activo mientras persistiera Amarrar.",
+      "El rival reemplazó Piroducto con Bosque Vitalidad, recuperó el motor Dudunsparce y Mega-Venusaur y debilitó Fez por 180 con el segundo Ogerpon. No se hizo KO al Mega-Venusaur.",
+      "En último turno Ultra Ball descartó ambas Mega-Rayquaza ex por Meowth ex, comprometiendo el plan principal salvo Camilla Nocturna u otra recuperación. El Mega-Rayquaza propio nunca estuvo en mesa en este combate.",
+      "Se observa posible incongruencia documental de límite de Banca: se pone Fez cuando ya parecen haberse colocado Iron Thorns, Kang, Latias, Ho-Oh y Reshiram en Banca. El log no explica efecto de ampliación ni retirada. No inventar un movimiento.",
+      "La rendición se produce con jugador 3 Premios y rival 4; no inferir que el resultado a seis Premios habría sido victoria. La muestra n=1 no prueba que Ferropúas mejore la construcción base C."
+    ],
+    "gameplan": "Contra Ogerpon/Mega-Venusaur, usar Ferropúas Activo para bloquear Danza Turquesa rival solo si se dispone de salida y no se consume el motor propio. Si se pretende atacar con Ferropúas, recordar Ciclón Voltio LCC (necesita una Rayo); dos Fuego no bastan. Talonflame por 150 elimina un Chikorita, pero Ogerpon puede hacer 210 y KO al segundo golpe. Reshiram WHT20 es tech fuerte: con 2 Premios cobrados por rival hace 230 y Debilidad Fuego de Ogerpon lo convierte en 460 para KO; después descarta una Energía y puede quedar con 2F, preparado para una tercera. Proteger el único Cambio, porque Bulbasaur MEG1 usa Amarrar y atrapa Pokémon Básicos incluso con Latias ex Estela de retirada 0. Piroducto bloquea habilidades de Evolución solo mientras permanece en juego; si rival juega Bosque Vitalidad, Mega-Venusaur/Dudunsparce pueden reactivarse. Preservar Mega-Rayquaza, medir huecos de Banca y mapas de Premios ante Ogerpon de 2 y Mega-Venusaur de 3."
   }
 ]
