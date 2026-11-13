@@ -534,5 +534,31 @@
       "La rendición se produce con jugador 3 Premios y rival 4; no inferir que el resultado a seis Premios habría sido victoria. La muestra n=1 no prueba que Ferropúas mejore la construcción base C."
     ],
     "gameplan": "Contra Ogerpon/Mega-Venusaur, usar Ferropúas Activo para bloquear Danza Turquesa rival solo si se dispone de salida y no se consume el motor propio. Si se pretende atacar con Ferropúas, recordar Ciclón Voltio LCC (necesita una Rayo); dos Fuego no bastan. Talonflame por 150 elimina un Chikorita, pero Ogerpon puede hacer 210 y KO al segundo golpe. Reshiram WHT20 es tech fuerte: con 2 Premios cobrados por rival hace 230 y Debilidad Fuego de Ogerpon lo convierte en 460 para KO; después descarta una Energía y puede quedar con 2F, preparado para una tercera. Proteger el único Cambio, porque Bulbasaur MEG1 usa Amarrar y atrapa Pokémon Básicos incluso con Latias ex Estela de retirada 0. Piroducto bloquea habilidades de Evolución solo mientras permanece en juego; si rival juega Bosque Vitalidad, Mega-Venusaur/Dudunsparce pueden reactivarse. Preservar Mega-Rayquaza, medir huecos de Banca y mapas de Premios ante Ogerpon de 2 y Mega-Venusaur de 3."
+  },
+  {
+    "id": "kang-acerola1",
+    "grade": 7,
+    "headline": "Kang 200→200, KO a Slowpoke y Casco Suerte + Helado sostienen la mesa frente a Triple Escarcha de Mew ex",
+    "confidence": "Acciones y premios 1–0 registrados en log completo. Alta fiabilidad de daño 110 a Kang y dos Talon; concesión rival antes de siguiente ataque, no hay resolución completa del matchup. 60 exactas de la variante propia no comprobadas, se usa lista base de AzulGG; fecha real del juego no confirmada.",
+    "good": [
+      "Salida inicial Mega-Kang 300 HP activo con Casco Suerte y Neblina: Recado roba 2 en T1; sin buscar otros básicos pudo iniciar motor de robo desde el primer turno.",
+      "Unión Neblina T1, Agua T2 y Rayo T3 completó coste [CCC] de Combo Ráfaga, que infligió 200 al Kang rival (quedó 100PS) y más tarde 200 a Slowpoke para KO por un Premio.",
+      "El Capturador Supremo rival llevó Talonflame a Activo, pero el usuario aprovechó su coste de retirada 0 para regresar gratis a Kang y atacar por 200 en T3.",
+      "Segundo Talonflame se colocó en Banca, dando redundancia de atacantes y un potencial buscador por ataque para siguiente turno.",
+      "El Kang Activo con Casco Suerte recibió 110 de Triple Escarcha de Kyurem copiado por Mew ex y activó su casco, robando dos cartas.",
+      "Helado Colosal curó 80 al Kang tras el ataque enemigo, dejándole solo 30 daño; ambos Talonflame con 110 daño cada uno sobrevivieron.",
+      "Torre Prisma propia sustituyó Academia de Noche rival y se disputó el espacio de estadio; el rival usó su Academia para preparar el daño de Triple Escarcha, sin completarse plan posterior."
+    ],
+    "errors": [],
+    "watch": [
+      "Solo se cobró un Premio por KO a Slowpoke y rival ninguno; Mega-Kang rival con 200 daño seguía en Banca y podía conceder tres Premios si se lograba traer de nuevo al Activo y KO. El final fue rendición, NO seis Premios.",
+      "Acerola's Mischief es Partidario condicionado: oponente debe tener 2 o menos Premios restantes. En esta partida el rival no cobró Premios, así que las cuatro Acerola no pudieron activar su función de inmunidad a ataques ex. No llamar al resultado prueba del plan defensivo Acerola.",
+      "Se tardó hasta el propio T3 en completar 3 Energías en Kang y realizar ataque; había Talonflame T2 pero no se observó ruta para pagar Talon Hunt ese turno. Probar la alternativa en manos con Crispin temprano, sin afirmar fallo automático aquí.",
+      "Casco Suerte puesto en Talonflame activo durante T3 no tuvo activación de robo cuando recibió 110 en Banca T4 rival; solo el casco del Kang activo activó el robo. Si se pretende convertir daño de Banca en cartas, esa herramienta no funciona como tal.",
+      "Se descartaron copias Mega-Kang y Talonflame desde mano mediante Torre Prisma T4, reduciendo posibles sustitutos si rival hubiera debilitado Kang; no puede calificarse de error determinante sin conocer baraja restante.",
+      "Mist Energy en Kang y Talon no evita el daño directo de Triple Escarcha: el ataque hace 110, no efecto de colocar contadores bloqueable por Neblina. Mantener precisión reglamentaria.",
+      "El rival mostró Mew ex copiando Kyurem y Slowking en Banca, pero no se completó una partida contra su motor entero y el rival concedió después de curación: no inferir matchup favorable o winrate."
+    ],
+    "gameplan": "Contra Mega-Kang/Slowking/Mew ex, Mega-Kang 300 PS ofrece Recado +2 desde Activo y puede atacar con tres Energías de cualquier tipo por 200+ moneda. Priorizar un casco en Kang activo y preparar respuesta al motor Mew ex/Kyurem con 110 a Activo y dos Banca. Talonflame ex puede entrar sin línea previa por Excited Dive si Mega-Kang incoloro ex está en juego; guarda dos buscadores para preparar turno de atacante o control. Si primer Combo 200 deja rival Kang con 100 HP, conservar Boss/Catcher para eventualmente cobrar 3 Premios antes que aceptar Slowpoke de 1, si se dispone de esos recursos. Lucky Helmet +2 si Pokémon equipado está activo y recibe daño de ataque, no por daño de Banca; Jumbo Ice Cream cura 80 al activo, útil tras Triple Frost. 4 Acerola's Mischief no se juegan hasta que rival solo tiene 2 Premios pendientes; no dependen de primera mitad de partida, sino plan de endgame si se alcanza."
   }
 ]
