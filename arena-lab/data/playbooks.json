@@ -720,5 +720,34 @@
     ],
     "test": "Probar 5 partidas contra Ogerpon/Mega-Venusaur donde el rival use Danza Turquesa, Bosque Vitalidad y Amarrar. Registrar cuándo se pierde el bloqueo de Inicialización, coste de Energías en Ferropúas y posibilidad real de atacar LCC, momento de salir con el único Cambio, si Estela queda invalidada por Amarrar, turnos de Piroducto, supervivencia Reshiram tras 460 y si se llega a usar Rayquaza. Verificar discrepancia de Banca del log si existe replay.",
     "confidence": "Una victoria por rendición propia 3–4 en Premios; bloqueo Amarrar verificado por carta Bulbasaur MEG1 y reglas avanzadas. Sin cierre de seis Premios y posible omisión/inconsistencia de Banca en log."
+  },
+  {
+    "deck": "kang-talon-acerola-v1",
+    "matchup": "Mega-Kangaskhan ex / Slowking / Mew ex / Kyurem (nnhr8)",
+    "title": "Mega-Kang/Talonflame/Acerola V1.0 vs Slowking / Mew ex / Kyurem — Triple Escarcha",
+    "objective": "Ejecutar presión con Kang y robo por Casco Suerte mientras se evita que Mew/Kyurem cobre KOs múltiples sobre Talonflame; explorar ruta a Mega-Kang rival de tres Premios frente a premio fácil de Slowpoke.",
+    "opening": [
+      "Mega-Kang 300 PS desde Activo con Casco Suerte activa Recado +2; 3 Energías incoloras de cualquier tipo habilitan Combo Ráfaga 200+, con moneda adicional para 50 por cara.",
+      "Si Mew ex y Slowking se desarrollan y rival juega Academia de Noche, anticipar acceso a Kyurem Triple Escarcha: 110 al Activo +110 a dos Pokémon Banca, aunque el rival aún no ataque.",
+      "Talonflame ex entra directamente en Banca por Excited Dive cuando Mega-Kang Incoloro Mega ex está en juego; usar su retirada cero si rival lo atrae con Capturador Supremo.",
+      "Contrastar un plan de carga T1–T3 con Kang (Neblina/Agua/Rayo en la partida) y alternativas de Talon Hunt 150+dos tutores cuando Crispin esté accesible. No presuponer que existe T2 Talon Hunt en mano sin Energías.",
+      "Reservar Torre Prisma si rival pretende controlar el orden del mazo mediante Academia de Noche y seleccionar Kyurem para copiar con Mew; registrar ventanas de sustitución de estadio."
+    ],
+    "win": [
+      "Con Kang 200 a Mega-Kang rival de 300 PS, quedan 100. Si se puede usar Boss/Pokémon Catcher siguiente turno y causar al menos 100 se cobran 3 Premios; en partida ese Mega fue retirado sin KO.",
+      "En log, tras retirar Kang propio del frente de Talon y atacar, Combo 200 debilita a Slowpoke Activo y concede 1 Premio, pero es mapa de Premios distinto de atrapar Mega dañado.",
+      "Casco Suerte en Kang Activo roba dos cuando un ataque enemigo le hace daño. El ataque copiado de Kyurem causa 110 a Kang y dos Talon; solo casco del activo generó robo.",
+      "Helado Colosal cura 80 al Mega-Kang después del daño 110, reduciendo a 30 daño y reteniendo un atacante de 3 Premios muy resistente.",
+      "Cuando rival queda con ≤2 Premios pendientes, Acerola's Mischief puede impedir daño y efectos de ataques de ex hacia un Pokémon elegido durante siguiente turno; no sirve antes ni frente a atacante no ex."
+    ],
+    "avoid": [
+      "No atribuir a Mist Energy prevención de los 110 de Triple Escarcha; sigue siendo daño directo de ataque y se aplicó a Kang y ambos Talon.",
+      "No asumir que Lucky Helmet equipado a Talon benched actúa por daño en Banca; en el log solo se activó el casco del Kang Activo.",
+      "No considerar victoria por seis Premios ni KO de Mega-Kang rival: fue concesión con 1–0 Premios.",
+      "No tomar partidas sin uso legal de Acerola como confirmación de que esta defensa es consistente; requiere rival con dos Premios o menos por cobrar.",
+      "No declarar mejor línea universal 'atacar Talon T2': depende de búsqueda y Energías en mano, pues no hubo Crispin disponible en turnos iniciales."
+    ],
+    "test": "5 BO1 desarrolladas o 2 BO3 contra Slowking/Mew/Kyurem: registrar KOs reales, cuándo Kyurem se copia por Mew, dañados Kang/Talons, casco activo vs banca, curación por Helado, estadio Academia, acceso a Boss/Catcher para Mega de 100 HP y primera activación legal de Acerola con rival a ≤2 Premios.",
+    "confidence": "Una victoria propia por concesión 1–0 sin KOs sufridos. Lista propia provisional sobre base screenshot AzulGG; no existe evidencia BO3 ni continuidad hasta seis Premios."
   }
 ]
