@@ -635,5 +635,28 @@
       "Con la captura anterior 6–1 y ahora 3 partidas con log (2–1), no inventar un total general 8–2 o 6–2 sin saber si los logs ya estaban contabilizados."
     ],
     "gameplan": "Vs Clefairy ex de Lylia + Dragapult/Drakloak, identificar riesgo de Dwebble solo ante Rondó Luna Llena 80 y llenar Banca con otro Básico cuando la mano/búsqueda lo permita. Si Ultra Ball aparece T1, comparar Dwebble de evolución vs Mega-Kang para robar/proteger vs Ogerpon Cimiento para frenar ataques de Pokémon con habilidades. Drakloak con Orden de Búsqueda es un atacante no ex de 70 que atraviesa Casapiedra Misteriosa; Ogerpon Cimiento activo sí previene daño de sus ataques porque Drakloak tiene una Habilidad. Para que Crustle use Tijeras Espléndidas 120 requiere una Planta y dos cualesquiera: Lucha Rocosa+Planta Creciente son solo dos unidades; necesitar tercera antes de poder convertir Boss a Dreepy/Drakloak en KO. Preservar Premio mapa evitando bench-out y reservar Boss hasta que pueda causar KO o atrapamiento efectivo. Curación 30 y Growing Grass +20HP no superan 3×70−30=180 frente a 170HP."
+  },
+  {
+    "id": "cru-corner4",
+    "grade": 6,
+    "headline": "Ferropúas Inicialización apaga Recado de Kang; doble Energía Espinosa castiga 40, rival concede 0–0 después de hacer 180",
+    "confidence": "Muy alto para daño 180, 40 daño Espinosa, 0–0 y rendición; bajo para proyectar ganador real: no hubo ataque propio ni Pokémon adicionales en mesa. Solo un turno ofensivo rival y lista 60 propia pendiente. Datos de captura anterior 6–1 no actualizados.",
+    "good": [
+      "Jugar dos Energías Espinosas en Kang Activo produjo cuatro contadores = 40 sobre Ferropúas cuando el rival atacó, sin necesidad de atacar personalmente.",
+      "Pokégear encontró Petrel y Petrel buscó Determinación de Lylia incluso sin Recado, dejando una ruta de búsqueda alternativa bajo bloqueo de Inicialización.",
+      "Kang de 300 PS sobrevivió a Ciclón Voltio 180 con 120 PS y no hubo KO ni Premios concedidos antes de la rendición.",
+      "Se contabilizó correctamente la concesión 0–0, no victoria a seis Premios ni KO de Ferropúas."
+    ],
+    "errors": [],
+    "watch": [
+      "Con Kang como único Pokémon en juego y bloqueado por Ferropúas, no se desplegó ningún otro Básico; un futuro KO a Kang habría producido derrota por campo vacío, incluso sin necesidad de seis Premios.",
+      "Ferropúas TWM77 apaga Habilidades de Pokémon con recuadro salvo Futuro. Recado de Kang estaba inhabilitada, lo mismo habría ocurrido con Ogerpon Cimiento ex si hubiera entrado; no atribuirle protección automática bajo Inicialización.",
+      "Crustle DRI12 es Evolución sin recuadro de regla: su Habilidad Casapiedra Misteriosa NO queda anulada por Ferropúas y previene daño de ataques de Ferropúas ex, salvo efectos que ignoren protección; es la respuesta principal del mazo.",
+      "El ataque enemigo hizo 140+20+20=180 por dos Energías Rayo Voltaica (cada una +20), no por habilidad; ambas Energías Espinosas colocaron contadores 2+2 (=40) tras el daño.",
+      "Erin se jugó en primer turno propio, pero el registro no incluye descartes de mano rival; no afirmar que interrumpió recursos.",
+      "Sin Dwebble/Crustle/Ogerpon jugados ni ataque propio, no se puede afirmar que el usuario ganaba la partida desarrollada o que Ferropúas sea matchup favorable.",
+      "La captura 6–1 anterior no puede recalcularse con esta partida porque no se conoce su fecha relativa respecto al log; cuatro logs nuevos son 3 victorias y 1 derrota."
+    ],
+    "gameplan": "Frente a Ferropúas ex Activo, la habilidad Inicialización bloquea Mega-Kang Recado y Ogerpon Cornerstone ex Postura del Cimiento: buscar Dwebble sin depender de habilidades ex y evolucionar Crustle para frenar Ciclón Voltio de Iron ex. Crustle no tiene recuadro de regla, su habilidad permanece activa y evita daños de ataques ex; aún puede ser perturbado con Boss, supresión de habilidad o efectos que ignoren daño. Si Kang queda Activo con dos Spiky, cada ataque de Ferropúas activa 40 daño en contadores, pero no recupera cartas y Kang cae ante dos Ciclones de 180 (300HP) sin curación. Identificar primeros tres turnos y asegurar Banca antes de segundo ataque. Voltaic Energy +20 cada copia, así que 140+40=180. No confundir concesión 0–0 con matchup positivo."
   }
 ]
