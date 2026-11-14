@@ -452,5 +452,21 @@
     "evidence": "log TCG Live completo, recibido 2026-11-14; fecha real de juego no acreditada; variante propia con Ogerpon por contexto, Ogerpon no apareció; 60 cartas pendientes",
     "notes": "3 mulligans propios, rival roba 3 extra. Rival inicia Clefairy ex de Lylia, usuario Dwebble Activo sin Banca. Propio T1 Ultra Ball descarta Crustle + Recinto del Festival, busca Dwebble y lo coloca en Banca; no une energía. Rival T2 Clefairy Lillie hace 20+20×3 Banca=80 KO Dwebble (+1 Premio). Segundo Dwebble propio pasa Activo y evoluciona Crustle pero ningún Básico más llega a mesa. Rival Drakloak (Orden de Búsqueda) ataca tres veces con Cabezazo Dragón 70; propio Bolita Arroz cura 30 después del primer 70, luego recibe otro 70 y el tercero 70, total neto 180. Propio Crustle de 150 HP con Energía Planta Creciente +20 =170 HP y queda KO (+1 Premio rival) sin Banca, partida termina 0-2. Propio T3 une Energía Lucha Rocosa (1 Lucha) y T4 Energía Planta Creciente (1 Planta), solo 2 de 3 Energías para Tijeras Espléndidas [GCC], nunca ataca. Propio usa Boss para traer Dreepy pero evoluciona y rival sigue atacando; otro Boss para traer Drakloak distinto que rival retira, tampoco frena ataque. Ogerpon Cimiento no estuvo en juego: habría bloqueado daño de Drakloak con habilidad si hubiese podido llegar Activo, pero no es hecho de partida. Rival Dragapult ex descartado, nunca atacó. Estadística 6-1 de captura anterior es historial agregado no necesariamente compatible cronológicamente, registros con log de esta versión pasan 2-1 sin inferir acumulado. Primera derrota documentada.",
     "notion": "https://app.notion.com/p/4185f543d14e815c8d5dd7aa69426a43"
+  },
+  {
+    "id": "cru-corner4",
+    "deck": "cru-corner-v1-pending",
+    "date": "2026-11-14",
+    "rival": "C13",
+    "matchup": "Ferropúas ex / Energía Rayo Voltaica / Juez (Tjwolbert25)",
+    "result": "win",
+    "prizes": [
+      0,
+      0
+    ],
+    "finish": "concesión rival tras un solo ataque de 180, sin premios",
+    "evidence": "log TCG Live completo; fecha 2026-11-14 corresponde a recepción, no fecha de juego comprobada. Base propia Crustle/Ogerpon Cimiento por continuidad; ambos ausentes, 60 exactas desconocidas",
+    "notes": "TronBeatbox22 ganó moneda y optó por ir segundo. Rival Tjwolbert25 declaró un mulligan; usuario robó Helado Colosal extra y comenzó Mega-Kang ex Activo sin Banca vs Ferropúas ex Activo. Iron Thorns Inicialización bloquea Habilidad Recado de Kang. Rival T1 Neblina a Ferropúas y Pokégear a Denis. Propio T1 Erin sin descarte informado, une primera Energía Espinosa al Kang; sin ataque. Rival T2 primera Energía Rayo Voltaica en Ferropúas y Denis (busca Fuego); sin ataque. Propio T2 Pokégear busca Petrel, une segunda Energía Espinosa al Kang, Petrel busca Determinación de Lylia; sin ataque. Rival T3 otra Energía Rayo Voltaica + Juez rebaraja manos, usuario recibe Boss, Lylia, Ultra Ball, Energía Planta Creciente. Ferropúas usa Ciclón Voltio 140+20+20=180 contra Kang, quedan 120/300 PS. Ambas Energías Espinosas colocan dos contadores cada una sobre Ferropúas, 4=40 daño, quedan 190/230. Propio T3 roba Pokochos Gemelos, rival se rinde antes de usarlo: 0-0 Premios, sin KO, sin ataque propio, sin aparición de Dwebble/Crustle/Ogerpon. Concepto: Crustle no rule box con Casapiedra protege de Iron Thorns ex; Iron bloquea las habilidades de Pokémon con recuadro, por eso Ogerpon Cornerstone ex también pierde Postura del Cimiento al estar Ferropúas Activo. Esta rendición no prueba matchup positivo. Captura anterior 6-1 agregado sigue sin cambio; 4 logs detallados de la variante = 3-1, cronología relativa no confirmada.",
+    "notion": "https://app.notion.com/p/4185f543d14e81048cf5c18ee1122fe1"
   }
 ]
