@@ -926,5 +926,35 @@
     ],
     "test": "5 partidas completas vs Meganium/Teal Ogerpon/Cacturne: calcular daño de Cacturne según número de Habilidades en campo, frecuencia de Ogerpon activo frente a Teal Ogerpon, turno de Energía Planta en Crustle, triple coste, opciones de proteger Kang de 300, acceso a Hero Cape, razón de curación útil, y si rivales pueden contrarrestar 270 PS. Confirmar 60 cartas antes de editar.",
     "confidence": "Un log completo con 4–4 por concesión, no seis Premios. KOs por energía Spiky y Cacturne con daño previo, Hero Cape + Growing Grass 270 HP y el fracaso del primer Crustle al no reunir Planta. 60 propias pendientes."
+  },
+  {
+    "deck": "cru-corner-v1-pending",
+    "matchup": "Zoroark ex de N / Reshiram de N / Yveltal / Darmanitan de N / Pecharunt (Tardoqui)",
+    "title": "Crustle + Ogerpon Cimiento vs Zoroark N / Reshiram / Yveltal — evitar doble 170 a Kang, resistir el endgame",
+    "objective": "Evitar ceder tres Premios por Kang antes de construir Dwebble→Crustle; distinguir el ataque ex de Zoroark de sus aliados no ex y trabajar la supervivencia del único Crustle mientras se limita la vía de Hacer Trizas de N's Zekrom.",
+    "opening": [
+      "Rival abre Yveltal y desarrolla Zorua de N con Reshiram N en Banca: Zoroark ex N copia Llama Virtuosa 170 desde primer turno de ataque. Con Kang Activo solo, dos golpes 170 y cura30 entre medias suman 310, KO Kang 300 de tres Premios.",
+      "Con Petrel disponible T1 y sin Dwebble, valorar buscar Pokochos Gemelos o Ciudad Luminalia que permita establecer un Básico, antes de usar Liza para Crustle+Spiky sin Pokémon de evolución. Depende de la baraja real y premios.",
+      "Preparar Crustle temprano; Crustle DRI12 evita daño de ataques de Pokémon ex (Zoroark ex), pero no de Yveltal, Reshiram o Darmanitan N, que son no ex.",
+      "Usar Hero's Cape +100 y Growing Grass ×2 +40 sobre Crustle 150HP para llegar a 290HP, suficiente para resistir Dark Feather de Yveltal 150 si se curan daños entre golpes.",
+      "Si rival tiene N's Zekrom en Banca, Hacer Trizas copiado por Zoroark ignora Casapiedra: Xero que lo descarta de mano puede ganar tempo, no impedir recuperación del descarte."
+    ],
+    "win": [
+      "Yveltal queda Envenenado por Cadenas Controladoras de Pecharunt al entrar, y Mochi Cadena incrementa Dark Feather 110 a 150. Al dañar a Crustle con Spiky, recibe 20 por ataque, además de veneno al chequeo: en log cayó tras Embrague 60 y dos Dark Feather 150.",
+      "El Crustle 290PS con curas IceCream y RiceBall soportó secuencias de 150 dos veces y ganó por desgaste, aunque rival concedió 1–3 en Premios.",
+      "Tijeras Espléndidas 120 contra Zoroark ex de N vulnerable a Planta hace 240 por Debilidad ×2, pero desde PS completos 280 deja 40: planear Spiky previo o un segundo ataque/captura para cobrar dos Premios.",
+      "Xero puede recortar recursos rivales clave Fezandipiti, Boss, N's PP Up y N's Zekrom, en esta partida consiguió cuatro descartes y demoró opciones de cierre.",
+      "Controlar energía de Crustle: Mist×2, Spiky y Growing Grass×2 suman Energías suficientes y el requisito Planta para Tijeras, sin necesidad de exponer otro Mega."
+    ],
+    "avoid": [
+      "No registrar rendimiento positivo por ganador de seis Premios; solo 1 por Yveltal, rival tenía 3 de Kang y concedió con 1–3.",
+      "No buscar evoluciones para un Básico ausente sin valorar antes búsqueda de Básicos; la Banca vacía y exposición de Kang propiciaron una pérdida de tres Premios.",
+      "No tratar Zoroark ex con 240 de daño como KO si le quedan 40 PS: en log continuó en Banca y rival lo retiró.",
+      "No olvidar que Yveltal es no ex y sí hace daño a Crustle, incluso si Zoroark ex está bloqueado.",
+      "No considerar que Xero descartando Zekrom N anula siempre Hacer Trizas, porque puede tener copias descartadas y recursos de recuperación.",
+      "No atribuir éxito a Ogerpon Cornerstone no visto ni actualizar screenshot histórico solo porque coincide aritméticamente con siete logs."
+    ],
+    "test": "Jugar 5 partidas completas frente a Zoroark de N con Reshiram, Yveltal y Zekrom: medir porcentaje de T1 sin Básicos en Banca, primer turno de Dwebble, capacidad de sobrevivir a dos ataques 170 de Zoroark a Kang, timing de Hero Cape y Growing Grass, líneas para sumar 40 daño adicional al Zoroark de 280, amenazas de Hacer Trizas, curación neta contra Pluma Oscura 150 de Yveltal y Premios reales de cierre. Confirmar 60 antes de tocar lista.",
+    "confidence": "Una partida de concesión 1–3; se verifican dos ataques 170, un KO a Kang, 290PS de Crustle, +1 Premio Yveltal por Spiky/veneno. Sin seis Premios, sin Ogerpon usado, 60 desconocidas."
   }
 ]
