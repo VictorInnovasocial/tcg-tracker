@@ -611,5 +611,29 @@
       "La captura anterior 6 victorias/1 derrota (85,7%) no acredita nuevo balance 7–1; log individual es una victoria adicional si pertenece a la misma muestra cronológica, pero no sabemos si la captura ya la incluía."
     ],
     "gameplan": "Vs Kang+Talonflame+línea de Mega-Charizard, buscar rápidamente dos Dwebble y usar Ascensión con una Energía para garantizar Crustle antes de que Kang ceda tres Premios. Talon ex con Ignition puede atacar 150, buscar dos y retirar gratis, pero no daña a Crustle por Casapiedra. Boss sobre Charmeleon/Charmander de 1 Premio corta líneas no ex capaces de golpear por Debilidad Fuego y evita evolucionar a Mega-Charizard. Tres Growing Grass pagan [GCC] de Tijeras 120. Xero sobre la mano rival puede retrasar Megas, pero Camilla recupera etapas. Curar solo si cambia el número de ataques necesarios para KO; Jumbo Ice Cream reporta hasta 80 y puede curar solo 40 útiles. Medir si conviene dejar caer Kang que cede 3 Premios o construir Crustle con menor exposición. No dar por ganado el matchup tras una concesión 2–3, y no atribuir valor a Ogerpon no jugado."
+  },
+  {
+    "id": "cru-corner3",
+    "grade": 4,
+    "headline": "Tres mulligans, Clefairy KO Dwebble y Drakloak no ex 70×3; Crustle con 2 Energías y Banca vacía cae 0–2 sin poder atacar",
+    "confidence": "Alta para resultado 0–2, tres mulligans, movimientos, daño 180 neto y 2 energías: Growing Grass +20 HP y Rocky Fighting aportan 1 Energía cada una, Crustle [GCC] no se pagó. Bajo para alternativa exacta de Ultra Ball (no se conocen premios/mazo) y acceso a Cornerstone (no apareció). Fecha real de partida desconocida. Historial de pantalla 6–1 anterior NO actualizado.",
+    "good": [
+      "Ultra Ball T1 puso un segundo Dwebble en Banca: evitó la derrota inmediata tras KO del primero por Clefairy ex de Lylia, y permitió evolucionar al segundo en turno propio T2.",
+      "Se evolucionó el segundo Dwebble a Crustle al siguiente turno, obteniendo un muro que habría podido bloquear ataques de Dragapult ex o Clefairy ex (solo mientras el propio Crustle recibiera esos ataques).",
+      "Bolita de Arroz Sabrosa curó 30 daño real del primer Cabezazo Dragón de 70, y Growing Grass sumó +20 PS al Crustle; estas mitigaciones ganaron algo de margen, pero no bastaron."
+    ],
+    "errors": [],
+    "watch": [
+      "El usuario no consiguió un segundo Pokémon en Banca tras evoluciona el Dwebble. Cuando Drakloak KO al único Crustle, se perdió por board-out pese a que el rival solo llevaba dos Premios.",
+      "Ultra Ball T1 descartó una copia de Crustle y Recinto del Festival para buscar segundo Dwebble: era una línea funcional para evolucionar, pero conviene ensayar buscar Mega-Kang/Ogerpon si accesibles como alternativa de supervivencia; no dar por error sin conocer si estaban en la baraja o premios.",
+      "Tras 3 mulligans, rival tuvo +3 cartas; la apertura Dwebble solo y falta de energías condicionaron seriamente la derrota.",
+      "Rocky Fighting Energy proporciona una única Energía Lucha y Growing Grass Energy una Planta (+20HP). Total 2 energías, insuficiente para Tijeras Espléndidas que requiere Planta+2 incoloras: ninguno de los dos Boss generó KO por falta de ataque.",
+      "Boss T3 a Dreepy rival y T4 a Drakloak distinto sin poder atacar consumió Partidario y no bloqueó el desarrollo del rival: evolucionó/retiró los activos y siguió con 70.",
+      "Crustle tiene protección contra daño de ataques ex pero Drakloak es no ex: 3 ataques de 70 y curación de 30 dejan 180 netos frente a 170 PS con Growing Grass, KO.",
+      "Dragapult ex rival fue descartado por Ultra Ball pero no se jugó ni atacó, por tanto la derrota fue ante Clefairy ex + Drakloak, no por ataque de Dragapult.",
+      "Ogerpon Máscara Cimiento podría bloquear daño de Drakloak que tenga habilidad Orden de Búsqueda, pero nunca apareció: valorar capacidad real de accederlo, no declarar decisión no disponible.",
+      "Con la captura anterior 6–1 y ahora 3 partidas con log (2–1), no inventar un total general 8–2 o 6–2 sin saber si los logs ya estaban contabilizados."
+    ],
+    "gameplan": "Vs Clefairy ex de Lylia + Dragapult/Drakloak, identificar riesgo de Dwebble solo ante Rondó Luna Llena 80 y llenar Banca con otro Básico cuando la mano/búsqueda lo permita. Si Ultra Ball aparece T1, comparar Dwebble de evolución vs Mega-Kang para robar/proteger vs Ogerpon Cimiento para frenar ataques de Pokémon con habilidades. Drakloak con Orden de Búsqueda es un atacante no ex de 70 que atraviesa Casapiedra Misteriosa; Ogerpon Cimiento activo sí previene daño de sus ataques porque Drakloak tiene una Habilidad. Para que Crustle use Tijeras Espléndidas 120 requiere una Planta y dos cualesquiera: Lucha Rocosa+Planta Creciente son solo dos unidades; necesitar tercera antes de poder convertir Boss a Dreepy/Drakloak en KO. Preservar Premio mapa evitando bench-out y reservar Boss hasta que pueda causar KO o atrapamiento efectivo. Curación 30 y Growing Grass +20HP no superan 3×70−30=180 frente a 170HP."
   }
 ]
