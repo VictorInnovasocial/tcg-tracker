@@ -808,5 +808,34 @@
     ],
     "test": "Jugar al menos 5 partidas completas frente a Talonflame + Mega-Charizard: registrar cuándo Ascensión se activa, cuántos Garra Cazadora recibe Kang, si se pierde 3 Premios, disponibilidad de Boss a Charmeleon, Energías Ignición gastadas, probabilidad de que rival juegue Fuego no ex, eficacia real de curación, Premios del cierre completo y eventual aporte de Ogerpon Cimiento.",
     "confidence": "Una victoria 2–3 por rendición; se verificó la secuencia de KO a Charmeleon y Charmander y 3 Premios perdidos por Mega-Kang. No hay seis Premios ni prueba de uso de Ogerpon. Estadística anterior 6–1 es un agregado de la captura no actualizado."
+  },
+  {
+    "deck": "cru-corner-v1-pending",
+    "matchup": "Clefairy ex de Lylia / Drakloak / Dragapult (lhk2351)",
+    "title": "Crustle + Ogerpon Cimiento vs Clefairy Lylia / Drakloak — no perder por Banca vacía",
+    "objective": "Evitar board-out en los tres primeros ataques rival, establecer segundo Básico y tercer coste de Energía; diferenciar muro Crustle anti-ex de Ogerpon anti-habilidades ante Drakloak no ex.",
+    "opening": [
+      "Si abres Dwebble solo y hay 3 mulligans, prever que Clefairy ex de Lylia puede golpear 80 con tres Pokémon en Banca y KO a Dwebble de 70 antes de que pueda evolucionar.",
+      "Con Ultra Ball, analizar qué Básicos siguen disponibles: otro Dwebble para evolucionar, Mega-Kang de 300PS que da Recado desde Activo o Ogerpon Cimiento que puede ser muro anti-Drakloak con Habilidad. No se conocen las 60, así que no presuponer disponibilidad.",
+      "Si logras Dwebble→Crustle, necesitas [Planta]+[Incolora]+[Incolora] (3 unidades) para Tijeras 120: Rocky Fighting+Growing Grass son solo 2, y el +20HP de Growing Grass no sustituye un tercer coste.",
+      "Frente a Drakloak con Orden de Búsqueda y ataque Cabezazo Dragón 70, Casapiedra de Crustle no protege (no ex); Ogerpon Cimiento Activo sí puede bloquear daños de Drakloak con habilidad.",
+      "Evitar gastar Boss en Dreepy o Drakloak si no hay ataque pagado ni ruta de mantenerlo Activo: rival puede evolucionar o retirar, lo que ocurrió dos veces."
+    ],
+    "win": [
+      "Con ataque Crustle preparado, Boss sobre Dreepy/Drakloak puede eliminar un atacante no ex antes de que robe más cartas mediante Orden de Búsqueda; esa ruta no estuvo disponible en el log.",
+      "Con Ogerpon Cimiento en Activo y habilidad funcional, los ataques de Drakloak con habilidad no hacen daño; aprovecharlo para preparar Crustle o Kang detrás, sujeto a conseguir el Básico y poder cambiar.",
+      "Priorizar varios Pokémon en Banca antes de permitir que Drakloak golpee al único Crustle, y conservar soporte de búsqueda/energía para no perder por tablero vacío.",
+      "Recordar que Drakloak no ex concede un Premio y Dragapult ex concede dos: ajustar intercambio de Premios antes de exponer Mega-Kang que concede tres."
+    ],
+    "avoid": [
+      "No interpretar que Crustle bloquea ataques no ex de Drakloak: es el vector crítico para este matchup.",
+      "No contar más PS de los reales: con Growing Grass Crustle 150+20=170; 70×3−30=180 daño neto, KO.",
+      "No atribuir a Energía Lucha Rocosa doble Energía ni a Growing Grass aceleración: son una unidad cada una.",
+      "No tirar dos Boss seguidos cuando no puedes atacar y el rival tiene vía de evolución/retirada.",
+      "No mezclar 0–2 por board-out con derrota por seis Premios ni asumir que rival atacó con Dragapult ex.",
+      "No actualizar la captura histórica 6–1 a una cifra inventada; los logs detallados son 2–1, sin relación temporal demostrada con la captura."
+    ],
+    "test": "10 manos con apertura Dwebble sin Kang ni Ogerpon: medir frecuencia de 3 mulligans y alternativa de Ultra Ball bajo premio/mazo conocido, turno del tercer coste [GCC] y primera Tijeras. 5 BO1 completos vs Clefairy/Drakloak: frecuencia de board-out, si Ogerpon activo frena Drakloak, si Boss a Dreepy con ataque paga Premios y cuántos turnos se sostiene Crustle vs 70 repetidos. No cambiar 60 hasta recibir lista exacta.",
+    "confidence": "Una derrota 0–2 completa por Banca vacía, con log que muestra 3 mulligans y el KO 180>170. Ogerpon no apareció y los recursos exactos de la lista están sin confirmar."
   }
 ]
