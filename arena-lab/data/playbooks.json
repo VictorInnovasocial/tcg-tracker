@@ -749,5 +749,34 @@
     ],
     "test": "5 BO1 desarrolladas o 2 BO3 contra Slowking/Mew/Kyurem: registrar KOs reales, cuándo Kyurem se copia por Mew, dañados Kang/Talons, casco activo vs banca, curación por Helado, estadio Academia, acceso a Boss/Catcher para Mega de 100 HP y primera activación legal de Acerola con rival a ≤2 Premios.",
     "confidence": "Una victoria propia por concesión 1–0 sin KOs sufridos. Lista propia provisional sobre base screenshot AzulGG; no existe evidencia BO3 ni continuidad hasta seis Premios."
+  },
+  {
+    "deck": "cru-corner-v1-pending",
+    "matchup": "Zoroark ex de N / Pecharunt ex / Zekrom de N (Leviui)",
+    "title": "Crustle + Ogerpon Máscara Cimiento vs Zoroark N — Hacer Trizas y mapa 1+2+2+1",
+    "objective": "Conservar un segundo Crustle para eludir el contraataque Shred/Hacer Trizas, castigar a Zoroark por Debilidad Planta y explotar intercambio de Premios de 1 frente a ex de 2.",
+    "opening": [
+      "Desde Kang Activo, usar Recado y Petrel/Poffin para localizar varios Dwebble y desarrollar Crustle con Mist/Spiky/Growing Grass; no depender de Ogerpon, que puede estar en Premios (así ocurrió).",
+      "Si Zoroark ex de N monta Zekrom de N en Banca, anticipar Hacer Trizas de 70+40 Mochi envenenado =110: atraviesa inmunidades de Crustle y también Ogerpon Máscara Cimiento.",
+      "Si puedes atacar antes, Tijeras Espléndidas 120×2 por debilidad Planta =240 al Zoroark ex 280 PS, que necesita 40 extras de daño/residuales para KO. Confirmar si la Energía Espinosa o Veneno ya lo puso a alcance.",
+      "Considerar que Pecharunt envenena sus atacantes al activarlos: las Energías Espinosas y los chequeos de veneno pueden ser clave, como en el KO a Yveltal.",
+      "Mirar si Recinto del Festival elimina el Envenenamiento del rival antes de colocarlo, aunque reemplace un Estadio perjudicial: no ceder daño residual sin una ganancia compensatoria."
+    ],
+    "win": [
+      "En log real, 1 Premio Yveltal KO por Envenenamiento + 2 Zoroark ex ×2 Premios +1 Purrloin = seis Premios; el rival obtuvo solo Crustle y Dwebble (2).",
+      "El segundo Crustle fue determinante después de KO al primero por Hacer Trizas; no gastar toda curación/energía en el primero y quedarse sin relevo.",
+      "El daño de Tijeras Espléndidas no se ve afectado por efectos defensivos del Activo y la debilidad Planta multiplica 120 a 240 vs Zoroark y Purrloin; Munkidori puede mover 30 contadores, así que vigilar rangos.",
+      "Eri/Erin descartando Sello Injusto y Más PP de N fue muy valioso para que el rival no recuperara tempo ni activara disrupción.",
+      "Ogerpon Cornerstone aporta otra forma de atacar/defender en general, pero no cierra automáticamente este matchup al poder el rival copiar Hacer Trizas que ignora Habilidades."
+    ],
+    "avoid": [
+      "No contar como participación en combate del Ogerpon que solo se obtuvo de una carta de Premio.",
+      "No atribuir 6–1 de la captura a seis victorias detalladas ni mezclarlo con versiones de Crustle previamente probadas.",
+      "No asumir que Crustle evita TODOS los ataques ex: los que ignoran efectos del defensor como Hacer Trizas lo golpean.",
+      "No activar Festival Grounds olvidando que cura Veneno del rival, salvo que reemplazar el Estadio rival dé más valor.",
+      "No jugar como si la lista de 60 estuviera confirmada: faltan cantidades y pruebas de legalidad completa."
+    ],
+    "test": "5 partidas completas vs N Zoroark con Zekrom activo: registrar primer turno de Crustle atacando, primer ataque Hacer Trizas y daño con Mochi Cadena, KOs por debilidad y Spiky, número de curaciones, turnos con doble Crustle, qué aporta Ogerpon cuando se pone en juego, desventajas de Festival Grounds y mapa de Premios. Obtener las 60 reales antes de editar cartas.",
+    "confidence": "Un log propio de victoria 6–2 por Premios, pantalla con agregado 6–1 no importable como siete logs. Lista real desconocida. Crustle y Ogerpon vulnerables a Shred, validado con reglas oficiales."
   }
 ]
