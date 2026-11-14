@@ -778,5 +778,35 @@
     ],
     "test": "5 partidas completas vs N Zoroark con Zekrom activo: registrar primer turno de Crustle atacando, primer ataque Hacer Trizas y daño con Mochi Cadena, KOs por debilidad y Spiky, número de curaciones, turnos con doble Crustle, qué aporta Ogerpon cuando se pone en juego, desventajas de Festival Grounds y mapa de Premios. Obtener las 60 reales antes de editar cartas.",
     "confidence": "Un log propio de victoria 6–2 por Premios, pantalla con agregado 6–1 no importable como siete logs. Lista real desconocida. Crustle y Ogerpon vulnerables a Shred, validado con reglas oficiales."
+  },
+  {
+    "deck": "cru-corner-v1-pending",
+    "matchup": "Talonflame ex / Mega-Kangaskhan ex / Charmeleon-Mega-Charizard (DiegoNogs)",
+    "title": "Crustle + Ogerpon Cimiento vs Talonflame / Mega-Kang / Mega-Charizard — cazar líneas de Fuego",
+    "objective": "Pasar de Mega-Kang de tres Premios a Crustle de un Premio antes de que el rival alcance una secuencia repetida de 150 con Talonflame y use Fuego no ex para superar la inmunidad.",
+    "opening": [
+      "Si la apertura es Kang ex espejo, Recado permite buscar Petrel/Poffin; Dwebble con una Energía + Cambio puede atacar Ascensión y evolucionarse a Crustle temprano.",
+      "Priorizar 2 Dwebble; un primer Crustle activo con 3 Energías para Tijeras Espléndidas [GCC] 120 y un segundo como respaldo.",
+      "Talonflame ex entra directo a Banca con Excited Dive desde mano cuando hay Mega Incoloro ex y puede atacar por 150 con Ignition, buscar 2 cartas y luego descarta Ignition al final de turno. No dejar Kang expuesto a Boss repetidamente.",
+      "Guardar Boss para Charmander/Charmeleon: son la ruta visible de Pokémon no ex de tipo Fuego que sí hacen daño a Crustle por Debilidad.",
+      "Planificar frente a Sello Injusto cuando demos el primer KO: guardar recursos y Energías ya en mesa."
+    ],
+    "win": [
+      "Crustle Casapiedra evita todo daño de ataques de Talonflame ex y Mega-Kang ex, mientras esté funcionando; no evita Charmander no ex ni efectos que ignoren protección.",
+      "Boss trae Charmeleon y Tijeras Espléndidas 120 para KO de un Premio, interrumpiendo su evolución al Mega-Charizard.",
+      "Tras KO a Charmeleon, Carbón Activado de Charmander hace 20×2=40 por Debilidad Fuego: Helado Colosal de hasta 80 pudo curar los 40 útiles y Tijeras 120 le dio KO de un Premio.",
+      "Rival gastó tres Energías Ignición que se descartaron después de ataques; medir cuántas quedan y si atacante necesita otro recurso. Nunca asumir agotadas las cuatro por tres descartes.",
+      "Segundo Crustle preparado de Banca antes de concesión protege contra KO de un Crustle activo."
+    ],
+    "avoid": [
+      "No considerar 3 Premios cedidos por Kang un coste siempre aceptable; se cobraron solo 2 Premios propios cuando rival concedió.",
+      "No sobrevalorar Xero: la carta del rival Charmeleon se recuperó después con Camilla Nocturna y evolucionó; Bust Boss fue más definitivo sobre Charmeleon activo.",
+      "No esperar que Crustle bloquee ataques de Charmander no ex: hace 40 después de ×2 Debilidad Fuego y puede acelerar daño con otros recursos.",
+      "No declarar victoria por seis Premios ni un supuesto matchup favorable: la rendición ocurrió con marcador propio 2, rival 3.",
+      "No sumar 7–1 al screenshot 6–1 sin un segundo recuento ni atribuir ataques a Ogerpon Cimiento, ausente.",
+      "No afirmar que conocemos las 60 cartas de esta variante: todavía pendientes."
+    ],
+    "test": "Jugar al menos 5 partidas completas frente a Talonflame + Mega-Charizard: registrar cuándo Ascensión se activa, cuántos Garra Cazadora recibe Kang, si se pierde 3 Premios, disponibilidad de Boss a Charmeleon, Energías Ignición gastadas, probabilidad de que rival juegue Fuego no ex, eficacia real de curación, Premios del cierre completo y eventual aporte de Ogerpon Cimiento.",
+    "confidence": "Una victoria 2–3 por rendición; se verificó la secuencia de KO a Charmeleon y Charmander y 3 Premios perdidos por Mega-Kang. No hay seis Premios ni prueba de uso de Ogerpon. Estadística anterior 6–1 es un agregado de la captura no actualizado."
   }
 ]
