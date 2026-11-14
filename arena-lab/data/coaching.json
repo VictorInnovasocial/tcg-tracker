@@ -586,5 +586,30 @@
       "Solo se vio una carta Ogerpon Cimiento ex al reclamar Premio. Su coste de ataque y utilidad frente a otros matchups requieren pruebas adicionales; no declarar que ganó esta partida."
     ],
     "gameplan": "Contra Zoroark ex de N / Pecharunt + Mochi Cadena, Mega-Kang sostiene robo y control, mientras Crustle con Mist/Spiky/Growing Grass carga para Tijeras Espléndidas 120 de Planta. Zoroark ex de N 280 PS es débil Planta ×2, de modo que 240 lo deja a rango de Spiky y veneno si recibió daño previo; Zoroark al copiar Hacer Trizas de Zekrom ignora la protección anti-ex, puede hacer 110 con Mochi Cadena y derribar Crustle. Priorizar un segundo Crustle operativo y racionar Helado/Bolita Arroz. Eri sobre Unfair Stamp/PP Up y Boss a objetivos útiles. Vigilar Festival Grounds que cura veneno al enemigo. Ogerpon Cornerstone (protección contra atacantes con Ability) comparte vulnerabilidad frente a Hacer Trizas y aquí nunca entró al campo, por lo que el núcleo del triunfo fue Crustle/Kang."
+  },
+  {
+    "id": "cru-corner2",
+    "grade": 8,
+    "headline": "Talonflame ex consigue 3 Premios con triple Garra 150 sobre Kang; respuesta Ascensión T2 + Crustle caza Charmeleon y Charmander, rival concede 2–3",
+    "confidence": "Alto para secuencia, cobro de Premios 2–3 y concesión; Crustle y Kang confirmados en partida. La asignación a variante con Ogerpon es contextual y provisional: Ogerpon no aparece y lista de 60 está pendiente. No está probada victoria a seis Premios ni nuevo acumulado de estadísticas tras screenshot 6–1.",
+    "good": [
+      "Recado del Kang activo robó +2 repetidamente en la apertura, sin requerir otra pieza de búsqueda para activar motor.",
+      "Petrel buscó Poffin y este estableció dos Dwebble; la unión Growing Grass + Switch permitió Dwebble Ascensión para evolucionar a Crustle desde T2.",
+      "Se acumuló la tercera Growing Grass y Boss atrapó a Charmeleon, atacando con Tijeras Espléndidas 120 KO de un Premio para evitar Mega-Charizard sobre esa línea.",
+      "Tras Sello Injusto rival a dos cartas, la protección de Crustle frente a ex permitió jugar despacio; Helado curó el daño real de 40 de Carbón Activado por Debilidad Fuego y Crustle KO Charmander con 120.",
+      "Se evolucionó un segundo Dwebble a Crustle justo antes de la concesión, ofreciendo reemplazo si rival hallaba un atacante que superase la Habilidad."
+    ],
+    "errors": [],
+    "watch": [
+      "La derrota de Kang a tres ataques de Talonflame ex significó regalar 3 Premios a cambio de establecer muro y piezas; vigilar si es posible reducir exposición del Mega ante Boss de rival.",
+      "La Bolita de Arroz curó 30 de 150 y no alteró la vulnerabilidad frente a dos Garra más; no sería error si fue el único modo de ganar turno, pero su eficiencia debe medirse.",
+      "Xero obligó a descartar Charmeleon y Mega-Charizard Y, pero el rival recuperó Charmeleon del descarte mediante otra Camilla y evolucionó Charmander; no atribuirle eliminación permanente de la amenaza.",
+      "Crustle es inmune a daño de ataques ex, no de Charmander ni de otros Pokémon no ex; Carbón Activado logró 40 tras Debilidad al Fuego.",
+      "Helado reportó 'se han curado 80', pero Crustle solo había recibido 40 en el intervalo observado, por lo que curación efectiva de 40 (máximo).",
+      "El rival seguía con Mega-Kang ex, Talonflame ex, Fezandipiti ex, y Charmander y tenía ventaja de Premios 3–2 al rendirse. No declarar partida matemáticamente ganada.",
+      "Ogerpon Cimiento nunca se usó ni aparece en mano/premios durante este log; clasificación contextual no es prueba de rendimiento de Ogerpon.",
+      "La captura anterior 6 victorias/1 derrota (85,7%) no acredita nuevo balance 7–1; log individual es una victoria adicional si pertenece a la misma muestra cronológica, pero no sabemos si la captura ya la incluía."
+    ],
+    "gameplan": "Vs Kang+Talonflame+línea de Mega-Charizard, buscar rápidamente dos Dwebble y usar Ascensión con una Energía para garantizar Crustle antes de que Kang ceda tres Premios. Talon ex con Ignition puede atacar 150, buscar dos y retirar gratis, pero no daña a Crustle por Casapiedra. Boss sobre Charmeleon/Charmander de 1 Premio corta líneas no ex capaces de golpear por Debilidad Fuego y evita evolucionar a Mega-Charizard. Tres Growing Grass pagan [GCC] de Tijeras 120. Xero sobre la mano rival puede retrasar Megas, pero Camilla recupera etapas. Curar solo si cambia el número de ataques necesarios para KO; Jumbo Ice Cream reporta hasta 80 y puede curar solo 40 útiles. Medir si conviene dejar caer Kang que cede 3 Premios o construir Crustle con menor exposición. No dar por ganado el matchup tras una concesión 2–3, y no atribuir valor a Ogerpon no jugado."
   }
 ]
