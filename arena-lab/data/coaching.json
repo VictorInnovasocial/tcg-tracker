@@ -685,5 +685,31 @@
       "Balance correcto: 5 logs recibidos de esta versión dan 4 victorias y 1 derrota. El screenshot 6–1 previo es agregado sin relación cronológica conocida y no debe sumarse manualmente."
     ],
     "gameplan": "Vs Dragapult/Drakloak/Munkidori, sacar dos Dwebble y evolucionar a Crustle pronto; mantener otro Básico en Banca si es posible para evitar perder por KO + Boss a Dwebble. Vigilar Crushing Hammer que puede eliminar Mist Energy antes de conseguir ataque [Planta][Incolora][Incolora]; usar Growing Grass y Rocky Fighting para completar costo de Tijeras 120. Mist Energy protege de efectos secundarios de Phantom Dive en Banca (contadores), no de daño directo del ataque. Drakloak no ex ataca 70 y atraviesa Casapiedra de Crustle; curación repetida con Rice Ball/Jumbo Ice Cream puede sostener un solo Crustle. Si rival utiliza Munkidori para mover contadores de Ruinas Peligrosas, Boss a Munkidori por KO 120 puede valer más que golpear a un Drakloak, también genera Premios fáciles; estar preparado para que Night Stretcher lo recupere. Cornerstone Ogerpon ex contra Drakloak con habilidad es opción teórica, pero aquí llegó a mano demasiado tarde y no se jugó. Rival concedió con Dragapult ex Activo, no conclusión BO3 favorable."
+  },
+  {
+    "id": "cru-corner6",
+    "grade": 7,
+    "headline": "Crustle segundo gana 4–4 por concesión vs Meganium/Cacturne: 270 PS con Hero Cape + Growing Grass, cura repetida y Spiky termina Meganium",
+    "confidence": "Alta en 4-4 Premios, KOs, habilidad Cacturne 10+50 por habilidad propia (110, 60, 110), Mega-Kang KO de 300 por Ogerpon Turquesa, y Ogerpon Cornerstone no jugado. La omisión de unión de Energía Lucha Rocosa T2 se aprecia en el log pero falta conocer limitaciones no registradas; no afirmar necesariamente mejor línea disponible. Fecha de partida desconocida y 60 cartas no entregadas.",
+    "good": [
+      "Dwebble abrió y Ascensión con Energía Espinosa preparó Crustle desde primer turno propio; dos ataques de Budew activaron Spiky dos veces y lo debilitaron sin ataque de daño propio (+1 Premio).",
+      "Tras ceder tres Premios por Kang y uno por primer Crustle, se completó segundo Crustle con Rocky Fighting, Mist y Growing Grass para Tijeras 120 y Hero's Cape (+100HP) + Growing Grass (+20HP): 270 PS.",
+      "El segundo Crustle tomó un Premio por cada uno de dos Cacturne con Tijeras Espléndidas 120, manteniendo salud con Rice Ball y herramientas.",
+      "El segundo Crustle alcanzó Meganium (160 PS) con Tijeras Espléndidas 120 y dos respuestas Spiky 20+20 para KO; logró cuarto Premio y remontada del marcador a 4–4.",
+      "El uso de curaciones frente a Rayo Solar 140 de Meganium permitió seguir presionando en el juego largo, desembocando en concesión rival.",
+      "Se distingue Ogerpon Cornerstone en mano inicial y barajado por Lylia: no se jugó y no contribuyó directamente a la victoria."
+    ],
+    "errors": [],
+    "watch": [
+      "Al robar Energía Lucha Rocosa temprano el jugador terminó turno sin unirla al Crustle; aparentemente se perdió una unión manual viable (sin prohibición mostrada), aunque aún necesitaba Planta para Tijeras [Planta][Incolora][Incolora].",
+      "El primer Crustle se quedó con Espinosa+Neblina+Neblina y ninguna Energía Planta, imposibilitando Tijeras pese a llevar tres cartas de Energía; contar tipos no solo cantidad.",
+      "Tras curar solo 30 al primer Crustle y cambiar a Mega-Kang, el rival cargado con Teal Mask Ogerpon ex usó Lluvia de Hojas 300 y cobró tres Premios inmediatos. Exponer un Mega de tres Premios para Recado +2 puede ser costoso frente a 300 letal.",
+      "Boss atrajo Meowth ex mientras primer Crustle no podía atacar; rival retiró Meowth a Cacturne y siguió dañando: poca presión/beneficio del Partidario.",
+      "El daño de Pinchos Castigadores Cacturne DLR005 escala en +50 por cada Pokémon propio con Habilidad: con Kang+Crustle fue 110, con solo Crustle 60 y con dos Crustle 110. Bajar Ogerpon Cimiento habría sumado otro +50. Eso hace que llenar Banca por reflejo sea arriesgado.",
+      "Ogerpon Cimiento no participó aunque estaba en mano, luego Lylia lo devolvió a baraja; la interacción de su defensa frente a Ogerpon Turquesa rival sigue sin evaluarse. No afirmar que fue decisivo.",
+      "La victoria final llegó con 4–4 Premios por rendición, no mediante seis Premios ni KO de Ogerpon Turquesa ex.",
+      "Las curaciones de Helado 80+80 del último turno no deben sumarse como curación efectiva sin conocer daño pendiente."
+    ],
+    "gameplan": "Contra Meganium / Teal Mask Ogerpon ex / Cacturne DLR005, anticipar carreras de daño de 300 de Lluvia de Hojas y evitar entregar Kang de tres Premios sin beneficio equivalente. Crustle DRI12 bloquea daño de ataques ex como Teal Ogerpon mientras funciona Casapiedra, pero no daño de Cacturne/Meganium no ex. Pinchos Castigadores hace 10 +50 por Pokémon propio con Habilidad: Crustle y Kang, otro Crustle u Ogerpon Cimiento aumentan el daño. Planificar Banca cuidadosamente. Segundo Crustle se puede armar con Growing Grass +20 HP y Hero Cape +100 HP, total 270 HP, y Spiky como represalia; curaciones Rice Balls e Ice Cream le ayudan a sobrevivir dos ataques Rayo Solar de 140 y rematar Meganium 160 con 120 Tijeras+20+20 Espinosa. Conservar costo [GCC], especialmente una Energía Planta, antes de Boss a objetivos ex; Meowth pudo retirarse cuando Crustle no atacaba. No suponer que Cornerstone formó parte del cierre por estar en mano al comienzo."
   }
 ]
