@@ -560,5 +560,31 @@
       "El rival mostró Mew ex copiando Kyurem y Slowking en Banca, pero no se completó una partida contra su motor entero y el rival concedió después de curación: no inferir matchup favorable o winrate."
     ],
     "gameplan": "Contra Mega-Kang/Slowking/Mew ex, Mega-Kang 300 PS ofrece Recado +2 desde Activo y puede atacar con tres Energías de cualquier tipo por 200+ moneda. Priorizar un casco en Kang activo y preparar respuesta al motor Mew ex/Kyurem con 110 a Activo y dos Banca. Talonflame ex puede entrar sin línea previa por Excited Dive si Mega-Kang incoloro ex está en juego; guarda dos buscadores para preparar turno de atacante o control. Si primer Combo 200 deja rival Kang con 100 HP, conservar Boss/Catcher para eventualmente cobrar 3 Premios antes que aceptar Slowpoke de 1, si se dispone de esos recursos. Lucky Helmet +2 si Pokémon equipado está activo y recibe daño de ataque, no por daño de Banca; Jumbo Ice Cream cura 80 al activo, útil tras Triple Frost. 4 Acerola's Mischief no se juegan hasta que rival solo tiene 2 Premios pendientes; no dependen de primera mitad de partida, sino plan de endgame si se alcanza."
+  },
+  {
+    "id": "cru-corner1",
+    "grade": 8,
+    "headline": "Crustle + Cornerstone gana 6–2 a Zoroark de N: doble KO Zoroark por Debilidad Planta tras resistir Hacer Trizas, Ogerpon salió de Premios sin usarse",
+    "confidence": "Alto en resultado por seis Premios, lista de KOs y acciones observadas del log. Captura 6–1 solo prueba agregado de estadísticas sin logs individuales. Incompleto para cantidades exactas del mazo (60 no proporcionadas) y participación de Ogerpon (no entró al campo). Varias etiquetas de sujetos/ubicación de Pokémon inconsistentes en registro.",
+    "good": [
+      "Mega-Kang ex Activo usó Recado +2 repetidamente para estabilizar mano, dando tiempo de desplegar Dwebble→Crustle.",
+      "Bolita de Arroz Sabrosa curó 30/60/90 en momentos clave y Helado Colosal curó 80 al segundo Crustle, manteniendo atacante de un Premio tras daño de Hacer Trizas.",
+      "Acumular Energía Espinosa en el Activo castigó ataques repetidos; junto al veneno de Pecharunt provocó KO de Yveltal sin necesidad de atacante propio (1 Premio).",
+      "Tras KO del primer Crustle, el segundo asumió rol ofensivo y aprovechó Debilidad Planta de Zoroark ex de N para convertir Tijeras Espléndidas 120 en 240; fueron KOs de 2 Premios con apoyo de daño acumulado.",
+      "Erin/Eri descartó Sello Injusto y Más PP de N de mano rival, recortando herramientas de recuperación y disrupción en el turno crítico.",
+      "Mapa favorable de Premios: concedimos Crustle + Dwebble (1+1), cobramos Yveltal + 2 Zoroark ex + Purrloin (1+2+2+1) y ganamos efectivamente 6–2, no por rendición.",
+      "Contamos la tecnología Ogerpon Cimiento como parte de esta variante por confirmación explícita del usuario, pero no le atribuímos ataques: salió de Premios tras Yveltal y permaneció en mano."
+    ],
+    "errors": [],
+    "watch": [
+      "Zoroark ex de N copia Hacer Trizas de Zekrom de N: 70+40 de Mochi Cadena =110, daño que ignora efectos en el Activo y por eso atraviesa tanto Casapiedra Misteriosa de Crustle como la protección de Ogerpon Máscara Cimiento. No tratar ninguno como muro invulnerable.",
+      "Recinto del Festival curó el estado Envenenado del Zoroark enemigo al jugarse, lo que puede reducir desgaste a nuestro favor; aun así retiró Palacio de N y la decisión no puede juzgarse sin comparar ambos Estadios.",
+      "Se gastaron muchos turnos antes de comenzar a atacar con Crustle, permitiendo a rival montar varios Zoroark y Munkidori. Medir si evolución/ataque de Crustle podía adelantarse sin exponerlo.",
+      "El rival pudo tumbar un Crustle y luego un Dwebble mediante Boss + Hacer Trizas/Zarpazo; necesidad de segundo Crustle demostrada, pero no de Ogerpon.",
+      "El log incluye aparentes inconsistencias de sujetos o ubicación (daños reflejados al Zoroark 'propio', Munkidori moviendo contadores al Crustle 'rival', Energía Planta Creciente 'a Crustle en Banca' cuando Crustle activo); revisar replay si se optimiza línea exacta.",
+      "La captura 6 victorias/1 derrota (85,7%) NO es un paquete de 7 logs importables. Existe solo un registro detallado de esta variante en ARENA, y el balance del usuario no debe sumarse al viejo 6–2 de Crustle Lock ni al 2–0 de Crustle Abismo.",
+      "Solo se vio una carta Ogerpon Cimiento ex al reclamar Premio. Su coste de ataque y utilidad frente a otros matchups requieren pruebas adicionales; no declarar que ganó esta partida."
+    ],
+    "gameplan": "Contra Zoroark ex de N / Pecharunt + Mochi Cadena, Mega-Kang sostiene robo y control, mientras Crustle con Mist/Spiky/Growing Grass carga para Tijeras Espléndidas 120 de Planta. Zoroark ex de N 280 PS es débil Planta ×2, de modo que 240 lo deja a rango de Spiky y veneno si recibió daño previo; Zoroark al copiar Hacer Trizas de Zekrom ignora la protección anti-ex, puede hacer 110 con Mochi Cadena y derribar Crustle. Priorizar un segundo Crustle operativo y racionar Helado/Bolita Arroz. Eri sobre Unfair Stamp/PP Up y Boss a objetivos útiles. Vigilar Festival Grounds que cura veneno al enemigo. Ogerpon Cornerstone (protección contra atacantes con Ability) comparte vulnerabilidad frente a Hacer Trizas y aquí nunca entró al campo, por lo que el núcleo del triunfo fue Crustle/Kang."
   }
 ]
