@@ -866,5 +866,35 @@
     ],
     "test": "Probar 5 partidas completas vs Ferropúas: medir apertura Kang solo, turnos de bloqueo Recado, T1/T2 Dwebble disponible, primera Ascensión, turno de Crustle Activo, si Casapiedra se mantiene frente a herramientas de supresión, daño Espinosa y Premios ganados por KOs. Comparar activación de Ogerpon Cimiento únicamente cuando Inicialización deje de estar operativa.",
     "confidence": "Solo una rendición 0–0 con primer Ciclón Voltio 180, represalia 40 y ningún Pokémon aparte de Kang propio; análisis reglamentario sustentado por textos de Ferropúas y Crustle. Necesitamos BO1 completa."
+  },
+  {
+    "deck": "cru-corner-v1-pending",
+    "matchup": "Dragapult ex / Drakloak / Munkidori / Ruinas Peligrosas / Martillo Demoledor (Cuatche)",
+    "title": "Crustle + Ogerpon Cimiento vs Dragapult/Drakloak/Munkidori — vencer Martillos, priorizar Munkidori",
+    "objective": "Resistir a Drakloak no ex (70) y Munkidori que desplaza daño mientras se completa el coste [GCC] de Tijeras, conservar el segundo Crustle y ganar intercambio de Premios con Boss a motores no ex.",
+    "opening": [
+      "Con Dwebble×2 disponibles, evolucionar dos Crustle en el turno propio siguiente para que un Boss rival a Dwebble no elimine todo el plan; un tercer Dwebble es vulnerable a Picado Fantasma si no evoluciona.",
+      "Crustle bloquea daño de Dragapult ex (excepto efectos que ignoran o anulan protección) pero NO Cabezazo Dragón 70 de Drakloak no ex: contar ataques y margen de curación en cada turno.",
+      "Contra Martillo Demoledor rival, medir Energías Neblina desechadas; esta partida perdió tres por caras. Hay que reconstruir [Planta][Incolora][Incolora] mediante Growing Grass, Rocky Fighting u otras, y no asumir que Ignition/Prism u otras están en la lista sin verla.",
+      "Proteger un Crustle de Banca con Mist Energy cuando Dragapult ex pueda usar Picado Fantasma: el log confirmó que el efecto secundario no alcanzó a ese Crustle mientras Dwebble recibió 200 al ser atraído por Boss.",
+      "Munkidori puede mover daño de los Básicos rivales afectados por Ruinas Peligrosas a nuestros Pokémon. Leer su banco y Energía Oscura antes de dejar vivo al motor durante múltiples turnos."
+    ],
+    "win": [
+      "En esta partida el usuario remontó 0–2 a 3–2 mediante dos KOs a Munkidori por Boss + Tijeras 120 (rival lo recuperó con Night Stretcher) y un KO a Drakloak con Tijeras 120.",
+      "Usar Bolita de Arroz Sabrosa y Helado Colosal para sostener un Crustle ante Cabezazo 70 repetido: los valores del log son 30+60 y 80 en tres ocasiones, pero la cura útil depende del daño real.",
+      "Si Munkidori está causando contadores continuamente y no puede aguantar Tijeras 120, Boss para eliminarlo frena una capa de daño y da un Premio, en vez de perseguir Dragapult ex protegido en Banca.",
+      "Growing Grass ×2 + Rocky Fighting completaron tres Energías para que Crustle atacara, incluso después de perder Energías Neblina por tres Martillos.",
+      "Cornerstone Ogerpon ex puede proteger contra Drakloak con Habilidad de forma teórica; medir acceso y disponibilidad real en turno antes de asumir que mejora matchups."
+    ],
+    "avoid": [
+      "No concluir que Dragapult nunca puede romper Crustle: habilidades y efectos de contadores siguen siendo amenaza, y la prueba solo vio un Picado Fantasma sobre Dwebble.",
+      "No registrar como victoria de seis Premios: rival concedió 3–2 con Dragapult ex Activo.",
+      "No confundir ataques no ex de Drakloak y dañadores por Habilidad Munkidori con daño bloqueado por Casapiedra Misteriosa.",
+      "No contar como participación de Ogerpon Cornerstone una copia robada por Lylia pero nunca jugada; no declarar su Habilidad activada.",
+      "No reconstruir estados de daño exactos de Munkidori cuando el log atribuye 'Crustle de Cuatche', un Pokémon no mostrado en campo rival.",
+      "No sumar la muestra de 5 logs detallados 4–1 al screenshot anterior 6–1; relación cronológica desconocida."
+    ],
+    "test": "5 BO1 completos con Dragapult + Drakloak + Munkidori + Crushing Hammer: medir número de Neblinas descartadas, turno exacto de primer ataque Tijeras 120, cuánta curación neta necesitó segundo Crustle, Boss sobre Munkidori con o sin Night Stretcher, conservación de Neblina en Banca ante Phantom Dive y cuál sería el plan si Dragapult no concede tras quedar 2–3. Registrar primer Ogerpon que efectivamente entra al campo.",
+    "confidence": "Una victoria propia por concesión después de remontar a 3–2; tres Martillos acertados, doble KO a Munkidori y KO a Drakloak. Sin victoria a seis Premios, sin Ogerpon usado y con errores de sujeto en el registro de Munkidori."
   }
 ]
