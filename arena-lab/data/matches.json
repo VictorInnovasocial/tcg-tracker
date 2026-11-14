@@ -420,5 +420,21 @@
     "evidence": "log TCG Live completo más captura 6-1 victoria/derrota agregadas; fecha real de la partida no acreditada, captura NO son siete logs",
     "notes": "Primer log detallado de variante Crustle + Ogerpon Máscara Cimiento ex + Mega Kang (las 60 cartas NO han sido entregadas). Rival Leviui Zorua/Zoroark ex de N, Pecharunt ex, Yveltal, Zekrom de N, Munkidori. User mulligan 1 (rival roba +1), inicia Mega-Kang Activo. Petrel/Meow etc preparan dos Dwebble, Crustle y motor Recado +2 de Kang; usó Energías Espinosas, Neblina, Planta Creciente y Lucha Rocosa, curaciones Bolita Arroz y Helado, Estadios Fábrica Rocket, Ciudad Luminalia y Recinto del Festival. Rival Zoroark Triple Trade y Pecharunt + Mochi Cadena envenenado, copiando Zarpazo Ladrón 30/70 y Hacer Trizas de Zekrom de N 110 (70+40), que ignora efectos sobre el Activo y supera Casapiedra de Crustle. Rival pierde Yveltal por veneno después de Spiky (+1 Premio usuario), carta de Premio es Ogerpon Cimiento ex, pero NO se puso en juego ni atacó. Rival KO primer Crustle por Hacer Trizas (+1 rival) y Dwebble por Zarpazo Ladrón 70 (+1 rival), total 2. El segundo Crustle derrota dos Zoroark ex de N con Tijeras Espléndidas 120×2=240 Debilidad Planta, con daño acumulado y curación propia, (+2 y +2 propios), además de Purrloin de N 240 por debilidad (+1): total 6–2 por los seis Premios, NO rendición. Eri/Erin descarta Unfair Stamp y N's PP Up de mano rival. Recinto del Festival eliminó veneno al Zoroark rival al entrar. Captura muestra 6 victorias 1 derrota (85,7%) de ESTA baraja, se conserva como agregado reportado, NO se crean seis logs ficticios. Log tiene nombres de sujeto/ubicación erráticos (Spiky dice Zoroark propio, Munkidori dice Crustle de rival, Growing Grass unido a Crustle 'Banca' cuando había Crustle Activo). Mantener separado Crustle Abismo+Azurill V1.0, Niigata y Crustle Doble Muro.",
     "notion": "https://app.notion.com/p/4185f543d14e81eeba09e3ebaf18e02e"
+  },
+  {
+    "id": "cru-corner2",
+    "deck": "cru-corner-v1-pending",
+    "date": "2026-11-14",
+    "rival": "C11",
+    "matchup": "Talonflame ex / Mega-Kangaskhan ex / Charmander-Charmeleon-Mega-Charizard",
+    "result": "win",
+    "prizes": [
+      2,
+      3
+    ],
+    "finish": "concesión rival estando por delante en Premios 3–2",
+    "evidence": "log completo TCG Live; fecha 2026-11-14 corresponde a recepción del log, no al juego. Lista exacta del mazo propio aún sin confirmar, adscripción al mazo Crustle+Ogerpon Cimiento por continuidad de conversación, no hay Ogerpon visto",
+    "notes": "Segunda partida detallada atribuida a Crustle+Ogerpon Cimiento+Mega-Kang propia. Inicio Kang espejo, propio primero. Rival Garra Cazadora de Talonflame ex 150 con Energía Ignición descartada tres veces y dos tutores en cada ataque. Propio Petrel→Poffin coloca Dwebble×2, una Planta Creciente a Dwebble y Switch a Dwebble para Ascensión inmediata→Crustle T2. Primera Rice Ball cura 30 al Kang que acumulaba 150. Boss rival devuelve Kang Activo y Talon 150 segundo golpe; Xero descarta cuatro (Mega-Charizard Y, Charmeleon, Camilla, Boss), pero otra Camilla rival recupera Charmeleon, evolucionan Charmander. Tercera Ignition+Talon 150 remata Kang ex de 3 Premios (150-30+150+150=420 daño bruto). Usuario Crustle con 3 Growing Grass y Boss a Charmeleon, Tijeras 120 KO (+1). Rival Unfair Stamp deja dos cartas al usuario, Charmander no ex Carbón Activado 20×2 Debilidad Fuego =40 a Crustle. Propio Mist + Jumbo Ice Cream cura hasta 40 efectivos de 80 nominales, Tijeras 120 KO Charmander (+1, total 2). Rival Kang Recado, Fez Giro de Guion, baja más Charmander; otro Charmander da 40 al Crustle; usuario evoluciona Dwebble de Banca a segundo Crustle y rival concede con marcador 2–3 (no seis Premios). Ogerpon Cimiento no aparece ni interviene en log. Captura anterior 6-1 sigue como agregado previo sin validación de que ahora sea 7-1. Esta partida fue ganada por rendición rival estando por delante 3-2 en premios; no deducir win forzado. Comparación vs partidario previa: Xero no cortó definitivamente Charmeleon; Boss a Charmeleon sí eliminó línea activa de Charizard. Contemplar desventaja de 3 Premios por Kang y estrategia de presión en Básicos no ex para contrarrestar Crustle.",
+    "notion": "https://app.notion.com/p/4185f543d14e81e1a9d9db94d6b96a2a"
   }
 ]
