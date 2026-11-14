@@ -896,5 +896,35 @@
     ],
     "test": "5 BO1 completos con Dragapult + Drakloak + Munkidori + Crushing Hammer: medir número de Neblinas descartadas, turno exacto de primer ataque Tijeras 120, cuánta curación neta necesitó segundo Crustle, Boss sobre Munkidori con o sin Night Stretcher, conservación de Neblina en Banca ante Phantom Dive y cuál sería el plan si Dragapult no concede tras quedar 2–3. Registrar primer Ogerpon que efectivamente entra al campo.",
     "confidence": "Una victoria propia por concesión después de remontar a 3–2; tres Martillos acertados, doble KO a Munkidori y KO a Drakloak. Sin victoria a seis Premios, sin Ogerpon usado y con errores de sujeto en el registro de Munkidori."
+  },
+  {
+    "deck": "cru-corner-v1-pending",
+    "matchup": "Meganium / Ogerpon Máscara Turquesa ex / Cacturne DLR005 / Budew (Hangin_10)",
+    "title": "Crustle + Ogerpon Cimiento vs Meganium / Teal Ogerpon / Cacturne — limitar Habilidades en mesa",
+    "objective": "Evitar que Cacturne incremente su daño con demasiadas Habilidades propias, no regalar un Mega de tres Premios a Teal Ogerpon 300, y preparar Crustle con Energía Planta, Spiky, Growing Grass y curación para dos Cacturne y Meganium.",
+    "opening": [
+      "Dwebble con una Energía Espinosa puede usar Ascensión para convertirse en Crustle temprano; ante Budew Pollen 10, cada golpe desencadena 2 contadores de Espinosa, lo que puede dar KO sin hacer daño de ataque.",
+      "Registrar coste de Tijeras Espléndidas [Planta][Incolora][Incolora]. No sirve Espinosa+dos Neblina si falta Planta; si robas Rocky Fighting T2 y puedes unirla, evaluar antes de pasar turno.",
+      "El rival Cacturne DLR005 Pinchos Castigadores hace 10 +50 por cada Pokémon *nuestro* con Habilidad en juego, contando Mega-Kang y cada Crustle; Crustle+Kang→110, solo Crustle→60, dos Crustle→110 y tres Habilidades→160.",
+      "No bajar Ogerpon Cimiento ex automáticamente: añade una Habilidad a la mesa (+50 de Cacturne); puede tener utilidad para frenar el ataque de Teal Ogerpon con Habilidad, pero balancear con daño extra de Cacturne.",
+      "Teal Mask Ogerpon ex con nueve Energías contadas para Lluvia de Hojas hizo 300 KO Mega-Kang 300, tres Premios; evitar exponerlo sin calcular umbral antes de Switch para Recado."
+    ],
+    "win": [
+      "Un Crustle de 150 HP con Growing Grass Energy (+20) y Hero's Cape (+100) alcanza 270 HP y puede sostener ataques de Cacturne/Meganium con curaciones.",
+      "Crustle de un Premio usa Tijeras Espléndidas 120 para OHKO Cacturne DLR005, que tiene 130 HP según fuentes externas, por lo que OJO: si el log registra KO a 120, comprobar si tuvo contadores previos de Energía Espinosa (en este log ambos Cacturne habían golpeado un Crustle equipado con Espinosa) antes de inferir OHKO de 120.",
+      "Contra Meganium 160 PS, Tijeras 120 +20 Spiky en dos ataques recibidos =160, suficiente para KO incluso sin segundo ataque.",
+      "Las curaciones Helado Colosal/Rice Ball y el segundo Crustle de 270HP permiten contrarrestar Rayo Solar 140 repetido, pero controlar daño acumulado y no atribuir curaciones excedentes.",
+      "Reducir Pokémon propios con Habilidad en mesa puede rebajar el daño de Pinchos Castigadores de 110 a 60, al igual que sucedió tras caer Kang."
+    ],
+    "avoid": [
+      "No creer que Crustle bloquea ataques de Cacturne o Meganium, porque ambos son no ex.",
+      "No olvidar adjuntar Energía disponible cuando legal si acelera tres unidades de Tijeras y contiene Planta; el primer Crustle nunca llegó a atacar.",
+      "No usar Boss para atraer Meowth ex sin energía Planta ni posibilidad de traba: se retiró y no reportó Premio.",
+      "No atribuir la victoria a Ogerpon Cornerstone, que permaneció en mano y luego fue devuelto al mazo.",
+      "No contar victoria por seis Premios ni actualizar la captura histórica 6–1 a un nuevo agregado inventado; son 5–1 en seis logs y último 4–4 por concesión.",
+      "No asumir que 120 hace KO limpio a Cacturne DLR005 de 130 PS si previamente recibió daño: el log indica KO tras represalia de Spiky, que es fuente de daño inicial."
+    ],
+    "test": "5 partidas completas vs Meganium/Teal Ogerpon/Cacturne: calcular daño de Cacturne según número de Habilidades en campo, frecuencia de Ogerpon activo frente a Teal Ogerpon, turno de Energía Planta en Crustle, triple coste, opciones de proteger Kang de 300, acceso a Hero Cape, razón de curación útil, y si rivales pueden contrarrestar 270 PS. Confirmar 60 cartas antes de editar.",
+    "confidence": "Un log completo con 4–4 por concesión, no seis Premios. KOs por energía Spiky y Cacturne con daño previo, Hero Cape + Growing Grass 270 HP y el fracaso del primer Crustle al no reunir Planta. 60 propias pendientes."
   }
 ]
