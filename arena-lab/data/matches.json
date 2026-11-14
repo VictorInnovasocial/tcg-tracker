@@ -436,5 +436,21 @@
     "evidence": "log completo TCG Live; fecha 2026-11-14 corresponde a recepción del log, no al juego. Lista exacta del mazo propio aún sin confirmar, adscripción al mazo Crustle+Ogerpon Cimiento por continuidad de conversación, no hay Ogerpon visto",
     "notes": "Segunda partida detallada atribuida a Crustle+Ogerpon Cimiento+Mega-Kang propia. Inicio Kang espejo, propio primero. Rival Garra Cazadora de Talonflame ex 150 con Energía Ignición descartada tres veces y dos tutores en cada ataque. Propio Petrel→Poffin coloca Dwebble×2, una Planta Creciente a Dwebble y Switch a Dwebble para Ascensión inmediata→Crustle T2. Primera Rice Ball cura 30 al Kang que acumulaba 150. Boss rival devuelve Kang Activo y Talon 150 segundo golpe; Xero descarta cuatro (Mega-Charizard Y, Charmeleon, Camilla, Boss), pero otra Camilla rival recupera Charmeleon, evolucionan Charmander. Tercera Ignition+Talon 150 remata Kang ex de 3 Premios (150-30+150+150=420 daño bruto). Usuario Crustle con 3 Growing Grass y Boss a Charmeleon, Tijeras 120 KO (+1). Rival Unfair Stamp deja dos cartas al usuario, Charmander no ex Carbón Activado 20×2 Debilidad Fuego =40 a Crustle. Propio Mist + Jumbo Ice Cream cura hasta 40 efectivos de 80 nominales, Tijeras 120 KO Charmander (+1, total 2). Rival Kang Recado, Fez Giro de Guion, baja más Charmander; otro Charmander da 40 al Crustle; usuario evoluciona Dwebble de Banca a segundo Crustle y rival concede con marcador 2–3 (no seis Premios). Ogerpon Cimiento no aparece ni interviene en log. Captura anterior 6-1 sigue como agregado previo sin validación de que ahora sea 7-1. Esta partida fue ganada por rendición rival estando por delante 3-2 en premios; no deducir win forzado. Comparación vs partidario previa: Xero no cortó definitivamente Charmeleon; Boss a Charmeleon sí eliminó línea activa de Charizard. Contemplar desventaja de 3 Premios por Kang y estrategia de presión en Básicos no ex para contrarrestar Crustle.",
     "notion": "https://app.notion.com/p/4185f543d14e81e1a9d9db94d6b96a2a"
+  },
+  {
+    "id": "cru-corner3",
+    "deck": "cru-corner-v1-pending",
+    "date": "2026-11-14",
+    "rival": "C12",
+    "matchup": "Clefairy ex de Lylia / Drakloak / Dreepy / Munkidori (Dragapult ex en descarte)",
+    "result": "loss",
+    "prizes": [
+      0,
+      2
+    ],
+    "finish": "derrota sin Pokémon en Banca; rival cobró solo 2 Premios",
+    "evidence": "log TCG Live completo, recibido 2026-11-14; fecha real de juego no acreditada; variante propia con Ogerpon por contexto, Ogerpon no apareció; 60 cartas pendientes",
+    "notes": "3 mulligans propios, rival roba 3 extra. Rival inicia Clefairy ex de Lylia, usuario Dwebble Activo sin Banca. Propio T1 Ultra Ball descarta Crustle + Recinto del Festival, busca Dwebble y lo coloca en Banca; no une energía. Rival T2 Clefairy Lillie hace 20+20×3 Banca=80 KO Dwebble (+1 Premio). Segundo Dwebble propio pasa Activo y evoluciona Crustle pero ningún Básico más llega a mesa. Rival Drakloak (Orden de Búsqueda) ataca tres veces con Cabezazo Dragón 70; propio Bolita Arroz cura 30 después del primer 70, luego recibe otro 70 y el tercero 70, total neto 180. Propio Crustle de 150 HP con Energía Planta Creciente +20 =170 HP y queda KO (+1 Premio rival) sin Banca, partida termina 0-2. Propio T3 une Energía Lucha Rocosa (1 Lucha) y T4 Energía Planta Creciente (1 Planta), solo 2 de 3 Energías para Tijeras Espléndidas [GCC], nunca ataca. Propio usa Boss para traer Dreepy pero evoluciona y rival sigue atacando; otro Boss para traer Drakloak distinto que rival retira, tampoco frena ataque. Ogerpon Cimiento no estuvo en juego: habría bloqueado daño de Drakloak con habilidad si hubiese podido llegar Activo, pero no es hecho de partida. Rival Dragapult ex descartado, nunca atacó. Estadística 6-1 de captura anterior es historial agregado no necesariamente compatible cronológicamente, registros con log de esta versión pasan 2-1 sin inferir acumulado. Primera derrota documentada.",
+    "notion": "https://app.notion.com/p/4185f543d14e815c8d5dd7aa69426a43"
   }
 ]
