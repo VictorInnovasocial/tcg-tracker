@@ -837,5 +837,34 @@
     ],
     "test": "10 manos con apertura Dwebble sin Kang ni Ogerpon: medir frecuencia de 3 mulligans y alternativa de Ultra Ball bajo premio/mazo conocido, turno del tercer coste [GCC] y primera Tijeras. 5 BO1 completos vs Clefairy/Drakloak: frecuencia de board-out, si Ogerpon activo frena Drakloak, si Boss a Dreepy con ataque paga Premios y cuántos turnos se sostiene Crustle vs 70 repetidos. No cambiar 60 hasta recibir lista exacta.",
     "confidence": "Una derrota 0–2 completa por Banca vacía, con log que muestra 3 mulligans y el KO 180>170. Ogerpon no apareció y los recursos exactos de la lista están sin confirmar."
+  },
+  {
+    "deck": "cru-corner-v1-pending",
+    "matchup": "Ferropúas ex / Energía Rayo Voltaica / Inicialización (Tjwolbert25)",
+    "title": "Crustle + Ogerpon Cimiento vs Ferropúas ex — conservar Banca, muro Crustle vs Inicialización",
+    "objective": "Superar el bloqueo de Recado de Mega-Kang mientras Ferropúas ex está Activo, poner Dwebble y evolucionar a Crustle (no tiene recuadro de regla) antes del segundo Ciclón Voltio de 180, sin atribuir victoria de matchup a una rendición 0–0.",
+    "opening": [
+      "Si rival abre Ferropúas ex, Inicialización apaga Recado de Kang ex aunque él sea nuestro Pokémon Activo. Buscar mediante Petrel, Pokégear, Poffin, Ultra Ball o robo manual, no depender de Recado.",
+      "Priorizar asegurar cualquier Básico en Banca: Kang solo con 300 PS puede caer en dos Volt Cyclone de 180 y perder por tablero vacío.",
+      "Dwebble→Crustle como opción principal: Crustle DRI12 no tiene recuadro de regla y por ello Casapiedra Misteriosa sigue activa bajo Inicialización de Ferropúas. Al estar Crustle Activo evita daño de ataques de Iron ex salvo efectos que ignoren o apaguen Habilidad.",
+      "No confiar en Ogerpon Máscara Cimiento ex como muro mientras Ferropúas esté Activo: Postura del Cimiento se bloquea por ser un Pokémon ex con recuadro de regla.",
+      "Contra Ciclón Voltio con dos Voltaic Lightning, calcular 140+20+20=180. Dos Spiky Energy en Kang permiten poner cuatro contadores (40) de daño al atacante por cada ataque que lo dañe."
+    ],
+    "win": [
+      "Crustle con habilidad funcional puede frenar el daño de Ferropúas ex, independientemente del número de Energías Voltaicas si el daño proviene de ese ataque.",
+      "Si Kang debe aguantar el primer golpe, Energía Espinosa ×2 demostró represalia 40, manteniendo presión residual mientras se busca Crustle.",
+      "Las dos Energías Espinosas son Incoloras, no un motor de robo, por lo que priorizar buscar Dwebble y un tercer coste [Planta][Incolora][Incolora] de Crustle antes de intentar convertir a 120 por ataque.",
+      "Si rival deja solo Ferropúas, la Banca propia y la habilidad de Crustle pueden cambiar la carrera de tempo; aún se requiere atacar y tomar Premios reales, no solo resistir."
+    ],
+    "avoid": [
+      "No contar la partida previa 0–0 como victoria por seis Premios ni como matchup favorable; fue concesión rival tras el primer ataque propio inexistente.",
+      "No usar Recado de Kang si Inicialización está activa; tampoco atribuir resistencia de Ogerpon Cimiento ex bajo esa misma Inicialización.",
+      "No atribuir impacto de Erin sin descarte registrado.",
+      "No quedar sin Banca mientras Kang recibe 180 y retener los recursos de búsqueda que puedan colocar un Dwebble en tiempo.",
+      "No confundir Energía Espinosa con daño de ataque: son contadores colocados por efectos después de que el Pokémon Activo reciba daño del rival.",
+      "No sumar la victoria automáticamente a la estadística previa 6–1 de la captura; se desconoce cronología de los logs."
+    ],
+    "test": "Probar 5 partidas completas vs Ferropúas: medir apertura Kang solo, turnos de bloqueo Recado, T1/T2 Dwebble disponible, primera Ascensión, turno de Crustle Activo, si Casapiedra se mantiene frente a herramientas de supresión, daño Espinosa y Premios ganados por KOs. Comparar activación de Ogerpon Cimiento únicamente cuando Inicialización deje de estar operativa.",
+    "confidence": "Solo una rendición 0–0 con primer Ciclón Voltio 180, represalia 40 y ningún Pokémon aparte de Kang propio; análisis reglamentario sustentado por textos de Ferropúas y Crustle. Necesitamos BO1 completa."
   }
 ]
