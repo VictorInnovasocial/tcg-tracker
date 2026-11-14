@@ -658,5 +658,32 @@
       "La captura 6–1 anterior no puede recalcularse con esta partida porque no se conoce su fecha relativa respecto al log; cuatro logs nuevos son 3 victorias y 1 derrota."
     ],
     "gameplan": "Frente a Ferropúas ex Activo, la habilidad Inicialización bloquea Mega-Kang Recado y Ogerpon Cornerstone ex Postura del Cimiento: buscar Dwebble sin depender de habilidades ex y evolucionar Crustle para frenar Ciclón Voltio de Iron ex. Crustle no tiene recuadro de regla, su habilidad permanece activa y evita daños de ataques ex; aún puede ser perturbado con Boss, supresión de habilidad o efectos que ignoren daño. Si Kang queda Activo con dos Spiky, cada ataque de Ferropúas activa 40 daño en contadores, pero no recupera cartas y Kang cae ante dos Ciclones de 180 (300HP) sin curación. Identificar primeros tres turnos y asegurar Banca antes de segundo ataque. Voltaic Energy +20 cada copia, así que 140+40=180. No confundir concesión 0–0 con matchup positivo."
+  },
+  {
+    "id": "cru-corner5",
+    "grade": 9,
+    "headline": "Remontada Crustle 0–2→3–2 vs Dragapult/Drakloak: tres Martillos acertados, Boss×2 a Munkidori y curación constante; rival concede",
+    "confidence": "Alta en resultado por concesión 3–2, KOs (Munkidori dos veces y Drakloak), tres Martillos que descartaron Mist y estado final. El log atribuye erróneamente contadores de Munkidori a 'Crustle de Cuatche' que no figura en tablero rival; no reconstruir HP exactos ni sumar 30+60+80×3 como curación efectiva. No se evaluó Ogerpon (robado, no jugado), ni ataque repetido de Dragapult al Crustle final. Fecha real desconocida; 60 exactas pendientes.",
+    "good": [
+      "Apertura con dos Dwebble en mesa y ambas evoluciones a Crustle en segundo turno propio, estableciendo redundancia ante Dragapult ex.",
+      "Mantuvo presión pese a tres aciertos de Crushing Hammer que descartaron tres Energías Neblina: recargó al segundo Crustle con Energías Planta Creciente y Lucha Rocosa para Tijeras Espléndidas 120.",
+      "Energía Neblina unida al Crustle en Banca previno efectos de Picado Fantasma del Dragapult ex cuando el rival debilitó al Dwebble traído por Boss.",
+      "Tras empezar perdiendo 0–2 en Premios, encadenó Bolita de Arroz 30/60 nominales y tres Helados Colosales de 80 nominales, sosteniendo a Crustle bajo ataques de Drakloak 70. No asumir todos los puntos como curación neta sin auditoría.",
+      "Dos Boss consecutivos a Munkidori activo, cada uno con Tijeras Espléndidas 120 KO, frenaron temporalmente Adrenalina Mental y obtuvieron dos Premios; rival gastó Camilla Nocturna para recuperarlo.",
+      "Crustle luego KO a Drakloak de 1 Premio por Tijeras 120, volteando marcador de 0–2 a 3–2 y propiciando concesión.",
+      "Se preserva distinción de resultados: victoria por rendición con 3–2 Premios, no sexta carta tomada; Ogerpon ex llegó a mano tarde pero no tuvo participación."
+    ],
+    "errors": [],
+    "watch": [
+      "Drakloak es Pokémon no ex: Cabezazo Dragón 70 atraviesa Casapiedra Misteriosa de Crustle. Rival logró KO al primer Crustle con presión de Munkidori, aunque el log asigna erroneamente el destino de sus contadores a un Crustle rival inexistente.",
+      "Al dejar un Dwebble sin evolucionar en Banca, rival usó Boss + Picado Fantasma 200 para cobrar otro Premio y reducir profundidad del tablero; evaluar cuándo conviene tener un tercero y cuándo proteger espacios con Básicos resistentes.",
+      "El rival acertó tres Martillos Demoledores a Energías Neblina y retrasó la posibilidad de atacar: medir dependencia de Energías Especiales y cómo se reemplazan.",
+      "Los valores de 30, 60, 80, 80 y 80 que aparecen como curados en el log no son necesariamente sanación neta exacta; el daño por Munkidori tiene referencias erróneas de objetivo.",
+      "Munkidori fue recuperado tras el primer KO mediante Camilla Nocturna. Dos Premios de Munkidori no prueban eliminación irreversible de su motor, aunque el jugador consiguió cobrarlos.",
+      "Dragapult ex atacó una vez para derrotar a Dwebble, pero no atacó al Crustle final después de caer Drakloak; no declarar favorable el matchup por una concesión.",
+      "Ogerpon Cimiento ex fue robado con Determinación de Lylia tardía pero no se puso en mesa, por lo que no se ha validado su habilidad Postura del Cimiento ni su ataque en esta partida; Mega-Kang tampoco se jugó.",
+      "Balance correcto: 5 logs recibidos de esta versión dan 4 victorias y 1 derrota. El screenshot 6–1 previo es agregado sin relación cronológica conocida y no debe sumarse manualmente."
+    ],
+    "gameplan": "Vs Dragapult/Drakloak/Munkidori, sacar dos Dwebble y evolucionar a Crustle pronto; mantener otro Básico en Banca si es posible para evitar perder por KO + Boss a Dwebble. Vigilar Crushing Hammer que puede eliminar Mist Energy antes de conseguir ataque [Planta][Incolora][Incolora]; usar Growing Grass y Rocky Fighting para completar costo de Tijeras 120. Mist Energy protege de efectos secundarios de Phantom Dive en Banca (contadores), no de daño directo del ataque. Drakloak no ex ataca 70 y atraviesa Casapiedra de Crustle; curación repetida con Rice Ball/Jumbo Ice Cream puede sostener un solo Crustle. Si rival utiliza Munkidori para mover contadores de Ruinas Peligrosas, Boss a Munkidori por KO 120 puede valer más que golpear a un Drakloak, también genera Premios fáciles; estar preparado para que Night Stretcher lo recupere. Cornerstone Ogerpon ex contra Drakloak con habilidad es opción teórica, pero aquí llegó a mano demasiado tarde y no se jugó. Rival concedió con Dragapult ex Activo, no conclusión BO3 favorable."
   }
 ]
