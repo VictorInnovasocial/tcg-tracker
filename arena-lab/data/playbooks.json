@@ -1044,5 +1044,35 @@
     ],
     "test": "10 pruebas T1 Kang+Duskull×3 y acceso a Neo Upper en Talon; 5 BO1 vs Mega-Sharpedo + Pecharunt + Toxtricity + Juez con hit 270 y remate 30: medir cuántas veces Talon ataca 150 antes del KO, recuperar piezas tras Juez y ejecutar dos Dusknoir+un Dusclops con último atacante Ursaluna. Comprobar texto exacto de Energía Legado y su relación con KOs por contadores, y evitar suposiciones de bonificación constante de 3 Premios.",
     "confidence": "Una victoria completa 6–5 acreditada por log, 3 Premios de Mega-Sharpedo pese a Energía Legado observados pero explicación pendiente. Lista de 60 no confirmada, sin BO3."
+  },
+  {
+    "deck": "talon-dusk-neo-v1",
+    "matchup": "Applin / Dipplin / Thwackey / Rellor / Goldeen (Festival buscado)",
+    "title": "Talonflame–Dusknoir Neo Upper vs Applin/Thwackey/Rellor — 5–3 por concesión y control de soporte",
+    "objective": "Controlar el soporte rival Rellor/Thwackey con habilidades mientras Talonflame Neo Upper elimina Pokémon Activos pequeños, cuantificando tres Premios que se ceden con dos Dusclops y un Dusknoir.",
+    "opening": [
+      "Al ganar moneda, ir primero facilita Kang ex Activo y Duskull Banca para Recado, pero el mulligan inicial del log dio carta extra al rival.",
+      "El rival abrió Goldeen Activo, dos Applin Banca y añadió Grookey y Rellor con Pokochos. No atacó en ninguno de sus turnos observados.",
+      "T2 propio Pokétableta Duskull + Dusclops de evolución, Recado+2 y Liza para Talon ex con Neo Upper; Cambio a Talon Activo.",
+      "Dusclops Estallido Maldito 50 KO Rellor (+1 Premio propio y rival por autodebilitación); Talon Garra 150 KO Goldeen (+1), resultado parcial 2–1."
+    ],
+    "win": [
+      "Rival evoluciona Grookey→Thwackey y recicla Rellor, pero todavía no ataca.",
+      "Cambio a Kang y Recado+2 durante T3, luego Latias ex permite retirada gratuita Kang→Talon. Pokétableta/Rare Candy/Ultra Ball preparan Dusknoir y segundo Dusclops.",
+      "Dusknoir Estallido Maldito 130 KO Thwackey, Dusclops Estallido Maldito 50 KO segundo Rellor: +2 Premios propios, +2 rival por autoKO.",
+      "Tarjeta Roja Especial reduce mano rival 6→3 antes de que reconstruya el motor; Lylia repone mano y Camilla Nocturna recupera Duskull.",
+      "Talon Garra Cazadora 150 KO Applin (+1), marcador 5–3; rival juega Caja Secreta, descarta Dipplin×2+Applin, busca Recinto del Festival y otras tres cartas y concede sin atacar.",
+      "Mapa 5 Premios propios (Rellor 1, Goldeen 1, Thwackey 1, Rellor 1, Applin 1); rival 3 (Dusclops×2, Dusknoir×1 autoKO). Ningún sexto Premio."
+    ],
+    "avoid": [
+      "No confundir KO por autohabilidad de Dusclops/Dusknoir con ataque rival: Shiehr nunca atacó.",
+      "El intercambio 1→1 de Premios contra Rellor y Thwackey solo compensa si el corte de soporte y presión con Talon generan el resto del cierre.",
+      "No llamar 6–3 al resultado: fue rendición con 5–3.",
+      "No deducir que Dipplin o Recinto del Festival llegaron a entrar: Dipplin fue descartado con Caja Secreta, Recinto del Festival buscado en mano.",
+      "No asumir ventaja robusta de matchup cuando el rival no logró atacar y se rindió.",
+      "No asumir que una apertura con mulligan terminará siempre en recuperación de Kang, ni inventar 60/60."
+    ],
+    "test": "Hacer 10 manos iniciales y medir mulligan, acceso a Kang+Duskull T1 y Talon+Neo Upper T2; 5 partidas ante Applin/Dipplin/Thwackey que sí alcancen Recinto del Festival y ataque para testear verdadera respuesta; medir cuándo Estallido Maldito 50/130 KO soporte de un Premio justifica autodebilitación; comparar Tarjeta Roja Especial tras KOs vs antes.",
+    "confidence": "Una victoria por concesión 5–3 verificable, enemigo sin ataques y arquetipo Festival solo parcialmente observado; sin evidencia de matchups BO3 ni lista 60 exacta."
   }
 ]
