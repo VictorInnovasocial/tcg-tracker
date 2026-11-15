@@ -785,5 +785,31 @@
       "La misma familia de mazo lleva dos victorias documentadas (2–0), pero sus 60 exactas siguen desconocidas y no deben confundirse con listas externas Neo Upper o Acerola."
     ],
     "gameplan": "Contra Mega-Lopunny ex 330 PS con Dudunsparce/Mew ex, preparar Talon+Ignition y acceso a Latias ex, buscar 130 Dusknoir + 50 Dusclops para colocar Mega-Lopunny en rango de Garra Cazadora 150. Dos autoKOs cuestan 2 Premios propios, de modo que el ataque debe cobrar Mega de 3 y no permitir respuesta inmediata que pierda la carrera. Proteger Latias frente a Boss y a Mew ex copiando Impulso Vendaval 230 del Mega de Banca. Ante Tarjeta Roja Especial, mantener acceso a Kang Recado y Supporter; Ursaluna Luna Carmesí ex Luna Roja 240 puede neutralizar Mew ex y poner el mapa en empate 5–5. Un Boss sobre Dunsparce precedió una concesión sin sexto KO, no garantiza cierre en futuras partidas. No cambiar cartas antes de conocer lista personal 60/60."
+  },
+  {
+    "id": "talon-dusk-neo3",
+    "grade": 9,
+    "headline": "Remontada 1–2→6–5 contra Mega-Sharpedo/Pecharunt: Juez limita la mano, tres Estallidos Malditos cobran ex+Tatsugiri y Ursaluna remata Carvanha",
+    "confidence": "Alta en victoria completa 6–5, distribución de Premios 1+3+1+1 propia y 2+1+1+1 rival, ataque Sharpedo 270, supervivencia de Talon para hacer 150, Juez devolvió 10 y dejó 4 y cierre Ursaluna Luna Roja 240. El registro otorga +3 Premios por Mega-Sharpedo ex con Energía Legado al caer por contadores de Dusclops: hecho observado, explicación reglamentaria pendiente. Fecha real y lista 60 exacta desconocidas.",
+    "good": [
+      "Apertura Mega-Kang Activo y tres Duskull T1 mediante Pokochos, Recado de Kang +2 y cuarto Duskull T2; infraestructura de tres Estallidos pese a perder piezas.",
+      "Talonflame ex recibe Neo Upper y se activa con Cambio; Garra 150 KO Carvanha con Mochi, primer Premio propio y búsqueda de dos cartas.",
+      "Conservó Talon tras Mandíbulas Hambrientas 270 y volvió a usar Garra 150 sobre Mega-Sharpedo. El daño previo fue crucial para rematar al ex en Banca con contadores.",
+      "Tras Juez de 10 cartas a 4, Mega-Kang Recado, Ultra Ball, Lylia y Pokétableta permitieron encontrar evoluciones, además de Camilla Nocturna para reciclar Dusknoir antes de la triple habilidad.",
+      "Dusknoir #1 coloca 130 sobre Mega-Sharpedo en Banca; Dusclops coloca 50 y lo KO (+3 propios pese a Energía Legado, según log), y Dusknoir #2 coloca 130 y KO Tatsugiri (+1). Tres autoKOs dan +3 al rival.",
+      "Ursaluna Luna Carmesí ex se busca después, Latias da retirada gratis desde Mega-Kang, Luna Roja 240 KO al segundo Carvanha en Activo; sexto Premio y cierre 6–5 sin concesión.",
+      "Mantuvo mapa de Premios preciso 1+3+1+1=6 pese a estar a un Premio del empate o derrota si se otorgaba otro al rival."
+    ],
+    "errors": [],
+    "watch": [
+      "La tercera autodebilitación deja al rival con cinco Premios en total. Si falla uno de los KOs posteriores, se entrega al rival la oportunidad de cerrar en el siguiente turno.",
+      "Talonflame ex equipado con Neo Upper es KO por Carvanha tras recibir 270 de Mega-Sharpedo y 30 de Carvanha; al caer pierde recurso ACE SPEC. El plan requiere un atacante de cierre sin Neo Upper.",
+      "Juez devolvió diez cartas de mano al mazo y solo dejó cuatro; el resultado positivo dependió de robar las herramientas correctas con Kang/Lylia y no prueba consistencia ante disrupción.",
+      "Mega-Sharpedo ex tenía Energía Legado. El log concedió +3 Premios por KO mediante contadores de Dusclops; confirmar texto/elegibilidad del efecto antes de afirmarlo como regla general.",
+      "El rival no concedió: el sexto Premio procede de Luna Roja a Carvanha, no de KO a Mega-Sharpedo o Tatsugiri adicionales.",
+      "No inferir que tres Dusknoir se autodebilitaron: los autoKO fueron exactamente dos Dusknoir y un Dusclops.",
+      "El sujeto al recibir contadores está mal etiquetado en el log para Mega-Sharpedo y Tatsugiri, que eran rivales; tampoco hay fecha real de combate ni lista 60/60."
+    ],
+    "gameplan": "Contra Sharpedo ex + Pecharunt + Toxtricity, comenzar con Kang para Recado y llenar Duskull en Banca, unir Neo Upper a Talon y lograr un primer Premio de Carvanha con Garra 150. Si Talon puede absorber Mandíbulas Hambrientas 270, atacará 150 a Mega-Sharpedo antes de caer, dejándolo en rango de Estallido Maldito 130 de Dusknoir y 50 de Dusclops (sumados a contadores previos y poison). Tras Juez rival, usar Kang Recado y Lylia para hallar Ultra Ball/Caramelo/recuperación; Dusknoir 130 + Dusclops 50 KO Sharpedo para 3 Premios según log, Dusknoir 130 sobre Tatsugiri para 1, luego Latias + Ursaluna Luna Roja 240 KO segundo Carvanha +1, completando 6. Riesgo: tres autoKO ceden 3 Premios y, junto al KO a Talon, rival alcanza 5. Energía Legado requiere auditoría específica: no generalizar su impacto desde un solo log."
   }
 ]
