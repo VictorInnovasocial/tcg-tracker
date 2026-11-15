@@ -1014,5 +1014,35 @@
     ],
     "test": "10 aperturas con Duskull Activo y defensa de T1, 5 partidas vs Mega-Lopunny/Dudunsparce/Mew con Tarjeta Roja Especial: contar frecuencia del combo 130+50+150, diferencia neta de Premios, exposición Latias a Boss+copia 230, recuperación del motor tras Stamp y porcentaje de victorias por seis Premios vs concesión. Confirmar lista 60.",
     "confidence": "Un log completo de victoria por concesión con Premios 5–5 y dos KOs verificados (Mega-Lopunny ex y Mew ex); no resultado a seis Premios ni BO3. Fecha de combate desconocida y lista propia sin confirmar."
+  },
+  {
+    "deck": "talon-dusk-neo-v1",
+    "matchup": "Mega-Sharpedo ex / Carvanha / Pecharunt ex / Toxtricity / Tatsugiri / Energía Legado",
+    "title": "Talonflame/Dusknoir Neo Upper vs Mega-Sharpedo/Pecharunt — 150 previo, triple habilidad, Ursaluna cierra 6–5",
+    "objective": "Convertir el daño temprano de Talonflame sobre Sharpedo en un KO posterior por contadores mientras se conserva capacidad de remontada tras Juez y se mide el coste de tres autodebilitaciones. Sexto Premio por Ursaluna.",
+    "opening": [
+      "Ganar moneda y empezar permitió bajar Mega-Kang Activo con Duskull Banca y dos más vía Pokochos, usando Recado para preparar motor.",
+      "Neo Upper Energy en Talonflame ex permite Garra Cazadora 150 sin quemar Ignition; Cambio desde Kang en T2 habilitó KO de Carvanha con Mochi + Energía Oscura (+1 Premio).",
+      "Carvanha con Mochi Cadena y Cadenas Controladoras puede hacer 70 desde temprano (30+40) y acumula autodaño por ataque y veneno.",
+      "Toxtricity Sobrecarga Siniestra carga Energía Oscura a Mega-Sharpedo pero añade 20 daño. Pecharunt vuelve Sharpedo activo y envenenado. Sharpedo Mandíbulas Hambrientas hizo 270 a Talon sin KO directo.",
+      "Aprovechar si Talon sobrevive para poner 150 a Sharpedo con Garra antes de que Juez/Talon KO corten acceso a otros ataques."
+    ],
+    "win": [
+      "Una vez Sharpedo recibió 150 por Garra y daño adicional por habilidad/veneno, Dusknoir Estallido Maldito 130 y Dusclops Estallido Maldito 50 lo debilitaron en Banca. En este log otorgó tres Premios aunque llevaba Energía Legado; verificar interacción exacta.",
+      "Tras Juez que devolvió diez cartas propias, el robo de cuatro se combinó con Mega-Kang Recado, Lylia, Ultra Ball y Pokétableta, y Camilla recuperó Dusknoir para poder activar habilidades.",
+      "Segundo Dusknoir 130 en Tatsugiri da un Premio extra, mientras se autodebilita; tras dos Dusknoir y un Dusclops autodebilitados el rival estaba en 5 Premios.",
+      "Latias ex facilitó retirada gratis Mega-Kang→Ursaluna; Luna Roja 240 sobre Carvanha Activo concedió el sexto Premio, cerrando victoria completa 6–5.",
+      "Mapa real de Premios: usuario Carvanha 1 + Mega-Sharpedo 3 + Tatsugiri 1 + segundo Carvanha 1 = 6; rival Talon 2 + tres autoKO 1+1+1 =5."
+    ],
+    "avoid": [
+      "No crear KOs imaginarios: Talon sobrevivió al 270 y golpeó 150 a Sharpedo, pero fue Carvanha quien logró el KO final a Talon con 30 después.",
+      "No asumir que todo KO a Mega-Sharpedo con Energía Legado entrega tres Premios: este log lo confirma en el caso concreto de contadores de Dusclops, pero el texto de energía está pendiente de contrastar.",
+      "No confundir las tres habilidades con tres Dusknoir: fueron dos Dusknoir de 130 y un Dusclops de 50.",
+      "No gastar habilidades sin poder cobrar 3+1+1 Premios; tres autoKOs más Talon ex KO dejaron al rival con cinco y posibilidad de cerrar si se falla.",
+      "No atribuir la recuperación tras Juez a consistencia perfecta: una única secuencia favorable con Ultra Ball/Caramelo/Dusknoir/Latias/Lylia.",
+      "No afirmar que Pecharunt ganó o que Sharpedo estaba en activo al caer; el rival lo retiró a Banca, y las habilidades lo remataron allí."
+    ],
+    "test": "10 pruebas T1 Kang+Duskull×3 y acceso a Neo Upper en Talon; 5 BO1 vs Mega-Sharpedo + Pecharunt + Toxtricity + Juez con hit 270 y remate 30: medir cuántas veces Talon ataca 150 antes del KO, recuperar piezas tras Juez y ejecutar dos Dusknoir+un Dusclops con último atacante Ursaluna. Comprobar texto exacto de Energía Legado y su relación con KOs por contadores, y evitar suposiciones de bonificación constante de 3 Premios.",
+    "confidence": "Una victoria completa 6–5 acreditada por log, 3 Premios de Mega-Sharpedo pese a Energía Legado observados pero explicación pendiente. Lista de 60 no confirmada, sin BO3."
   }
 ]
