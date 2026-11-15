@@ -985,5 +985,34 @@
     ],
     "test": "10 aperturas buscando doble Dusknoir en segundo turno, Talonflame con Ignition en primer turno, Neo Upper para tercer turno, mapa de Premio 2+1+1+2 y respuesta ante presión al motor desde la Banca; 5 partidas BO1/BO3 contra Mew ex con distintos acompañantes, midiendo si tres autodebilitamientos siguen dando 6 Premios antes de que rival cierre.",
     "confidence": "Una victoria por seis Premios 6–3 con log completo y reglas verificadas de Dusknoir; motor personal observado pero 60/60 no confirmadas. No adjudicar estadísticas de referencias externas."
+  },
+  {
+    "deck": "talon-dusk-neo-v1",
+    "matchup": "Mega-Lopunny ex / Dudunsparce / Mew ex (copia Impulso Vendaval) / Cacturne",
+    "title": "Talonflame / Dusknoir / Mega-Kang Neo Upper vs Mega-Lopunny/Mew — umbral 330 y evitar Boss a Latias",
+    "objective": "Convertir recursos de autodebilitamiento 130+50 en un KO de tres Premios a Mega-Lopunny con Garra 150, anticipar Mew ex copiando 230 para seleccionar Latias y preparar Ursaluna como rematador; mantener mapa de Premios y no confundir concesión con seis Premios.",
+    "opening": [
+      "Si abre Duskull Activo, Pokochos Gemelos puede llenar Banca con 2 Duskull; planear salida a Mega-Kang o Talon. El log muestra T1 sin ataque, por lo que hay riesgo de ceder 1 Premio antes del primer ataque.",
+      "Mega-Kang ex en Banca habilita entrada directa de Talonflame ex y Recado +2 cuando puede ponerse Activo; Latias ex da retirada gratis a Kang Básico, pero expone un ex de 2 Premios vulnerable a Boss.",
+      "Mega-Lopunny ex ataca por 230 y cobra 3 Premios al ser KO; con el ejemplar enfrentado se alcanzó daño 330 mediante Dusknoir Estallido Maldito 130 + Dusclops Estallido Maldito 50 + Talonflame Garra Cazadora 150.",
+      "Preparar Rare Candy/Dusknoir/Dusclops antes de conceder dos Premios por autodebilitamiento. Sustituir Jaula de Combate con Torre de Interferencia pudo liberar presión de Estadio.",
+      "Energía Ignición activa Garra 150 en Talon durante el turno y se descarta; no planificar un segundo ataque con esa misma Ignición."
+    ],
+    "win": [
+      "El KO a Mega-Lopunny ex aportó 3 Premios y compensó dos que se entregaron al usar Dusknoir y Dusclops: diferencial neto +1 en el intercambio (sin contar Duskull inicial KO).",
+      "Mew ex rival copió Impulso Vendaval 230 de Mega-Lopunny para KO Latias ex atraída por Boss: prever pérdida de dos Premios y reservar capacidad de retorno.",
+      "Ursaluna Luna Carmesí ex como segundo atacante hizo Luna Roja 240 para KO Mew ex y consiguió 2 Premios, igualando marcador a 5–5.",
+      "Contra Tarjeta Roja Especial, Lylia y Recado de Mega-Kang permitieron reconstruir desde tres cartas; no suponer que siempre aparecen juntos.",
+      "Camilla Nocturna recuperó Latias para nuevo pivote gratuito Kang→Ursaluna, Boss atrajo Dunsparce; el rival concedió con 5–5 antes del ataque, que por ello NO fue un KO demostrado."
+    ],
+    "avoid": [
+      "No atribuir los 2 Premios autoconcedidos a ataques del rival: Dusknoir y Dusclops se autodebilitaron, mientras el rival sí KO al Duskull inicial y a Latias ex.",
+      "No usar Cursed Blast de Dusclops/Dusknoir sin garantizar que Talon puede rematar Mega-Lopunny ex ese turno; se ceden Premios que acercan al rival a su cierre.",
+      "No asumir que Mew ex únicamente hace 30: copia Impulso Vendaval 230 del Mega-Lopunny ex y puede alcanzar Latias con Boss.",
+      "No sobrevalorar la concesión 5–5 como victoria completa por seis Premios, ni adjudicar el último KO a Ursaluna; Boss se jugó, pero el rival se rindió.",
+      "No extrapolar dos partidas a matchup favorable BO3 ni deducir que listas de referencia Neo Upper son idénticas a las 60 cartas propias."
+    ],
+    "test": "10 aperturas con Duskull Activo y defensa de T1, 5 partidas vs Mega-Lopunny/Dudunsparce/Mew con Tarjeta Roja Especial: contar frecuencia del combo 130+50+150, diferencia neta de Premios, exposición Latias a Boss+copia 230, recuperación del motor tras Stamp y porcentaje de victorias por seis Premios vs concesión. Confirmar lista 60.",
+    "confidence": "Un log completo de victoria por concesión con Premios 5–5 y dos KOs verificados (Mega-Lopunny ex y Mew ex); no resultado a seis Premios ni BO3. Fecha de combate desconocida y lista propia sin confirmar."
   }
 ]
