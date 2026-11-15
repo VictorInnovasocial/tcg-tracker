@@ -736,5 +736,30 @@
       "La captura 6–1 anterior y 7 logs recibidos con 6–1 coinciden aritméticamente, pero no demuestra que sean los mismos eventos ni que el screenshot esté actualizado."
     ],
     "gameplan": "Vs Zoroark ex de N con Reshiram N en Banca, prever Bromista Nocturno copiando Llama Virtuosa 170 y KO a Kang ex con dos golpes incluso si se cura 30. En opening Mega-Kang único, valorar Petrel→Pokochos/Ciudad Luminalia para traer Dwebble antes de invertir Liza en Crustle sin su Básico. Tras Kang KO por tres Premios, Crustle Hero Cape+Growing Grass×2 llega a 290 PS y funciona como muro ante Zoroark ex, pero rivales no ex Yveltal/Reshiram/Darmanitan sí golpean. Frente a Yveltal de Pecharunt ex Envenenado y Mochi, Embrague 60 y Pluma Oscura 150×2 generan +20 Spiky por ataque además de veneno rival, pudiendo dar un Premio de desgaste; sostener Crustle con IceCream/Rice Ball. Boss a Zoroark 240 no asegura KO a 280 salvo 40 daño previo, por lo que preparar remate o priorizar motores expuestos. Xero al Zekrom N puede retrasar la línea Hacer Trizas que ignora Casapiedra, pero la recuperación del descarte sigue posible."
+  },
+  {
+    "id": "talon-dusk-neo1",
+    "grade": 9,
+    "headline": "Secuenciación T1 explosiva de Talonflame+Duskull×3; 3 Dusknoir dan tres Premios rivales, pero cobran Mew ex, Golett y preparan Latias; 6–3 completo en 3 turnos propios",
+    "confidence": "Muy alta en marcador 6–3 por todos los Premios, KOs propios 2+1+1+2, tres autodebilitamientos Dusknoir y dos ataques Mew de 30 sin KOs; lista 60 personal no verificada, semejanza con captura Neo Upper no equivale a identidad. Fecha combate no verificada.",
+    "good": [
+      "El usuario eligió abrir con Mega-Kang ex como motor Recado +2 y habilitador Excited Dive; llenó la Banca de Duskull×3, Talonflame ex y Latias ex antes del primer ataque.",
+      "Pokochos Gemelos baja Duskull×2 y dos Ultra Ball encuentran Talonflame ex y Latias ex; la habilidad de Latias facilita retiro de Kang a Talon para Garra Cazadora 150 sobre Mew ex en primer turno.",
+      "Dos Rare Candy a Dusknoir en segundo turno permiten KO en Banca de Mew ex ya tocado (2 Premios) y colocar 130 en Latias ex para futuro KO (gasto rival +2 Premios por los 2 autoKOs).",
+      "El segundo Talonflame ex entra con los espacios liberados por autodebilitamiento de Dusknoir. Ignition segunda paga Garra 150 contra Unown, KO de 1 Premio, total user 3 y rival 2.",
+      "En tercer turno, Boss a Latias ex de Banca ya dañada, Neo Upper Energy al Talon Fase 2 y tercer Rare Candy a Dusknoir: Cursed Blast 130 KO a Golett (user+1, rival+1), Garra 150 remata Latias ex (user+2), victoria por 6–3.",
+      "El rival nunca KO con ataque: los tres Premios que cobró procedieron exclusivamente de Cursed Blast de 3 Dusknoir del propio jugador; el mapa de Premios fue calculado y completado."
+    ],
+    "errors": [],
+    "watch": [
+      "Autodebilitar tres Dusknoir concede tres Premios al rival. En otro escenario puede activar Unfair Stamp, Acerola, remates por 3 Premios u otra disrupción del rival; no gastar todos sin alcanzar 6 propios.",
+      "Banca llena en T1 (Duskull×3, Talon, Latias) depende de poder sacrificar Dusknoir para crear espacio. Contra presión a Banca o bloqueo de habilidad, riesgo.",
+      "Se utilizan tres Caramelos Raros en tres turnos propios (dos el segundo y otro el tercero). Medir consistencia en otras manos, y no asumir que se repite fácilmente por una partida.",
+      "Primer Mew ex con 150 daño previo recibió 130 más por Dusknoir. Fue exceso de daño, pero obtuvo dos Premios de un objetivo en Banca y dejó Garra Cazadora disponible para Unown: no es misplay probado sin revisar acceso a Boss/otras líneas.",
+      "El log usa sujeto erróneo al decir que la habilidad puso 13 contadores a Mew ex/Latias ex 'de TronBeatbox22'; los KOs muestran que eran Pokémon rivales.",
+      "Energía Neosuperior ACE SPEC en Talonflame Fase 2 permite continuidad de ataque; no extrapolar número total de copias de cartas propias o identidad completa con referencia externa 60.",
+      "Solo primer encuentro de esta versión propia, sin demostrar que el matchup sea favorable en BO3 o contra presión de KO real de Talon."
+    ],
+    "gameplan": "Contra Mew ex con Explosión Teleportadora 30 que se repliega a Banca, abrir Kang Recado y bajar tres Duskull, Talonflame con Excited Dive+Ignition, Latias para retirada gratis. Atacar Mew 150; cuando Mew se repliega y deja Unown Activo, Dusknoir #1 Cursed Blast 130 a Mew para KO 2 Premios mientras el turno de ataque Talon queda libre para Unown (1 Premio); Dusknoir #2 130 Latias ex como preparación; en turno siguiente Dusknoir #3 130 a Golett (1 Premio) y Boss a Latias ex con Talon 150 (2 Premios), total 6; se ceden 3 a rival por autoconsumo. Neo Upper al Talonflame Fase 2 reemplaza necesidad de tercera Ignition Energy. No jugar Cursed Blast si no quedan rutas suficientes a seis Premios o hay bloqueo por Psyduck/efectos; vigilar no saturar Banca sin salida y que el rival pueda atacar tras regalar 3 Premios."
   }
 ]
