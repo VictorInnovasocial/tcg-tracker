@@ -761,5 +761,29 @@
       "Solo primer encuentro de esta versión propia, sin demostrar que el matchup sea favorable en BO3 o contra presión de KO real de Talon."
     ],
     "gameplan": "Contra Mew ex con Explosión Teleportadora 30 que se repliega a Banca, abrir Kang Recado y bajar tres Duskull, Talonflame con Excited Dive+Ignition, Latias para retirada gratis. Atacar Mew 150; cuando Mew se repliega y deja Unown Activo, Dusknoir #1 Cursed Blast 130 a Mew para KO 2 Premios mientras el turno de ataque Talon queda libre para Unown (1 Premio); Dusknoir #2 130 Latias ex como preparación; en turno siguiente Dusknoir #3 130 a Golett (1 Premio) y Boss a Latias ex con Talon 150 (2 Premios), total 6; se ceden 3 a rival por autoconsumo. Neo Upper al Talonflame Fase 2 reemplaza necesidad de tercera Ignition Energy. No jugar Cursed Blast si no quedan rutas suficientes a seis Premios o hay bloqueo por Psyduck/efectos; vigilar no saturar Banca sin salida y que el rival pueda atacar tras regalar 3 Premios."
+  },
+  {
+    "id": "talon-dusk-neo2",
+    "grade": 8,
+    "headline": "Victoria por rendición 5–5 vs Mega-Lopunny/Mew: 130+50+150 KO Mega ex (3 Premios) y Ursaluna 240 KO Mew; duelo de Premios 5–5",
+    "confidence": "Alta en KOs y marcador 5–5, rendición antes del ataque final, secuencia 130 Dusknoir + 50 Dusclops + 150 Talon y respuesta Ursaluna 240. Fecha de juego y 60 propias sin confirmar; no demostrar sexto KO ni matchup favorable. El log etiqueta erróneamente Mega-Lopunny como propio al recibir contadores, pero KO y Premios acreditan que era el rival.",
+    "good": [
+      "Tras Duskull inicial KO por 230 del Mega-Lopunny, consiguió Rare Candy a Dusknoir y Dusclops en un solo turno para combinar 130+50=180 y completar KO Mega-Lopunny ex con Garra Cazadora 150 (330), obteniendo 3 Premios a cambio de dos autodebilitamientos propios.",
+      "Unió Energía Ignición a Talonflame, usó Ultra Ball a Latias ex y retirada gratuita del Mega-Kang para colocar al atacante Activo, y reemplazó Jaula de Combate con Torre de Interferencia.",
+      "Tras Tarjeta Roja Especial que redujo una mano de ocho cartas a tres, reconstruyó con Ultra Ball, Determinación de Lylia y Recado de Mega-Kang; buscó y bajó Ursaluna Luna Carmesí ex.",
+      "Usó Cambio para pasar a Ursaluna Luna Carmesí ex y Luna Roja 240 para KO a Mew ex que había capturado Latias con una copia de Impulso Vendaval; recuperó dos Premios y empató 5–5.",
+      "En turno final resguardó Ursaluna con Cambio, robó con Kang Recado, recuperó Latias ex con Camilla Nocturna, la bajó y usó retirada gratuita de Kang para reactivar Ursaluna y Boss a Dunsparce; rival se rindió antes del ataque.",
+      "Distingue correctamente victoria por rendición 5–5 de victoria por seis Premios; la primera partida del mismo mazo fue 6–3 y aquí fueron 5–5."
+    ],
+    "errors": [],
+    "watch": [
+      "Apertura con Duskull Activo terminó sin ataque ni unión de energía en turno primero propio; no concluir misplay sin comprobar si había líneas legales con mano inicial y cartas no mostradas.",
+      "Dusknoir y Dusclops autodebilitados concedieron dos Premios; solo resultó eficiente porque Talon aseguró 3 Premios al Mega-Lopunny ex. Si la línea de KO falla, la economía se vuelve desfavorable.",
+      "Latias ex en Banca fue objetivo de Boss rival y Mew ex copió Impulso Vendaval 230 para KO y dos Premios. Debe evaluarse si puede reservarse o recuperarse antes sin bloquear la activación de Talon.",
+      "Tarjeta Roja Especial rival devolvió ocho cartas y redujo la mano a tres; el acceso a Ursaluna y a robos posteriores fue decisivo, no garantizado de forma general.",
+      "Ursaluna sobrevivió al ataque Impulso Vendaval 230 de segundo Mega-Lopunny, pero el log no acredita el ataque final a Dunsparce; el rival concedió antes de que ocurriera.",
+      "La misma familia de mazo lleva dos victorias documentadas (2–0), pero sus 60 exactas siguen desconocidas y no deben confundirse con listas externas Neo Upper o Acerola."
+    ],
+    "gameplan": "Contra Mega-Lopunny ex 330 PS con Dudunsparce/Mew ex, preparar Talon+Ignition y acceso a Latias ex, buscar 130 Dusknoir + 50 Dusclops para colocar Mega-Lopunny en rango de Garra Cazadora 150. Dos autoKOs cuestan 2 Premios propios, de modo que el ataque debe cobrar Mega de 3 y no permitir respuesta inmediata que pierda la carrera. Proteger Latias frente a Boss y a Mew ex copiando Impulso Vendaval 230 del Mega de Banca. Ante Tarjeta Roja Especial, mantener acceso a Kang Recado y Supporter; Ursaluna Luna Carmesí ex Luna Roja 240 puede neutralizar Mew ex y poner el mapa en empate 5–5. Un Boss sobre Dunsparce precedió una concesión sin sexto KO, no garantiza cierre en futuras partidas. No cambiar cartas antes de conocer lista personal 60/60."
   }
 ]
