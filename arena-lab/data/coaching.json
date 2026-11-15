@@ -811,5 +811,30 @@
       "El sujeto al recibir contadores está mal etiquetado en el log para Mega-Sharpedo y Tatsugiri, que eran rivales; tampoco hay fecha real de combate ni lista 60/60."
     ],
     "gameplan": "Contra Sharpedo ex + Pecharunt + Toxtricity, comenzar con Kang para Recado y llenar Duskull en Banca, unir Neo Upper a Talon y lograr un primer Premio de Carvanha con Garra 150. Si Talon puede absorber Mandíbulas Hambrientas 270, atacará 150 a Mega-Sharpedo antes de caer, dejándolo en rango de Estallido Maldito 130 de Dusknoir y 50 de Dusclops (sumados a contadores previos y poison). Tras Juez rival, usar Kang Recado y Lylia para hallar Ultra Ball/Caramelo/recuperación; Dusknoir 130 + Dusclops 50 KO Sharpedo para 3 Premios según log, Dusknoir 130 sobre Tatsugiri para 1, luego Latias + Ursaluna Luna Roja 240 KO segundo Carvanha +1, completando 6. Riesgo: tres autoKO ceden 3 Premios y, junto al KO a Talon, rival alcanza 5. Energía Legado requiere auditoría específica: no generalizar su impacto desde un solo log."
+  },
+  {
+    "id": "talon-dusk-neo4",
+    "grade": 8,
+    "headline": "Victoria 5–3 por concesión ante línea Applin–Thwackey–Rellor: mulligan superado, Neo Upper T2, tres KOs de habilidad por tres autoKO y Tarjeta Roja Especial 6→3.",
+    "confidence": "Alta en puntuación 5–3, concesión en turno rival tercero, mulligan propio, tres autoKO propios (dos Dusclops y un Dusknoir) y cero ataques rivales. Media para valorar el matchup: rival no jugó Dipplin ni Recinto del Festival (buscados/descartados con Caja Secreta) y se rindió sin lanzar ataques. Lista exacta 60/60 pendiente.",
+    "good": [
+      "Mulligan inicial de siete cartas sin Básicos dio carta adicional al rival, pero segunda mano permitió Kang Activo + Duskull Banca T1; Recado permitió desarrollar Dusclops y recursos.",
+      "Pokétableta T2 encontró Duskull, el previo evolucionó a Dusclops, Liza consiguió Talonflame ex con Energía Neosuperior, y Cambio habilitó Garra 150 en el primer turno con posibilidad de atacar.",
+      "Dusclops Estallido Maldito 50 KO primer Rellor y Talon Garra 150 KO Goldeen; dos Premios al cierre del T2 propio frente a uno rival cedido por autoKO.",
+      "Turno siguiente Cambio a Kang para Recado+2 y Latias ex para retirada gratuita devolvieron Talon Activo sin perder Garra 150, mientras se preparaban Dusknoir y segundo Dusclops.",
+      "Dusknoir Estallido Maldito 130 KO Thwackey y Dusclops 50 KO segundo Rellor, frenando el desarrollo rival; tras tres autoKO acumulados, marcador propio 4 frente a 3 rival.",
+      "Tarjeta Roja Especial redujo mano rival de seis cartas a tres después de los KOs del soporte; Lylia robó 6 y Camilla Nocturna repuso un Duskull en Banca.",
+      "Garra Cazadora de Talon 150 KO Applin (quinto Premio); la rendición rival llega con 5–3. La conservación de Neo Upper en Talon fue útil porque rival no atacó."
+    ],
+    "errors": [],
+    "watch": [
+      "El rival no atacó en toda la partida ni mostró Dipplin en juego, por lo que un 5–3 favorable no prueba dominio del matchup; concesión no equivale a sexto Premio.",
+      "Dos Dusclops y un Dusknoir se autodebilitaron para KO a dos Rellor y un Thwackey de un Premio cada uno: se cedieron exactamente tres Premios. Evaluar si compensa según habilidad de soporte y prize map.",
+      "Mulligan inicial concedió una carta extra al rival; monitorizar tasa de manos sin Básicos y si Kang consigue recuperarlas sin sesgar por este éxito.",
+      "El oponente descartó Dipplin×2 y Applin con Caja Secreta y buscó Recinto del Festival, pero no los jugó. No afirmar una línea de ataque concreta ni curva completa del rival.",
+      "El log indica erróneamente objetivos propios Rellor y Thwackey al colocar daño: pertenecían al oponente según el KO y Premios.",
+      "El balance 4–0 corresponde solo a cuatro logs V1.0; no extrapolar winrate futura o rendimiento BO3."
+    ],
+    "gameplan": "Ante una apertura con Goldeen, dos Applin, Grookey y Rellor, abrir con Mega-Kang para Recado y poner Duskull en Banca; T2 alcanzar Talon Neo Upper (Liza) y un Dusclops para eliminar soporte pequeño con 50 contadores y usar Garra Cazadora 150 KO en Activo. En T3, Cambio temporal Talon→Kang para Recado +2, bajar Latias y retirar gratis Kang→Talon, evolucionar Dusknoir con Caramelo y Dusclops con búsqueda, poner 130 en Thwackey y 50 en segundo Rellor para KOs de un Premio (asumiendo autoKO propio). Tarjeta Roja Especial reduce la mano rival 6→3 tras eliminar apoyos; Lylia y Camilla ayudan a recomponer la Banca y Talon KO Applin con Garra 150. Conservar un margen: tres Premios autoconcedidos por dos Dusclops y un Dusknoir hacen peligroso perder el atacante posteriormente. Plan rival de Dipplin/Festival no demostrado; probar cuando llegue a jugar."
   }
 ]
