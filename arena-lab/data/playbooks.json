@@ -1074,5 +1074,35 @@
     ],
     "test": "Hacer 10 manos iniciales y medir mulligan, acceso a Kang+Duskull T1 y Talon+Neo Upper T2; 5 partidas ante Applin/Dipplin/Thwackey que sí alcancen Recinto del Festival y ataque para testear verdadera respuesta; medir cuándo Estallido Maldito 50/130 KO soporte de un Premio justifica autodebilitación; comparar Tarjeta Roja Especial tras KOs vs antes.",
     "confidence": "Una victoria por concesión 5–3 verificable, enemigo sin ataques y arquetipo Festival solo parcialmente observado; sin evidencia de matchups BO3 ni lista 60 exacta."
+  },
+  {
+    "deck": "talon-dusk-neo-v1",
+    "matchup": "Mega-Kangaskhan ex / Talonflame ex (Hero's Cape / Bolita de Arroz Sabrosa / triple Tarjeta Roja Especial)",
+    "title": "Talonflame Dusknoir Neo Upper vs Kang/Talon — triple Red Card, Capa y curación (5–5 rendición)",
+    "objective": "Convertir dos Garra 150 en 3 Premios sobre Kang rival mientras se desarrolla Dusknoir; sobrevivir a triple reducción de mano y superar Talon con Capa+curación sin conceder demasiados Premios por autoKO.",
+    "opening": [
+      "Rival declaró tres mulligans y usuario recibió tres cartas adicionales; no usar esta partida para inferir probabilidad de apertura normal.",
+      "Duskull Activo+Duskull Banca, Kang+Talon en Banca; Liza encuentra Neo Upper, Ultra Ball encuentra Latias, retirada gratis a Talon; Garra 150 sobre Mega-Kang rival.",
+      "Dos Duskull evolucionan a Dusclops, Pokochos repone tercer Duskull; segundo Garra 150 completa KO Mega-Kang rival 300 y obtiene 3 Premios."
+    ],
+    "win": [
+      "El rival sube Talon con Capa de Héroes, Energía Espinosa y usa Tarjeta Roja Especial n.º 1 para bajar mano 12→3. Kang Recado+2 y Rare Candy permiten preparar primer Dusknoir mientras Talon propio ataca 150 al Talon con Capa.",
+      "Tras segunda Tarjeta Roja 5→3, el Talon rival KO nuestro primer Talon (Garra 150×2). Pierde Neo Upper. Kang Recado+2 y segundo Talon entra Banca.",
+      "Primer Dusknoir Estallido 130 y segundo Dusknoir Estallido 130 golpean el Talon rival; ambos se autodebilitan. Pokétableta+Camilla permiten reciclar Dusknoir y mantener tercer Dusknoir sobre otro Dusclops.",
+      "Meowth ex encuentra Lylia, que roba seis. Energía Ignición permite que segundo Talon ex haga Garra 150; Latias mantiene movilidad Kang→Talon sin requerir gastar Cambio.",
+      "El rival ha curado Talon con Capa 30+60+90 total 180, y tercera Tarjeta Roja baja mano 7→3. Tercer Dusknoir usa Estallido 130 KO Talon rival con Capa (+2 Premios), cediendo otro Premio por autoKO, empate 5–5.",
+      "Rival concede cuando entra segundo Talon Activo, antes de que se cobre sexto Premio. Premios propios 3 Kang +2 Talon =5; rivales 2 Talon propio +3 Dusknoir autoKO=5."
+    ],
+    "avoid": [
+      "No anotar victoria completa por seis Premios: fue concesión al 5–5. Tampoco se certifica un sexto KO forzado.",
+      "No contar tres Dusclops que usaron Estallido: fueron tres Dusknoir; los dos Dusclops iniciales evolucionaron después.",
+      "No ignorar que el oponente declaró tres mulligans y permitió una mano propia ampliada.",
+      "Cuando el rival juega Cape y Bolita, no suponer que basta un Estallido o un Garra aislado: la curación total observable fue 180.",
+      "No afirmar que Piroducto Legendario se jugó; solo aparece en mano expuesta por mulligan.",
+      "No sumar contadores de Energía Espinosa a un objetivo concreto cuando el log etiqueta destinatario dudoso.",
+      "No gastar tres Dusknoir autodebilitados sin calcular el mapa de Premios y la presión rival del turno siguiente."
+    ],
+    "test": "Cinco BO3 contra Kang/Talon Cape/Bolita/Red Card (sin regalar mulligans) y sobre prioridad de Boss a Latias/Kang; 10 pruebas de manos con triple Red Card y alternativas a Kang/Meowth/Lylia; comparar valor de 2 vs 3 Dusknoir y capacidad de remate sexto Premio en turno posterior; registrar cuándo Talon secundario con Ignición permite atacar tras pérdida Neo Upper.",
+    "confidence": "Una victoria por rendición al 5–5 acreditada por log; la oposición no jugó Piroducto, las etiquetas de daño de Energía Espinosa son ambiguas y no se conocen las 60 cartas propias."
   }
 ]
