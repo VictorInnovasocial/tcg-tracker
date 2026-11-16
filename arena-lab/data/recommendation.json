@@ -1,14 +1,14 @@
 {
-  "version": "2026-11-09",
-  "reviewedAt": "2026-11-09",
-  "status": "recomendación presencial 09–15/11; legalidad occidental pre-DLR, sin sustituciones inventadas",
+  "version": "2026-11-16",
+  "reviewedAt": "2026-11-16",
+  "status": "RECOMENDACIÓN CONDICIONAL: Slowking de Gdańsk 16–19/11; no inscribir las 60 sin resolver Mew ex 30C. Desde 20/11 DLR legal y meta en transición, esperar datos LAIC.",
   "featured": {
     "id": "slowking-gdansk",
     "name": "SLOWKING / MEGA-KANGASKHAN EX — Aarni Karjala, Gdańsk 1.º",
-    "focus": "Estándar presencial occidental 09–15/11/2026, sin DLR",
+    "focus": "Presencial occidental 16–19/11 pre-DLR; desde 20/11 legal DLR y reevaluación tras LAIC",
     "archetype": "Slowking Seek Inspiration / manipulación del top deck + Mega-Kangaskhan ex",
-    "evidence": "1.º Gdańsk 31/10–01/11, 1739 jugadores, 14-1-2; 88 Slowking en field y 2 Top16.",
-    "confidence": "Media-alta selección, no winrate por matchup",
+    "evidence": "Gdańsk 31/10–01/11, 1739 jugadores: campeón 14-1-2; 88 Slowking, 361-305-97 en matches (51.55% sin empates), dos Top16.",
+    "confidence": "Media selección, NO certificación de lista exacta para inscripción",
     "why": [
       "Ganó el Regional más reciente documentado de 1739 jugadores y 4 Dragapult entraron al Top8.",
       "Lista 60 íntegra y verificable, construida antes de Delta Reign; no incluye DLR.",
@@ -19,7 +19,8 @@
       "Dependencia de manipular el tope y preparar Slowking; disrupción y presión sobre Slowpoke.",
       "Deck de dos Premios de apoyo (Mega Kangaskhan ex concede tres), plan de Premios adversario.",
       "No extrapolar un campeonato a winrate general; solo 88 jugadores Slowking en Gdańsk.",
-      "Delta Reign aún no elegible en presencial occidental antes del 20/11."
+      "Lista de Gdańsk incluye Mew ex 30C 066, impresión no legal directamente; equivalencia pendiente. No presentar como 60 certificadas.",
+      "DLR cambia elegibilidad presencial el 20/11; antes de LAIC no hay metajuego presencial DLR de gran tamaño confirmado."
     ],
     "gameplan": [
       "Contra Dragapult, proteger Slowpoke/Slowking y secuenciar Ciphermaniac + Academy para presión de ataques copiados.",
@@ -153,25 +154,25 @@
       }
     ],
     "legal": {
-      "status": "comprobación de corte de expansión superada; auditoría de promos y erratas individuales pendiente",
-      "format": "H/I/J, sin DLR",
-      "note": "La lista fue utilizada en Gdańsk pre-DLR. Mew ex 30C 066 corresponde a una impresión de colección 30C: cotejar equivalencia/reimpresión con Mew ex legal antes de registrar una lista para torneo. No confundir carta impresa con legalidad por código."
+      "status": "PENDIENTE: no certificada la lista exacta de 60 para presencial",
+      "format": "H/I/J; DLR elegible desde 20/11/2026",
+      "note": "Mew ex 30C 066 no legal directamente; verificar equivalencia de impresión con Mew ex legal y texto/reimpresión. No sustituir sin evidencia. Comprobar promos, erratas, organizador. El 20/11 cambia pool legal y requiere reevaluación."
     }
   },
   "alternatives": [
     {
-      "id": "ray-jap",
-      "name": "Mega-Rayquaza con tres aves",
-      "use": "Ladder y entreno: 5–1 propio en seis partidas, con limitación por muestra pequeña.",
-      "confidence": "Baja para anticipar resultados de torneo.",
-      "notion": "https://app.notion.com/p/4105f543d14e8168b066c1a60a6045af"
+      "id": "ray-crispin-pending",
+      "name": "Mega-Rayquaza / tres aves + Denis",
+      "use": "Entrenamiento online y observación DLR; 4–0 propia en cuatro partidas de muestra, no legal presencial antes del 20/11 por Mega-Rayquaza DLR.",
+      "confidence": "Baja para torneo, lista 60 incompleta.",
+      "notion": "https://app.notion.com/p/4125f543d14e8122a1afcffdf400e8c3"
     },
     {
       "id": null,
-      "name": "Dragapult ex — familias Top16 Japón",
-      "use": "Prioridad del radar meta. Requiere escoger y verificar una lista de 60 cartas concreta antes de aconsejar copiarla.",
-      "confidence": "Media sobre presencia JP Top16, no sobre winrate individual.",
-      "source": "https://www.pokemoncard151.com/chronicle.php?p=city-weekly-2026-11-02"
+      "name": "Crustle / Mega-Kangaskhan ex",
+      "use": "Antimeta a investigar desde 20/11; campeón online RDG 15/11 con DLR, 153 jugadores; 2 Crustle en field.",
+      "confidence": "Baja para extrapolación presencial.",
+      "source": "https://cardboardalpha.com/pokemon/tournaments/rdg-november-elite-qualifier-6a69081652c24ac2da64eb2a"
     }
   ],
   "deckToBeat": {
@@ -189,8 +190,8 @@
       "Distribución de contadores mitigable mediante protección de Banca y rutas de Premios.",
       "Slowking con preparación de top deck demostró capacidad de vencerlo, pero sin porcentaje universal verificado."
     ],
-    "winrate": "No verificado en muestra agregada",
-    "conversion": "Day2 107/505 ~21.2%; Top8 4/505 ~0.79% (no es winrate)"
+    "winrate": "No verificado para Dragapult; no confundir conversión con winrate.",
+    "conversion": "Gdańsk Day2 107/505 =21.19%; Top16 7/505 =1.39%; Top8 4/505=0.79%; familia de variantes"
   },
   "matchups": [
     {
@@ -214,8 +215,8 @@
       "confidence": "baja"
     },
     {
-      "vs": "Crustle",
-      "priority": "media",
+      "vs": "Crustle / Mega-Kangaskhan",
+      "priority": "alta desde 20/11",
       "confidence": "baja"
     }
   ],
