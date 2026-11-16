@@ -836,5 +836,32 @@
       "El balance 4–0 corresponde solo a cuatro logs V1.0; no extrapolar winrate futura o rendimiento BO3."
     ],
     "gameplan": "Ante una apertura con Goldeen, dos Applin, Grookey y Rellor, abrir con Mega-Kang para Recado y poner Duskull en Banca; T2 alcanzar Talon Neo Upper (Liza) y un Dusclops para eliminar soporte pequeño con 50 contadores y usar Garra Cazadora 150 KO en Activo. En T3, Cambio temporal Talon→Kang para Recado +2, bajar Latias y retirar gratis Kang→Talon, evolucionar Dusknoir con Caramelo y Dusclops con búsqueda, poner 130 en Thwackey y 50 en segundo Rellor para KOs de un Premio (asumiendo autoKO propio). Tarjeta Roja Especial reduce la mano rival 6→3 tras eliminar apoyos; Lylia y Camilla ayudan a recomponer la Banca y Talon KO Applin con Garra 150. Conservar un margen: tres Premios autoconcedidos por dos Dusclops y un Dusknoir hacen peligroso perder el atacante posteriormente. Plan rival de Dipplin/Festival no demostrado; probar cuando llegue a jugar."
+  },
+  {
+    "id": "talon-dusk-neo5",
+    "grade": 8.5,
+    "headline": "Victoria 5–5 por concesión en espejo parcial Kang/Talon: tres Tarjetas Rojas Especiales 12→3, 5→3, 7→3 superadas con Kang, Meowth y Lylia; triple Dusknoir KO Talon con Capa y curación.",
+    "confidence": "Alta en resultado 5–5 por rendición, Premio propio 3+2, rival 2+1+1+1, tres mulligans rivales, tres Red Cards y tres Estallidos Dusknoir. El log contiene inconsistencias en etiquetas de receptor de daño y Energía Espinosa. No se acredita fecha real ni lista propia de 60. El rival mostró Piroducto solo en un mulligan, no llegó a jugarlo.",
+    "good": [
+      "Tres mulligans rivales concedieron tres cartas extra y habilitaron apertura con dos Duskull, Talon+Neo Upper, Mega-Kang y Latias; Liza y Garra 150 a Kang rival desde el primer turno propio.",
+      "Segundo Garra Cazadora 150 sobre Kang rival completó 300 y logró KO de Mega-Kang ex por tres Premios mientras dos Duskull evolucionaban a Dusclops y tercero entraba por Pokochos.",
+      "Tras primera Tarjeta Roja Especial (12 cartas→3) llegó un Caramelo Raro y Dusknoir, permitiendo montar un Estallido y mantener Talon activo usando Kang Recado+2 y retirada gratis de Latias.",
+      "El oponente curó 180 a Talon ex con Capa de Héroes mediante Bolita de Arroz Sabrosa (30+60+90); no se abandonó el plan de presión pese a varias rondas de curación y ataques rivales.",
+      "Tras segunda Tarjeta Roja (5→3), el primer Dusknoir 130 y luego el segundo Dusknoir 130 incidieron en Talon rival; Camilla recuperó Dusknoir para evolucionar ambos Dusclops disponibles, preparando un tercero.",
+      "Meowth ex con Captura a la Desesperada buscó Lylia; Lylia recuperó seis cartas y permitió Ignición a segundo Talon para un ataque Garra 150 tras haber perdido Energía Neosuperior con el primer Talon.",
+      "Tras tercera Tarjeta Roja (7→3) y tercera Bolita +90 de curación, el tercer Dusknoir Estallido Maldito 130 debilitó Talon rival con Capa (+2 Premios), el rival concedió en empate 5–5.",
+      "Mapa exacto de Premios y control de variantes: Kang rival 3, Talon rival 2, rival KO Talon propio 2 y obtuvo otros 3 por tres Dusknoir autodebilitados."
+    ],
+    "errors": [],
+    "watch": [
+      "Los tres mulligans del rival representan +3 cartas iniciales y favorecen esta apertura; no extrapolar tasa de éxito de Neo Upper contra inicios normales.",
+      "Tres autoKO de Dusknoir sumaron +3 Premios del rival. El marcador 5–5 al conceder muestra que el cierre con sexto Premio aún no estaba acreditado.",
+      "Curar 180 con Capa de Héroes al Talon rival impone mucho daño por alcanzar KO; diferenciar daño de Garra, Estallido y curación al calcular rangos.",
+      "Se recuperó de tres reducciones de mano (12→3, 5→3 y 7→3), pero este caso tenía Recado, Latias, Pokétableta, Meowth y Lylia accesibles: una secuencia favorable no valida resiliencia constante.",
+      "El rival mostró Piroducto Legendario durante un mulligan pero nunca lo jugó: no asignarle arquetipo Lava Engine ni Rayquaza sin pruebas.",
+      "El log llama «Talonflame ex de TronBeatbox22» a los objetivos de tres Estallidos aunque el KO fue del Talon ex rival; las entradas de Energía Espinosa también tienen receptor contradictorio, no inventar daño preciso.",
+      "El entrenador rival podía haber seguido y ganó por rendición; no se puede confirmar que la posición final fuera victoria forzada ni asignar sexto Premio."
+    ],
+    "gameplan": "Contra Mega-Kang ex + Talonflame ex con Capa de Héroes y curación, activar Talon Neo Upper desde primer turno propio vía Latias, atacar 150 dos veces a Kang ex para 3 Premios, mientras evoluciona Duskull→Dusclops. Frente a tres Tarjetas Rojas sucesivas (12→3, 5→3, 7→3), utilizar Recado de Kang, Pokétableta, Camilla Nocturna, Meowth ex buscando Lylia y Lylia+6/8 para conservar herramientas y abrir segunda Talon con Ignición tras pérdida de Neo Upper. Tres Dusknoir Estallido 130 más Garra 150×2 pueden superar Talon ex con Capa y cura 180, pero los tres autoKO dan 3 Premios al rival: evitar ejecutar el tercero si no hay KO y plan claro para el sexto Premio. Resultado documentado empate 5–5 por Premios con concesión, no seis cobrados."
   }
 ]
