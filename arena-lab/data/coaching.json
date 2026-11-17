@@ -863,5 +863,31 @@
       "El entrenador rival podía haber seguido y ganó por rendición; no se puede confirmar que la posición final fuera victoria forzada ni asignar sexto Premio."
     ],
     "gameplan": "Contra Mega-Kang ex + Talonflame ex con Capa de Héroes y curación, activar Talon Neo Upper desde primer turno propio vía Latias, atacar 150 dos veces a Kang ex para 3 Premios, mientras evoluciona Duskull→Dusclops. Frente a tres Tarjetas Rojas sucesivas (12→3, 5→3, 7→3), utilizar Recado de Kang, Pokétableta, Camilla Nocturna, Meowth ex buscando Lylia y Lylia+6/8 para conservar herramientas y abrir segunda Talon con Ignición tras pérdida de Neo Upper. Tres Dusknoir Estallido 130 más Garra 150×2 pueden superar Talon ex con Capa y cura 180, pero los tres autoKO dan 3 Premios al rival: evitar ejecutar el tercero si no hay KO y plan claro para el sexto Premio. Resultado documentado empate 5–5 por Premios con concesión, no seis cobrados."
+  },
+  {
+    "id": "cru-corner8",
+    "grade": 8.5,
+    "headline": "Crustle/Ogerpon Cimiento 6–3 completo vs Zoroark N: tres Crustle desde Dwebble/Azurill; debilidad Planta 240 y Boss a Pecharunt, con amenaza real de Munkidori y Hacer Trizas.",
+    "confidence": "Alta en victoria completa 6–3, premios propios 2+2+1+1 y rivales Azurill+Crustle+Crustle 1+1+1; la causa de KO de segundo Zoroark ex fue Envenenamiento tras Tijeras 240. Alta en Munkidori como bypass de habilidad y en estrategia de tres Dwebble. Media en evaluación de timing de Estadio y distribución de Energías por etiquetas inconsistentes. No se vieron Ogerpon ni Mega-Kang en juego; fecha real y 60 cartas no confirmadas.",
+    "good": [
+      "Gana moneda y escoge ir segundo para Pokochos×2 Dwebble + Azurill y Carga Rebote de Azurill, acelerando Energía Planta Creciente pese a mulligan propio.",
+      "Prepara tres líneas Dwebble; primer Crustle Activo y segundo en Banca desde temprano. El tercer Crustle terminó siendo la condición de victoria tras caer los dos primeros.",
+      "Usa dos Zoroark ex de N como ruta de cuatro Premios por ataques de Crustle de 240 tras Debilidad Planta, sin afirmar OHKO de 280 PS a plena salud.",
+      "Al primer Zoroark ex llega con Boss y Tijeras 240 para KO de dos Premios; el segundo recibe Tijeras 240 y cae en chequeo por Envenenamiento para otros dos.",
+      "Tras disrupción Tarjeta Roja Especial 7→3 y múltiples Adrenalina Mental rivales, Crustle 240 KO Zorua de N (+1).",
+      "Reconstruye tras KO por contadores de Crustle equipado con Capa, y otro Crustle ataca a Pecharunt ex por 120, después Boss a Pecharunt y 120 KO para último Premio: completa 6–3.",
+      "No expone Mega-Kang de tres Premios ni Ogerpon de dos: la victoria es atribuible al modo de Crustle de un Premio y a Azurill al inicio."
+    ],
+    "errors": [],
+    "watch": [
+      "Mulligan propio cedió al rival una carta adicional, y hubo varios turnos sin ataques propios tras montar Crustle; medir el coste de tempo con oposición más agresiva.",
+      "Hacer Trizas copiado por Zoroark de N via Bromista Nocturno (70+40 Mochi=110) atraviesa el muro anti-ex. Munkidori transfiere daño y consiguió KOs sobre dos Crustle: la habilidad no los hace invulnerables.",
+      "Concentración de Capa de Héroes y seis Energías (3 Espinosa, 2 Planta Creciente, 1 Neblina) en un solo Crustle perdió muchos recursos por KO de Munkidori. Considerar dispersar Energías en reserva, no declarar misplay ex post sin alternativas de mano.",
+      "Recinto del Festival anula condición de Envenenado sobre el Zoroark rival en una secuencia; su timing puede ayudar a rival o cortar Mochi y fuente de Munkidori según contexto.",
+      "Pecharunt ex normalmente otorga dos Premios, pero cuando cayó solo quedaba uno; registrar +1 final y 6 Premios totales, no 7.",
+      "En este log no se confirma rendimiento de Ogerpon Cimiento ni Mega-Kang: no se jugaron; no contar la captura histórica 6–1 como juegos adicionales al historial de 8 logs.",
+      "Etiquetas inconsistentes de Pokémon receptor de Munkidori y Spiky en log; guiarse por KOs y marcador, no atribuir objetivos imposibles."
+    ],
+    "gameplan": "Vs N Zoroark ex + Pecharunt/Munkidori/Zekrom: comenzar con Dwebble×3 y Azurill para acelerar Growing Grass, establecer dos Crustle temprano y reservar tercer Dwebble. Evitar creer que Casapiedra Misteriosa bloquea Bromista Nocturno que copia Hacer Trizas de Zekrom (110 con Mochi) o contadores transferidos por Munkidori. Distribuir 2–3 Energías por Crustle de reserva cuando sea posible; evaluar el coste de Capa de Héroes si pueden mover 60 contadores por turno desde 2 Munkidori. Tijeras Espléndidas 120×2=240 a Zoroark ex de N con 280 PS necesita daño previo o veneno para KO; Boss al objetivo tocado y no desperdiciar tempo en Zoroark sano. Tras dos KO a Zoroark (+4), eliminar Zorua (+1) y rematar Pecharunt ex (último Premio). Vigilar Recinto del Festival: puede curar Envenenado de rival, dejando sin Mochi y Munkidori pero también perdiendo daño residual. Resultado documentado 6–3 completo, no extrapolable a Ogerpon sin aparecer."
   }
 ]
