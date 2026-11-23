@@ -1,197 +1,206 @@
 {
-  "version": "2026-11-16",
-  "reviewedAt": "2026-11-16",
-  "status": "RECOMENDACIÓN CONDICIONAL: Slowking de Gdańsk 16–19/11; no inscribir las 60 sin resolver Mew ex 30C. Desde 20/11 DLR legal y meta en transición, esperar datos LAIC.",
+  "version": "2026-11-23",
+  "reviewedAt": "2026-11-23",
+  "status": "RECOMENDADO: N's Zoroark ex / Zekrom de N, Vinícius Fernandez, campeón LAIC 2646 jugadores. DLR legal presencial desde 20/11; lista exacta 60 de evento sancionado, comprobar impresiones y erratas al inscribir.",
   "featured": {
-    "id": "slowking-gdansk",
-    "name": "SLOWKING / MEGA-KANGASKHAN EX — Aarni Karjala, Gdańsk 1.º",
-    "focus": "Presencial occidental 16–19/11 pre-DLR; desde 20/11 legal DLR y reevaluación tras LAIC",
-    "archetype": "Slowking Seek Inspiration / manipulación del top deck + Mega-Kangaskhan ex",
-    "evidence": "Gdańsk 31/10–01/11, 1739 jugadores: campeón 14-1-2; 88 Slowking, 361-305-97 en matches (51.55% sin empates), dos Top16.",
-    "confidence": "Media selección, NO certificación de lista exacta para inscripción",
+    "id": "ns-zoroark-laic-2026",
+    "name": "N'S ZOROARK EX / ZEKROM DE N — Vinícius Fernandez, LAIC 1.º",
+    "focus": "Presencial occidental TEF–DLR 23–29/11",
+    "archetype": "N's Zoroark ex / N's Zekrom / Munkidori / Pecharunt ex",
+    "evidence": "LAIC São Paulo 20–22/11/2026, 2646 Masters, campeón 15-1-2; 247 Zoroark field, 47 Day2.",
+    "confidence": "Media-alta para elección; un evento grande post-DLR, matchups individuales sin WR auditado.",
     "why": [
-      "Ganó el Regional más reciente documentado de 1739 jugadores y 4 Dragapult entraron al Top8.",
-      "Lista 60 íntegra y verificable, construida antes de Delta Reign; no incluye DLR.",
-      "Academy at Night + Ciphermaniac's Codebreaking permiten preparar ataques copiados por Slowking, con Kyurem/Metagross como objetivos.",
-      "Mega-Kangaskhan ex y Latias ex aportan consistencia y movilidad."
+      "Ganó primer Internacional presencial con DLR legal, 2646 jugadores, sobre campo dominado por Dragapult.",
+      "Lista de 60 confirmada por Limitless del campeón, sin impresiones especiales 30C que requieran equivalencia.",
+      "Robo/descartes de Zoroark, N's PP Up, Zekrom de N como ataque copiable, Pecharunt para movilidad y varios Estadios."
     ],
     "risks": [
-      "Dependencia de manipular el tope y preparar Slowking; disrupción y presión sobre Slowpoke.",
-      "Deck de dos Premios de apoyo (Mega Kangaskhan ex concede tres), plan de Premios adversario.",
-      "No extrapolar un campeonato a winrate general; solo 88 jugadores Slowking en Gdańsk.",
-      "Lista de Gdańsk incluye Mew ex 30C 066, impresión no legal directamente; equivalencia pendiente. No presentar como 60 certificadas.",
-      "DLR cambia elegibilidad presencial el 20/11; antes de LAIC no hay metajuego presencial DLR de gran tamaño confirmado."
+      "Dragapult sigue representando ~30% y puede castigar Zorua y motores en Banca.",
+      "No convertir el campeonato de un jugador en WR global ni afirmar favorable matchup Dragapult.",
+      "Mazo de evolución y secuenciación; Pecharunt/Fezandipiti ex pueden abrir ruta de Premios.",
+      "Revisar impresión física y erratas; Catálogo NEXO 02/11 desactualizado para DLR."
     ],
     "gameplan": [
-      "Contra Dragapult, proteger Slowpoke/Slowking y secuenciar Ciphermaniac + Academy para presión de ataques copiados.",
-      "Contra Basic Box, mapear inmunidades y escoger objetivo de ataque copiado sin asumir texto de cartas.",
-      "Contra Zoroark de N, no regalar Mega Kangaskhan de tres Premios y presionar su motor de robo.",
-      "Contra Crustle, identificar atacantes no ex o rutas que superen inmunidades antes de seleccionar cuatro Pokémon.",
-      "Contra Slowking espejo, disputar Academy at Night y recursos de manipulación de top deck."
+      "Contra Dragapult, presión temprana sobre Dreepy/Drakloak y minimizar múltiples KOs por contadores.",
+      "Contra Basic Box, calcular rutas de Premios y restricciones de daño de cada atacante.",
+      "Contra Crustle, no depender de un solo atacante ex: confirmar interacción exacta antes de inscribir.",
+      "Contra Slowking, interrumpir preparación de top deck y robar a ritmo constante.",
+      "Contra Talonflame Dusknoir, proteger Banca y planear intercambio de Premios con explosiones de daño."
     ],
     "source": {
-      "title": "Aarni Karjala, 1.º Regional Gdańsk, lista exacta de 60",
-      "url": "https://www.limitlesstcg.com/tournaments/584/decklists"
-    },
-    "alternateSource": {
-      "title": "Desglose 60 con identificadores",
-      "url": "https://thetoploader.com/meta/winning-decks/regional-gdansk-2026/1"
+      "title": "Vinícius Fernandez, 1.º LAIC São Paulo — 60 cartas",
+      "url": "https://www.limitlesstcg.com/decks/list/31359"
     },
     "sections": [
       {
         "name": "Pokemon",
-        "count": 22,
+        "count": 17,
         "cards": [
           {
-            "qty": 4,
-            "name": "Slowpoke SCR 057"
+            "name": "N's Zorua",
+            "qty": 4
           },
           {
-            "qty": 3,
-            "name": "Slowking SCR 058"
+            "name": "N's Zoroark ex",
+            "qty": 4
           },
           {
-            "qty": 4,
-            "name": "Mega Kangaskhan ex MEG 104"
+            "name": "Munkidori",
+            "qty": 2
           },
           {
-            "qty": 2,
-            "name": "Latias ex SSP 076"
+            "name": "N's Zekrom",
+            "qty": 2
           },
           {
-            "qty": 2,
-            "name": "Metagross CRI 061"
+            "name": "Pecharunt ex",
+            "qty": 2
           },
           {
-            "qty": 2,
-            "name": "Kyurem SFA 047"
+            "name": "Meowth ex",
+            "qty": 1
           },
           {
-            "qty": 1,
-            "name": "Fezandipiti ex ASC 142"
+            "name": "Fezandipiti ex",
+            "qty": 1
           },
           {
-            "qty": 1,
-            "name": "Zeraora DRI 078"
-          },
-          {
-            "qty": 1,
-            "name": "Lillie's Clefairy ex ASC 076"
-          },
-          {
-            "qty": 1,
-            "name": "Meowth ex POR 062"
-          },
-          {
-            "qty": 1,
-            "name": "Mew ex 30C 066"
+            "name": "Budew",
+            "qty": 1
           }
         ]
       },
       {
         "name": "Trainer",
-        "count": 28,
+        "count": 35,
         "cards": [
           {
-            "qty": 4,
-            "name": "Ciphermaniac's Codebreaking TEF 145"
+            "name": "Lillie's Determination",
+            "qty": 4
           },
           {
-            "qty": 4,
-            "name": "Lillie's Determination MEG 119"
+            "name": "Boss's Orders",
+            "qty": 3
           },
           {
-            "qty": 4,
-            "name": "Ultra Ball MEG 131"
+            "name": "Judge",
+            "qty": 2
           },
           {
-            "qty": 4,
-            "name": "Poké Pad POR 081"
+            "name": "Cyrano",
+            "qty": 1
           },
           {
-            "qty": 3,
-            "name": "Wondrous Patch PFL 094"
+            "name": "Black Belt's Training",
+            "qty": 1
           },
           {
-            "qty": 2,
-            "name": "Night Stretcher ASC 196"
+            "name": "Buddy-Buddy Poffin",
+            "qty": 4
           },
           {
-            "qty": 1,
-            "name": "Switch MEG 130"
+            "name": "Ultra Ball",
+            "qty": 4
           },
           {
-            "qty": 1,
-            "name": "Secret Box TWM 163"
+            "name": "N's PP Up",
+            "qty": 4
           },
           {
-            "qty": 1,
-            "name": "Lucky Helmet TWM 158"
+            "name": "Poké Pad",
+            "qty": 2
           },
           {
-            "qty": 4,
-            "name": "Academy at Night SFA 054"
+            "name": "Night Stretcher",
+            "qty": 2
+          },
+          {
+            "name": "Special Red Card",
+            "qty": 1
+          },
+          {
+            "name": "Secret Box",
+            "qty": 1
+          },
+          {
+            "name": "Binding Mochi",
+            "qty": 2
+          },
+          {
+            "name": "Team Rocket's Watchtower",
+            "qty": 2
+          },
+          {
+            "name": "Gravity Mountain",
+            "qty": 1
+          },
+          {
+            "name": "N's Castle",
+            "qty": 1
           }
         ]
       },
       {
         "name": "Energy",
-        "count": 10,
+        "count": 8,
         "cards": [
           {
-            "qty": 4,
-            "name": "Basic Psychic Energy MEE 005"
-          },
-          {
-            "qty": 4,
-            "name": "Telepathic Psychic Energy POR 088"
-          },
-          {
-            "qty": 2,
-            "name": "Boomerang Energy TWM 166"
+            "name": "Basic Darkness Energy",
+            "qty": 8
           }
         ]
       }
     ],
     "legal": {
-      "status": "PENDIENTE: no certificada la lista exacta de 60 para presencial",
-      "format": "H/I/J; DLR elegible desde 20/11/2026",
-      "note": "Mew ex 30C 066 no legal directamente; verificar equivalencia de impresión con Mew ex legal y texto/reimpresión. No sustituir sin evidencia. Comprobar promos, erratas, organizador. El 20/11 cambia pool legal y requiere reevaluación."
+      "status": "Lista acreditada en evento oficial presencial post-DLR, elegible por configuración; comprobación de impresiones y erratas de las cartas físicas pendiente.",
+      "format": "H/I/J, TEF–DLR, DLR legal desde 20/11/2026",
+      "note": "Lista completa 17/35/8 en Limitless. Catálogo NEXO 02/11 y Atlas no incluyen DLR. Básicas permitidas con cualquier impresión; otras impresiones deben cumplir regulación o reimpresión equivalente. Comprobar promos/erratas antes del torneo."
     }
   },
   "alternatives": [
     {
-      "id": "ray-crispin-pending",
-      "name": "Mega-Rayquaza / tres aves + Denis",
-      "use": "Entrenamiento online y observación DLR; 4–0 propia en cuatro partidas de muestra, no legal presencial antes del 20/11 por Mega-Rayquaza DLR.",
-      "confidence": "Baja para torneo, lista 60 incompleta.",
-      "notion": "https://app.notion.com/p/4125f543d14e8122a1afcffdf400e8c3"
+      "id": "dragapult",
+      "name": "Dragapult ex",
+      "use": "Opción más conservadora por 784/2646 field y 5/8 Top8 LAIC; también mazo a batir.",
+      "confidence": "Alta presencia; matchups sin WR verificado."
     },
     {
-      "id": null,
-      "name": "Crustle / Mega-Kangaskhan ex",
-      "use": "Antimeta a investigar desde 20/11; campeón online RDG 15/11 con DLR, 153 jugadores; 2 Crustle en field.",
-      "confidence": "Baja para extrapolación presencial.",
-      "source": "https://cardboardalpha.com/pokemon/tournaments/rdg-november-elite-qualifier-6a69081652c24ac2da64eb2a"
+      "id": "crustle",
+      "name": "Crustle / Mega Kangaskhan ex",
+      "use": "Antimeta: 77 field, 24 Day2, 2 Top16 LAIC. Probar frente a Dragapult y Zoroark.",
+      "confidence": "Media por muestra de 77."
+    },
+    {
+      "id": "talonflame-dusknoir",
+      "name": "Talonflame Dusknoir",
+      "use": "Finalista LAIC, pero solo 2 copias en Day2: alta incertidumbre.",
+      "confidence": "Baja en generalización."
+    },
+    {
+      "id": "ray-crispin-pending",
+      "name": "Mega-Rayquaza Aves + Denis",
+      "use": "Proyecto personal 4–0, lista 60 no confirmada. Ya legal DLR desde 20/11, no declarar versión propia apta para torneos sin lista.",
+      "confidence": "Baja para evento presencial.",
+      "notion": "https://app.notion.com/p/4125f543d14e8122a1afcffdf400e8c3"
     }
   ],
   "deckToBeat": {
-    "name": "Dragapult ex (todas las variantes)",
-    "fieldShare": 29.1,
-    "fieldCount": 505,
-    "day2Count": 107,
-    "day2Share": 33.13,
-    "top8": 4,
-    "top16": 7,
-    "source": "https://www.limitlesstcg.com/tournaments/584/statistics",
-    "plan": "Evolucionar Dragapult ex, presionar Activo y Banca con Phantom Dive, convertir daño distribuido en KO múltiples.",
+    "name": "Dragapult ex (familia)",
+    "fieldShare": 29.63,
+    "fieldCount": 784,
+    "day2Count": 152,
+    "day2Share": 32.07,
+    "top8": 5,
+    "top16": 6,
+    "source": "https://limitlesstcg.com/tournaments/574/statistics",
+    "plan": "Desarrollar Dragapult ex, presionar al Activo y repartir contadores en Banca para KO múltiples y control de Premios.",
     "weaknesses": [
-      "Slowpoke/Dreepy expuestos en desarrollo, presión sobre motores y recursos de evolución.",
-      "Distribución de contadores mitigable mediante protección de Banca y rutas de Premios.",
-      "Slowking con preparación de top deck demostró capacidad de vencerlo, pero sin porcentaje universal verificado."
+      "Presionar Dreepy/Drakloak antes de evolución.",
+      "Disrupción de mano y tempo para frenar turnos de daño distribuido.",
+      "Proteger Pokémon de apoyo de Banca y no regalar rutas de KO múltiples."
     ],
-    "winrate": "No verificado para Dragapult; no confundir conversión con winrate.",
-    "conversion": "Gdańsk Day2 107/505 =21.19%; Top16 7/505 =1.39%; Top8 4/505=0.79%; familia de variantes"
+    "winrate": "No auditado: conversión Day2 152/784 = 19.39%, no winrate.",
+    "conversion": "LAIC 152/784 = 19.39% a Day2, 5/8 Top8 y 6/16 Top16; 784/2646 = 29.63% field."
   },
   "matchups": [
     {
@@ -205,29 +214,33 @@
       "confidence": "baja"
     },
     {
-      "vs": "Slowking espejo",
+      "vs": "Crustle",
       "priority": "alta",
       "confidence": "baja"
     },
     {
-      "vs": "N's Zoroark ex",
+      "vs": "Slowking",
       "priority": "media",
       "confidence": "baja"
     },
     {
-      "vs": "Crustle / Mega-Kangaskhan",
-      "priority": "alta desde 20/11",
+      "vs": "Talonflame Dusknoir",
+      "priority": "media",
       "confidence": "baja"
     }
   ],
   "antimeta": [
     {
-      "name": "Rocket's Honchkrow",
-      "evidence": "2.º Gdańsk 1739 jugadores; requiere auditoría exacta de 60 antes de recomendar presencial."
+      "name": "Crustle",
+      "evidence": "LAIC 77/2646 field, 24/474 Day2 y 2 Top16. Conversion 24/77=31.17%; sin WR matchup auditado."
     },
     {
-      "name": "Crustle",
-      "evidence": "4.º Gdańsk; evitar lista Niigata con Tasty Rice Ball DLR 101 antes de 20/11."
+      "name": "Talonflame Dusknoir",
+      "evidence": "Subcampeón LAIC pero solo 2 listas en Day2; muestra muy pequeña."
+    },
+    {
+      "name": "Festival Lead",
+      "evidence": "5.º LAIC, 16/474 Day2; requiere muestra y lista auditada antes de recomendar."
     }
   ]
 }
