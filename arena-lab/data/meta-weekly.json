@@ -1,14 +1,14 @@
 {
-  "version": "2026-11-16",
-  "reviewedAt": "2026-11-16",
-  "nextReviewPlanned": "2026-11-23",
-  "status": "16–22/11: pre-DLR hasta 19/11; DLR elegible desde 20/11. LAIC 20/11 pendiente de resultados; no usar online DLR para presencial antes del 20.",
+  "version": "2026-11-23",
+  "reviewedAt": "2026-11-23",
+  "nextReviewPlanned": "2026-11-30",
+  "status": "Post-DLR presencial: LAIC São Paulo 20–22/11 terminado, 2646 Máster. Ganó N's Zoroark; Dragapult sigue a batir (784/2646, 152/474 Day2, 5/8 Top8).",
   "format": "Pokémon TCG Estándar · No Pocket",
   "deltaReign": {
     "releaseDate": "2026-11-06",
     "earliestInPersonEligibility": "2026-11-20",
-    "status": "NO elegible 16–19/11 en presencial Play! Pokémon occidental; elegible desde 20/11, sujeto a listas de prohibidas y condiciones del evento.",
-    "source": "https://community.pokemon.com/en-us/discussion/22216/pokemon-tcg-product-legality-update"
+    "status": "ELEGIBLE en torneos presenciales Play! Pokémon desde 20/11/2026; sin nuevos vetos Estándar anunciados 22/10.",
+    "source": "https://www.pokemon.com/de/play-pokemon/betreff/mega-entwicklung/mega-entwicklung-delta-herrschaft-bekanntgabe-von-regelaenderungen"
   },
   "japan": {
     "period": "02–08 noviembre 2026",
@@ -53,7 +53,7 @@
       "title": "City League JP, resumen semanal (Top16)",
       "url": "https://www.pokemoncard151.com/chronicle.php?p=city-weekly-2026-11-02"
     },
-    "note": "Limitless lista City Leagues del 15/11 en Japón, pero sin agregado auditado de field y conversiones 09–15/11. Se conserva corte anterior etiquetado 02–08/11, no se presenta como actual."
+    "note": "Corte 02–08/11 conservado solo como histórico; City Leagues 15/11 publicadas, pero no hay consolidación verificable 16–22/11. Japón no es muestra equivalente al pool presencial occidental."
   },
   "online": {
     "event": "RDG! November Elite Qualifier",
@@ -92,7 +92,8 @@
     "source": {
       "title": "RDG! November Elite Qualifier",
       "url": "https://cardboardalpha.com/pokemon/tournaments/rdg-november-elite-qualifier-6a69081652c24ac2da64eb2a"
-    }
+    },
+    "comparison": "Se conserva RDG 15/11 como referencia online DLR; no hay agregado completo y auditado 16–22/11 para winrates/Top Cut, por lo que no se infiere tendencia nueva."
   },
   "inPerson": {
     "recent": {
@@ -135,49 +136,97 @@
         "title": "Lista campeona Niigata (60 cartas)",
         "url": "https://pokeka-win-decks.jp/season/30th-celebration/event/1115236/deck/MEppUp-eK8Lcm-Rp2Myy"
       }
+    },
+    "latest": {
+      "event": "LAIC 2026–27 São Paulo",
+      "dates": "2026-11-20/2026-11-22",
+      "players": 2646,
+      "day2": 474,
+      "format": "TEF–DLR, presencial BO3 Masters",
+      "winner": "N's Zoroark — Vinícius Fernandez 15-1-2",
+      "runnerUp": "Talonflame Dusknoir — Damian Fernandez Urroz",
+      "top8": [
+        "N's Zoroark",
+        "Talonflame Dusknoir",
+        "Dragapult",
+        "Dragapult",
+        "Festival Lead",
+        "Dragapult",
+        "Dragapult",
+        "Dragapult"
+      ],
+      "dragapult": {
+        "field": 784,
+        "fieldShare": 29.63,
+        "day2": 152,
+        "day2Share": 32.07,
+        "conversionDay2": 19.39,
+        "top8": 5,
+        "top16": 6
+      },
+      "zoroark": {
+        "field": 247,
+        "fieldShare": 9.33,
+        "day2": 47,
+        "conversionDay2": 19.03,
+        "top8": 1
+      },
+      "crustle": {
+        "field": 77,
+        "day2": 24,
+        "conversionDay2": 31.17,
+        "top16": 2
+      },
+      "source": "https://limitlesstcg.com/tournaments/574",
+      "stats": "https://limitlesstcg.com/tournaments/574/statistics",
+      "caution": "Limitless fase 2; winrates de matchups no auditados; los 2.646 incluyen registros totales y el gráfico de field publicado puede contar 2.627 listas clasificadas."
     }
   },
   "summary": [
     {
-      "title": "QUÉ JUGAR 16–19/11: Slowking / Mega-Kangaskhan ex, Aarni Karjala",
-      "evidence": "Campeón Gdańsk 1/1739, 14-1-2; Slowking 88 jugadores, 361 victorias, 305 derrotas, 97 empates, WR 51.55% excluyendo empates; dos Top16 (2/88).",
-      "confidence": "Media en selección; legalidad de Mew ex 30C 066 NO certificada, lista exacta no aprobada para inscripción."
+      "title": "QUÉ JUGAR: N's Zoroark ex / Zekrom de N (Vinícius Fernandez)",
+      "evidence": "Campeón LAIC São Paulo 20–22/11, 2646 Máster, 15-1-2. Lista 60 17/35/8 de Limitless.",
+      "confidence": "Media-alta elección; lista jugada en evento sancionado DLR; verificar impresión física de cada carta y erratas antes de registrar."
     },
     {
-      "title": "MAZO A BATIR: Dragapult ex (familia)",
-      "evidence": "Gdańsk 505/1739 (29.1%) field, 107/505 (21.2%) a Day2, 7/16 Top16 y 4/8 Top8. 36.50% en ranking agregado TEF–30C de Limitless, metodología de agregación no equivalente a field.",
-      "confidence": "Alta en presencia, media en conversión; no confundir con WR."
+      "title": "MAZO A BATIR: Dragapult ex",
+      "evidence": "LAIC 784/2646 field (29.63%), 152/474 Day2 (32.07%), 152/784=19.39% conversión Day2; 5/8 Top8 y 6/16 Top16.",
+      "confidence": "Alta en presencia y resultados, no existe WR de matchups individual validado."
     },
     {
-      "title": "CAMBIO DE FORMATO 20/11: Delta Reign elegible",
-      "evidence": "DLR publicado 06/11, ventana oficial de 14 días; 20/11 inicio LAIC São Paulo. Torneos online 15/11 ya incorporan DLR, no extrapolar a 16–19 presencial.",
-      "confidence": "Alta en fecha de elegibilidad."
+      "title": "ANTIMETA: Crustle y Talonflame Dusknoir",
+      "evidence": "Crustle 77 field, 24 Day2 (31.17%) y 2 Top16; Talonflame Dusknoir 2 Day2 y finalista, campo muy pequeño.",
+      "confidence": "Media-baja por tamaño de muestra y sesgo de selección."
     }
   ],
   "sources": [
     {
-      "title": "Regional Gdańsk — listas",
-      "url": "https://limitlesstcg.com/tournaments/584/decklists"
+      "title": "LAIC resultados",
+      "url": "https://limitlesstcg.com/tournaments/574"
     },
     {
-      "title": "Slowking Gdańsk — estadísticas de matches",
-      "url": "https://labs.limitlesstcg.com/0079/decks/slowking-scr"
+      "title": "LAIC estadísticas Day2",
+      "url": "https://limitlesstcg.com/tournaments/574/statistics"
     },
     {
-      "title": "Ranking y calendario Limitless",
-      "url": "https://limitlesstcg.com/"
+      "title": "Campeón Zoroark 60",
+      "url": "https://www.limitlesstcg.com/decks/list/31359"
     },
     {
-      "title": "RDG! 15/11 online",
-      "url": "https://cardboardalpha.com/pokemon/tournaments/rdg-november-elite-qualifier-6a69081652c24ac2da64eb2a"
+      "title": "Pokémon Championship Series LAIC",
+      "url": "https://championships.pokemon.com/es-es/events/internationals/2027/sao-paulo"
     },
     {
-      "title": "Pokémon oficial — DLR",
-      "url": "https://press.pokemon.com/en-CA/releases/MEDIA-ALERT-New-Pokemon-Trading-Card-Game-Mega-EvolutionDelta-Reign-Ex"
+      "title": "Reglas DLR 20/11 oficial",
+      "url": "https://www.pokemon.com/de/play-pokemon/betreff/mega-entwicklung/mega-entwicklung-delta-herrschaft-bekanntgabe-von-regelaenderungen"
     },
     {
-      "title": "Play! Pokémon — dos semanas",
-      "url": "https://community.pokemon.com/en-us/discussion/22216/pokemon-tcg-product-legality-update"
+      "title": "City Leagues histórico",
+      "url": "https://www.pokemoncard151.com/chronicle.php?p=city-weekly-2026-11-02"
+    },
+    {
+      "title": "Limitless Play online",
+      "url": "https://play.limitlesstcg.com/tournaments/"
     }
   ],
   "validation": {
@@ -188,7 +237,7 @@
     "source": "https://community.pokemon.com/en-us/discussion/22216/pokemon-tcg-product-legality-update",
     "notionCatalog": "https://app.notion.com/p/40c5f543d14e81049a81f6e0168efd85",
     "notionAtlas": "https://app.notion.com/p/40c5f543d14e81929dd9f7d121a1c0ff",
-    "notes": "Lista de 60 Slowking de Gdańsk, pero impresión Mew ex 30C 066 no legal directamente según Catálogo NEXO. Equivalencia legal y promo no comprobadas: NO certificar la lista para presencial. DLR entra el 20/11; comprobar erratas y rulings de DLR por carta, especialmente tras el cambio."
+    "notes": "Zoroark del campeón es una lista íntegra de 60 registrada en LAIC sancionado en formato TEF–DLR; elegibilidad de su configuración demostrada por participación. Verificar impresión física exacta, promos, reimpresiones, erratas y modificaciones de organizador antes de inscribir. Catálogo y Atlas NEXO fechados 02/11 y NO incorporan DLR todavía. Energías Oscuras básicas legales sin importar impresión."
   },
-  "comparisonToPrevious": "09/11 Slowking vs Dragapult sin DLR toda la semana; 16/11 se mantiene elección pre-DLR, pero desde 20/11 DLR será elegible y el LAIC inaugurará evidencia presencial del nuevo entorno. Online RDG 15/11: Crustle campeón (153 jugadores) con DLR, no extrapolar retrospectivamente."
+  "comparisonToPrevious": "16/11: Slowking pre-DLR condicional y Dragapult a batir, LAIC pendiente. 23/11: LAIC 2646 confirmado, N's Zoroark campeón y recomendado; Dragapult 5 Top8 y ~30% field. Crustle confirma conversión a Day2 elevada 24/77, Talonflame Dusknoir finalista. DLR ya legal desde 20/11."
 }
